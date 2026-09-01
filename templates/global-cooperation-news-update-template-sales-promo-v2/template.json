@@ -1,0 +1,709 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/global-cooperation-news-update-template-sales-promo/0f5fa01c-95de-4235-a552-29ad0c6518ea/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/global-cooperation-news-update-template-sales-promo/6a6ff4c8-1848-4fec-9051-493c9e40af1f/source.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/oswald/v57/TK3iWkUHHAIjg75GHjUHte5fKg.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/global-cooperation-news-update-template-sales-promo/1a1f3fad-360c-49e2-bcf2-5b7c5c3d3d19/source.png"
+            },
+            "start": 0.6,
+            "length": 16.2
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 80 80\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"80\" height=\"80\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.449,
+              "y": -0.197
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 80,
+            "height": 80
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ALERT}}",
+              "font": {
+                "family": "Roboto SemiBold",
+                "size": 24,
+                "weight": 600,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "direction": "right",
+                "style": "word"
+              }
+            },
+            "start": 2.2,
+            "length": "end",
+            "offset": {
+              "y": -0.476
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            },
+            "width": 1900,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DATE}}",
+              "font": {
+                "family": "Roboto SemiBold",
+                "size": 32,
+                "weight": 600,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.6,
+            "length": "end",
+            "offset": {
+              "x": 0.301,
+              "y": -0.388
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DAY}}",
+              "font": {
+                "family": "Roboto SemiBold",
+                "size": 47,
+                "weight": 600,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.4,
+            "length": "end",
+            "offset": {
+              "x": 0.301,
+              "y": -0.339
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 90
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{HEADLINE}}",
+              "font": {
+                "family": "Roboto SemiBold",
+                "size": 50,
+                "weight": 600,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": -0.183,
+              "y": -0.359
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 1100,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{NEWS_SLUG}}",
+              "font": {
+                "family": "Oswald",
+                "size": 90,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": -0.254,
+              "y": -0.218
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 600,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{STATUS}}",
+              "font": {
+                "family": "Roboto SemiBold",
+                "size": 40,
+                "weight": 600,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.405,
+              "y": 0.398
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 150,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/global-cooperation-news-update-template-sales-promo/48c4c094-78d0-4a6b-ae8e-c636c8292d62/source.png"
+            },
+            "start": 0.6,
+            "length": 16.2
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 800\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"800\" fill=\"{{ FONT_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.216,
+              "y": -0.233
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 800,
+            "height": 800
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/global-cooperation-news-update-template-sales-promo/e71a2911-224c-4bcf-b3ad-b085880b1760/source.png"
+            },
+            "start": 0.6,
+            "length": 16.2
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 683 800\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"683\" height=\"800\" fill=\"{{ SHAPE_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.254,
+              "y": -0.218
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 683,
+            "height": 800
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/global-cooperation-news-update-template-sales-promo/8a00f6ee-1fc2-4085-835f-86adb10cb9f6/source.png"
+            },
+            "start": 0.6,
+            "length": 16.2
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 770 800\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"770\" height=\"800\" fill=\"{{ SHAPE_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.215,
+              "y": -0.218
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 770,
+            "height": 800
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/global-cooperation-news-update-template-sales-promo/2a4df42b-2752-4005-9426-7fd7b66ed897/source.png"
+            },
+            "start": 0.6,
+            "length": 16.2
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 300 550\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"300\" height=\"550\" fill=\"{{ SHAPE_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.413,
+              "y": -0.217
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 300,
+            "height": 550
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/global-cooperation-news-update-template-sales-promo/fd10dacc-749b-4425-b818-4f47d008ed87/source.png"
+            },
+            "start": 1,
+            "length": 15.8
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1640 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1640\" height=\"1100\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.244,
+              "y": -0.372
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 1640,
+            "height": 1100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/global-cooperation-news-update-template-sales-promo/7015e3b8-b1df-4d17-a222-d944e66ba47a/source.png"
+            },
+            "start": 0.2,
+            "length": 16.6
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 235 265\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"235\" height=\"265\" fill=\"{{ SHAPE_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.408,
+              "y": 0.398
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 235,
+            "height": 265
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 2000 55\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"2000\" height=\"55\" fill=\"{{ SHAPE_COLOR_2 }}\"/></svg>"
+            },
+            "start": 1.8,
+            "length": 15,
+            "offset": {
+              "x": 0,
+              "y": -0.476
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 2000,
+            "height": 55
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/global-cooperation-news-update-template-sales-promo/5ab6c249-20e0-4fe4-9fd9-0d9d836f6609/source.png"
+            },
+            "start": 1.2,
+            "length": 15.600000000000001
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 2000 800\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"2000\" height=\"800\" fill=\"{{ SHAPE_COLOR_1 }}\"/></svg>"
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": 0.121,
+              "y": -0.396
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 2000,
+            "height": 800
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 16.400000000000002,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_2 }}",
+              "volume": 1
+            },
+            "start": 0.4,
+            "scale": 1,
+            "offset": {
+              "x": -0.24931250000000016,
+              "y": 0.0947535803524982
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "fit": "contain",
+            "width": 787,
+            "height": 493
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 824 530\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"824\" height=\"530\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.249,
+              "y": 0.098
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 824,
+            "height": 530
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 16.8,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_1 }}",
+              "volume": 1
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": 0.15502696269379845,
+              "y": 0.12882131749798215
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "fit": "contain",
+            "width": 1070,
+            "height": 608
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1116 648\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1116\" height=\"648\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.156,
+              "y": 0.129
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 1116,
+            "height": 648
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_BACKGROUND }}",
+              "volume": 1
+            },
+            "start": 0,
+            "width": 1920,
+            "height": 1080,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "crop"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "HEADLINE",
+      "replace": "President Biden and President Macron Sign Agreement to Strengthen Global Cooperation"
+    },
+    {
+      "find": "NEWS_SLUG",
+      "replace": "NEWS UPDATE"
+    },
+    {
+      "find": "STATUS",
+      "replace": "LIVE"
+    },
+    {
+      "find": "DAY",
+      "replace": "SATURDAY, "
+    },
+    {
+      "find": "DATE",
+      "replace": "AUGUST 30, 2025"
+    },
+    {
+      "find": "ALERT",
+      "replace": "NEWS CHANNEL NEWS CHANNEL NEWS CHANNEL NEWS CHANNEL NEWS CHANNEL NEWS CHANNEL NEWS CHANNEL NEWS CHANNEL NEWS CHANNEL"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#000000"
+    },
+    {
+      "find": "SHAPE_COLOR_1",
+      "replace": "#0000ce"
+    },
+    {
+      "find": "SHAPE_COLOR_2",
+      "replace": "#ce0000"
+    },
+    {
+      "find": "VIDEO_1",
+      "replace": "https://templates.shotstack.io/global-cooperation-news-update-template-sales-promo/3ae0695c-0079-44dc-bb3b-9c02804e8a4c/source.mp4"
+    },
+    {
+      "find": "VIDEO_2",
+      "replace": "https://templates.shotstack.io/global-cooperation-news-update-template-sales-promo/bd132848-2371-478f-98bc-3dad2ee2f1a3/source.mp4"
+    },
+    {
+      "find": "VIDEO_BACKGROUND",
+      "replace": "https://templates.shotstack.io/global-cooperation-news-update-template-sales-promo/2f8f3ecb-48e7-4e42-89f2-066bd259511d/source.mp4"
+    }
+  ]
+}

@@ -1,0 +1,712 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/bold-sale-promotion-announcement-template/4e4b36bd-9a6a-4c53-92af-d45d4210d773/-W_-XJj9QyTd3Qfpd_04bg.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/bold-sale-promotion-announcement-template/8059a655-c37c-45b8-aeb8-21932b7577cf/-nFnOHM81r4j6k0gjAW3mujVU2B2G_Bx1w.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 100,
+              "height": 100,
+              "background": {
+                "color": "{{ WHITE_COLOR }}"
+              }
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": 0.297,
+              "y": -0.496
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-sale-promotion-announcement-template/83a67cc0-e995-4431-9d48-4fc2957bcc44/source.png"
+            },
+            "start": 1.2,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 50,
+              "height": 50,
+              "background": {
+                "color": "{{ GREEN_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.385,
+              "y": 0.388
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-sale-promotion-announcement-template/5348352d-bb4d-498a-a0b0-c2c8546c0a08/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#105e7f",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 50,
+              "height": 50,
+              "background": {
+                "color": "{{ GREEN_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.385,
+              "y": 0.388
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-sale-promotion-announcement-template/24546844-43f8-42f3-8f9e-08cadf02369a/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 50,
+              "height": 50,
+              "background": {
+                "color": "{{ WHITE_COLOR }}"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": 0.297,
+              "y": -0.163
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-sale-promotion-announcement-template/38a152c2-1869-47fc-8542-32ff73a92730/source.png"
+            },
+            "start": 1,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-sale-promotion-announcement-template/2a7327cb-b80b-44c8-a9cf-1cd8aef7bf9d/source.png"
+            },
+            "start": 1,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 50,
+              "height": 50,
+              "background": {
+                "color": "{{ WHITE_COLOR }}"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.236,
+              "y": -0.287
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 50,
+              "height": 50,
+              "background": {
+                "color": "{{ WHITE_COLOR }}"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.34,
+              "y": 0.102
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-sale-promotion-announcement-template/95b18d6e-23cb-444f-8a83-7cc6b009f176/source.png"
+            },
+            "start": 0.6,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-sale-promotion-announcement-template/635c38d5-adfb-4855-8288-1a5d6e012299/source.png"
+            },
+            "start": 1,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{PRICE}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ GREEN_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "83",
+                "lineHeight": 1
+              },
+              "width": 450,
+              "height": 450,
+              "background": {
+                "color": "{{ ORANGE_FONT_COLOR }}"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.327,
+              "y": -0.151
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -30
+              }
+            },
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0.8,
+            "scale": 0.45,
+            "offset": {
+              "x": 0,
+              "y": -0.075
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{WEBSITE}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ WHITE_COLOR }}",
+                "family": "Didact Gothic",
+                "size": "55",
+                "lineHeight": 1
+              },
+              "width": 832,
+              "height": 130
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.449
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ADDRESS}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ WHITE_COLOR }}",
+                "family": "Didact Gothic",
+                "size": "59",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 100
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.415
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{PROMO}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ WHITE_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "82",
+                "lineHeight": 1
+              },
+              "width": 832,
+              "height": 130
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.363
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ GREEN_COLOR }}",
+                "family": "DM Serif Display",
+                "size": "73",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 200
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.188,
+              "y": 0.098
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{TITLE_2}}",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ ORANGE_FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "172",
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 200,
+              "stroke": {
+                "color": "{{ GREEN_COLOR }}",
+                "width": 4
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.049,
+              "y": 0.197
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{TITLE}}",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ GREEN_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "172",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 200
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0.019,
+              "y": 0.295
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{BRAND_NAME}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ ORANGE_FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "53",
+                "lineHeight": 1
+              },
+              "width": 600,
+              "height": 122,
+              "background": {
+                "color": "{{ GREEN_COLOR }}",
+                "borderRadius": 56
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.388
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ff7300",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "#ff7300"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-sale-promotion-announcement-template/812864ec-e6b1-4308-b163-d149d179df95/source.mp4"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#2c84aa",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ GREEN_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "BRAND_NAME",
+      "replace": "Jack and Anne"
+    },
+    {
+      "find": "TITLE",
+      "replace": "COMING"
+    },
+    {
+      "find": "TITLE_2",
+      "replace": "SOON"
+    },
+    {
+      "find": "DESCRIPTION",
+      "replace": "Get Limited Edition"
+    },
+    {
+      "find": "PRICE",
+      "replace": "Price $400"
+    },
+    {
+      "find": "PROMO",
+      "replace": "Discount 25% Off"
+    },
+    {
+      "find": "ADDRESS",
+      "replace": "123 Anywhere St., Any City"
+    },
+    {
+      "find": "WEBSITE",
+      "replace": "www.websiteshop.com"
+    },
+    {
+      "find": "ORANGE_FONT_COLOR",
+      "replace": "#ff7300"
+    },
+    {
+      "find": "GREEN_COLOR",
+      "replace": "#105e7f"
+    },
+    {
+      "find": "WHITE_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/bold-sale-promotion-announcement-template/6fa039d6-201f-4204-9b80-eb21630a5aff/source.png"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/bold-sale-promotion-announcement-template/42ea3c8b-20e0-49f7-baa2-34af55166cf4/source.mp3"
+    }
+  ]
+}

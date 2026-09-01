@@ -1,0 +1,879 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/sunlit-serenity-2-bedroom-dream-home/ddfa8397-b1ec-42bc-a253-4ac6e22bf9a3/buEupou_ZcP1w0yTKxJJokVSmbpaZQ0g.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/luxuriousroman/v10/buEupou_ZcP1w0yTKxJJokVSmbpqYgckeo9RMw.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.365,
+              "y": -0.406
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 100,
+            "height": 100
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/sunlit-serenity-2-bedroom-dream-home/2c07213e-e20f-4461-95e3-d5b43aebf676/source.png"
+            },
+            "start": 0.6,
+            "length": 9.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/sunlit-serenity-2-bedroom-dream-home/442bd6d5-0d68-4410-966e-b287279748a7/source.png"
+            },
+            "start": 0.4,
+            "length": 9.6
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 150 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"150\" height=\"150\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.355,
+              "y": 0.296
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 150,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/sunlit-serenity-2-bedroom-dream-home/039a163e-cdfc-4136-843b-381c0c72ad0e/source.png"
+            },
+            "start": 0.6,
+            "length": 9.4
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.395,
+              "y": -0.393
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 100,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/sunlit-serenity-2-bedroom-dream-home/2f35583f-75d9-4663-b635-64981e10afa3/source.png"
+            },
+            "start": 0.4,
+            "length": 9.6
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.355,
+              "y": 0.301
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 100,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION_3}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 34,
+                "weight": 600,
+                "color": "{{ TEXT_BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "top"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": 0.261,
+              "y": -0.315
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 189,
+            "height": 82
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION_2}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 34,
+                "weight": 600,
+                "color": "{{ TEXT_BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.076,
+              "y": -0.314
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 310,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION_1}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 34,
+                "weight": 600,
+                "color": "{{ TEXT_BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": -0.076,
+              "y": -0.259
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 310,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/sunlit-serenity-2-bedroom-dream-home/d3670777-43e2-4db8-b21c-866e5887c0b5/source.png"
+            },
+            "start": 1,
+            "length": 9
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 75 75\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"75\" height=\"75\" fill=\"#000000\"/></svg>"
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.286,
+              "y": -0.314
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 75,
+            "height": 75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/sunlit-serenity-2-bedroom-dream-home/6227a252-482d-472c-b13c-e6b1b183751c/source.png"
+            },
+            "start": 0.9,
+            "length": 9.1
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 75 75\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"75\" height=\"75\" fill=\"#000000\"/></svg>"
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": -0.286,
+              "y": -0.259
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 75,
+            "height": 75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/sunlit-serenity-2-bedroom-dream-home/05e04c96-e315-473f-94d5-fa2f7b0d8f30/source.png"
+            },
+            "start": 1,
+            "length": 9
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 75 75\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"75\" height=\"75\" fill=\"#000000\"/></svg>"
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": 0.201,
+              "y": -0.271
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 75,
+            "height": 75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{PHONE}} {{AGENT_NAME}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 50,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.4,
+            "length": "end",
+            "offset": {
+              "x": -0.015,
+              "y": -0.427
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{WEBSITE}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 39,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": -0.015,
+              "y": -0.383
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 700,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 2 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"2\" height=\"200\" fill=\"#564129\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "y": -0.284,
+              "x": 0.139
+            },
+            "width": 2,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"220\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "y": -0.285,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 220
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 500 5\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"500\" height=\"5\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.256
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 500,
+            "height": 5
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/sunlit-serenity-2-bedroom-dream-home/73342468-1187-4072-93b2-6f12f85d2e58/source.png"
+            },
+            "start": 0.4,
+            "length": 9.6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 500 5\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"500\" height=\"5\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.344
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 500,
+            "height": 5
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/sunlit-serenity-2-bedroom-dream-home/57c4d182-9249-43ab-92fa-bfb6334b5536/source.png"
+            },
+            "start": 0.4,
+            "length": 9.6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{AMOUNT}}",
+              "font": {
+                "family": "Luxurious Roman",
+                "size": 75,
+                "weight": 400,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.015,
+              "y": 0.301
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 800,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TITLE}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 97,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.015,
+              "y": 0.405
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 800,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_SRC }}",
+              "volume": 0
+            },
+            "start": 0.6,
+            "scale": 1,
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 1459,
+            "height": 827,
+            "offset": {
+              "x": 0,
+              "y": -0.0012995513559085972
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 960\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"960\" fill=\"{{ TEXT_BACKGROUND_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "transform": {
+              "rotate": {
+                "angle": -90
+              }
+            },
+            "offset": {
+              "x": 0,
+              "y": -0.25
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 800,
+            "height": 960
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/sunlit-serenity-2-bedroom-dream-home/38123739-451c-4764-976d-d16eaa7d6119/source.png"
+            },
+            "start": 0.6,
+            "length": 9.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/sunlit-serenity-2-bedroom-dream-home/acb015dd-d6ba-4f21-ad9d-fd0b05c7b804/source.png"
+            },
+            "start": 0,
+            "length": 10
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 960\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"960\" fill=\"{{ TEXT_BACKGROUND_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "transform": {
+              "rotate": {
+                "angle": 90
+              }
+            },
+            "offset": {
+              "x": 0,
+              "y": 0.251
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 960
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 812\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"812\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 1080,
+            "height": 812
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 3 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"3\" height=\"1920\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.445
+            },
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 3,
+            "height": 1920
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 3 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"3\" height=\"1920\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.445
+            },
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 3,
+            "height": 1920
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 3\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"3\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "y": 0.46
+            },
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 1080,
+            "height": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 3\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"3\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "y": -0.46,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 1080,
+            "height": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ TEXT_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 10,
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "TITLE",
+      "replace": "House For Sale"
+    },
+    {
+      "find": "AMOUNT",
+      "replace": "PRICE $400,000"
+    },
+    {
+      "find": "DESCRIPTION_1",
+      "replace": "2 Bedrooms"
+    },
+    {
+      "find": "DESCRIPTION_2",
+      "replace": "Bathrooms"
+    },
+    {
+      "find": "DESCRIPTION_3",
+      "replace": "Car Garage"
+    },
+    {
+      "find": "WEBSITE",
+      "replace": "REALESTATECOMPANY.COM"
+    },
+    {
+      "find": "PHONE",
+      "replace": "+123-456-7890"
+    },
+    {
+      "find": "AGENT_NAME",
+      "replace": "(Kate Smith)"
+    },
+    {
+      "find": "VIDEO_SRC",
+      "replace": "https://templates.shotstack.io/sunlit-serenity-2-bedroom-dream-home/3b1bfc33-195b-4b25-b4e4-ff1ef06d4330/source.mp4"
+    },
+    {
+      "find": "TEXT_BACKGROUND_COLOR",
+      "replace": "#564129"
+    },
+    {
+      "find": "TEXT_BACKGROUND_COLOR_2",
+      "replace": "#e2cf8d"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#ffffff"
+    }
+  ]
+}

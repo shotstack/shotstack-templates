@@ -1,0 +1,306 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/thanksgiving-gratitude-offer-template-sale/277c00dc-84d1-4c82-9de1-e4f79a10dbbb/source.otf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO }}"
+            },
+            "start": 1,
+            "scale": 0.4,
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/thanksgiving-gratitude-offer-template-sale/1f1eef67-c650-4466-bf98-132e597ccda7/source.mp4"
+            },
+            "start": 1,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ Element_1 }}"
+            },
+            "start": 0.5,
+            "scale": 0.06,
+            "offset": {
+              "x": -0.243,
+              "y": 0.351
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ Element_2 }}"
+            },
+            "start": 0.6,
+            "scale": 0.06,
+            "offset": {
+              "x": 0.279,
+              "y": 0.381
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -75
+              }
+            },
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Greetings}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 750,
+              "height": 300,
+              "background": {
+                "color": "{{ SHAPE_COLOR }}",
+                "opacity": 0.71
+              }
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.282
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title_2}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "ED Lavonia",
+                "size": "180",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 200
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.359
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title_1}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "47",
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 100
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.4
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#d8d6c7",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1200,
+              "height": 1450,
+              "background": {
+                "color": "{{ SHAPE_COLOR }}"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.107
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/thanksgiving-gratitude-offer-template-sale/21650466-7431-4207-9c3c-828340fd44c7/source.mp4"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 6,
+            "asset": {
+              "type": "image",
+              "src": "{{ BACKGROUND_IMAGE }}"
+            },
+            "start": 0,
+            "offset": {
+              "x": 0.144,
+              "y": 0
+            },
+            "position": "center"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "Title_1",
+      "replace": "Season’s"
+    },
+    {
+      "find": "Title_2",
+      "replace": "Gratitude"
+    },
+    {
+      "find": "Greetings",
+      "replace": "Sending you warmth, kindness, and lasting memories this Thanksgiving."
+    },
+    {
+      "find": "Element_1",
+      "replace": "https://templates.shotstack.io/thanksgiving-gratitude-offer-template-sale/ec31bf34-513a-48a4-b1a5-405e697f5bf8/source.png"
+    },
+    {
+      "find": "Element_2",
+      "replace": "https://templates.shotstack.io/thanksgiving-gratitude-offer-template-sale/e84c0263-545c-4c70-b8ea-66c791c40a47/source.png"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "SHAPE_COLOR",
+      "replace": "#d8d6c7"
+    },
+    {
+      "find": "VIDEO",
+      "replace": "https://templates.shotstack.io/thanksgiving-gratitude-offer-template-sale/f18c4ce8-3791-4e86-8d8f-98155872448b/source.mp4"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/thanksgiving-gratitude-offer-template-sale/ff769c1b-f461-4a2d-ab2a-b25e9c167670/source.mp3"
+    },
+    {
+      "find": "BACKGROUND_IMAGE",
+      "replace": "https://templates.shotstack.io/thanksgiving-gratitude-offer-template-sale/3e92b72e-b028-440d-8542-69bf63512240/source.jpg"
+    }
+  ]
+}

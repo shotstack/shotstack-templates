@@ -1,0 +1,2960 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": 32,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/team-lineup-template/50e074cc-b2e1-4745-bc72-3d300f0151f8/source.png"
+            },
+            "start": 1,
+            "scale": 1,
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "offset": {
+              "x": -0.3622291666666674,
+              "y": 0.31129629629629624
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 80,
+            "height": 81
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "Swan 1 cikatomas",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 34,
+                "weight": 800,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 1,
+            "length": 32,
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "offset": {
+              "x": -0.132,
+              "y": 0.315
+            },
+            "position": "center",
+            "width": 800,
+            "height": 60
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "{{ 1PLAYER_IMAGE_SRC }}"
+            },
+            "start": 2,
+            "scale": 1,
+            "offset": {
+              "x": 0.298,
+              "y": -0.03
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 957,
+            "height": 761
+          },
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "{{ 2PLAYER_IMAGE_SRC_2 }}"
+            },
+            "start": 4,
+            "scale": 1,
+            "offset": {
+              "x": 0.2972755090959022,
+              "y": -0.031567219573442794
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 957,
+            "height": 761
+          },
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "{{ 3PLAYER_IMAGE_SRC_3 }}"
+            },
+            "start": 6,
+            "scale": 1,
+            "offset": {
+              "x": 0.298,
+              "y": -0.03
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 957,
+            "height": 761
+          },
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "{{ 4PLAYER_IMAGE_SRC_4 }}"
+            },
+            "start": 8,
+            "scale": 1,
+            "offset": {
+              "x": 0.298,
+              "y": -0.03
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 957,
+            "height": 761
+          },
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "{{ 5PLAYER_IMAGE_SRC_5 }}"
+            },
+            "start": 10,
+            "scale": 1,
+            "offset": {
+              "x": 0.298,
+              "y": -0.03
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 957,
+            "height": 761
+          },
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "{{ 6PLAYER_IMAGE_SRC_6 }}"
+            },
+            "start": 12,
+            "scale": 1,
+            "offset": {
+              "x": 0.298,
+              "y": -0.03
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 957,
+            "height": 761
+          },
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "{{ 7PLAYER_IMAGE_SRC_7 }}"
+            },
+            "start": 14,
+            "scale": 1,
+            "offset": {
+              "x": 0.298,
+              "y": -0.03
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 957,
+            "height": 761
+          },
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "{{ 8PLAYER_IMAGE_SRC_8 }}"
+            },
+            "start": 16,
+            "scale": 1,
+            "offset": {
+              "x": 0.298,
+              "y": -0.03
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 957,
+            "height": 761
+          },
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "{{ 9PLAYER_IMAGE_SRC_9 }}"
+            },
+            "start": 18,
+            "scale": 1,
+            "offset": {
+              "x": 0.298,
+              "y": -0.03
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 957,
+            "height": 761
+          },
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "{{ 10PLAYER_IMAGE_SRC_10 }}"
+            },
+            "start": 20,
+            "scale": 1,
+            "offset": {
+              "x": 0.298,
+              "y": -0.03
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 957,
+            "height": 761
+          },
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "{{ 11PLAYER_IMAGE_SRC_11 }}"
+            },
+            "start": 22,
+            "scale": 1,
+            "offset": {
+              "x": 0.298,
+              "y": -0.03
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 957,
+            "height": 761
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{1PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 16,
+                "weight": 800,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ LIST_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 0
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 29,
+            "length": 4.5,
+            "transform": {
+              "rotate": {
+                "angle": -90
+              }
+            },
+            "offset": {
+              "x": "{{ A1PLAYER_POSITIONN_OFFSET_X }}",
+              "y": "{{ A1PLAYER_POSITION_OFFSET_Y }}"
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "width": 200,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{2PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 16,
+                "weight": 800,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ LIST_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 0
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 29,
+            "length": 4.5,
+            "transform": {
+              "rotate": {
+                "angle": -90
+              }
+            },
+            "offset": {
+              "x": "{{ A2PLAYER_POSITION_OFFSET_X_2 }}",
+              "y": "{{ A2PLAYER_POSITION_OFFSET_Y_2 }}"
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "width": 200,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{3PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 16,
+                "weight": 800,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ LIST_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 0
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 29,
+            "length": 4.5,
+            "transform": {
+              "rotate": {
+                "angle": 270
+              }
+            },
+            "offset": {
+              "x": "{{ A3PLAYER_POSITION_OFFSET_X_3 }}",
+              "y": "{{ A3PLAYER_POSITION_OFFSET_Y_3 }}"
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "width": 200,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{4PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 16,
+                "weight": 800,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ LIST_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 0
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 29,
+            "length": 4.5,
+            "transform": {
+              "rotate": {
+                "angle": -90
+              }
+            },
+            "offset": {
+              "x": "{{ A4PLAYER_POSITION_OFFSET_X_4 }}",
+              "y": "{{ A4PLAYER_POSITION_OFFSET_Y_4 }}"
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "width": 200,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{5PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 16,
+                "weight": 800,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ LIST_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 0
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 29,
+            "length": 4.5,
+            "transform": {
+              "rotate": {
+                "angle": -90
+              }
+            },
+            "offset": {
+              "x": "{{ A5PLAYER_POSITION_OFFSET_X_5 }}",
+              "y": "{{ A5PLAYER_POSITION_OFFSET_Y_5 }}"
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "width": 200,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{6PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 16,
+                "weight": 800,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ LIST_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 0
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 29,
+            "length": 4.5,
+            "transform": {
+              "rotate": {
+                "angle": 270
+              }
+            },
+            "offset": {
+              "x": "{{ A6PLAYER_POSITION_OFFSET_X_6 }}",
+              "y": "{{ A6PLAYER_POSITION_OFFSET_Y_6 }}"
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "width": 200,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{7PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 16,
+                "weight": 800,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ LIST_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 0
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 29,
+            "length": 4.5,
+            "transform": {
+              "rotate": {
+                "angle": -90
+              }
+            },
+            "offset": {
+              "x": "{{ A7PLAYER_POSITION_OFFSET_X_7 }}",
+              "y": "{{ A7PLAYER_POSITION_OFFSET_Y_7 }}"
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "width": 200,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{8PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 16,
+                "weight": 800,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ LIST_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 0
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 29,
+            "length": 4.5,
+            "transform": {
+              "rotate": {
+                "angle": -90
+              }
+            },
+            "offset": {
+              "x": "{{ A8PLAYER_POSITION_OFFSET_X_8 }}",
+              "y": "{{ A8PLAYER_POSITION_OFFSET_Y_8 }}"
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "width": 200,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{9PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 16,
+                "weight": 800,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ LIST_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 0
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 29,
+            "length": 4.5,
+            "transform": {
+              "rotate": {
+                "angle": -90
+              }
+            },
+            "offset": {
+              "x": "{{ A9PLAYER_POSITION_OFFSET_X_9 }}",
+              "y": "{{ A9PLAYER_POSITION_OFFSET_Y_9 }}"
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "width": 200,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{10PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 16,
+                "weight": 800,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ LIST_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 0
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 29,
+            "length": 4.5,
+            "transform": {
+              "rotate": {
+                "angle": -90
+              }
+            },
+            "offset": {
+              "x": "{{ A10PLAYER_POSITION_OFFSET_X_10 }}",
+              "y": "{{ A10PLAYER_POSITION_OFFSET_Y_10 }}"
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "width": 200,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{11PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 16,
+                "weight": 800,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ LIST_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 0
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 29,
+            "length": 4.5,
+            "offset": {
+              "x": "{{ A11PLAYER_POSITION_OFFSET_X_11 }}",
+              "y": "{{ A11PLAYER_POSITION_OFFSET_Y_11 }}"
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -90
+              }
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "width": 200,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{11PLAYER_POSITION}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 24,
+                "weight": 800,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ LIST_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 23
+              }
+            },
+            "start": 22,
+            "length": 5,
+            "offset": {
+              "x": "{{ 11PLAYER_POSITION_X_11 }}",
+              "y": "{{ 11PLAYER_POSITION_Y_11 }}"
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            },
+            "width": 40,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{10PLAYER_POSITION}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 24,
+                "weight": 800,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ LIST_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 23
+              }
+            },
+            "start": 20,
+            "length": 7,
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            },
+            "offset": {
+              "x": "{{ 10PLAYER_POSITION_X_10 }}",
+              "y": "{{ 10PLAYER_POSITION_Y_10 }}"
+            },
+            "position": "center",
+            "width": 40,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{9PLAYER_POSITION}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 24,
+                "weight": 800,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ LIST_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 23
+              }
+            },
+            "start": 18,
+            "length": 9,
+            "offset": {
+              "x": "{{ 9PLAYER_POSITION_X_9 }}",
+              "y": "{{ 9PLAYER_POSITION_Y_9 }}"
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            },
+            "width": 40,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{8PLAYER_POSITION}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 24,
+                "weight": 800,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ LIST_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 23
+              }
+            },
+            "start": 16,
+            "length": 11,
+            "offset": {
+              "x": "{{ 8PLAYER_POSITION_X_8 }}",
+              "y": "{{ 8PLAYER_POSITION_Y_8 }}"
+            },
+            "position": "center",
+            "transition": {
+              "out": "fadeFast",
+              "in": "fadeFast"
+            },
+            "width": 40,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{7PLAYER_POSITION}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 24,
+                "weight": 800,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ LIST_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 23
+              }
+            },
+            "start": 14,
+            "length": 13,
+            "offset": {
+              "x": "{{ 7PLAYER_POSITION_X_7 }}",
+              "y": "{{ 7PLAYER_POSITION_Y_7 }}"
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            },
+            "width": 40,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{6PLAYER_POSITION}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 24,
+                "weight": 800,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ LIST_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 23
+              }
+            },
+            "start": 12,
+            "length": 15,
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            },
+            "offset": {
+              "x": "{{ 6PLAYER_POSITION_X_6 }}",
+              "y": "{{ 6PLAYER_POSITION_Y_6 }}"
+            },
+            "position": "center",
+            "width": 40,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{5PLAYER_POSITION}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 24,
+                "weight": 800,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ LIST_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 23
+              }
+            },
+            "start": 10,
+            "length": 17,
+            "offset": {
+              "x": "{{ 5PLAYER_POSITION_X_5 }}",
+              "y": "{{ 5PLAYER_POSITION_Y_5 }}"
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            },
+            "width": 40,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{4PLAYER_POSITION}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 24,
+                "weight": 800,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ LIST_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 23
+              }
+            },
+            "start": 8,
+            "length": 19,
+            "offset": {
+              "x": "{{ 4PLAYER_POSITION_X_4 }}",
+              "y": "{{ 4PLAYER_POSITION_Y_4 }}"
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            },
+            "width": 40,
+            "height": 38
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{3PLAYER_POSITION}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 24,
+                "weight": 800,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ LIST_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 23
+              }
+            },
+            "start": 6,
+            "length": 21,
+            "offset": {
+              "x": "{{ 3PLAYER_POSITION_X_3 }}",
+              "y": "{{ 3PLAYER_POSITION_Y_3 }}"
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            },
+            "width": 40,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{2PLAYER_POSITION}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 24,
+                "weight": 800,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ LIST_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 23
+              }
+            },
+            "start": 4,
+            "length": 23,
+            "offset": {
+              "x": "{{ 2PLAYER_POSITION_X_2 }}",
+              "y": "{{ 2PLAYER_POSITION_Y_2 }}"
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            },
+            "width": 40,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{1PLAYER_POSITION }}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 24,
+                "weight": 800,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ LIST_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 23
+              }
+            },
+            "start": 2,
+            "length": 25,
+            "offset": {
+              "x": "{{ 1PLAYER_POSITION_OFFSET_X }}",
+              "y": "{{ 1PLAYER_POSITION_Y }}"
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            },
+            "width": 40,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.5,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/team-lineup-template/6bda63a0-cc0e-41b1-9721-86fdbc9aaa2c/source.png"
+            },
+            "start": 29,
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "scale": 1,
+            "offset": {
+              "x": 0.13068750000000007,
+              "y": -0.022074074074074135
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 90
+              }
+            },
+            "fit": "contain",
+            "width": 740,
+            "height": 961
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 25,
+            "asset": {
+              "type": "image",
+              "src": "{{ FIELD_IMAGE_SRC }}"
+            },
+            "start": 2,
+            "scale": 1,
+            "offset": {
+              "x": -0.026010416666666702,
+              "y": -0.05312962962962975
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 393,
+            "height": 561
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{22PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 29,
+            "length": 4.5,
+            "offset": {
+              "x": -0.244,
+              "y": -0.336
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "position": "center",
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{21PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 29,
+            "length": 4.5,
+            "offset": {
+              "x": -0.244,
+              "y": -0.279
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "position": "center",
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{20PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 29,
+            "length": 4.5,
+            "offset": {
+              "x": -0.244,
+              "y": -0.223
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "position": "center",
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{19PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 29,
+            "length": 4.5,
+            "offset": {
+              "x": -0.244,
+              "y": -0.166
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "position": "center",
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{18PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 29,
+            "length": 4.5,
+            "offset": {
+              "x": -0.244,
+              "y": -0.11
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "position": "center",
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{17PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 29,
+            "length": 4.5,
+            "offset": {
+              "x": -0.244,
+              "y": -0.053
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "position": "center",
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{16PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 29,
+            "length": 4.5,
+            "offset": {
+              "x": -0.244,
+              "y": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{15PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 29,
+            "length": 4.5,
+            "offset": {
+              "x": -0.244,
+              "y": 0.061
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{14PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 29,
+            "length": 4.5,
+            "offset": {
+              "x": -0.244,
+              "y": 0.115
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{13PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 29,
+            "length": 4.5,
+            "offset": {
+              "x": -0.244,
+              "y": 0.173
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{12PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 29,
+            "length": 4.5,
+            "offset": {
+              "x": -0.244,
+              "y": 0.231
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{11PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": 28,
+            "offset": {
+              "x": -0.244,
+              "y": -0.336
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "position": "center",
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{10PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": 28,
+            "offset": {
+              "x": -0.244,
+              "y": -0.279
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "position": "center",
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{9PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": 28,
+            "offset": {
+              "x": -0.244,
+              "y": -0.223
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "position": "center",
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{8PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": 28,
+            "offset": {
+              "x": -0.244,
+              "y": -0.166
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "position": "center",
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{7PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": 28,
+            "offset": {
+              "x": -0.244,
+              "y": -0.11
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "position": "center",
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{6PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": 28,
+            "offset": {
+              "x": -0.244,
+              "y": -0.053
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "position": "center",
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{5PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": 28,
+            "offset": {
+              "x": -0.244,
+              "y": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{4PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": 28,
+            "offset": {
+              "x": -0.244,
+              "y": 0.061
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "position": "center",
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{3PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 0,
+            "length": 28,
+            "offset": {
+              "x": -0.244,
+              "y": 0.115
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{2PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": 28,
+            "offset": {
+              "x": -0.244,
+              "y": 0.173
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{1PLAYER_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "{{ All_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": 28,
+            "offset": {
+              "x": -0.244,
+              "y": 0.231
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/team-lineup-template/cedc133b-d911-45c2-814c-a7f2bfb879d2/source.mp4"
+            },
+            "start": 0,
+            "length": 34
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1920 1080\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1920\" height=\"1080\" fill=\"{{ TEXT_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 34,
+            "position": "center",
+            "width": 1920,
+            "height": 1080
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1920 1080\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1920\" height=\"1080\" fill=\"{{ LIST_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 34,
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/team-lineup-template/2cd8eb01-7cb4-4ec3-aeca-e494564abcd3/source.mp4"
+            },
+            "start": 0,
+            "length": 34
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1920 1080\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1920\" height=\"1080\" fill=\"{{ HEADER_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 34,
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/team-lineup-template/f7bb654c-d3a1-4cb1-aed2-025c34092f57/source.mp4"
+            },
+            "start": 0,
+            "length": 34
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 34,
+            "fit": "contain",
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/team-lineup-template/m481denwt3jh19vftdo57u32/source.webm"
+            },
+            "start": 0,
+            "transition": {
+              "out": "fade"
+            },
+            "width": 1923,
+            "height": 1081,
+            "offset": {
+              "x": 0.0007964300904370465,
+              "y": -0.0005148638968480385
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 34,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/team-lineup-template/ef58f943-d961-45fc-8575-f2aaf8f32bbe/source.jpg"
+            },
+            "start": 0,
+            "fit": "crop",
+            "width": 1931,
+            "height": 1088,
+            "offset": {
+              "x": 0.002946476540114536,
+              "y": 0.003704781518624619
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "1PLAYER_Name",
+      "replace": "06 - Ethan Reynolds"
+    },
+    {
+      "find": "2PLAYER_Name",
+      "replace": "01 - Lucas Bennett"
+    },
+    {
+      "find": "3PLAYER_Name",
+      "replace": "03 - Daniel Carter"
+    },
+    {
+      "find": "4PLAYER_Name",
+      "replace": "04 - James Fletcher"
+    },
+    {
+      "find": "5PLAYER_Name",
+      "replace": "11 - Mason Caldwell"
+    },
+    {
+      "find": "6PLAYER_Name",
+      "replace": "08 - Noah Sinclair"
+    },
+    {
+      "find": "7PLAYER_Name",
+      "replace": "02 - Sebastian Holt"
+    },
+    {
+      "find": "8PLAYER_Name",
+      "replace": "14 - Julian Mercer"
+    },
+    {
+      "find": "9PLAYER_Name",
+      "replace": "10 - Liam Donovan"
+    },
+    {
+      "find": "10PLAYER_Name",
+      "replace": "05 - Alexander Hayes"
+    },
+    {
+      "find": "11PLAYER_Name",
+      "replace": "09 - Nathan Cross"
+    },
+    {
+      "find": "12PLAYER_Name",
+      "replace": "19 - Gabriel Whitman"
+    },
+    {
+      "find": "13PLAYER_Name",
+      "replace": "23 - Samuel Prescott"
+    },
+    {
+      "find": "14PLAYER_Name",
+      "replace": "21 - Elijah Townsend"
+    },
+    {
+      "find": "15PLAYER_Name",
+      "replace": "17 - Gabriel WhitmanU"
+    },
+    {
+      "find": "16PLAYER_Name",
+      "replace": "20 - Dominic Sutherland"
+    },
+    {
+      "find": "17PLAYER_Name",
+      "replace": "13 - Caleb Morrison"
+    },
+    {
+      "find": "18PLAYER_Name",
+      "replace": "24 - Ryan Lancaster "
+    },
+    {
+      "find": "19PLAYER_Name",
+      "replace": "31 - Zachary Vaughn"
+    },
+    {
+      "find": "20PLAYER_Name",
+      "replace": "45 - Henry Caldwell "
+    },
+    {
+      "find": "21PLAYER_Name",
+      "replace": "18 - Evan Harrington"
+    },
+    {
+      "find": "22PLAYER_Name",
+      "replace": "18 - Tristan Holloway"
+    },
+    {
+      "find": "1PLAYER_POSITION ",
+      "replace": "6"
+    },
+    {
+      "find": "2PLAYER_POSITION",
+      "replace": "1"
+    },
+    {
+      "find": "3PLAYER_POSITION",
+      "replace": "3"
+    },
+    {
+      "find": "4PLAYER_POSITION",
+      "replace": "4"
+    },
+    {
+      "find": "5PLAYER_POSITION",
+      "replace": "11"
+    },
+    {
+      "find": "6PLAYER_POSITION",
+      "replace": "8"
+    },
+    {
+      "find": "7PLAYER_POSITION",
+      "replace": "2"
+    },
+    {
+      "find": "8PLAYER_POSITION",
+      "replace": "14"
+    },
+    {
+      "find": "9PLAYER_POSITION",
+      "replace": "10"
+    },
+    {
+      "find": "10PLAYER_POSITION",
+      "replace": "5"
+    },
+    {
+      "find": "11PLAYER_POSITION",
+      "replace": "9"
+    },
+    {
+      "find": "BACKGROUND_IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/team-lineup-template/ae3c182f-f2f8-4b34-ae44-c21252028def/shotstack-proxy.webp"
+    },
+    {
+      "find": "HEADER_BACKGROUND_COLOR",
+      "replace": "#77641d"
+    },
+    {
+      "find": "LIST_BACKGROUND_COLOR",
+      "replace": "#cd411d"
+    },
+    {
+      "find": "FIELD_IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/team-lineup-template/6bda63a0-cc0e-41b1-9721-86fdbc9aaa2c/source.png"
+    },
+    {
+      "find": "1PLAYER_POSITION_OFFSET_X",
+      "replace": "-0.028"
+    },
+    {
+      "find": "1PLAYER_POSITION_Y",
+      "replace": "-0.228"
+    },
+    {
+      "find": "2PLAYER_POSITION_X_2",
+      "replace": "0.01"
+    },
+    {
+      "find": "2PLAYER_POSITION_Y_2",
+      "replace": "-0.133"
+    },
+    {
+      "find": "3PLAYER_POSITION_X_3",
+      "replace": "-0.07"
+    },
+    {
+      "find": "3PLAYER_POSITION_Y_3",
+      "replace": "-0.138"
+    },
+    {
+      "find": "4PLAYER_POSITION_X_4",
+      "replace": "-0.091"
+    },
+    {
+      "find": "4PLAYER_POSITION_Y_4",
+      "replace": "-0.091"
+    },
+    {
+      "find": "5PLAYER_POSITION_X_5",
+      "replace": "0.02"
+    },
+    {
+      "find": "5PLAYER_POSITION_Y_5",
+      "replace": "-0.076"
+    },
+    {
+      "find": "6PLAYER_POSITION_X_6",
+      "replace": "-0.028"
+    },
+    {
+      "find": "6PLAYER_POSITION_Y_6",
+      "replace": "-0.058"
+    },
+    {
+      "find": "7PLAYER_POSITION_X_7",
+      "replace": "-0.013"
+    },
+    {
+      "find": "7PLAYER_POSITION_Y_7",
+      "replace": "0.014"
+    },
+    {
+      "find": "8PLAYER_POSITION_X_8",
+      "replace": "-0.079"
+    },
+    {
+      "find": "8PLAYER_POSITION_Y_8",
+      "replace": "0.084"
+    },
+    {
+      "find": "9PLAYER_POSITION_X_9",
+      "replace": "-0.031"
+    },
+    {
+      "find": "9PLAYER_POSITION_Y_9",
+      "replace": "0.084"
+    },
+    {
+      "find": "10PLAYER_POSITION_X_10",
+      "replace": "0.018"
+    },
+    {
+      "find": "10PLAYER_POSITION_Y_10",
+      "replace": "0.084"
+    },
+    {
+      "find": "11PLAYER_POSITION_X_11",
+      "replace": "-0.023"
+    },
+    {
+      "find": "11PLAYER_POSITION_Y_11",
+      "replace": "0.138"
+    },
+    {
+      "find": "All_TEXT_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "A1PLAYER_POSITIONN_OFFSET_X",
+      "replace": "0.319"
+    },
+    {
+      "find": "A1PLAYER_POSITION_OFFSET_Y",
+      "replace": "-0.019"
+    },
+    {
+      "find": "A2PLAYER_POSITION_OFFSET_X_2",
+      "replace": "0.246"
+    },
+    {
+      "find": "A2PLAYER_POSITION_OFFSET_Y_2",
+      "replace": "-0.171"
+    },
+    {
+      "find": "A3PLAYER_POSITION_OFFSET_X_3",
+      "replace": "0.243"
+    },
+    {
+      "find": "A3PLAYER_POSITION_OFFSET_Y_3",
+      "replace": "0.08"
+    },
+    {
+      "find": "A4PLAYER_POSITION_OFFSET_X_4",
+      "replace": "0.194"
+    },
+    {
+      "find": "A4PLAYER_POSITION_OFFSET_Y_4",
+      "replace": "-0.185"
+    },
+    {
+      "find": "A5PLAYER_POSITION_OFFSET_X_5",
+      "replace": "0.191"
+    },
+    {
+      "find": "A5PLAYER_POSITION_OFFSET_Y_5",
+      "replace": "0.15"
+    },
+    {
+      "find": "A6PLAYER_POSITION_OFFSET_X_6",
+      "replace": "0.13"
+    },
+    {
+      "find": "A6PLAYER_POSITION_OFFSET_Y_6",
+      "replace": "-0.143"
+    },
+    {
+      "find": "A7PLAYER_POSITION_OFFSET_X_7",
+      "replace": "0.127"
+    },
+    {
+      "find": "A7PLAYER_POSITION_OFFSET_Y_7",
+      "replace": "0.096"
+    },
+    {
+      "find": "A8PLAYER_POSITION_OFFSET_X_8",
+      "replace": "0.008"
+    },
+    {
+      "find": "A8PLAYER_POSITION_OFFSET_Y_8",
+      "replace": "-0.246"
+    },
+    {
+      "find": "A9PLAYER_POSITION_OFFSET_X_9",
+      "replace": "0.038"
+    },
+    {
+      "find": "A9PLAYER_POSITION_OFFSET_Y_9",
+      "replace": "-0.03"
+    },
+    {
+      "find": "A10PLAYER_POSITION_OFFSET_X_10",
+      "replace": "0.008"
+    },
+    {
+      "find": "A10PLAYER_POSITION_OFFSET_Y_10",
+      "replace": "0.189"
+    },
+    {
+      "find": "A11PLAYER_POSITION_OFFSET_X_11",
+      "replace": "-0.049"
+    },
+    {
+      "find": "A11PLAYER_POSITION_OFFSET_Y_11",
+      "replace": "-0.023"
+    },
+    {
+      "find": "TEXT_BACKGROUND_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "1PLAYER_IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/team-lineup-template/20c51743-e839-4860-9613-713983f279ae/source.png"
+    },
+    {
+      "find": "2PLAYER_IMAGE_SRC_2",
+      "replace": "https://templates.shotstack.io/team-lineup-template/9ed82553-bf1d-44d7-94c3-619e9933e2d7/source.png"
+    },
+    {
+      "find": "3PLAYER_IMAGE_SRC_3",
+      "replace": "https://templates.shotstack.io/team-lineup-template/9f9328a0-ca05-45f8-98d6-fdb9fdbb35e1/source.png"
+    },
+    {
+      "find": "4PLAYER_IMAGE_SRC_4",
+      "replace": "https://templates.shotstack.io/team-lineup-template/5575dd88-2ad4-4f73-8d7d-44dea71d4ebe/source.png"
+    },
+    {
+      "find": "5PLAYER_IMAGE_SRC_5",
+      "replace": "https://templates.shotstack.io/team-lineup-template/24e1798a-c492-4916-ae5f-8b088d5c1800/source.png"
+    },
+    {
+      "find": "6PLAYER_IMAGE_SRC_6",
+      "replace": "https://templates.shotstack.io/team-lineup-template/c2017f80-385f-4514-9a78-e81f3395cefa/source.png"
+    },
+    {
+      "find": "7PLAYER_IMAGE_SRC_7",
+      "replace": "https://templates.shotstack.io/team-lineup-template/5c6bb5f8-fc1b-436b-838b-ae8db71a2a73/source.png"
+    },
+    {
+      "find": "8PLAYER_IMAGE_SRC_8",
+      "replace": "https://templates.shotstack.io/team-lineup-template/9c663fa0-d6f8-4e88-a641-1262d163c22b/source.png"
+    },
+    {
+      "find": "9PLAYER_IMAGE_SRC_9",
+      "replace": "https://templates.shotstack.io/team-lineup-template/af752dc9-ad09-4404-ad00-4ea546565259/source.png"
+    },
+    {
+      "find": "10PLAYER_IMAGE_SRC_10",
+      "replace": "https://templates.shotstack.io/team-lineup-template/dde499f1-9c04-489c-91a8-84721f79575a/source.png"
+    },
+    {
+      "find": "11PLAYER_IMAGE_SRC_11",
+      "replace": "https://templates.shotstack.io/team-lineup-template/c777f82f-4f6c-43be-8a13-3579ecb00aef/source.png"
+    }
+  ]
+}

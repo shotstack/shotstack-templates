@@ -1,0 +1,318 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/golden-new-year-sale-celebration-template/0740034a-3d54-4369-bd74-d948aa8ed0b8/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/golden-new-year-sale-celebration-template/59825bf9-3754-493f-bd60-b41f8f8aca2e/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Body}}",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "21",
+                "lineHeight": 1
+              },
+              "width": 600,
+              "height": 300
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": 0.113,
+              "y": -0.403
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Taken by Vultures Demo",
+                "size": "180",
+                "lineHeight": 1
+              },
+              "width": 600,
+              "height": 600,
+              "background": {}
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.175,
+              "y": 0.366
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/golden-new-year-sale-celebration-template/b9a0c4aa-80fa-4bf1-8ce7-bc6405f5f252/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 500,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.356,
+              "y": -0.421
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/golden-new-year-sale-celebration-template/eadedf8f-9370-4c85-abb6-4bf77d2f7331/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 500,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0.389,
+              "y": 0.384
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/golden-new-year-sale-celebration-template/b6c7c038-ea07-4978-ae47-b9c9db76f271/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 900,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.051,
+              "y": 0.019
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE }}"
+            },
+            "start": 0.8,
+            "scale": 0.36,
+            "offset": {
+              "x": 0.071,
+              "y": 0.005
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 10,
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/golden-new-year-sale-celebration-template/8d6e9e28-b92f-45e8-b69c-c3a6cd11300c/source.mp4",
+              "volume": 0
+            },
+            "start": 0,
+            "opacity": 0.31
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "Title",
+      "replace": "Happy New Year"
+    },
+    {
+      "find": "Body",
+      "replace": "As the year unfolds, may your home be filled with laughter, your bonds grow stronger, and every season bring blessings to your family."
+    },
+    {
+      "find": "IMAGE",
+      "replace": "https://templates.shotstack.io/golden-new-year-sale-celebration-template/e819a31b-cc96-4870-9802-53013d90b51e/source.png"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#f4d913"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/golden-new-year-sale-celebration-template/29baaa3c-87fd-4ece-a2ea-a72b6b17f70b/source.mp3"
+    }
+  ]
+}

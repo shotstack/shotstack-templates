@@ -1,0 +1,1019 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": "31",
+                "lineHeight": 1
+              },
+              "width": 10,
+              "height": 50,
+              "background": {
+                "color": "{{ FONT_COLOR_1 }}"
+              }
+            },
+            "start": 1.35,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.467
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Phone}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_2 }}",
+                "family": "Montserrat ExtraBold",
+                "size": "31",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 72
+            },
+            "start": 1.4,
+            "length": "end",
+            "offset": {
+              "x": 0.253,
+              "y": -0.467
+            },
+            "position": "center",
+            "transition": {}
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Web}}",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_2 }}",
+                "family": "Montserrat ExtraBold",
+                "size": "31",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 72
+            },
+            "start": 1.3,
+            "length": "end",
+            "offset": {
+              "x": -0.253,
+              "y": -0.467
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{CTA}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_2 }}",
+                "family": "Montserrat ExtraBold",
+                "size": "36",
+                "lineHeight": 1
+              },
+              "width": 332,
+              "height": 112,
+              "background": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "borderRadius": 50
+              }
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.419
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 108,
+              "height": 107,
+              "background": {
+                "color": "{{ FONT_COLOR_1 }}"
+              }
+            },
+            "start": 0.95,
+            "length": "end",
+            "offset": {
+              "x": -0.322,
+              "y": -0.31
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/cultural-travel-promotion-offer-template/7d41a12a-b974-4355-930e-1f973dbc1705/source.mp4"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 108,
+              "height": 107,
+              "background": {
+                "color": "{{ FONT_COLOR_1 }}"
+              }
+            },
+            "start": 0.85,
+            "length": "end",
+            "offset": {
+              "x": -0.322,
+              "y": -0.254
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/cultural-travel-promotion-offer-template/0f6f30dc-5743-434a-ad74-080411a1f435/source.mp4"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 108,
+              "height": 107,
+              "background": {
+                "color": "{{ FONT_COLOR_1 }}"
+              }
+            },
+            "start": 0.75,
+            "length": "end",
+            "offset": {
+              "x": -0.322,
+              "y": -0.201
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/cultural-travel-promotion-offer-template/05b79493-6bd7-4d78-8fc6-5d5ed25c8459/source.mp4"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 112,
+              "height": 112,
+              "background": {
+                "color": "{{ FONT_COLOR_1 }}"
+              }
+            },
+            "start": 1.05,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.356
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/cultural-travel-promotion-offer-template/4f2c3afd-81e2-4450-b123-a13ae00926cc/source.mp4"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 614,
+              "height": 614,
+              "background": {
+                "color": "{{ FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.495,
+              "y": 0.087
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 45
+              }
+            },
+            "transition": {
+              "in": "slideLeft"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/cultural-travel-promotion-offer-template/4a730dde-8070-4089-8471-035c1f25824f/source.png"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 614,
+              "height": 614,
+              "background": {
+                "color": "{{ FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": -0.438,
+              "y": 0.077
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/cultural-travel-promotion-offer-template/30155ae0-2b24-441e-9288-412ff58f14ad/source.png"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 432,
+              "height": 432,
+              "stroke": {
+                "color": "#97d7f7"
+              },
+              "background": {
+                "color": "{{ SHAPE_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.469,
+              "y": -0.397
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 180
+              }
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/cultural-travel-promotion-offer-template/74d1c3b5-1ab6-4a37-9a51-9d0934da270c/source.png"
+            },
+            "start": 0,
+            "length": "auto"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "Montserrat ExtraBold",
+                "size": "91",
+                "lineHeight": 1
+              },
+              "width": 891,
+              "height": 410
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.322
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 432,
+              "height": 432,
+              "stroke": {
+                "color": "#97d7f7"
+              },
+              "background": {
+                "color": "{{ SHAPE_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.531,
+              "y": 0.359
+            },
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/cultural-travel-promotion-offer-template/5ccbbb9a-a34e-46f4-afcd-72a5dad6c1fc/source.png"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{List_3}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "Montserrat ExtraBold",
+                "size": "44",
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 72
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": 0.088,
+              "y": -0.308
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{List_2}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "Montserrat ExtraBold",
+                "size": "44",
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 72
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": 0.093,
+              "y": -0.254
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{List_1}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "Montserrat ExtraBold",
+                "size": "44",
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 72
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0.093,
+              "y": -0.201
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_4 }}"
+            },
+            "start": 0.7,
+            "scale": 0.115,
+            "transform": {
+              "rotate": {
+                "angle": -14.6
+              }
+            },
+            "offset": {
+              "x": 0.246,
+              "y": -0.045
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 372,
+              "height": 296,
+              "background": {
+                "color": "{{ FONT_COLOR_1 }}"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": 0.246,
+              "y": -0.053
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -14.6
+              }
+            },
+            "transition": {
+              "in": "carouselRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_3 }}"
+            },
+            "start": 0.6,
+            "scale": 0.115,
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 372,
+              "height": 296,
+              "background": {
+                "color": "{{ FONT_COLOR_1 }}"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.011
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_2 }}"
+            },
+            "start": 0.5,
+            "scale": 0.115,
+            "transform": {
+              "rotate": {
+                "angle": 9
+              }
+            },
+            "offset": {
+              "x": -0.253,
+              "y": -0.033
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 372,
+              "height": 296,
+              "background": {
+                "color": "{{ FONT_COLOR_1 }}"
+              }
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": -0.253,
+              "y": -0.045
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 9
+              }
+            },
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_1 }}"
+            },
+            "start": 0.4,
+            "scale": 0.17,
+            "transform": {
+              "rotate": {
+                "angle": -6
+              }
+            },
+            "offset": {
+              "x": 0,
+              "y": 0.135
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 547,
+              "height": 435,
+              "background": {
+                "color": "{{ FONT_COLOR_1 }}"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.118
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -6
+              }
+            },
+            "transition": {
+              "in": "carouselRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Company_Name}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_2 }}",
+                "family": "Montserrat ExtraBold",
+                "size": "30",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 72
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.404
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR_2 }}"
+              }
+            },
+            "start": 0,
+            "length": 5,
+            "position": "center"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "Company_Name",
+      "replace": "Travel Survey"
+    },
+    {
+      "find": "Title",
+      "replace": "EXPERIENCE MIXICO CULTURE"
+    },
+    {
+      "find": "List_1",
+      "replace": "Festivals & Traditions"
+    },
+    {
+      "find": "List_2",
+      "replace": "Historic & Cultural Sites"
+    },
+    {
+      "find": "List_3",
+      "replace": " Art & Handcrafts"
+    },
+    {
+      "find": "CTA",
+      "replace": "Visit Now"
+    },
+    {
+      "find": "Web",
+      "replace": "www.travelsurvey.com"
+    },
+    {
+      "find": "Phone",
+      "replace": "012-345-6789"
+    },
+    {
+      "find": "IMAGE_1",
+      "replace": "https://templates.shotstack.io/cultural-travel-promotion-offer-template/8194a145-e016-43d4-9f73-20489d1fa98f/source.png"
+    },
+    {
+      "find": "IMAGE_2",
+      "replace": "https://templates.shotstack.io/cultural-travel-promotion-offer-template/f7cb2b28-82a4-4588-9237-7f81b686ffdd/source.png"
+    },
+    {
+      "find": "IMAGE_3",
+      "replace": "https://templates.shotstack.io/cultural-travel-promotion-offer-template/ac583bd3-04f5-4052-b8fc-88e7eb249ed4/source.png"
+    },
+    {
+      "find": "IMAGE_4",
+      "replace": "https://templates.shotstack.io/cultural-travel-promotion-offer-template/4682b9c3-e85d-4c61-82df-3a13bc87f540/source.png"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#03378c"
+    },
+    {
+      "find": "SHAPE_COLOR",
+      "replace": "#97d7f7"
+    },
+    {
+      "find": "BACKGROUND_COLOR_2",
+      "replace": "#54c1f8"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/cultural-travel-promotion-offer-template/dec1c893-442f-4a14-817a-fb02dcebbd36/source.mp3"
+    }
+  ]
+}

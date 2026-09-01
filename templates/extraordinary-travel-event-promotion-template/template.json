@@ -1,0 +1,859 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/extraordinary-travel-event-promotion-template/6bac5e59-0074-4cee-8565-3d5c37b82365/source.otf"
+      },
+      {
+        "src": "https://templates.shotstack.io/extraordinary-travel-event-promotion-template/32d9ce00-2749-4414-809d-20ec8788e6d8/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 724,
+              "height": 724,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 19.99,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.154
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/extraordinary-travel-event-promotion-template/54a4d36e-9643-444c-b28f-89195193a768/source.png"
+            },
+            "start": 19.99,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/extraordinary-travel-event-promotion-template/640c5510-5b5f-4b5c-8c91-f536cd6a3a93/source.mp4"
+            },
+            "start": 20.0915,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 380,
+              "height": 380,
+              "background": {
+                "color": "#a502fd"
+              }
+            },
+            "start": 22.54202857142858,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.035
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 380,
+              "height": 380,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 20,
+            "length": 2.58,
+            "offset": {
+              "x": 0,
+              "y": -0.035
+            },
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/extraordinary-travel-event-promotion-template/963855ad-89da-4d54-af51-b4f676240ed6/source.mp4"
+            },
+            "start": 20,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S5_Subtitle_3}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Aileron Bold",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 72
+            },
+            "start": 21.23,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.238
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S5_Subtitle_2}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Libre Baskerville",
+                "size": "75",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 100
+            },
+            "start": 20.83,
+            "length": "end",
+            "offset": {
+              "y": -0.203,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S5_Subtitle_1}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Aileron Bold",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 72
+            },
+            "start": 20.36,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.166
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S4_Subtitle_2}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Libre Baskerville",
+                "size": "95",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 200
+            },
+            "start": 15.63,
+            "length": 4.37,
+            "offset": {
+              "x": 0,
+              "y": -0.038
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S4_Subtitle_1}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Aileron Bold",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 72
+            },
+            "start": 15.31,
+            "length": 4.69,
+            "offset": {
+              "x": 0,
+              "y": 0.033
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.98,
+            "asset": {
+              "type": "video",
+              "src": "{{ S4_VIDEO_3 }}",
+              "trim": 0.68,
+              "volume": 1
+            },
+            "start": 16.02,
+            "scale": 0.33,
+            "offset": {
+              "x": 0.235,
+              "y": -0.301
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.01,
+            "asset": {
+              "type": "video",
+              "src": "{{ S4_VIDEO_2 }}",
+              "trim": 0.85,
+              "volume": 1
+            },
+            "start": 15.99,
+            "scale": 0.33,
+            "offset": {
+              "x": -0.235,
+              "y": -0.301
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "{{ S4_VIDEO_1 }}",
+              "volume": 1
+            },
+            "start": 15,
+            "scale": 0.57,
+            "offset": {
+              "x": 0,
+              "y": 0.179
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S3_Subtitle_2}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Libre Baskerville",
+                "size": "100",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 100
+            },
+            "start": 10,
+            "length": 5,
+            "offset": {
+              "x": 0,
+              "y": 0.368
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S3_Subtitle_1}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Aileron Bold",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 72
+            },
+            "start": 10.47,
+            "length": 4.53,
+            "offset": {
+              "x": 0,
+              "y": 0.42
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "{{ S3_VIDEO }}",
+              "volume": 1
+            },
+            "start": 10,
+            "scale": 0.7,
+            "offset": {
+              "x": 0,
+              "y": -0.109
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.54,
+            "asset": {
+              "type": "video",
+              "src": "{{ S2_VIDEO_2 }}",
+              "volume": 1,
+              "trim": 2.34
+            },
+            "start": 7.46,
+            "scale": 0.36,
+            "offset": {
+              "x": 0,
+              "y": -0.29
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "{{ S2_VIDEO_1 }}",
+              "volume": 1
+            },
+            "start": 5,
+            "scale": 0.36,
+            "offset": {
+              "x": 0,
+              "y": 0.298
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_Subtitle_2}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Libre Baskerville",
+                "size": "90",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 200
+            },
+            "start": 6.35,
+            "length": 3.65,
+            "offset": {
+              "x": 0,
+              "y": -0.023
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_Subtitle_1}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "{{ FONT_COLOR }}",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 100
+            },
+            "start": 5.34,
+            "length": 4.66,
+            "offset": {
+              "x": 0,
+              "y": 0.047
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Web}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Aileron Bold",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 150
+            },
+            "start": 1.06,
+            "length": 3.94,
+            "offset": {
+              "x": 0,
+              "y": -0.44
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_Subtitle_2}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Libre Baskerville",
+                "size": "150",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 150
+            },
+            "start": 0.71,
+            "length": 4.29,
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_Subtitle_1}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Aileron Bold",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 150
+            },
+            "start": 0.36,
+            "length": 4.64,
+            "offset": {
+              "x": 0,
+              "y": 0.078
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_Title}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Aileron Bold",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 600,
+              "height": 70
+            },
+            "start": 0,
+            "length": 5,
+            "offset": {
+              "x": -0.005,
+              "y": 0.388
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "{{ S1_VIDEO }}",
+              "volume": 1
+            },
+            "start": 0,
+            "scale": 0.9,
+            "transition": {
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ SHAPE_COLOR_2 }}"
+              }
+            },
+            "start": 0,
+            "length": 25.5,
+            "position": "center"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "S1_Title",
+      "replace": "TRIP REVIEW"
+    },
+    {
+      "find": "S1_Subtitle_1",
+      "replace": "COME EXPERIENCE THE EXTRAORDINARY"
+    },
+    {
+      "find": "S1_Subtitle_2",
+      "replace": "BELGIUM"
+    },
+    {
+      "find": "Web",
+      "replace": "www.travelsurvey.com"
+    },
+    {
+      "find": "S1_VIDEO",
+      "replace": "https://templates.shotstack.io/extraordinary-travel-event-promotion-template/2fb417ec-abdc-401d-bb11-3295a875b9a3/source.mp4"
+    },
+    {
+      "find": "S2_Subtitle_1",
+      "replace": "HISTORICAL"
+    },
+    {
+      "find": "S2_Subtitle_2",
+      "replace": "CASTLES & FORTRESSESs"
+    },
+    {
+      "find": "S2_VIDEO_1",
+      "replace": "https://templates.shotstack.io/extraordinary-travel-event-promotion-template/a9ce9830-cb98-4802-8053-20de3317aee2/source.mp4"
+    },
+    {
+      "find": "S2_VIDEO_2",
+      "replace": "https://templates.shotstack.io/extraordinary-travel-event-promotion-template/c8811ada-4094-42a8-858a-78b8848296af/source.mp4"
+    },
+    {
+      "find": "S3_Subtitle_1",
+      "replace": "STREET ART"
+    },
+    {
+      "find": "S3_Subtitle_2",
+      "replace": " ON CORNERS"
+    },
+    {
+      "find": "S3_VIDEO",
+      "replace": "https://templates.shotstack.io/extraordinary-travel-event-promotion-template/67a96f1d-5afa-4319-8401-3ce90ae20048/source.mp4"
+    },
+    {
+      "find": "S4_Subtitle_1",
+      "replace": "STREET ART"
+    },
+    {
+      "find": "S4_Subtitle_2",
+      "replace": "LAYERED, CHARMING"
+    },
+    {
+      "find": "S4_VIDEO_1",
+      "replace": "https://templates.shotstack.io/extraordinary-travel-event-promotion-template/b86ea3c4-94a3-4074-a337-18016d28cc55/source.mp4"
+    },
+    {
+      "find": "S4_VIDEO_2",
+      "replace": "https://templates.shotstack.io/extraordinary-travel-event-promotion-template/381a2b7a-9380-4444-8c6d-2488f63ed8e3/source.mp4"
+    },
+    {
+      "find": "S4_VIDEO_3",
+      "replace": "https://templates.shotstack.io/extraordinary-travel-event-promotion-template/82e7e47a-e032-47e9-b5ee-0a6e363eeaac/source.mp4"
+    },
+    {
+      "find": "S5_Subtitle_1",
+      "replace": "DISCOVER BEAUTY HIDDEN IN ALL OF"
+    },
+    {
+      "find": "S5_Subtitle_2",
+      "replace": "BELGIUM"
+    },
+    {
+      "find": "S5_Subtitle_3",
+      "replace": "ON YOUR NEXT HOLIDAY"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#a502fd"
+    },
+    {
+      "find": "SHAPE_COLOR_2",
+      "replace": "#000000"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/extraordinary-travel-event-promotion-template/f284e4ec-45bf-479e-9827-fd1c949e6c68/source.mp3"
+    }
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{BULLETIN}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 55,
+                "weight": 700,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.227,
+              "y": -0.028
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 600,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_PRESENTER }}"
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": -0.25234375,
+              "y": 0.01829629629629631
+            },
+            "position": "center",
+            "width": 951,
+            "height": 802,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 70 70\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"70\" height=\"70\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0.153,
+              "y": -0.426
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 70,
+            "height": 70
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/government-policy-review-news-template-updates-analysis/3db32966-c66c-429b-8d9b-a8c99cdde446/source.png"
+            },
+            "start": 0.8,
+            "length": 19.2
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 70 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"70\" height=\"50\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.22,
+              "y": -0.43
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 70,
+            "height": 50
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/government-policy-review-news-template-updates-analysis/069ef6bd-eafc-48b0-969f-30870effc289/source.png"
+            },
+            "start": 0.6,
+            "length": 19.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 60 70\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"60\" height=\"70\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.436,
+              "y": -0.431
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 60,
+            "height": 70
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/government-policy-review-news-template-updates-analysis/dd6496d6-2511-46f0-83a3-b0d7d53c7371/source.png"
+            },
+            "start": 0.4,
+            "length": 19.6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{WEB}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 28,
+                "weight": 500,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": 0.312,
+              "y": -0.43
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 500,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{EMAIL}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 28,
+                "weight": 500,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": -0.037,
+              "y": -0.43
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 600,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{PHONE}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 28,
+                "weight": 500,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": -0.328,
+              "y": -0.43
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 300,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{STATUS}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 40,
+                "weight": 700,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ SHAPE_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 0
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.445,
+              "y": 0.444
+            },
+            "position": "center",
+            "width": 150,
+            "height": 70
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{HEADING}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 43,
+                "weight": 500,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "left",
+                "style": "word",
+                "duration": 1.5
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.248,
+              "y": -0.19
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 800,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 780 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"780\" height=\"100\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0.248,
+              "y": -0.024
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 780,
+            "height": 100
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/government-policy-review-news-template-updates-analysis/6048d57b-af0f-4f9c-a269-c3302fbc6271/source.png"
+            },
+            "start": 0.2,
+            "length": 19.8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 2000 350\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"2000\" height=\"350\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.003,
+              "y": -0.19
+            },
+            "position": "center",
+            "width": 2000,
+            "height": 350
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 2000 160\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"2000\" height=\"160\" fill=\"{{ FONT_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.011,
+              "y": -0.426
+            },
+            "position": "center",
+            "width": 2000,
+            "height": 160
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 20,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_BACKGROUND }}"
+            },
+            "start": 0,
+            "width": 1920,
+            "height": 1080,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "contain"
+          }
+        ]
+      }
+    ],
+    "fonts": [
+      {
+        "src": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm45xW5rygbi49c.ttf"
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "HEADING",
+      "replace": "GOVERNMENT REVIEWS POLICIES TO BOOST IMPORTATION AND STRENGTHEN EXPORTATION FOR ECONOMIC GROWTH"
+    },
+    {
+      "find": "BULLETIN",
+      "replace": "NEWS UPDATE"
+    },
+    {
+      "find": "STATUS",
+      "replace": "LIVE"
+    },
+    {
+      "find": "PHONE",
+      "replace": "+100-327-3432"
+    },
+    {
+      "find": "EMAIL",
+      "replace": "HELP@NEWSNORTHSURVEY.COM"
+    },
+    {
+      "find": "WEB",
+      "replace": "WWW.NEWSNORTHSURVEY.COM"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#000000"
+    },
+    {
+      "find": "SHAPE_COLOR",
+      "replace": "#bb0000"
+    },
+    {
+      "find": "VIDEO_PRESENTER",
+      "replace": "https://templates.shotstack.io/government-policy-review-news-template-updates-analysis/e679c6c9-f333-4cb9-9669-1f842c2d3e2a/source.mp4"
+    },
+    {
+      "find": "VIDEO_BACKGROUND",
+      "replace": "https://templates.shotstack.io/government-policy-review-news-template-updates-analysis/4f303b15-cd4f-49f9-b3ed-9638a07fae48/source.mp4"
+    }
+  ]
+}

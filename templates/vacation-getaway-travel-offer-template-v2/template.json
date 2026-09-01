@@ -1,0 +1,780 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/vacation-getaway-travel-offer-template/6b879d9c-5408-4a56-92c2-5d6a10c2b6df/source.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/greatvibes/v21/RWmMoKWR9v4ksMfaWd_JN-XCg6UKDXlq.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S4_Body}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 46,
+                "weight": 600,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 15.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.046
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideLeft"
+            },
+            "width": 700,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S4_Subtitle}}",
+              "font": {
+                "family": "Great Vibes",
+                "size": 120,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 15,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.021
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideLeft"
+            },
+            "width": 400,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"200\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 15,
+            "length": "end",
+            "transform": {
+              "rotate": {
+                "angle": 180
+              }
+            },
+            "offset": {
+              "y": -0.355,
+              "x": 0.278
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideLeft"
+            },
+            "width": 200,
+            "height": 200
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/vacation-getaway-travel-offer-template/5aa55fcc-6542-408a-ab83-5fc5c5bc561a/source.mp4"
+            },
+            "start": 15,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ S4_VIDEO }}"
+            },
+            "start": 14.6,
+            "scale": 1,
+            "transition": {
+              "out": "slideLeft"
+            },
+            "fit": "contain",
+            "width": 840,
+            "height": 1491,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 902 1576\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"902\" height=\"1576\" fill=\"{{ FONT_COLOR }}\" fill-opacity=\"0.87\"/></svg>"
+            },
+            "start": 14.6,
+            "length": "end",
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 902,
+            "height": 1576
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_Body}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 46,
+                "weight": 600,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 10.6,
+            "length": 4,
+            "offset": {
+              "x": 0.034,
+              "y": -0.342
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideLeft",
+              "in": "slideLeft"
+            },
+            "width": 700,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_Subtitle}}",
+              "font": {
+                "family": "Great Vibes",
+                "size": 120,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 10.2,
+            "length": 4.4,
+            "offset": {
+              "x": 0.209,
+              "y": -0.271
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideLeft"
+            },
+            "width": 400,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"200\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 10.2,
+            "length": 4.4,
+            "offset": {
+              "x": -0.29,
+              "y": -0.271
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideLeft",
+              "in": "slideLeft"
+            },
+            "width": 200,
+            "height": 200
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/vacation-getaway-travel-offer-template/ba38a100-4616-420c-9180-87b33deaf67c/source.mp4"
+            },
+            "start": 10.2,
+            "length": 4.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.8,
+            "asset": {
+              "type": "video",
+              "src": "{{ S3_VIDEO }}",
+              "volume": 0
+            },
+            "start": 9.8,
+            "scale": 1,
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideLeft"
+            },
+            "fit": "contain",
+            "width": 858,
+            "height": 1531,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 902 1682\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"902\" height=\"1682\" fill=\"{{ FONT_COLOR }}\" fill-opacity=\"0.87\"/></svg>"
+            },
+            "start": 9.8,
+            "length": 4.8,
+            "position": "center",
+            "transition": {
+              "out": "slideLeft",
+              "in": "slideLeft"
+            },
+            "width": 902,
+            "height": 1682
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_Body}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 46,
+                "weight": 600,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 5.8,
+            "length": 4,
+            "offset": {
+              "x": -0.021,
+              "y": -0.332
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideLeft"
+            },
+            "width": 700,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_Subtitle}}",
+              "font": {
+                "family": "Great Vibes",
+                "size": 120,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 5.4,
+            "length": 4.4,
+            "offset": {
+              "x": -0.215,
+              "y": -0.252
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideLeft",
+              "in": "slideLeft"
+            },
+            "width": 400,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"200\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 5.4,
+            "length": 4.4,
+            "transform": {
+              "rotate": {
+                "angle": 180
+              }
+            },
+            "offset": {
+              "x": 0.288,
+              "y": -0.258
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideLeft"
+            },
+            "width": 200,
+            "height": 200
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/vacation-getaway-travel-offer-template/bcd0f012-dfea-47b5-9e06-50f69352c483/source.mp4"
+            },
+            "start": 5.4,
+            "length": 4.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.8,
+            "asset": {
+              "type": "video",
+              "src": "{{ S2_VIDEO }}",
+              "volume": 0
+            },
+            "start": 5,
+            "scale": 1,
+            "transition": {
+              "out": "slideLeft",
+              "in": "slideLeft"
+            },
+            "fit": "contain",
+            "width": 861,
+            "height": 1529,
+            "offset": {
+              "x": 0.002070630079731267,
+              "y": -0.0005888718954213468
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 902 1576\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"902\" height=\"1576\" fill=\"{{ FONT_COLOR }}\" fill-opacity=\"0.87\"/></svg>"
+            },
+            "start": 5,
+            "length": 4.8,
+            "position": "center",
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideLeft"
+            },
+            "width": 902,
+            "height": 1576
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Title}}",
+              "font": {
+                "family": "Great Vibes",
+                "size": 120,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "opacity": 0.12,
+                "borderRadius": 0
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 1,
+            "length": 4,
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "width": 600,
+            "height": 300
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 250 250\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"250\" height=\"250\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.7,
+            "length": 4.3,
+            "offset": {
+              "x": -0.347,
+              "y": 0.435
+            },
+            "position": "center",
+            "width": 250,
+            "height": 250
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/vacation-getaway-travel-offer-template/ecd7cd9e-ea73-4294-b340-8ac1806e7527/source.mp4"
+            },
+            "start": 0.7,
+            "length": 4.3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.32,
+            "asset": {
+              "type": "video",
+              "src": "{{ S1_VIDEO_1 }}",
+              "volume": 0
+            },
+            "start": 0.7,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": -0.325
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "slideLeft"
+            },
+            "fit": "contain",
+            "width": 1028,
+            "height": 581
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.6,
+            "asset": {
+              "type": "video",
+              "src": "{{ S1_VIDEO_2 }}",
+              "volume": 0
+            },
+            "start": 0.4,
+            "scale": 1,
+            "transition": {
+              "out": "slideLeft",
+              "in": "slideRight"
+            },
+            "fit": "contain",
+            "width": 1028,
+            "height": 581
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 250 250\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"250\" height=\"250\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 5,
+            "offset": {
+              "x": -0.347,
+              "y": 0.435
+            },
+            "position": "center",
+            "width": 250,
+            "height": 250
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/vacation-getaway-travel-offer-template/a4a871ff-1763-471b-ab4a-75dfe5700269/source.mp4"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "{{ S1_VIDEO_3 }}",
+              "volume": 0
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": 0.0006200413334122839,
+              "y": 0.3265244456694087
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "slideLeft"
+            },
+            "fit": "contain",
+            "width": 1028,
+            "height": 581
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 20,
+            "position": "center",
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "S1_Title",
+      "replace": "My Vacation Plan"
+    },
+    {
+      "find": "S1_VIDEO_1",
+      "replace": "https://templates.shotstack.io/vacation-getaway-travel-offer-template/158347ba-1376-4248-809a-9d7b4a812702/source.mp4"
+    },
+    {
+      "find": "S1_VIDEO_2",
+      "replace": "https://templates.shotstack.io/vacation-getaway-travel-offer-template/66ec51b2-99b4-4413-9a78-745154f7106a/source.mp4"
+    },
+    {
+      "find": "S1_VIDEO_3",
+      "replace": "https://templates.shotstack.io/vacation-getaway-travel-offer-template/a4ee377a-63e0-4a60-aeb0-e983977695bb/source.mp4"
+    },
+    {
+      "find": "S2_Subtitle",
+      "replace": "Day 1"
+    },
+    {
+      "find": "S2_Body",
+      "replace": "exploring art & cafés in Paris"
+    },
+    {
+      "find": "S2_VIDEO",
+      "replace": "https://templates.shotstack.io/vacation-getaway-travel-offer-template/97888ce8-92c6-42a7-a775-54497898e6ba/source.mp4"
+    },
+    {
+      "find": "S3_Subtitle",
+      "replace": "Day 2"
+    },
+    {
+      "find": "S3_Body",
+      "replace": "Camping under the Northern Lights in Finland"
+    },
+    {
+      "find": "S3_VIDEO",
+      "replace": "https://templates.shotstack.io/vacation-getaway-travel-offer-template/ed7150c6-3d75-40fa-a092-8c59f4e54344/source.mp4"
+    },
+    {
+      "find": "S4_Subtitle",
+      "replace": "Day 3"
+    },
+    {
+      "find": "S4_Body",
+      "replace": "Hiking in the Swiss Alps"
+    },
+    {
+      "find": "S4_VIDEO",
+      "replace": "https://templates.shotstack.io/vacation-getaway-travel-offer-template/f594c673-0f92-4b2f-b6f4-fbf435c59197/source.mp4"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#02526c"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/vacation-getaway-travel-offer-template/94b20eaa-6ad0-47a8-9cbb-157cc507b564/source.mp3"
+    }
+  ]
+}

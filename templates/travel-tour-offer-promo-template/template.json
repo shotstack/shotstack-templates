@@ -1,0 +1,763 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 400,
+              "background": {
+                "color": "#000000"
+              }
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": -0.324,
+              "y": -0.182
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-tour-offer-promo-template/c0f5d57c-a1ae-4736-8799-35f8313ade18/source.png"
+            },
+            "start": 0.5,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ Logo }}"
+            },
+            "start": 0,
+            "scale": 0.12,
+            "offset": {
+              "x": 0,
+              "y": 0.42
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "https://templates.shotstack.io/travel-tour-offer-promo-template/17009430-da10-483c-85e4-6c274d6a37aa/source.mp3",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Web}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 72
+            },
+            "start": 1.05,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.417
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Social_Handle}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 72
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.38
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{CTA}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": 34,
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 72
+            },
+            "start": 0.95,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.311
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-tour-offer-promo-template/495eed9e-fe43-4c5d-a221-b320bd3132b3/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 300,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 0.95,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.311
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-tour-offer-promo-template/82114c40-b553-495d-9ac4-b4b2197afc61/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 400,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": 0.425,
+              "y": -0.219
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Body}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 80
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.164
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title_1}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 150
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.066
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-tour-offer-promo-template/16696ba6-ea4c-4d9e-9de2-101b84de7a07/source.png"
+            },
+            "start": 0,
+            "length": 5
+          },
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_4 }}"
+            },
+            "start": 0.8,
+            "scale": 0.135,
+            "offset": {
+              "x": 0.231,
+              "y": 0.068
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-tour-offer-promo-template/061aa83a-61b7-4347-ada5-769d0ba817f8/source.png"
+            },
+            "start": 0,
+            "length": 5
+          },
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_3 }}"
+            },
+            "start": 0.6,
+            "scale": 0.135,
+            "offset": {
+              "x": 0,
+              "y": 0.073
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-tour-offer-promo-template/5c4cbb49-7066-43a4-9593-70902a1cb453/source.png"
+            },
+            "start": 0,
+            "length": 5
+          },
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_2 }}"
+            },
+            "start": 0.4,
+            "scale": 0.135,
+            "offset": {
+              "x": -0.254,
+              "y": 0.068
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-tour-offer-promo-template/deb99d2f-d11f-44b6-bbe7-8e00078a3d8b/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 185,
+              "height": 157,
+              "background": {
+                "color": "{{ FONT_COLOR }}",
+                "borderRadius": 0
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0.231,
+              "y": 0.068
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-tour-offer-promo-template/f3be44a4-c8f8-46e7-bdb5-4b52177630f7/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 186,
+              "height": 158,
+              "background": {
+                "color": "{{ FONT_COLOR }}",
+                "borderRadius": 0
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.073
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-tour-offer-promo-template/5f8d50c5-4236-4203-bb43-c015193d806b/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 186,
+              "height": 158,
+              "background": {
+                "color": "{{ FONT_COLOR }}",
+                "borderRadius": 0
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.254,
+              "y": 0.068
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-tour-offer-promo-template/a0f71a2a-73c8-4874-9eb7-9d49a08a5d89/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_1 }}"
+            },
+            "start": 0.2,
+            "scale": 0.69,
+            "offset": {
+              "x": 0,
+              "y": 0.231
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-tour-offer-promo-template/c97895cd-60e4-41c2-9a46-cbce8e1fa930/source.png"
+            },
+            "start": 0.06,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 732,
+              "height": 339,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "transition": {
+              "in": "carouselRight"
+            },
+            "offset": {
+              "y": 0.231
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1080,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 0.58
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 980,
+              "height": 980,
+              "background": {
+                "color": "{{ FONT_COLOR }}",
+                "borderRadius": 0
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.498
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselDown"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-tour-offer-promo-template/68637666-53b6-4c6e-bbe2-586c8dc1d332/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ BACKGROUNG_IMAGE }}"
+            },
+            "start": 0
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1080
+    }
+  },
+  "merge": [
+    {
+      "find": "IMAGE_1",
+      "replace": "https://templates.shotstack.io/travel-tour-offer-promo-template/00af51ea-87f2-46bb-b973-d0aca0d6f290/source.png"
+    },
+    {
+      "find": "IMAGE_2",
+      "replace": "https://templates.shotstack.io/travel-tour-offer-promo-template/4f36009c-bcf4-42ea-b8f1-d075d52b4612/source.png"
+    },
+    {
+      "find": "IMAGE_3",
+      "replace": "https://templates.shotstack.io/travel-tour-offer-promo-template/b5268faf-e189-427e-b8fb-0fd64fec8e3e/source.png"
+    },
+    {
+      "find": "IMAGE_4",
+      "replace": "https://templates.shotstack.io/travel-tour-offer-promo-template/9ec78856-d415-462c-aed0-7ccf20ffba92/source.png"
+    },
+    {
+      "find": "Title_1",
+      "replace": "EXPLORE SPAIN"
+    },
+    {
+      "find": "Body",
+      "replace": "Get ready to uncover the magic of Spain! We're here to make your journey unforgettable. Reserve your spot today and take advantage of our limited-time offer.\""
+    },
+    {
+      "find": "CTA",
+      "replace": "BOOK TODAY"
+    },
+    {
+      "find": "Social_Handle",
+      "replace": "@travellingsurvey"
+    },
+    {
+      "find": "Web",
+      "replace": "www.travellingsurvey.com"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "BACKGROUNG_IMAGE",
+      "replace": "https://templates.shotstack.io/travel-tour-offer-promo-template/d4bf67ea-debc-4766-ac7a-1e070dd12a50/source.png"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#e4c00c"
+    },
+    {
+      "find": "Logo",
+      "replace": "https://templates.shotstack.io/travel-tour-offer-promo-template/6e746b5c-bc0d-44c4-99b1-272f0b91d935/source.png"
+    }
+  ]
+}

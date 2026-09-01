@@ -1,0 +1,1310 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/canadian-event-promo-template-sale-offer/f280267e-3758-40e3-a7bc-71a7cf93d854/source.otf"
+      },
+      {
+        "src": "https://templates.shotstack.io/canadian-event-promo-template-sale-offer/df527ac0-e895-407e-9e13-ee049ce7349f/source.otf"
+      },
+      {
+        "src": "https://templates.shotstack.io/canadian-event-promo-template-sale-offer/b304be11-6fae-4df5-b9bd-974ba291b39d/source.otf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Producer_Name}}",
+              "font": {
+                "family": "Garet Book",
+                "size": 38,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 20.35,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.057
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 600 600\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"600\" height=\"600\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 20.25,
+            "length": 3.16,
+            "offset": {
+              "x": 0,
+              "y": -0.057
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 600,
+            "height": 600
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/canadian-event-promo-template-sale-offer/57b8b628-7732-41cb-906d-d93459f1d931/source.png"
+            },
+            "start": 20.25,
+            "length": 3.16
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S7_CTA_2}}",
+              "font": {
+                "family": "Perandory",
+                "size": 37,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 20.13,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.134
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 900,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S7_CTA_1}}",
+              "font": {
+                "family": "Perandory",
+                "size": 132,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "down",
+                "style": "word"
+              }
+            },
+            "start": 20,
+            "length": "end",
+            "offset": {
+              "x": -0.016,
+              "y": 0.042
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 900,
+            "height": 300
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.4,
+            "asset": {
+              "type": "video",
+              "src": "{{ S7_VIDEO }}"
+            },
+            "start": 20,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S6_Body}}",
+              "font": {
+                "family": "Perandory",
+                "size": 37,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "style": "word",
+                "direction": "down"
+              }
+            },
+            "start": 17.09,
+            "length": 3.31,
+            "offset": {
+              "x": 0,
+              "y": -0.403
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselLeft"
+            },
+            "width": 900,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 900 6\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"900\" height=\"6\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 16.87,
+            "length": 3.53,
+            "offset": {
+              "y": -0.336,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "out": "carouselLeft",
+              "in": "slideUp"
+            },
+            "width": 900,
+            "height": 6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S6_Subtitle}}",
+              "font": {
+                "family": "Perandory",
+                "size": 102,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "style": "word",
+                "direction": "down"
+              }
+            },
+            "start": 16.72,
+            "length": 3.68,
+            "offset": {
+              "x": 0.005,
+              "y": -0.269
+            },
+            "position": "center",
+            "transition": {
+              "out": "carouselLeft",
+              "in": "slideUp"
+            },
+            "width": 900,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/canadian-event-promo-template-sale-offer/676cfffb-9cd9-48cc-97d9-9a63235b6ffc/source.png"
+            },
+            "start": 16.6,
+            "length": 3.8
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1080\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1080\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 16.6,
+            "length": 3.8,
+            "offset": {
+              "x": 0,
+              "y": -0.219
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 1080,
+            "height": 1080
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.8,
+            "asset": {
+              "type": "video",
+              "src": "{{ S6_VIDEO }}"
+            },
+            "start": 16.6,
+            "transition": {
+              "in": "fade"
+            },
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S5_Body}}",
+              "font": {
+                "family": "Perandory",
+                "size": 37,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "down",
+                "style": "word"
+              }
+            },
+            "start": 13.71,
+            "length": 3.29,
+            "offset": {
+              "x": 0,
+              "y": -0.403
+            },
+            "position": "center",
+            "transition": {
+              "out": "carouselLeft",
+              "in": "slideUp"
+            },
+            "width": 900,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 900 6\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"900\" height=\"6\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 13.52,
+            "length": 3.48,
+            "offset": {
+              "y": -0.336,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "out": "carouselLeft",
+              "in": "slideUp"
+            },
+            "width": 900,
+            "height": 6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S5_Subtitle}}",
+              "font": {
+                "family": "Perandory",
+                "size": 102,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "down",
+                "style": "word"
+              }
+            },
+            "start": 13.34,
+            "length": 3.66,
+            "offset": {
+              "x": 0,
+              "y": -0.305
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselLeft"
+            },
+            "width": 900,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1080\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1080\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 13.2,
+            "length": 3.8,
+            "offset": {
+              "x": 0,
+              "y": -0.219
+            },
+            "position": "center",
+            "transition": {
+              "out": "carouselLeft",
+              "in": "slideUp"
+            },
+            "width": 1080,
+            "height": 1080
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/canadian-event-promo-template-sale-offer/1e3bf05d-73ee-48a5-a090-ed8eb403bab2/source.png"
+            },
+            "start": 13.2,
+            "length": 3.8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.8,
+            "asset": {
+              "type": "video",
+              "src": "{{ S5_VIDEO }}",
+              "volume": 0
+            },
+            "start": 13.2,
+            "alias": "770d27c4",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S4_Body}}",
+              "font": {
+                "family": "Perandory",
+                "size": 37,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "down",
+                "style": "word"
+              }
+            },
+            "start": 10.31,
+            "length": 3.29,
+            "offset": {
+              "x": 0,
+              "y": -0.403
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselLeft"
+            },
+            "width": 900,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 900 6\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"900\" height=\"6\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 10.12,
+            "length": 3.48,
+            "offset": {
+              "y": -0.336,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "out": "carouselLeft",
+              "in": "slideUp"
+            },
+            "width": 900,
+            "height": 6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{S4_Subtitle}}",
+              "font": {
+                "family": "Perandory",
+                "size": 102,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "down",
+                "style": "word"
+              }
+            },
+            "start": 9.95,
+            "length": 3.65,
+            "offset": {
+              "x": 0,
+              "y": -0.251
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselLeft"
+            },
+            "width": 900,
+            "height": 350
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/canadian-event-promo-template-sale-offer/7c00af58-5b97-4f74-bb20-fc66ec00b053/source.png"
+            },
+            "start": 9.8,
+            "length": 3.8
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1080\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1080\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 9.8,
+            "length": 3.8,
+            "offset": {
+              "x": 0,
+              "y": -0.219
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselLeft"
+            },
+            "width": 1080,
+            "height": 1080
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.8,
+            "asset": {
+              "type": "video",
+              "src": "{{ S4_VIDEO }}"
+            },
+            "start": 9.8,
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_Body}}",
+              "font": {
+                "family": "Perandory",
+                "size": 37,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "down",
+                "style": "word"
+              }
+            },
+            "start": 6.87,
+            "length": 3.33,
+            "offset": {
+              "x": 0,
+              "y": -0.411
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselLeft"
+            },
+            "width": 900,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 900 6\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"900\" height=\"6\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 6.7,
+            "length": 3.5,
+            "offset": {
+              "y": -0.344
+            },
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselLeft"
+            },
+            "width": 900,
+            "height": 6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_Subtitle}}",
+              "font": {
+                "family": "Perandory",
+                "size": 102,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "down",
+                "style": "word"
+              }
+            },
+            "start": 6.54,
+            "length": 3.66,
+            "offset": {
+              "x": 0,
+              "y": -0.277
+            },
+            "position": "center",
+            "transition": {
+              "out": "carouselLeft",
+              "in": "slideUp"
+            },
+            "width": 900,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1080\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1080\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 6.4,
+            "length": 3.8,
+            "offset": {
+              "x": 0,
+              "y": -0.219
+            },
+            "position": "center",
+            "transition": {
+              "out": "carouselLeft",
+              "in": "slideUp"
+            },
+            "width": 1080,
+            "height": 1080
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/canadian-event-promo-template-sale-offer/8256b917-5a68-464d-9ade-618ba96cf768/source.png"
+            },
+            "start": 6.4,
+            "length": 3.8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.8,
+            "asset": {
+              "type": "video",
+              "src": "{{ S3_VIDEO }}"
+            },
+            "start": 6.4,
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_Subtitle_1}}",
+              "font": {
+                "family": "Perandory",
+                "size": 37,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "style": "word",
+                "direction": "down"
+              }
+            },
+            "start": 3.57,
+            "length": 3.23,
+            "offset": {
+              "x": 0,
+              "y": -0.378
+            },
+            "position": "center",
+            "transition": {
+              "out": "carouselLeft",
+              "in": "slideUp"
+            },
+            "width": 900,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 900 6\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"900\" height=\"6\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 3.4,
+            "length": 3.4,
+            "offset": {
+              "y": -0.315
+            },
+            "transition": {
+              "out": "carouselLeft",
+              "in": "slideUp"
+            },
+            "width": 900,
+            "height": 6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_Body}}",
+              "font": {
+                "family": "Perandory",
+                "size": 102,
+                "weight": 400,
+                "color": "#e2c012",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "style": "word",
+                "direction": "down"
+              }
+            },
+            "start": 3.19,
+            "length": 3.61,
+            "offset": {
+              "x": 0.021,
+              "y": -0.26
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselLeft"
+            },
+            "width": 900,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1080\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1080\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 3,
+            "length": 3.8,
+            "offset": {
+              "x": 0,
+              "y": -0.22
+            },
+            "position": "center",
+            "transition": {
+              "out": "carouselLeft",
+              "in": "slideUp"
+            },
+            "width": 1080,
+            "height": 1080
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/canadian-event-promo-template-sale-offer/bdbcd66a-d85b-45fc-a1a2-c3c6a00080bc/source.png"
+            },
+            "start": 3,
+            "length": 3.8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.8,
+            "asset": {
+              "type": "video",
+              "src": "{{ S2_VIDEO }}"
+            },
+            "start": 3,
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Producer_Name}}",
+              "font": {
+                "family": "Garet Book",
+                "size": 38,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.33,
+            "length": 3.07,
+            "offset": {
+              "x": 0.005,
+              "y": -0.091
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselLeft"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 600 600\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"600\" height=\"600\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.29,
+            "length": 3.11,
+            "offset": {
+              "x": 0,
+              "y": -0.091
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselLeft"
+            },
+            "width": 600,
+            "height": 600
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/canadian-event-promo-template-sale-offer/46bad409-1d4a-4bed-b828-6019ac4e6b6e/source.png"
+            },
+            "start": 0.29,
+            "length": 3.11
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Title_2}}",
+              "font": {
+                "family": "Perandory",
+                "size": 102,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "down",
+                "style": "word"
+              }
+            },
+            "start": 0.18,
+            "length": 3.22,
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselLeft"
+            },
+            "width": 900,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Title_1}}",
+              "font": {
+                "family": "Perandory",
+                "size": 257,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0,
+            "length": 3.4,
+            "offset": {
+              "x": 0,
+              "y": 0.136
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown",
+              "out": "carouselLeft"
+            },
+            "width": 400,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.4,
+            "asset": {
+              "type": "video",
+              "src": "{{ S1_VIDEO }}"
+            },
+            "start": 0,
+            "transition": {
+              "out": "fade"
+            },
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "position": "center",
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "S1_Title_1",
+      "replace": "5"
+    },
+    {
+      "find": "S1_Title_2",
+      "replace": " most beautiful places in Canada"
+    },
+    {
+      "find": "S1_Producer_Name",
+      "replace": "By popular post"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#e2c012"
+    },
+    {
+      "find": "S1_VIDEO",
+      "replace": "https://templates.shotstack.io/canadian-event-promo-template-sale-offer/5703db7f-ba93-4638-8804-50858646b045/source.mp4"
+    },
+    {
+      "find": "S2_Subtitle_1",
+      "replace": "Turquoise lakes like Lake Louise and Moraine Lake, Towering Rocky Mountains and glacier-fed rivers, One of the most scenic spots in North America, ideal year-round"
+    },
+    {
+      "find": "S2_Body",
+      "replace": "Banff National Park, Alberta"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#030303"
+    },
+    {
+      "find": "S2_VIDEO",
+      "replace": "https://templates.shotstack.io/canadian-event-promo-template-sale-offer/8e805a9c-166d-449b-853d-e45081b61c9f/source.mp4"
+    },
+    {
+      "find": "S3_VIDEO",
+      "replace": "https://templates.shotstack.io/canadian-event-promo-template-sale-offer/90f19972-0e1d-4cac-bca2-fd119d5a090b/source.mp4"
+    },
+    {
+      "find": "S3_Subtitle",
+      "replace": "Niagara Falls, Ontario"
+    },
+    {
+      "find": "S3_Body",
+      "replace": "One of the world’s most powerful and iconic waterfalls. Illuminated at night and often seen with rainbows during the day. Surrounded by lush parks, boat tours, and observation decks"
+    },
+    {
+      "find": "S4_VIDEO",
+      "replace": "https://templates.shotstack.io/canadian-event-promo-template-sale-offer/b9e8ac1e-7990-4ffc-a2d3-234f1bee444e/source.mp4"
+    },
+    {
+      "find": "S4_Subtitle",
+      "replace": "Tofino, Vancouver Island, British Columbia"
+    },
+    {
+      "find": "S4_Body",
+      "replace": "Remote surf town with wild beaches, rainforests, and misty coastlines. Perfect for storm watching, kayaking, or spotting whales. Surreal sunsets over the Pacific Ocean"
+    },
+    {
+      "find": "S5_VIDEO",
+      "replace": "https://templates.shotstack.io/canadian-event-promo-template-sale-offer/8e016427-0afb-435e-9c5d-6fb9f5bb068c/source.mp4"
+    },
+    {
+      "find": "S5_Subtitle",
+      "replace": "Quebec City, Quebec"
+    },
+    {
+      "find": "S5_Body",
+      "replace": "Historic European-style charm with cobblestone streets. The majestic Château Frontenac overlooks the St. Lawrence River. Magical in both summer bloom and winter snow"
+    },
+    {
+      "find": "S6_VIDEO",
+      "replace": "https://templates.shotstack.io/canadian-event-promo-template-sale-offer/98c83fa3-22fb-4f2a-a563-5f53d291e801/source.mp4"
+    },
+    {
+      "find": "S6_Subtitle",
+      "replace": "Jasper National Park, Alberta"
+    },
+    {
+      "find": "S6_Body",
+      "replace": "Canada’s largest national park in the Rockies. Mirror-like lakes, dark-sky preserves, and abundant wildlife. Fewer crowds than Banff, but equally stunning"
+    },
+    {
+      "find": "S7_VIDEO",
+      "replace": "https://templates.shotstack.io/canadian-event-promo-template-sale-offer/f314a028-d715-4f0c-a4bf-365b2dc75e19/source.mp4"
+    },
+    {
+      "find": "S7_CTA_1",
+      "replace": "Don't forget to like and share"
+    },
+    {
+      "find": "S7_CTA_2",
+      "replace": "Follos For More Content Like This @Dico"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/canadian-event-promo-template-sale-offer/8d12d872-865b-4334-afaa-14e7e7e9fa80/source.mp3"
+    }
+  ]
+}

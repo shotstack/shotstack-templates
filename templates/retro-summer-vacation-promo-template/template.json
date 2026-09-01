@@ -1,0 +1,357 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/retro-summer-vacation-promo-template/14a1d536-0f92-4971-b1c9-d3f484242c69/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Great Vibes",
+                "size": "120",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 300
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.327
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_4 }}",
+              "volume": 1
+            },
+            "start": 1.2,
+            "scale": 0.2,
+            "offset": {
+              "x": 0,
+              "y": -0.506
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_3 }}",
+              "volume": 1
+            },
+            "start": 1,
+            "scale": 0.2,
+            "offset": {
+              "x": 0,
+              "y": -0.294
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_Disc }}"
+            },
+            "start": 0,
+            "scale": 0.25,
+            "offset": {
+              "x": 0,
+              "y": 0.105
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_2 }}",
+              "volume": 1
+            },
+            "start": 0.8,
+            "scale": 0.2,
+            "offset": {
+              "x": 0,
+              "y": -0.08
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 307,
+              "height": 452,
+              "background": {
+                "color": "#ffffff"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.258
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_5 }}",
+              "volume": 1
+            },
+            "start": 0.6,
+            "scale": 0.21,
+            "offset": {
+              "x": 0.338,
+              "y": -0.249
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 195,
+              "height": 320,
+              "background": {
+                "color": "#ffffff"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.338,
+              "y": -0.249
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_1 }}",
+              "volume": 1
+            },
+            "start": 0.4,
+            "scale": 0.21,
+            "offset": {
+              "x": -0.338,
+              "y": -0.249
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 195,
+              "height": 320,
+              "background": {
+                "color": "#ffffff"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.338,
+              "y": -0.249
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 8,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_BACKGROUNG }}",
+              "volume": 1
+            },
+            "start": 0,
+            "scale": 1
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 800,
+      "height": 800
+    }
+  },
+  "merge": [
+    {
+      "find": "Title",
+      "replace": "Summer Vacation"
+    },
+    {
+      "find": "VIDEO_1",
+      "replace": "https://templates.shotstack.io/retro-summer-vacation-promo-template/bd41a12f-4ab8-4955-8657-69c9ba20731d/source.mp4"
+    },
+    {
+      "find": "VIDEO_2",
+      "replace": "https://templates.shotstack.io/retro-summer-vacation-promo-template/5038b758-8612-46e9-b7dc-53b1f8e60e33/source.mp4"
+    },
+    {
+      "find": "VIDEO_3",
+      "replace": "https://templates.shotstack.io/retro-summer-vacation-promo-template/45acf803-5082-42ba-9fad-04898dec6658/source.mp4"
+    },
+    {
+      "find": "VIDEO_4",
+      "replace": "https://templates.shotstack.io/retro-summer-vacation-promo-template/aa998789-68af-4f67-a57d-fc531823c3bd/source.mp4"
+    },
+    {
+      "find": "VIDEO_5",
+      "replace": "https://templates.shotstack.io/retro-summer-vacation-promo-template/ee11494c-009b-4b80-a51b-9a7ac03487c6/source.mp4"
+    },
+    {
+      "find": "IMAGE_Disc",
+      "replace": "https://templates.shotstack.io/retro-summer-vacation-promo-template/9774b520-475c-4cda-b0cb-1cb6b47ef682/source.png"
+    },
+    {
+      "find": "VIDEO_BACKGROUNG",
+      "replace": "https://templates.shotstack.io/retro-summer-vacation-promo-template/36fe0c19-4bde-42cd-b676-e41d3fb77486/source.mp4"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/retro-summer-vacation-promo-template/fec0462f-3518-43c3-bee8-deb5f0bce6f4/source.mp3"
+    }
+  ]
+}

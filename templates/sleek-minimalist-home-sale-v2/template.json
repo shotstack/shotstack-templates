@@ -1,0 +1,927 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/sleek-minimalist-home-sale/6db6d0e6-5e34-486c-8a03-b064619fc340/1Ptpg8fLXP2dlAXR-HlJJNJ_AtCe.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/sleek-minimalist-home-sale/81cd433c-300a-482a-bcf8-5e399080b3bc/i7dQIE1zZzytGswgU577CDY9LjbffxSTT3Q.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/sleek-minimalist-home-sale/d9b95243-cd9e-48fa-a15c-5ef0eea647ee/CSRg4yNNh-GbW3o3JkwoDcdvMKMf0oBAd3qvCzA.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/sleek-minimalist-home-sale/6c538766-a3cc-4ef3-973d-50f47738f021/ke83OhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TO401Kw.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/sleek-minimalist-home-sale/d6cc1d1f-4658-40ac-8afc-673a04e20698/c4m_1mF4GcnstG_Jh1QH6ac4hNLeNyeYUpolKQM.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/encodesansexpanded/v12/c4m_1mF4GcnstG_Jh1QH6ac4hNLeNyeYUqoiIwdAd5Ab.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{BRAND}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 38,
+                "weight": 800,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0.012,
+              "y": 0.36
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 300,
+            "height": 75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ LOGO }}"
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": 0.01200000000000001,
+              "y": 0.4363020833333333
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 212,
+            "height": 218
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/sleek-minimalist-home-sale/5c10e9c5-1b50-49f6-998a-6ee2409cd7c9/source.png"
+            },
+            "start": 0.3,
+            "length": 2.7
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 50 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"50\" height=\"50\" fill=\"{{ BLACK_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": -0.059,
+              "y": -0.328
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 50,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/sleek-minimalist-home-sale/b488375d-4e74-4fea-a98a-ffb115551f17/source.png"
+            },
+            "start": 0.3,
+            "length": 2.7
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 50 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"50\" height=\"50\" fill=\"{{ BLACK_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": 0.184,
+              "y": -0.328
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 50,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/sleek-minimalist-home-sale/85ef6a8c-fa9e-4506-94ec-3e339ec56c47/source.png"
+            },
+            "start": 0.3,
+            "length": 2.7
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 50 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"50\" height=\"50\" fill=\"{{ BLACK_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": 0.057,
+              "y": -0.328
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 50,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/sleek-minimalist-home-sale/f6b16e21-5ea9-449f-a5f3-edf53e1ed4d4/source.png"
+            },
+            "start": 0.3,
+            "length": 2.7
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 50 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"50\" height=\"50\" fill=\"{{ BLACK_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": -0.182,
+              "y": -0.328
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 50,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/sleek-minimalist-home-sale/d23f6aff-05e0-46d6-b88e-c89097da6145/source.png"
+            },
+            "start": 0.3,
+            "length": 2.7
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 50 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"50\" height=\"50\" fill=\"{{ BLACK_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": -0.33,
+              "y": -0.328
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 50,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/sleek-minimalist-home-sale/1321facb-8600-4b6c-9cc8-6e2b3b256c58/source.png"
+            },
+            "start": 0.3,
+            "length": 2.7
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 50 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"50\" height=\"50\" fill=\"{{ BLACK_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": 0.32,
+              "y": -0.328
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 50,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{DESCRIPTION_6}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 22,
+                "weight": 600,
+                "color": "{{ BLACK_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.32,
+              "y": -0.36
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 128,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{DESCRIPTION_5}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 22,
+                "weight": 600,
+                "color": "{{ BLACK_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.187,
+              "y": -0.36
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 150,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{DESCRIPTION_4}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 22,
+                "weight": 600,
+                "color": "{{ BLACK_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.057,
+              "y": -0.36
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 150,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{DESCRIPTION_3}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 22,
+                "weight": 600,
+                "color": "{{ BLACK_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.057,
+              "y": -0.36
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 150,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION_2}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 22,
+                "weight": 600,
+                "color": "{{ BLACK_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.182,
+              "y": -0.36
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 133,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION_1}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 22,
+                "weight": 600,
+                "color": "{{ BLACK_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.324,
+              "y": -0.36
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 120,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "Contact us | {{PHONE}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 28,
+                "weight": 600,
+                "color": "{{ BLACK_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": 0.183,
+              "y": -0.469
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{ADDRESS}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 28,
+                "weight": 600,
+                "color": "{{ BLACK_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": -0.142,
+              "y": -0.434
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 500,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 900 4\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"900\" height=\"4\" fill=\"{{ BLACK_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "y": -0.451
+            },
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 900,
+            "height": 4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{HEADER}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 59,
+                "weight": 600,
+                "color": "{{ BLACK_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.178,
+              "y": -0.265
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 420,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{AMOUNT}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 58,
+                "weight": 800,
+                "color": "{{ BLACK_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0.231,
+              "y": -0.265
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 400,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 900 300\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"900\" height=\"300\" fill=\"{{ WHITE_BACKGROUND_COLOR }}\" rx=\"42\" ry=\"42\"/></svg>"
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.315
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 900,
+            "height": 300
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/sleek-minimalist-home-sale/f3514453-175b-41de-b73d-71c997205b6d/source.png"
+            },
+            "start": 0.15,
+            "length": 2.85
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1200 500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1200\" height=\"500\" fill=\"#000000\"/></svg>"
+            },
+            "start": 0.15,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.315
+            },
+            "position": "center",
+            "opacity": 0.78,
+            "transition": {
+              "in": "fade"
+            },
+            "width": 1200,
+            "height": 500
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TITLE}}",
+              "font": {
+                "family": "Encode Sans Expanded",
+                "size": 114,
+                "weight": 400,
+                "color": "{{ BROWN_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.022,
+              "y": -0.158
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 300
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ WHITE_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "position": "center",
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/sleek-minimalist-home-sale/aee894dd-ddd5-449a-abbf-325d964eb12c/source.png"
+            },
+            "start": 0,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/sleek-minimalist-home-sale/4232f97a-fc07-4e3c-8681-4bbf7896bcf9/source.mp4",
+              "volume": 0
+            },
+            "start": 0,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "contain"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "TITLE",
+      "replace": "MINIMALIST — CONCEPT"
+    },
+    {
+      "find": "HEADER",
+      "replace": "START FROM "
+    },
+    {
+      "find": "AMOUNT",
+      "replace": "$200.000"
+    },
+    {
+      "find": "DESCRIPTION_1",
+      "replace": "3 bedroom"
+    },
+    {
+      "find": "DESCRIPTION_2",
+      "replace": "3 Bathroom"
+    },
+    {
+      "find": "DESCRIPTION_3",
+      "replace": "Sitting Room"
+    },
+    {
+      "find": "DESCRIPTION_4",
+      "replace": "Kitchen Space"
+    },
+    {
+      "find": "DESCRIPTION_5",
+      "replace": "Balcony Terrance"
+    },
+    {
+      "find": "DESCRIPTION_6",
+      "replace": "Car Garage"
+    },
+    {
+      "find": "ADDRESS",
+      "replace": "123 Anywhere St. Any City"
+    },
+    {
+      "find": "PHONE",
+      "replace": "+123-456-7890"
+    },
+    {
+      "find": "BLACK_FONT_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "BROWN_FONT_COLOR",
+      "replace": "#af8364"
+    },
+    {
+      "find": "WHITE_BACKGROUND_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/sleek-minimalist-home-sale/174d0c36-d8fe-47df-a88b-65c50fb91032/source.mp3"
+    },
+    {
+      "find": "BRAND",
+      "replace": "REAL ESTATE"
+    },
+    {
+      "find": "LOGO",
+      "replace": "https://templates.shotstack.io/sleek-minimalist-home-sale/84038dd2-b2f3-4fda-9577-7712e0cf63c2/source.png"
+    }
+  ]
+}

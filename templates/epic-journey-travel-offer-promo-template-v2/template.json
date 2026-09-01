@@ -1,0 +1,548 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/epic-journey-travel-offer-promo-template/99661a10-66e7-4f46-9b92-b7ef9c4d208c/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 402 402\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"402\" height=\"402\" fill=\"{{ BACKGROUND_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0.21,
+            "length": 9.8,
+            "offset": {
+              "x": 0.286,
+              "y": 0.024
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -1.6
+              }
+            },
+            "transition": {
+              "in": "fade"
+            },
+            "width": 402,
+            "height": 402
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/epic-journey-travel-offer-promo-template/adedd1cf-495c-4ec5-ad3c-8f8007b4f958/source.png"
+            },
+            "start": 0.21,
+            "length": 9.8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 387 387\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"387\" height=\"387\" fill=\"{{ BACKGROUND_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.263,
+              "y": 0.212
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -10
+              }
+            },
+            "transition": {
+              "in": "fade"
+            },
+            "width": 387,
+            "height": 387
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/epic-journey-travel-offer-promo-template/ae8bf9c2-fb06-4f92-83f5-822c6a9986dd/source.png"
+            },
+            "start": 0.2,
+            "length": 9.810000000000002
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Phone}}",
+              "font": {
+                "family": "Edo",
+                "size": 41,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "character"
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": 0.254,
+              "y": -0.435
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 46,
+                "weight": 800,
+                "color": "{{ BACKGROUND_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 50
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": -0.24,
+              "y": -0.44
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 400,
+            "height": 120
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Body}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 34,
+                "weight": 600,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "up",
+                "style": "word"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": -0.026,
+              "y": -0.361
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 900,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 9.510000000000002,
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/epic-journey-travel-offer-promo-template/643d89e7-6c97-4130-b75a-0ac25444ebfb/source.mp4",
+              "volume": 1
+            },
+            "start": 0.5,
+            "scale": 1,
+            "transform": {
+              "rotate": {
+                "angle": 10
+              }
+            },
+            "offset": {
+              "x": 0.22824074074074063,
+              "y": -0.1322500000000001
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight"
+            },
+            "fit": "contain",
+            "width": 591,
+            "height": 590
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 650 650\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"650\" height=\"650\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": 0.228,
+              "y": -0.134
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 10
+              }
+            },
+            "transition": {
+              "in": "carouselLeft"
+            },
+            "width": 650,
+            "height": 650
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 9.610000000000001,
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/epic-journey-travel-offer-promo-template/989add74-9ceb-4c47-a090-6afa95059830/source.mp4",
+              "volume": 1
+            },
+            "start": 0.4,
+            "scale": 1,
+            "transform": {
+              "rotate": {
+                "angle": -10
+              }
+            },
+            "offset": {
+              "x": -0.2108148148148148,
+              "y": 0.0586145833333333
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight"
+            },
+            "fit": "contain",
+            "width": 594,
+            "height": 585
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 650 650\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"650\" height=\"650\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.211,
+              "y": 0.058
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -10
+              }
+            },
+            "transition": {
+              "in": "carouselRight"
+            },
+            "width": 650,
+            "height": 650
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 802 802\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"802\" height=\"802\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.16,
+              "y": -0.111
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 802,
+            "height": 802
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/epic-journey-travel-offer-promo-template/82bdb22b-03d0-4ecb-8b44-a69c256b6e1f/source.png"
+            },
+            "start": 0.6,
+            "length": 9.410000000000002
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 802 802\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"802\" height=\"802\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.401,
+              "y": 0.349
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 802,
+            "height": 802
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/epic-journey-travel-offer-promo-template/2b2de9b5-abf9-4042-9045-32b4bbfb99c1/source.png"
+            },
+            "start": 0,
+            "length": 10.010000000000002
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title_2}}",
+              "font": {
+                "family": "Edo",
+                "size": 74,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": -0.24,
+              "y": 0.276
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 500,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title_1}}",
+              "font": {
+                "family": "Edo",
+                "size": 180,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.211,
+              "y": 0.349
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 500,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ BACKGROUND_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 10,
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Title_1",
+      "replace": "EPIC"
+    },
+    {
+      "find": "Title_2",
+      "replace": "JOURNEY"
+    },
+    {
+      "find": "Body",
+      "replace": "Set off on an unforgettable escape and discover stunning scenery in one of the world's most enchanting locations."
+    },
+    {
+      "find": "CTA",
+      "replace": "BOOK TODAY"
+    },
+    {
+      "find": "Phone",
+      "replace": "001-234-5678"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "SHAPE_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BACKGROUND_COLOR_2",
+      "replace": "#ead56c"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/epic-journey-travel-offer-promo-template/5df0fddb-8e57-43ce-a9d9-178c6efdd03e/source.mp3"
+    }
+  ]
+}

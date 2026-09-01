@@ -1,0 +1,242 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "auto",
+            "asset": {
+              "type": "audio",
+              "src": "https://templates.shotstack.io/social-media-video-template/af372085-9f93-4e23-bcfc-598e68ea7eec/source.wav",
+              "volume": 1
+            },
+            "start": 0
+          },
+          {
+            "length": 1.71,
+            "asset": {
+              "type": "audio",
+              "src": "https://templates.shotstack.io/social-media-video-template/65afc523-44db-4aa2-aace-4f6ce5f48643/source.wav",
+              "volume": 1
+            },
+            "start": 5.3
+          },
+          {
+            "length": 1.71,
+            "asset": {
+              "type": "audio",
+              "src": "https://templates.shotstack.io/social-media-video-template/f21189b0-dd6c-4813-b47b-98a528a10d09/source.wav",
+              "volume": 1
+            },
+            "start": 7.14
+          },
+          {
+            "length": 1.71,
+            "asset": {
+              "type": "audio",
+              "src": "https://templates.shotstack.io/social-media-video-template/e796a09e-2323-4062-8993-9d54e7cc1869/source.wav",
+              "volume": 1
+            },
+            "start": 11.7
+          },
+          {
+            "length": 1.71,
+            "asset": {
+              "type": "audio",
+              "src": "https://templates.shotstack.io/social-media-video-template/4fcceb33-bf9a-407f-9b43-758fc58758f9/source.wav",
+              "volume": 1
+            },
+            "start": 14.68
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 0.32,
+            "fit": "contain",
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/social-media-video-template/zzz01jnf-zvhe0-awp2a-m8nra-nz0z45/source.mov"
+            },
+            "start": 0,
+            "scale": 1.79,
+            "transform": {
+              "rotate": {
+                "angle": -90
+              }
+            }
+          },
+          {
+            "length": 0.32,
+            "fit": "contain",
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/social-media-video-template/zzz01jnf-zvhe0-awp2a-m8nra-nz0z45/source.mov"
+            },
+            "start": 5.84,
+            "scale": 1.79,
+            "transform": {
+              "rotate": {
+                "angle": -90
+              }
+            }
+          },
+          {
+            "length": 0.32,
+            "fit": "contain",
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/social-media-video-template/zzz01jnf-zvhe0-awp2a-m8nra-nz0z45/source.mov"
+            },
+            "start": 7.84,
+            "scale": 1.79,
+            "transform": {
+              "rotate": {
+                "angle": -90
+              }
+            }
+          },
+          {
+            "length": 0.32,
+            "fit": "contain",
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/social-media-video-template/zzz01jnf-zvhe0-awp2a-m8nra-nz0z45/source.mov"
+            },
+            "start": 12.35,
+            "scale": 1.79,
+            "transform": {
+              "rotate": {
+                "angle": -90
+              }
+            }
+          },
+          {
+            "length": 0.32,
+            "fit": "contain",
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/social-media-video-template/zzz01jnf-zvhe0-awp2a-m8nra-nz0z45/source.mov"
+            },
+            "start": 15.37,
+            "scale": 1.79,
+            "transform": {
+              "rotate": {
+                "angle": -90
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3,
+            "asset": {
+              "type": "video",
+              "src": "{{ FOOTAGE_3 }}",
+              "volume": 0
+            },
+            "start": 12.56
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "{{ FOOTAGE_2 }}"
+            },
+            "start": 5.99,
+            "effect": "zoomInSlow"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "caption",
+              "src": "alias://51e3ea3a",
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": "44",
+                "lineHeight": 1
+              },
+              "background": {
+                "color": "#ffffff",
+                "padding": 6
+              }
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "auto",
+            "asset": {
+              "type": "video",
+              "src": "{{ MAIN_VIDEO }}",
+              "volume": 1
+            },
+            "start": 0,
+            "alias": "51e3ea3a",
+            "offset": {
+              "x": 0,
+              "y": -0.029
+            },
+            "position": "center",
+            "scale": 1.07
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ BACKGROUND_COLOR }}",
+              "volume": 0.3
+            },
+            "start": 0
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "MAIN_VIDEO",
+      "replace": "https://templates.shotstack.io/social-media-video-template/334b9393-d73a-4271-b7d9-2c602305f973/source.mp4"
+    },
+    {
+      "find": "FOOTAGE_2",
+      "replace": "https://templates.shotstack.io/social-media-video-template/4d0f3313-a040-4b64-86e9-6dd8e518b0a6/source.jpg"
+    },
+    {
+      "find": "FOOTAGE_3",
+      "replace": "https://templates.shotstack.io/social-media-video-template/1a6ffb15-3fbb-416c-a36d-bff474e94833/source.mp4"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "https://templates.shotstack.io/social-media-video-template/8e07de5f-787f-457a-b482-35ac40750eb0/source.mp3"
+    }
+  ]
+}

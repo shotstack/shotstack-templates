@@ -1,0 +1,225 @@
+{
+  "timeline": {
+    "soundtrack": {
+      "src": "https://templates.shotstack.io/best-car-for-sale/c0af7541-8b06-4d1d-9b48-6257d6bea38d/kring.mp3",
+      "effect": "fadeOut"
+    },
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/best-car-for-sale/33574aba-06d5-4302-8287-07a7731f069d/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/best-car-for-sale/a88919b1-982e-44ef-a23f-b377b3285906/source.ttf"
+      }
+    ],
+    "background": "#ffffff",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "Upgrade your wheels today.\nWon't be in stock for long.",
+              "font": {
+                "family": "Roboto Medium",
+                "size": 41,
+                "weight": 500,
+                "color": "#373737",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "right",
+                "style": "word"
+              }
+            },
+            "start": 0.28,
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.272,
+              "y": 0.104
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "length": 9.72,
+            "width": 537,
+            "height": 124
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "FOR SALE",
+              "font": {
+                "family": "Roboto Black",
+                "size": 164,
+                "weight": 900,
+                "color": "#2793cd",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "right",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.167,
+              "y": 0.224
+            },
+            "position": "center",
+            "length": 10,
+            "transition": {
+              "in": "carouselRight"
+            },
+            "width": 950,
+            "height": 160
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "BEST CAR",
+              "font": {
+                "family": "Roboto Medium",
+                "size": 188,
+                "weight": 500,
+                "color": "#121212",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "style": "word",
+                "direction": "right"
+              }
+            },
+            "start": 0,
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.179,
+              "y": 0.362
+            },
+            "position": "center",
+            "length": 10,
+            "transition": {
+              "in": "carouselDown"
+            },
+            "width": 917,
+            "height": 172
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE }}"
+            },
+            "start": 0,
+            "offset": {
+              "x": 0.08039583333333333,
+              "y": -0.1877367184331532
+            },
+            "position": "center",
+            "length": 10,
+            "effect": "zoomInSlow",
+            "transition": {
+              "in": "carouselLeft"
+            },
+            "scale": 1,
+            "fit": "contain",
+            "width": 1224,
+            "height": 938
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/best-car-for-sale/b507cd63-e6ab-42fc-b44b-00787017224c/source.mp4",
+              "volume": 1
+            },
+            "start": 0,
+            "length": 10,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "position": "center",
+            "scale": 1,
+            "width": 1920,
+            "height": 1080,
+            "fit": "contain"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "IMAGE",
+      "replace": "https://templates.shotstack.io/best-car-for-sale/6c46dfdc-38ec-47a5-a799-07afca67adf6/source.png"
+    }
+  ]
+}

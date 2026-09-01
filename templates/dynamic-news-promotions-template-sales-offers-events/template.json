@@ -1,0 +1,764 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{News_Slug_2}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "35",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 72
+            },
+            "start": 1.6,
+            "length": "end",
+            "offset": {
+              "x": 0.013,
+              "y": -0.387
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-news-promotions-template-sales-offers-events/1e54ab4f-18ce-4e0b-8ccf-44f68157b627/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 400,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}"
+              }
+            },
+            "start": 1.4,
+            "length": "end",
+            "offset": {
+              "x": 0.013,
+              "y": -0.4
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{News_Slug_1}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "family": "Montserrat ExtraBold",
+                "size": "85",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 150
+            },
+            "start": 1.4,
+            "length": "end",
+            "offset": {
+              "x": 0.029,
+              "y": -0.284
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-news-promotions-template-sales-offers-events/f6d1998f-6559-4bf3-befe-3396d41772d9/source.mp4"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 1200,
+              "height": 700,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}"
+              }
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": 0.013,
+              "y": -0.298
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 454,
+              "height": 454,
+              "background": {
+                "color": "#ffffff"
+              }
+            },
+            "start": 15.8493,
+            "length": "end",
+            "offset": {
+              "x": 0.477,
+              "y": -0.456
+            },
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-news-promotions-template-sales-offers-events/9f31fc77-cebe-4b9d-aa46-ecaa195f8950/source.mp4"
+            },
+            "start": 15.8493,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-news-promotions-template-sales-offers-events/f3e410d3-eaef-4ffa-a690-c9e394451065/source.mp4"
+            },
+            "start": 15.863477390252976,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 454,
+              "height": 454,
+              "background": {
+                "color": "#ffffff"
+              }
+            },
+            "start": 15.863477390252976,
+            "length": "end",
+            "offset": {
+              "x": -0.477,
+              "y": -0.434
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 454,
+              "height": 454,
+              "background": {
+                "color": "#ffffff"
+              }
+            },
+            "start": 7.947049051339286,
+            "length": 8,
+            "offset": {
+              "x": 0.477,
+              "y": -0.456
+            },
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-news-promotions-template-sales-offers-events/f1683f19-51b2-40e1-93c6-e7db0a71fa92/source.mp4"
+            },
+            "start": 7.947049051339286,
+            "length": 8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-news-promotions-template-sales-offers-events/d714aad7-c417-4491-a091-d32e57afb838/source.mp4"
+            },
+            "start": 7.931442857142857,
+            "length": 8
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 454,
+              "height": 454,
+              "background": {
+                "color": "#ffffff"
+              }
+            },
+            "start": 7.931442857142857,
+            "length": 8,
+            "offset": {
+              "x": -0.477,
+              "y": -0.434
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 454,
+              "height": 454,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0,
+            "length": 8,
+            "offset": {
+              "x": 0.458,
+              "y": -0.445
+            },
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-news-promotions-template-sales-offers-events/5eceffff-ed68-42e6-81d1-15b4c23b6aba/source.mp4"
+            },
+            "start": 0,
+            "length": 8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 454,
+              "height": 454,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0,
+            "length": 8,
+            "offset": {
+              "x": -0.477,
+              "y": -0.434
+            },
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-news-promotions-template-sales-offers-events/de60fb4c-d9fa-4cd2-8251-788837267b9d/source.mp4"
+            },
+            "start": 0,
+            "length": 8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Reporter_3}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "33",
+                "lineHeight": 1
+              },
+              "width": 350,
+              "height": 72
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": 0.377,
+              "y": -0.084
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Reporter_2}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "33",
+                "lineHeight": 1
+              },
+              "width": 350,
+              "height": 72
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.041,
+              "y": -0.084
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Reporter_1}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "33",
+                "lineHeight": 1
+              },
+              "width": 350,
+              "height": 72
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.302,
+              "y": -0.084
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-news-promotions-template-sales-offers-events/b6935e29-f345-46d3-9514-78928e713a18/source.mp4"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 462,
+              "height": 462,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": 0.369,
+              "y": -0.084
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-news-promotions-template-sales-offers-events/acefba92-4963-414b-be4e-cf739c5812d9/source.mp4"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 462,
+              "height": 462,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": 0.032,
+              "y": -0.084
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-news-promotions-template-sales-offers-events/f44a54bb-ee38-4401-890e-c409babcdbb4/source.mp4"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 462,
+              "height": 462,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": -0.307,
+              "y": -0.084
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_3 }}",
+              "volume": 1
+            },
+            "start": 0.8,
+            "scale": 0.32,
+            "offset": {
+              "x": 0.34,
+              "y": 0.153
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_2 }}",
+              "volume": 1
+            },
+            "start": 0.4,
+            "scale": 0.32,
+            "offset": {
+              "x": 0,
+              "y": 0.153
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_1 }}",
+              "volume": 1
+            },
+            "start": 0,
+            "scale": 0.32,
+            "offset": {
+              "x": -0.34,
+              "y": 0.153
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 10,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_BACKGROUND }}",
+              "volume": 1
+            },
+            "start": 0
+          },
+          {
+            "length": 10,
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/dynamic-news-promotions-template-sales-offers-events/8d98e21a-7549-47ce-b168-19ee180ae8dc/source.mp4",
+              "volume": 1
+            },
+            "start": 10
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "merge": [
+    {
+      "find": "Reporter_1",
+      "replace": "MADISON GABRIEL"
+    },
+    {
+      "find": "Reporter_2",
+      "replace": "EMILY JACKSON"
+    },
+    {
+      "find": "Reporter_3",
+      "replace": "MANUEL WYATT"
+    },
+    {
+      "find": "News_Slug_1",
+      "replace": "NEWS UPDATE"
+    },
+    {
+      "find": "News_Slug_2",
+      "replace": "LIVE FROM REPORTERS"
+    },
+    {
+      "find": "VIDEO_1",
+      "replace": "https://templates.shotstack.io/dynamic-news-promotions-template-sales-offers-events/db92b045-45f6-44da-9943-d714015e1137/source.mp4"
+    },
+    {
+      "find": "VIDEO_2",
+      "replace": "https://templates.shotstack.io/dynamic-news-promotions-template-sales-offers-events/1eb5ae71-fe41-4609-b401-c25640fcfab5/source.mp4"
+    },
+    {
+      "find": "VIDEO_BACKGROUND",
+      "replace": "https://templates.shotstack.io/dynamic-news-promotions-template-sales-offers-events/f0c2b0ed-a619-4b3a-8c34-a6e5c5d7dd10/source.mp4"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#0000a8"
+    },
+    {
+      "find": "TEXT_FONT_COLOR_2",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "VIDEO_3",
+      "replace": "https://templates.shotstack.io/dynamic-news-promotions-template-sales-offers-events/d495b7c1-6e30-40ee-8cc0-1e8df73f7633/source.mp4"
+    }
+  ]
+}

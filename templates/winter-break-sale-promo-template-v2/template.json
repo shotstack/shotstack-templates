@@ -1,0 +1,378 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_4 }}",
+              "volume": 1
+            },
+            "start": 0.8,
+            "scale": 1,
+            "offset": {
+              "x": 0.248,
+              "y": -0.167
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "fit": "contain",
+            "width": 323,
+            "height": 575
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 394 641\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"394\" height=\"641\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0.248,
+              "y": -0.167
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 394,
+            "height": 641
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_3 }}",
+              "volume": 1
+            },
+            "start": 0.4,
+            "scale": 1,
+            "offset": {
+              "x": -0.248,
+              "y": 0.117
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 323,
+            "height": 575
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 394 641\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"394\" height=\"641\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.248,
+              "y": 0.115
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 394,
+            "height": 641
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_1 }}",
+              "volume": 1
+            },
+            "start": 1,
+            "scale": 1,
+            "offset": {
+              "x": 0.2481697979093759,
+              "y": 0.2576652638753392
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "fit": "contain",
+            "width": 323,
+            "height": 575
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 394 641\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"394\" height=\"641\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": 0.248,
+              "y": 0.256
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 394,
+            "height": 641
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_2 }}",
+              "volume": 1
+            },
+            "start": 0.6,
+            "scale": 1,
+            "offset": {
+              "x": -0.248,
+              "y": -0.271
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 323,
+            "height": 575
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 394 641\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"394\" height=\"641\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.248,
+              "y": -0.271
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 394,
+            "height": 641
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 80,
+                "weight": 800,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.248,
+              "y": 0.345
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 500,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/winter-break-sale-promo-template/5252e6b1-08f6-4981-9602-b3d9efa0207a/source.png"
+            },
+            "start": 0.8,
+            "length": 4.2
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 500 500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"500\" height=\"500\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0.248,
+              "y": -0.438
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 500,
+            "height": 500
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 500 500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"500\" height=\"500\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.269,
+              "y": 0.423
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 500,
+            "height": 500
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/winter-break-sale-promo-template/27dff003-77bd-4d6a-945d-71e2dd33368c/source.png"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 5,
+            "position": "center",
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Title",
+      "replace": "WINTER BREAK"
+    },
+    {
+      "find": "VIDEO_1",
+      "replace": "https://templates.shotstack.io/winter-break-sale-promo-template/fa82dedb-bfd2-42ad-8be9-b31744694928/source.mp4"
+    },
+    {
+      "find": "VIDEO_2",
+      "replace": "https://templates.shotstack.io/winter-break-sale-promo-template/e3aef4a7-a2e2-47f1-b129-8b62c1a8cee9/source.mp4"
+    },
+    {
+      "find": "VIDEO_3",
+      "replace": "https://templates.shotstack.io/winter-break-sale-promo-template/c1a4d9e3-9086-4d23-b1b7-29db6e21e40d/source.mp4"
+    },
+    {
+      "find": "VIDEO_4",
+      "replace": "https://templates.shotstack.io/winter-break-sale-promo-template/67c9207a-c9d8-48fa-ae05-81373994eb8e/source.mp4"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "SHAPE_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#c6eaf0"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/winter-break-sale-promo-template/06d46ac7-c6ac-4204-817c-890fa1a8123c/source.mp3"
+    }
+  ]
+}

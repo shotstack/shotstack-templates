@@ -1,0 +1,367 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/breaking-news-channel-template-urgent-announcements-sales/30e1f15f-b0f0-4c6e-bc2c-8a5f3a8478ef/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/breaking-news-channel-template-urgent-announcements-sales/ef4d1738-75fd-4808-84b9-119a36c79c3b/source.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/oswald/v57/TK3iWkUHHAIjg75GHjUHte5fKg.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Headline}}",
+              "font": {
+                "family": "Roboto Medium",
+                "size": 46,
+                "weight": 500,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "right",
+                "style": "word"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": 0.116,
+              "y": -0.39
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 1300,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Date}}",
+              "font": {
+                "family": "Oswald",
+                "size": 28,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "right"
+              }
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": -0.421,
+              "y": -0.325
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 300,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{News_Slug}}",
+              "font": {
+                "family": "Oswald",
+                "size": 60,
+                "weight": 400,
+                "color": "{{ SHAPE_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "right",
+                "style": "word"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": -0.39,
+              "y": -0.421
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 450,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 17.07,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_2 }}",
+              "volume": 0
+            },
+            "start": 1.4,
+            "scale": 1,
+            "offset": {
+              "x": 0.25670808723727423,
+              "y": 0.16574074074074074
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 664,
+            "height": 372,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 710 410\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"710\" height=\"410\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 1.4,
+            "length": "end",
+            "offset": {
+              "x": 0.258,
+              "y": 0.167
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 710,
+            "height": 410
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 430 6\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"430\" height=\"6\" fill=\"{{ SHAPE_COLOR_1 }}\"/></svg>"
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.452,
+              "y": -0.367
+            },
+            "position": "center",
+            "width": 430,
+            "height": 6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/breaking-news-channel-template-urgent-announcements-sales/572b27ab-4de2-4128-8072-a6efbd4b2429/source.png"
+            },
+            "start": 1,
+            "length": 17.47
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 430 350\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"430\" height=\"350\" fill=\"{{ SHAPE_COLOR_2 }}\"/></svg>"
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.421,
+              "y": -0.325
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 430,
+            "height": 350
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/breaking-news-channel-template-urgent-announcements-sales/25d401cb-8653-4b98-ad48-7b3e2bbbf935/source.png"
+            },
+            "start": 0.6,
+            "length": 17.869999999999997
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 570 565\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"570\" height=\"565\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.385,
+              "y": -0.398
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 570,
+            "height": 565
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 2200 162\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"2200\" height=\"162\" fill=\"{{ SHAPE_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.39
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 2200,
+            "height": 162
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 18.47,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_1 }}",
+              "volume": 1
+            },
+            "start": 0,
+            "width": 1920,
+            "height": 1080,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "crop"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Headline",
+      "replace": "Thousands of protesters gather in the city center, demanding change as demonstrations grow nationwide."
+    },
+    {
+      "find": "News_Slug",
+      "replace": "BREAKING NEWS"
+    },
+    {
+      "find": "Date",
+      "replace": "29, AUGUST 2025"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "SHAPE_COLOR_1",
+      "replace": "#ff0000"
+    },
+    {
+      "find": "SHAPE_COLOR_2",
+      "replace": "#000000"
+    },
+    {
+      "find": "VIDEO_1",
+      "replace": "https://templates.shotstack.io/breaking-news-channel-template-urgent-announcements-sales/f67a2f37-425b-4e2e-b0a4-2f73ddbbed79/source.mp4"
+    },
+    {
+      "find": "VIDEO_2",
+      "replace": "https://templates.shotstack.io/breaking-news-channel-template-urgent-announcements-sales/fe80460c-1883-41ee-864f-87270fdb36ce/source.mp4"
+    }
+  ]
+}

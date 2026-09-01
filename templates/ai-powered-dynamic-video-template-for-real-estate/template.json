@@ -1,0 +1,495 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ logo }}"
+            },
+            "start": 0,
+            "scale": 0.08,
+            "offset": {
+              "x": 0.1,
+              "y": -0.413
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{address}}, {{city}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Poppins",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 882,
+              "height": 72,
+              "background": {
+                "color": "#ef152b",
+                "borderRadius": 0,
+                "padding": 0
+              },
+              "stroke": {
+                "color": "#000000",
+                "width": 0
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.411
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "shape",
+              "shape": "line",
+              "fill": {
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "stroke": {
+                "color": "#ffffff",
+                "width": "0"
+              },
+              "width": 100,
+              "height": 4,
+              "line": {
+                "length": 100,
+                "thickness": 4
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.414
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 90
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "shape",
+              "shape": "line",
+              "fill": {
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "stroke": {
+                "color": "#ffffff",
+                "width": "0"
+              },
+              "width": 900,
+              "height": 12,
+              "line": {
+                "length": 900,
+                "thickness": 12
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.464,
+              "y": 0
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 90
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "shape",
+              "shape": "line",
+              "fill": {
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "stroke": {
+                "color": "#ffffff",
+                "width": "0"
+              },
+              "width": 500,
+              "height": 12,
+              "line": {
+                "length": 500,
+                "thickness": 12
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.337,
+              "y": -0.412
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "shape",
+              "shape": "line",
+              "fill": {
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "stroke": {
+                "color": "#ffffff",
+                "width": "0"
+              },
+              "width": 500,
+              "height": 12,
+              "line": {
+                "length": 500,
+                "thickness": 12
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.337,
+              "y": -0.412
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "shape",
+              "shape": "line",
+              "fill": {
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "stroke": {
+                "color": "#ffffff",
+                "width": "0"
+              },
+              "width": 1794,
+              "height": 12,
+              "line": {
+                "length": 1794,
+                "thickness": 12
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.411
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "shape",
+              "shape": "line",
+              "fill": {
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "stroke": {
+                "color": "#ffffff",
+                "width": "0"
+              },
+              "width": 900,
+              "height": 13,
+              "line": {
+                "length": 900,
+                "thickness": 13
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.464,
+              "y": 0
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 90
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": " {{agent}}",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Poppins",
+                "size": "50",
+                "lineHeight": 1
+              },
+              "width": 257,
+              "height": 165
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.083,
+              "y": -0.411
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{size}} - {{bedrooms}} bed - {{bathrooms}} bath - {{price}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Poppins",
+                "size": "60",
+                "lineHeight": 1
+              },
+              "width": 1656,
+              "height": 119,
+              "stroke": {
+                "width": 1,
+                "color": "#000000"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.26
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "Open House",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Poppins",
+                "size": "150",
+                "lineHeight": 1
+              },
+              "width": 974,
+              "height": 191,
+              "stroke": {
+                "width": 1,
+                "color": "#000000"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.139
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 6,
+            "fit": "crop",
+            "asset": {
+              "type": "image-to-video",
+              "src": "{{ image2 }}",
+              "prompt": "The camera rotates around the peninsula.",
+              "aspectRatio": "16:9"
+            },
+            "start": 5,
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            }
+          },
+          {
+            "length": 6,
+            "fit": "crop",
+            "asset": {
+              "type": "image-to-video",
+              "src": "{{ image4 }}",
+              "prompt": "The camera rapidly and swiftly and in a linear direction moves towards the kitchen showing the layout of the kitchen.",
+              "aspectRatio": "16:9"
+            },
+            "start": 15,
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 6,
+            "fit": "crop",
+            "asset": {
+              "type": "image-to-video",
+              "src": "{{ image1 }}",
+              "prompt": "The camera is rapid and smoothly moves towards the house in a straight direction, climbing up the stairs. The sun is shining and there is a tranquil breeze softly swaying the palm tree.",
+              "aspectRatio": "16:9"
+            },
+            "start": 0,
+            "transition": {
+              "out": "fade"
+            }
+          },
+          {
+            "length": 6,
+            "fit": "crop",
+            "asset": {
+              "type": "image-to-video",
+              "src": "{{ image3 }}",
+              "prompt": "Rotate counter clock wise around the property",
+              "aspectRatio": "16:9"
+            },
+            "start": 10,
+            "transition": {
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "https://templates.shotstack.io/ai-powered-dynamic-video-template-for-real-estate/a43f34a6-6bb5-4523-aa7f-9ae4d3a0f52f/source.mp3",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "merge": [
+    {
+      "find": "address",
+      "replace": "21 Norma Road"
+    },
+    {
+      "find": "city",
+      "replace": "Palm Beach"
+    },
+    {
+      "find": "size",
+      "replace": "1,275 m²"
+    },
+    {
+      "find": "bedrooms",
+      "replace": "4"
+    },
+    {
+      "find": "bathrooms",
+      "replace": "3"
+    },
+    {
+      "find": "price",
+      "replace": "$1,750,000 "
+    },
+    {
+      "find": "agent",
+      "replace": "Peter Robinson"
+    },
+    {
+      "find": "logo",
+      "replace": "https://templates.shotstack.io/ai-powered-dynamic-video-template-for-real-estate/4770d9cc-ee81-4d3a-8446-5b6b5d78fc11/source.png"
+    },
+    {
+      "find": "image1",
+      "replace": "https://templates.shotstack.io/ai-powered-dynamic-video-template-for-real-estate/bb98bd76-ee3c-4147-9508-c8ba97fdeaa8/source.jpg"
+    },
+    {
+      "find": "image2",
+      "replace": "https://templates.shotstack.io/ai-powered-dynamic-video-template-for-real-estate/a17a869a-ef0d-4ba9-a147-763b93ef7730/source.jpg"
+    },
+    {
+      "find": "image3",
+      "replace": "https://templates.shotstack.io/ai-powered-dynamic-video-template-for-real-estate/5b453279-baf5-48f7-b732-423b79892972/source.jpg"
+    },
+    {
+      "find": "image4",
+      "replace": "https://templates.shotstack.io/ai-powered-dynamic-video-template-for-real-estate/a6275f7c-5c42-4acc-8372-598c31e7869c/source.jpg"
+    }
+  ]
+}

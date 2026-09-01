@@ -1,0 +1,369 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://shotstack-ingest-api-v1-sources.s3.ap-southeast-2.amazonaws.com/pt6xyh69yj/zzz01k31-p85d2-d0chw-7f9tr-88wzt0/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "EB Garamond",
+                "size": "38",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 72
+            },
+            "start": 1.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.026
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ Flower }}"
+            },
+            "start": 2,
+            "scale": 0.04,
+            "offset": {
+              "x": 0,
+              "y": -0.053
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_6 }}"
+            },
+            "start": 0.8,
+            "scale": 0.26,
+            "offset": {
+              "x": -0.136,
+              "y": -0.324
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_3 }}"
+            },
+            "start": 0.2,
+            "scale": 0.26,
+            "offset": {
+              "x": 0.138,
+              "y": 0.325
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_7 }}"
+            },
+            "start": 1,
+            "scale": 0.32,
+            "offset": {
+              "x": 0.248,
+              "y": -0.325
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_4 }}"
+            },
+            "start": 0.4,
+            "scale": 0.32,
+            "offset": {
+              "x": -0.245,
+              "y": 0.324
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_8 }}"
+            },
+            "start": 1.2,
+            "scale": 0.215,
+            "offset": {
+              "x": 0.382,
+              "y": 0.17
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_5 }}"
+            },
+            "start": 0.6,
+            "scale": 0.215,
+            "offset": {
+              "x": -0.383,
+              "y": -0.165
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_1 }}"
+            },
+            "start": 0,
+            "scale": 0.135,
+            "offset": {
+              "x": 0.195,
+              "y": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_2 }}"
+            },
+            "start": 1.4,
+            "scale": 0.135,
+            "offset": {
+              "x": -0.198,
+              "y": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 462,
+              "height": 324,
+              "background": {
+                "color": "{{ SHAPE_COLOR }}"
+              }
+            },
+            "start": 1.6,
+            "length": "end",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 1920,
+              "height": 1080,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "merge": [
+    {
+      "find": "Title",
+      "replace": "COMPLIMENTS OF THE SEASON"
+    },
+    {
+      "find": "Flower",
+      "replace": "https://shotstack-ingest-api-v1-sources.s3.ap-southeast-2.amazonaws.com/pt6xyh69yj/zzz01k31-nxzvp-smygc-mmbs2-xma6k3/source.png"
+    },
+    {
+      "find": "IMAGE_1",
+      "replace": "https://shotstack-ingest-api-v1-sources.s3.ap-southeast-2.amazonaws.com/pt6xyh69yj/zzz01k31-ksfwm-8vngw-jf01h-5844nm/source.png"
+    },
+    {
+      "find": "IMAGE_2",
+      "replace": "https://shotstack-ingest-api-v1-sources.s3.ap-southeast-2.amazonaws.com/pt6xyh69yj/zzz01k31-krftt-btr2b-s32kk-4qjb1n/source.png"
+    },
+    {
+      "find": "IMAGE_3",
+      "replace": "https://shotstack-ingest-api-v1-sources.s3.ap-southeast-2.amazonaws.com/pt6xyh69yj/zzz01k31-nd1g2-eq6xx-9jvhf-dp69av/source.png"
+    },
+    {
+      "find": "IMAGE_4",
+      "replace": "https://shotstack-ingest-api-v1-sources.s3.ap-southeast-2.amazonaws.com/pt6xyh69yj/zzz01k31-mza3a-qe6c2-23s51-wt74e1/source.png"
+    },
+    {
+      "find": "IMAGE_5",
+      "replace": "https://shotstack-ingest-api-v1-sources.s3.ap-southeast-2.amazonaws.com/pt6xyh69yj/zzz01k31-m4gds-m97p8-b61jx-x86fvd/source.png"
+    },
+    {
+      "find": "IMAGE_6",
+      "replace": "https://shotstack-ingest-api-v1-sources.s3.ap-southeast-2.amazonaws.com/pt6xyh69yj/zzz01k31-nfnb6-qcz17-4q4hb-5f718s/source.png"
+    },
+    {
+      "find": "IMAGE_7",
+      "replace": "https://shotstack-ingest-api-v1-sources.s3.ap-southeast-2.amazonaws.com/pt6xyh69yj/zzz01k31-n6n5x-gb58a-3t8wz-mh7sc1/source.png"
+    },
+    {
+      "find": "IMAGE_8",
+      "replace": "https://shotstack-ingest-api-v1-sources.s3.ap-southeast-2.amazonaws.com/pt6xyh69yj/zzz01k31-m91cs-ftqv3-5zvx4-y0ydhp/source.png"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "SHAPE_COLOR",
+      "replace": "#d8d8d8"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://shotstack-ingest-api-v1-sources.s3.ap-southeast-2.amazonaws.com/pt6xyh69yj/zzz01k31-qqm78-bz254-9y9eg-6adhys/source.mp3"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#ffffff"
+    }
+  ]
+}

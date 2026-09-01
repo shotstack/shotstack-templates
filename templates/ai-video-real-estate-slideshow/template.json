@@ -1,0 +1,652 @@
+{
+  "timeline": {
+    "background": "#000000",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ ADDRESS }}",
+              "font": {
+                "family": "Manrope ExtraBold",
+                "color": "#f0c20c",
+                "size": 40
+              },
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "bottom"
+              },
+              "width": 320,
+              "height": 118
+            },
+            "start": 1.2,
+            "length": 3.2,
+            "offset": {
+              "x": -0.3,
+              "y": 0.25
+            },
+            "transition": {
+              "in": "slideRight",
+              "out": "slideLeft"
+            },
+            "fit": "none",
+            "scale": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ SUBURB }}, {{ STATE }} {{ POSTCODE }}",
+              "font": {
+                "family": "Manrope Light",
+                "color": "#ffffff",
+                "size": 22
+              },
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "width": 320,
+              "height": 50
+            },
+            "start": 1.3,
+            "length": 2.9,
+            "offset": {
+              "x": -0.3,
+              "y": 0.101
+            },
+            "transition": {
+              "in": "slideRight",
+              "out": "slideLeft"
+            },
+            "fit": "none",
+            "scale": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ TYPE }}",
+              "font": {
+                "family": "Manrope ExtraBold",
+                "color": "#f0c20c",
+                "size": 22
+              },
+              "alignment": {
+                "horizontal": "left"
+              },
+              "width": 320,
+              "height": 75
+            },
+            "start": 1.4,
+            "length": 3,
+            "offset": {
+              "x": -0.3,
+              "y": -0.2
+            },
+            "transition": {
+              "in": "slideRight",
+              "out": "slideLeft"
+            },
+            "fit": "none",
+            "scale": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "HOUSE",
+              "font": {
+                "family": "Manrope Light",
+                "color": "#ffffff",
+                "size": 17
+              },
+              "alignment": {
+                "horizontal": "left"
+              },
+              "width": 320,
+              "height": 32
+            },
+            "start": 1.4,
+            "length": 3,
+            "offset": {
+              "x": -0.3,
+              "y": -0.06
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "fit": "none",
+            "scale": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/ai-video-real-estate-slideshow/7904ff2d-5de2-4c99-9a95-bda7ffa26e19/bed.png"
+            },
+            "start": 1.4,
+            "length": 3,
+            "fit": "none",
+            "offset": {
+              "x": -0.441,
+              "y": 0
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "scale": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/ai-video-real-estate-slideshow/81731175-8cc7-4d76-b00a-398eb0d38319/bath.png"
+            },
+            "start": 1.4,
+            "length": 3,
+            "fit": "none",
+            "offset": {
+              "x": -0.348,
+              "y": 0
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "scale": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/ai-video-real-estate-slideshow/adfe8676-d618-4517-a700-d6fa8d2fa8c0/car.png"
+            },
+            "start": 1.4,
+            "length": 3,
+            "fit": "none",
+            "offset": {
+              "x": -0.25,
+              "y": 0
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "scale": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ BEDROOMS }}",
+              "font": {
+                "family": "Manrope ExtraBold",
+                "color": "#ffffff",
+                "size": 18
+              },
+              "alignment": {
+                "horizontal": "left"
+              },
+              "width": 36,
+              "height": 26
+            },
+            "start": 1.4,
+            "length": 3,
+            "offset": {
+              "x": -0.395,
+              "y": 0
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "fit": "none",
+            "scale": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ BATHROOMS }}",
+              "font": {
+                "family": "Manrope ExtraBold",
+                "color": "#ffffff",
+                "size": 18
+              },
+              "alignment": {
+                "horizontal": "left"
+              },
+              "width": 36,
+              "height": 26
+            },
+            "start": 1.4,
+            "length": 3,
+            "offset": {
+              "y": 0,
+              "x": -0.3
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "fit": "none",
+            "scale": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ CARPORTS }}",
+              "font": {
+                "family": "Manrope ExtraBold",
+                "color": "#ffffff",
+                "size": 18
+              },
+              "alignment": {
+                "horizontal": "left"
+              },
+              "width": 36,
+              "height": 26
+            },
+            "start": 1.4,
+            "length": 3,
+            "offset": {
+              "y": 0,
+              "x": -0.2
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "fit": "none",
+            "scale": 1
+          },
+          {
+            "fit": "none",
+            "scale": 0.3,
+            "length": 4,
+            "asset": {
+              "type": "image",
+              "src": "{{ AGENT_PICTURE }}"
+            },
+            "start": 15.99,
+            "offset": {
+              "x": 0,
+              "y": 0.195
+            },
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/ai-video-real-estate-slideshow/8f9c40f8-064e-4bf2-9fd8-d222fa19bb7e/circle.jpg"
+            },
+            "start": 16,
+            "length": 4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "fit": "none",
+            "scale": 1,
+            "asset": {
+              "type": "text",
+              "text": "{{ AGENT_NAME }}",
+              "font": {
+                "family": "Manrope ExtraBold",
+                "color": "#f0c20c",
+                "size": 26
+              },
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "width": 600,
+              "height": 36
+            },
+            "start": 16,
+            "length": 4,
+            "offset": {
+              "x": 0,
+              "y": 0.03
+            },
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "fit": "none",
+            "scale": 1,
+            "asset": {
+              "type": "text",
+              "text": "{{ AGENT_EMAIL }}",
+              "font": {
+                "family": "Manrope Light",
+                "color": "#ffffff",
+                "size": 18
+              },
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "width": 600,
+              "height": 64
+            },
+            "start": 16,
+            "length": 4,
+            "offset": {
+              "x": 0,
+              "y": -0.24
+            },
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ AGENCY_LOGO }}"
+            },
+            "start": 16,
+            "length": 4,
+            "fit": "none",
+            "scale": 0.26,
+            "offset": {
+              "x": 0,
+              "y": -0.1
+            },
+            "transition": {
+              "in": "fade"
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/ai-video-real-estate-slideshow/zzy904nl-1quc-962u-cif3-1lvgj53pnnzk/source.mov"
+            },
+            "start": 0,
+            "position": "center",
+            "scale": 1,
+            "length": 2.54
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/ai-video-real-estate-slideshow/zzy904qn-41mc-w51h-kbso-2q348v2aj4nl/source.mov"
+            },
+            "start": 2.54,
+            "length": 2.9,
+            "position": "center",
+            "scale": 1
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/ai-video-real-estate-slideshow/zzy904nr-2lqz-kv3f-xquq-37tcsx0bvr3q/source.mov"
+            },
+            "length": 3,
+            "start": 5.44,
+            "scale": 1
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/ai-video-real-estate-slideshow/zzy904m0-3zs9-fw2x-auxi-1oq9oz3ykpkl/source.mov"
+            },
+            "length": 3.4,
+            "start": 11.44
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/ai-video-real-estate-slideshow/zzy904ls-3qfe-mk2t-czmz-1cgipb4c4kfd/source.mov"
+            },
+            "start": 14.84,
+            "length": "end",
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/ai-video-real-estate-slideshow/zzy904me-3hvo-6z43-tvkc-2klowq2konra/source.mov"
+            },
+            "start": 8.44,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "fit": "crop",
+            "scale": 1,
+            "length": 4,
+            "asset": {
+              "type": "image-to-video",
+              "src": "{{ IMAGE_1 }}",
+              "prompt": "Slowly pan around the house 90 degrees counterclockwise.",
+              "aspectRatio": "16:9"
+            },
+            "start": 0,
+            "transition": {
+              "in": "fadeSlow"
+            },
+            "position": "center"
+          },
+          {
+            "fit": "none",
+            "scale": 1,
+            "length": 3,
+            "asset": {
+              "type": "image-to-video",
+              "src": "{{ IMAGE_3 }}",
+              "prompt": "Slowly pan into the kitchen.",
+              "aspectRatio": "16:9"
+            },
+            "start": 6.91,
+            "transition": {
+              "in": "fade"
+            }
+          },
+          {
+            "fit": "none",
+            "scale": 1,
+            "length": 3,
+            "asset": {
+              "type": "image-to-video",
+              "src": "{{ IMAGE_4 }}",
+              "prompt": "Slowly pan around the furniture.",
+              "aspectRatio": "16:9"
+            },
+            "start": 9.91
+          },
+          {
+            "fit": "none",
+            "scale": 1,
+            "length": 3,
+            "asset": {
+              "type": "image-to-video",
+              "src": "{{ IMAGE_5 }}",
+              "prompt": "Slowly pan around the bedroom.",
+              "aspectRatio": "16:9"
+            },
+            "start": 12.91
+          },
+          {
+            "fit": "none",
+            "scale": 1,
+            "length": "end",
+            "asset": {
+              "type": "image-to-video",
+              "src": "{{ IMAGE_1 }}",
+              "prompt": "Slowly pan around the house 90 degrees counterclockwise.",
+              "aspectRatio": "16:9"
+            },
+            "start": 15.91
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "fit": "none",
+            "scale": 1,
+            "length": 3,
+            "asset": {
+              "type": "image-to-video",
+              "src": "{{ IMAGE_2 }}",
+              "prompt": "Slowly pan into the room.",
+              "aspectRatio": "16:9"
+            },
+            "start": 3.91,
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "audio",
+              "src": "https://templates.shotstack.io/ai-video-real-estate-slideshow/fb441520-2102-41b3-856f-35af4eb8dad9/source.mp3",
+              "volume": 1,
+              "effect": "fadeOut"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1024,
+      "height": 576
+    }
+  },
+  "merge": [
+    {
+      "find": "ADDRESS",
+      "replace": "192 STOREY STREET"
+    },
+    {
+      "find": "SUBURB",
+      "replace": "MAROUBRA"
+    },
+    {
+      "find": "STATE",
+      "replace": "NSW"
+    },
+    {
+      "find": "POSTCODE",
+      "replace": "2035"
+    },
+    {
+      "find": "BEDROOMS",
+      "replace": "4"
+    },
+    {
+      "find": "BATHROOMS",
+      "replace": "2"
+    },
+    {
+      "find": "CARPORTS",
+      "replace": "1"
+    },
+    {
+      "find": "TYPE",
+      "replace": "AUCTION"
+    },
+    {
+      "find": "IMAGE_1",
+      "replace": "https://templates.shotstack.io/ai-video-real-estate-slideshow/38b34c9c-6d55-4b00-8bb0-7b3a0adb19b5/realestate1.jpg"
+    },
+    {
+      "find": "IMAGE_2",
+      "replace": "https://templates.shotstack.io/ai-video-real-estate-slideshow/d1af5fe7-7d68-4898-8fa7-eec49373911c/realestate2.jpg"
+    },
+    {
+      "find": "IMAGE_3",
+      "replace": "https://templates.shotstack.io/ai-video-real-estate-slideshow/1368c10f-fcbc-49cb-9221-a2be52668543/realestate3.jpg"
+    },
+    {
+      "find": "IMAGE_4",
+      "replace": "https://templates.shotstack.io/ai-video-real-estate-slideshow/97ed6ce6-f35f-4635-94bc-78e976e5c494/realestate4.jpg"
+    },
+    {
+      "find": "IMAGE_5",
+      "replace": "https://templates.shotstack.io/ai-video-real-estate-slideshow/550f4150-f91f-4c71-90d8-6b45866fd9c7/realestate5.jpg"
+    },
+    {
+      "find": "AGENT_PICTURE",
+      "replace": "https://templates.shotstack.io/ai-video-real-estate-slideshow/21912869-c986-4338-9a72-df1b04c12163/real-estate-agent-male.jpg"
+    },
+    {
+      "find": "AGENT_NAME",
+      "replace": "JEREMY SIMPSON"
+    },
+    {
+      "find": "AGENT_EMAIL",
+      "replace": "jeremy@blockrealestate.co"
+    },
+    {
+      "find": "AGENCY_LOGO",
+      "replace": "https://templates.shotstack.io/ai-video-real-estate-slideshow/6e039462-2bdb-4b7a-930f-ad7070db497a/real-estate-white.png"
+    }
+  ]
+}

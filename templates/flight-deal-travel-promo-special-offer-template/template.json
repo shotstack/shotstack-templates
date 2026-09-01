@@ -1,0 +1,435 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/flight-deal-travel-promo-special-offer-template/d17bb65d-c8dd-4036-8b24-ed213546912d/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/flight-deal-travel-promo-special-offer-template/2a6543b1-3688-4b68-ba56-724e25b5cde1/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_Subtitle_3}}",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_2 }}",
+                "family": "Bright Sunshine Demo",
+                "size": "150",
+                "lineHeight": 1
+              },
+              "width": 600,
+              "height": 200
+            },
+            "start": 4,
+            "length": "end",
+            "offset": {
+              "x": 0.188,
+              "y": -0.428
+            },
+            "position": "center",
+            "transition": {
+              "out": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_Subtitle_2}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_2 }}",
+                "family": "Bright Sunshine Demo",
+                "size": "150",
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 200
+            },
+            "start": 4,
+            "length": "end",
+            "offset": {
+              "x": -0.119,
+              "y": -0.074
+            },
+            "position": "center",
+            "transition": {
+              "out": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": " {{S2_Subtitle_1}}",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_2 }}",
+                "family": "Bright Sunshine Demo",
+                "size": "150",
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 200
+            },
+            "start": 4,
+            "length": "end",
+            "offset": {
+              "x": 0.126,
+              "y": 0.225
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/flight-deal-travel-promo-special-offer-template/c143524a-e18c-4849-8719-f36d34113744/source.mp4",
+              "volume": 1
+            },
+            "start": 4,
+            "scale": 0.325,
+            "offset": {
+              "x": 0,
+              "y": 0.335
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ S2_VIDEOC_1 }}",
+              "volume": 1
+            },
+            "start": 4,
+            "scale": 0.325,
+            "offset": {
+              "y": -0.335
+            },
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4,
+            "asset": {
+              "type": "video",
+              "src": "{{ S2_VIDEO_2 }}",
+              "volume": 1
+            },
+            "start": 4,
+            "scale": 0.325,
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 300,
+              "background": {
+                "color": "{{ FONT_COLOR_1 }}"
+              }
+            },
+            "start": 0.08,
+            "length": 4.62,
+            "offset": {
+              "x": 0,
+              "y": 0.097
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft",
+              "out": "carouselLeft"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/flight-deal-travel-promo-special-offer-template/1231abea-7a7b-4ceb-94b2-f8a116262272/source.png"
+            },
+            "start": 0,
+            "length": 4.7
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Web}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "aliens and cows",
+                "size": "32",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 72
+            },
+            "start": 0.59,
+            "length": 4.11,
+            "offset": {
+              "x": -0.989,
+              "y": -0.108
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight",
+              "out": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_Title_2}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "Bright Sunshine Demo",
+                "size": "130",
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 200
+            },
+            "start": 0.36,
+            "length": 4.34,
+            "offset": {
+              "x": 0,
+              "y": -0.049
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight",
+              "out": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_Title_1}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "aliens and cows",
+                "size": "41",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 72
+            },
+            "start": 0.21,
+            "length": 4.49,
+            "transition": {
+              "in": "carouselRight",
+              "out": "carouselLeft"
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 800,
+              "background": {
+                "color": "#ffffff",
+                "opacity": 0.55
+              }
+            },
+            "start": 0,
+            "length": 4.7,
+            "transition": {
+              "in": "carouselRight",
+              "out": "carouselLeft"
+            },
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/flight-deal-travel-promo-special-offer-template/1445f06a-9989-4677-988d-0b2c06122deb/source.png"
+            },
+            "start": 0,
+            "length": 4.7
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.7,
+            "asset": {
+              "type": "video",
+              "src": "{{ S1_VIDEO }}",
+              "volume": 1
+            },
+            "start": 0,
+            "scale": 1.1
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "S1_Title_1",
+      "replace": "YOUR FLIGHT WITH"
+    },
+    {
+      "find": "S1_Title_2",
+      "replace": "Boundfly"
+    },
+    {
+      "find": "S2_Subtitle_1",
+      "replace": "Feast"
+    },
+    {
+      "find": "S2_Subtitle_2",
+      "replace": "Beauty"
+    },
+    {
+      "find": "S1_Subtitle_3",
+      "replace": "Comfort"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#000000"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "S1_VIDEO",
+      "replace": "https://templates.shotstack.io/flight-deal-travel-promo-special-offer-template/4448e1c1-ddad-47ed-80d3-e7dc3744a339/source.m4v"
+    },
+    {
+      "find": "S2_VIDEOC_1",
+      "replace": "https://templates.shotstack.io/flight-deal-travel-promo-special-offer-template/f2e6242c-78b1-477b-8776-6a2633ce2d3c/source.mp4"
+    },
+    {
+      "find": "S2_VIDEO_2",
+      "replace": "https://templates.shotstack.io/flight-deal-travel-promo-special-offer-template/c712b399-7bc0-4271-a85c-d17c39bb2f21/source.mp4"
+    },
+    {
+      "find": "Web",
+      "replace": "www.boundfly.com"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/flight-deal-travel-promo-special-offer-template/6fed9dca-da7f-4000-a16c-2a0c526ad84e/source.mp3"
+    }
+  ]
+}

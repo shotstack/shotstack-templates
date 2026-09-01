@@ -1,0 +1,425 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/nature-themed-promo-template/b28b41f8-ffa5-445d-8207-f0a028e6d6d4/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title}}",
+              "font": {
+                "family": "Woodland",
+                "size": 150,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.396
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 800,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Subtitle}}",
+              "font": {
+                "family": "Woodland",
+                "size": 70,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 1.8,
+            "length": "end",
+            "offset": {
+              "x": 0.222,
+              "y": -0.448
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 600,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 8.4,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_6 }}",
+              "volume": 0
+            },
+            "start": 1.6,
+            "scale": 1,
+            "offset": {
+              "x": 0.34194409797609615,
+              "y": -0.18390595373305307
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -6
+              }
+            },
+            "transition": {
+              "in": "slideLeft"
+            },
+            "fit": "contain",
+            "width": 323,
+            "height": 572
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_5 }}",
+              "volume": 0
+            },
+            "start": 1.4,
+            "scale": 1,
+            "transform": {
+              "rotate": {
+                "angle": -6
+              }
+            },
+            "offset": {
+              "x": 0,
+              "y": -0.205
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "fit": "contain",
+            "width": 323,
+            "height": 572
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_4 }}",
+              "volume": 0
+            },
+            "start": 1.2,
+            "scale": 1,
+            "offset": {
+              "x": -0.34,
+              "y": -0.226
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -6
+              }
+            },
+            "transition": {
+              "in": "slideLeft"
+            },
+            "fit": "contain",
+            "width": 323,
+            "height": 572
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1900 620\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1900\" height=\"620\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 1,
+            "length": "end",
+            "transform": {
+              "rotate": {
+                "angle": -6
+              }
+            },
+            "offset": {
+              "x": -0.07,
+              "y": -0.211
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 1900,
+            "height": 620
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 9.6,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_3 }}",
+              "volume": 0
+            },
+            "start": 0.4,
+            "scale": 1,
+            "offset": {
+              "x": 0.31705478622274086,
+              "y": 0.07035416666666655
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 9
+              }
+            },
+            "transition": {
+              "in": "slideRight"
+            },
+            "fit": "contain",
+            "width": 314,
+            "height": 560
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_1 }}",
+              "volume": 0
+            },
+            "start": 0.8,
+            "scale": 1,
+            "offset": {
+              "x": -0.36242518457020123,
+              "y": 0.13204280876163893
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 9
+              }
+            },
+            "transition": {
+              "in": "slideRight"
+            },
+            "fit": "contain",
+            "width": 297,
+            "height": 560
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 9.4,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_2 }}",
+              "volume": 0
+            },
+            "start": 0.6,
+            "scale": 1,
+            "offset": {
+              "x": -0.02407407407407408,
+              "y": 0.10149999999999998
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 9
+              }
+            },
+            "transition": {
+              "in": "slideRight"
+            },
+            "fit": "contain",
+            "width": 314,
+            "height": 560
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1900 605\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1900\" height=\"605\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "transform": {
+              "rotate": {
+                "angle": 9
+              }
+            },
+            "offset": {
+              "x": 0.005,
+              "y": 0.101
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 1900,
+            "height": 605
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ BACKGROUND_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 10,
+            "position": "center",
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Title",
+      "replace": "Nature-themed visit"
+    },
+    {
+      "find": "Subtitle",
+      "replace": "Wild memories, tamed in time."
+    },
+    {
+      "find": "VIDEO_1",
+      "replace": "https://templates.shotstack.io/nature-themed-promo-template/49b48e8b-99ca-4e44-9f62-24ff62fdaca1/source.mp4"
+    },
+    {
+      "find": "VIDEO_2",
+      "replace": "https://templates.shotstack.io/nature-themed-promo-template/6677376a-48f9-4080-b8d8-a606c3fbe638/source.mp4"
+    },
+    {
+      "find": "VIDEO_3",
+      "replace": "https://templates.shotstack.io/nature-themed-promo-template/974dad58-1946-454e-b963-f1e2c26dbe3c/source.mp4"
+    },
+    {
+      "find": "VIDEO_4",
+      "replace": "https://templates.shotstack.io/nature-themed-promo-template/7cbf62c9-76c1-49b4-a55b-3b5e0f9daeca/source.mp4"
+    },
+    {
+      "find": "VIDEO_5",
+      "replace": "https://templates.shotstack.io/nature-themed-promo-template/c56f5f75-e5f4-4344-9ef2-17cd93a43c77/source.mp4"
+    },
+    {
+      "find": "VIDEO_6",
+      "replace": "https://templates.shotstack.io/nature-themed-promo-template/7eb42462-01e8-42cb-914c-01a7ab36fd7d/source.mp4"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "SHAPE_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BACKGROUND_COLOR_2",
+      "replace": "#936b62"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/nature-themed-promo-template/6e3c7058-a6c0-4f3e-8a8e-2c7c5953029b/source.mp3"
+    }
+  ]
+}

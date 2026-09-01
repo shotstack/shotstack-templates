@@ -1,0 +1,375 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 400,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": 0.34,
+              "y": -0.332
+            },
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/australia-travel-promotion-vacation-offer-template/32cdd644-f81c-4bf3-a690-c1dba77be44e/source.mp4"
+            },
+            "start": 0,
+            "length": 12.03
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Web}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "38",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 100
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.433
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{CTA}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "family": "Montserrat SemiBold",
+                "size": "74",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 200
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.236,
+              "y": -0.242
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": " {{Title_3}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "86",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 200
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.236,
+              "y": 0.041
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title_2}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "family": "Montserrat SemiBold",
+                "size": "74",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 100
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0.268,
+              "y": 0.328
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title_1}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "86",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 150
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": 0.256,
+              "y": 0.38
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_3 }}",
+              "volume": 1
+            },
+            "start": 0.5,
+            "scale": 0.35,
+            "offset": {
+              "x": -0.236,
+              "y": -0.203
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_2 }}",
+              "volume": 1
+            },
+            "start": 0.3,
+            "scale": 0.35,
+            "offset": {
+              "x": 0.236,
+              "y": 0.051
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_1 }}",
+              "volume": 1
+            },
+            "start": 0,
+            "scale": 0.35,
+            "offset": {
+              "x": -0.236,
+              "y": 0.287
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/australia-travel-promotion-vacation-offer-template/f2050b38-fb27-4168-acbb-169ca85d5fdb/source.mp4"
+            },
+            "start": 0,
+            "length": 12.03
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "#cfcebe"
+              }
+            },
+            "start": 0,
+            "length": 12
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "Title_1",
+      "replace": "TAKE"
+    },
+    {
+      "find": "Title_2",
+      "replace": "A VISIT"
+    },
+    {
+      "find": "Title_3",
+      "replace": "TO AUSTRALIA"
+    },
+    {
+      "find": "CTA",
+      "replace": "TRAVEL TODAY"
+    },
+    {
+      "find": "Web",
+      "replace": "www.travellingsurvey.com"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "TEXT_FONT_COLOR_2",
+      "replace": "#fafafa"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/australia-travel-promotion-vacation-offer-template/fdffe87b-265a-46ef-8897-9469efe372e2/source.mp3"
+    },
+    {
+      "find": "VIDEO_1",
+      "replace": "https://templates.shotstack.io/australia-travel-promotion-vacation-offer-template/7b24e5a8-6237-40ce-86e0-5b67376371cc/source.mp4"
+    },
+    {
+      "find": "VIDEO_2",
+      "replace": "https://templates.shotstack.io/australia-travel-promotion-vacation-offer-template/56bfdb4c-0940-42e3-bb0d-c87f9dc96ef3/source.mp4"
+    },
+    {
+      "find": "VIDEO_3",
+      "replace": "https://templates.shotstack.io/australia-travel-promotion-vacation-offer-template/5686b278-9000-49b7-9cf1-5971b727649b/source.mp4"
+    }
+  ]
+}

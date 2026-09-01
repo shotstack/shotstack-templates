@@ -1,0 +1,757 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/commercial-space-lease-prime-features/641fe957-de62-419d-86d8-10b96525119a/vEFy2_tTDB4M7-auWDN0ahZJW3IX2ih5nk3AucvUHf6OAVIJmeUDygwjihdqnhtdCw.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/commercial-space-lease-prime-features/468dd926-d313-4c62-ada1-0409587a820a/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCTx8cP.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/commercial-space-lease-prime-features/0038b0b6-a16e-4591-9e17-f0c2ba8af308/source.png"
+            },
+            "start": 0.7,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 200,
+              "height": 200,
+              "background": {
+                "color": "{{ BLACK_FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": 0.104,
+              "y": 0.144
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 200,
+              "height": 200,
+              "background": {
+                "color": "{{ BLACK_FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": 0.299,
+              "y": 0.144
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/commercial-space-lease-prime-features/b2172f3f-0e65-49d5-82f0-bf002bc74f2d/source.png"
+            },
+            "start": 0.7,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/commercial-space-lease-prime-features/e2041bd8-42f3-4ba8-a287-5e274913f9da/source.png"
+            },
+            "start": 0.7,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 200,
+              "height": 200,
+              "background": {
+                "color": "{{ BLACK_FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": -0.098,
+              "y": 0.144
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 200,
+              "height": 200,
+              "background": {
+                "color": "{{ BLACK_FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": -0.297,
+              "y": 0.144
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/commercial-space-lease-prime-features/aaa8b4f5-254d-46e9-8cd3-7d9b6f3bd8e6/source.png"
+            },
+            "start": 0.7,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_DESCRIPTION_4}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ BLACK_FONT_COLOR_2 }}",
+                "family": "Didact Gothic",
+                "size": "26",
+                "lineHeight": 1
+              },
+              "width": 200,
+              "height": 200
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": 0.299,
+              "y": 0.144
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_DESCRIPTION_3}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ BLACK_FONT_COLOR_2 }}",
+                "family": "Didact Gothic",
+                "size": "28",
+                "lineHeight": 1
+              },
+              "width": 197,
+              "height": 200
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": 0.103,
+              "y": 0.144
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_DESCRIPTION_2}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ BLACK_FONT_COLOR_2 }}",
+                "family": "Didact Gothic",
+                "size": "26",
+                "lineHeight": 1
+              },
+              "width": 200,
+              "height": 200
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": -0.098,
+              "y": 0.144
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_DESCRIPTION_4}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ BLACK_FONT_COLOR_2 }}",
+                "family": "Didact Gothic",
+                "size": "29",
+                "lineHeight": 1
+              },
+              "width": 200,
+              "height": 200
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": -0.297,
+              "y": 0.144
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S3_DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ BROWN_FONT_COLOR }}",
+                "family": "Noto Serif",
+                "size": "28",
+                "lineHeight": 1
+              },
+              "width": 600,
+              "height": 60
+            },
+            "start": 1.1,
+            "length": "end",
+            "offset": {
+              "x": -0.019,
+              "y": -0.427
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{CTA}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "top"
+              },
+              "font": {
+                "color": "{{ BROWN_FONT_COLOR }}",
+                "family": "Noto Serif",
+                "size": "47",
+                "lineHeight": 1
+              },
+              "width": 570,
+              "height": 60
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.019,
+              "y": -0.398
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/commercial-space-lease-prime-features/1fb5bda1-7abc-43b1-8155-d5eeacc3e465/source.jpg"
+            },
+            "start": 0.9,
+            "scale": 0.42,
+            "offset": {
+              "y": -0.155
+            },
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 1000,
+              "background": {
+                "color": "#ffffff"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.186
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{HEADER}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ BROWN_FONT_COLOR }}",
+                "family": "Noto Serif",
+                "size": "47",
+                "lineHeight": 1
+              },
+              "width": 285,
+              "height": 66
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.217
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#996900",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 950,
+              "height": 2.5,
+              "background": {
+                "color": "{{ BROWN_FONT_COLOR }}"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.258
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ADDRESS}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ BROWN_FONT_COLOR }}",
+                "family": "Noto Serif",
+                "size": "27",
+                "lineHeight": 1
+              },
+              "width": 600,
+              "height": 49
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.286
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ LOGO }}"
+            },
+            "start": 0,
+            "scale": 0.07,
+            "offset": {
+              "x": 0,
+              "y": 0.426
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "top"
+              },
+              "font": {
+                "color": "{{ BROWN_FONT_COLOR }}",
+                "family": "Noto Serif",
+                "size": "47",
+                "lineHeight": 1
+              },
+              "width": 600,
+              "height": 60
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.314
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{TITLE}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ BROWN_FONT_COLOR }}",
+                "family": "Noto Serif",
+                "size": "70",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 100
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.365
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/commercial-space-lease-prime-features/58060b9e-b60e-4a4e-aa2f-f79e5c915988/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1700,
+              "height": 2500,
+              "background": {
+                "color": "{{ ELEMENT_BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "y": -0.375,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR_2 }}"
+              }
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "TITLE",
+      "replace": "FOR LEASE:"
+    },
+    {
+      "find": "DESCRIPTION",
+      "replace": "Real Commercial Space"
+    },
+    {
+      "find": "ADDRESS",
+      "replace": "123 Anywhere St., Any City, ST 12345"
+    },
+    {
+      "find": "HEADER",
+      "replace": "Features:"
+    },
+    {
+      "find": "S2_DESCRIPTION_1",
+      "replace": "Easily accessible location"
+    },
+    {
+      "find": "S2_DESCRIPTION_2",
+      "replace": "Modern restrooms for customer"
+    },
+    {
+      "find": "S2_DESCRIPTION_3",
+      "replace": "well- maintained building"
+    },
+    {
+      "find": "S2_DESCRIPTION_4",
+      "replace": "Competitive leasing rates"
+    },
+    {
+      "find": "CTA",
+      "replace": "Call: 123-456-7890"
+    },
+    {
+      "find": "S3_DESCRIPTION",
+      "replace": "to schedule a visit or get more information"
+    },
+    {
+      "find": "LOGO",
+      "replace": "https://templates.shotstack.io/commercial-space-lease-prime-features/d8565f29-04db-4d0e-bfe1-389643fd064c/source.png"
+    },
+    {
+      "find": "BROWN_FONT_COLOR",
+      "replace": "#6a4901"
+    },
+    {
+      "find": "BLACK_FONT_COLOR_2",
+      "replace": "#000000"
+    },
+    {
+      "find": "ELEMENT_BACKGROUND_COLOR",
+      "replace": "#ceaf82"
+    },
+    {
+      "find": "BACKGROUND_COLOR_2",
+      "replace": "#f9f2eb"
+    }
+  ]
+}

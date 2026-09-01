@@ -1,0 +1,456 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/beach-holiday-video-collage-promo-template/a8c33186-4411-405e-ab50-7c289acf9dc5/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Body}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 300
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Huile de Jacinthe",
+                "size": "150",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 400
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.266
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_4 }}",
+              "volume": 0
+            },
+            "start": 0.8,
+            "scale": 0.26,
+            "transform": {
+              "rotate": {
+                "angle": 15
+              }
+            },
+            "offset": {
+              "x": 0.18,
+              "y": -0.036
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 450,
+              "height": 559,
+              "background": {
+                "color": "{{ SHAPE_COLOR }}"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0.18,
+              "y": -0.038
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 15
+              }
+            },
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_3 }}",
+              "volume": 0
+            },
+            "start": 0.6,
+            "scale": 0.3,
+            "transform": {
+              "rotate": {
+                "angle": -11
+              }
+            },
+            "offset": {
+              "x": -0.239,
+              "y": 0.01
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 397,
+              "height": 627,
+              "background": {
+                "color": "{{ SHAPE_COLOR }}"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.239,
+              "y": 0.01
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -11
+              }
+            },
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_2 }}",
+              "volume": 0
+            },
+            "start": 0.4,
+            "scale": 0.25,
+            "offset": {
+              "x": 0.211,
+              "y": 0.212
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 9
+              }
+            },
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 450,
+              "height": 559,
+              "background": {
+                "color": "{{ SHAPE_COLOR }}"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.208,
+              "y": 0.205
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 9
+              }
+            },
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_1 }}",
+              "volume": 0
+            },
+            "start": 0.2,
+            "scale": 0.2,
+            "offset": {
+              "x": -0.188,
+              "y": 0.288
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 450,
+              "height": 500,
+              "background": {
+                "color": "{{ SHAPE_COLOR }}"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.188,
+              "y": 0.274
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Montserrat ExtraBold",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 2000,
+              "height": 2000,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.02,
+              "y": -0.433
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/beach-holiday-video-collage-promo-template/d3afa74d-2b9f-4285-acad-d10bd205d418/source.png"
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 10,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_BACKGROUND }}"
+            },
+            "start": 0
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "Title",
+      "replace": "Baech Holiday"
+    },
+    {
+      "find": "Body",
+      "replace": "Stepping into a place where the ocean meets my escape, and every wave feels like a fresh beginning."
+    },
+    {
+      "find": "VIDEO_1",
+      "replace": "https://templates.shotstack.io/beach-holiday-video-collage-promo-template/95ac8c55-3927-4f49-ac3b-dc07ea29e5e6/source.mp4"
+    },
+    {
+      "find": "VIDEO_2",
+      "replace": "https://templates.shotstack.io/beach-holiday-video-collage-promo-template/02dfef9b-e523-4642-adff-c376bb729aae/source.mp4"
+    },
+    {
+      "find": "VIDEO_3",
+      "replace": "https://templates.shotstack.io/beach-holiday-video-collage-promo-template/0f8a5e58-3bef-49b8-9388-94b53300f597/source.m4v"
+    },
+    {
+      "find": "VIDEO_4",
+      "replace": "https://templates.shotstack.io/beach-holiday-video-collage-promo-template/d98f8f24-8403-4a86-9859-cbb9e7761d6c/source.m4v"
+    },
+    {
+      "find": "IMAGE_BACKGROUND",
+      "replace": "https://templates.shotstack.io/beach-holiday-video-collage-promo-template/a463c781-c156-44ca-bb59-8950e4760116/source.jpg"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "SHAPE_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#edede9"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/beach-holiday-video-collage-promo-template/20e43960-acd5-4130-8afe-8525fabfadff/source.mp3"
+    }
+  ]
+}

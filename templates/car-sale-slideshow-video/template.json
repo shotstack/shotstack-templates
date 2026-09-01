@@ -1,0 +1,859 @@
+{
+  "timeline": {
+    "background": "#000000",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ YEAR }}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "color": "#ffffff",
+                "size": 160
+              },
+              "alignment": {
+                "horizontal": "right"
+              },
+              "width": 450,
+              "height": 180
+            },
+            "start": 0,
+            "length": 4,
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.317,
+              "y": 0.095
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "MERCEDES-BENZ",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "color": "#ffffff",
+                "size": 80
+              },
+              "alignment": {
+                "horizontal": "left"
+              },
+              "width": 1131,
+              "height": 160
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": 0.098,
+              "y": 0.124
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideDown"
+            },
+            "start": 0.5,
+            "length": 3.5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ MODEL }}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "color": "#ffffff",
+                "size": 60
+              },
+              "alignment": {
+                "horizontal": "left"
+              },
+              "width": 1133,
+              "height": 120
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": 0.099,
+              "y": 0.045
+            },
+            "position": "center",
+            "start": 1,
+            "length": 3,
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ SELLER }} | {{ TYPE }} | {{ STATE }}, {{ POSTCODE }}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "color": "#ffffff",
+                "size": 32
+              },
+              "alignment": {
+                "horizontal": "left"
+              },
+              "width": 826,
+              "height": 60
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": 0.019,
+              "y": -0.014
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            },
+            "start": 1.2,
+            "length": 2.8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_1 }}"
+            },
+            "start": 0,
+            "length": 5,
+            "effect": "zoomIn",
+            "transition": {
+              "in": "fade"
+            },
+            "position": "center",
+            "fit": "crop",
+            "opacity": 0.4
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/car-sale-slideshow-video/31d234d2-2091-4a43-aa2a-e3bec1c3ddc4/source.mp4"
+            },
+            "length": 2,
+            "start": 4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "KMS",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "color": "#ffffff",
+                "size": 40
+              },
+              "alignment": {
+                "horizontal": "left"
+              },
+              "width": 144,
+              "height": 93
+            },
+            "length": 5,
+            "start": 5,
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.178,
+              "y": 0.021
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ SPEC }}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "color": "#ffffff",
+                "size": 40
+              },
+              "alignment": {
+                "horizontal": "right"
+              },
+              "width": 700,
+              "height": 90
+            },
+            "length": 5,
+            "start": 5,
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.32,
+              "y": -0.05
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ ODOMETER }}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "color": "#ffffff",
+                "size": 90
+              },
+              "alignment": {
+                "horizontal": "right"
+              },
+              "width": 423,
+              "height": 160
+            },
+            "length": 5,
+            "start": 5,
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.332,
+              "y": 0.035
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "html",
+              "width": 100,
+              "height": 600,
+              "background": "#d96657",
+              "html": "<p data-html-type=\"text\"> </p>",
+              "css": "p { color: #ffffff; font-size: 32px; font-family: 'Roboto Black'; text-align: center; }"
+            },
+            "start": 5,
+            "length": 5,
+            "position": "center",
+            "transition": {
+              "in": "carouselDown",
+              "out": "slideDown"
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.474,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_2 }}"
+            },
+            "start": 5.7,
+            "length": 4.3,
+            "offset": {
+              "x": 0.2,
+              "y": 0
+            },
+            "position": "center",
+            "fit": "none",
+            "scale": 0.5,
+            "transition": {
+              "in": "slideLeft",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_2 }}"
+            },
+            "fit": "crop",
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "scale": 1,
+            "opacity": 0.4,
+            "start": 4,
+            "length": 6
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/car-sale-slideshow-video/b127f4e2-3ce4-4cef-8ce7-08ebb2d34961/source.mp4"
+            },
+            "length": 2,
+            "start": 9
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_3 }}"
+            },
+            "effect": "zoomIn",
+            "position": "center",
+            "fit": "crop",
+            "scale": 1,
+            "transition": {
+              "in": "fade"
+            },
+            "start": 9,
+            "length": 3
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/car-sale-slideshow-video/33d2c1b0-367a-46ad-907b-ad78a804e76f/source.mp4"
+            },
+            "length": 2,
+            "start": 11
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "INTERIOR",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "color": "#ffffff",
+                "size": 60
+              },
+              "alignment": {
+                "horizontal": "left"
+              },
+              "width": 620,
+              "height": 96
+            },
+            "start": 11.5,
+            "length": 5.5,
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideRight"
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.25,
+              "y": 0.054
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ INTERIOR }}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "color": "#ffffff",
+                "size": 36
+              },
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "width": 1000,
+              "height": 250
+            },
+            "start": 11.5,
+            "length": 5.5,
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideRight"
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.15,
+              "y": -0.094
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "html",
+              "width": 50,
+              "height": 300,
+              "background": "#d96657",
+              "html": "<p data-html-type=\"text\"> </p>",
+              "css": "p { color: #ffffff; font-size: 32px; font-family: 'Roboto Black'; text-align: center; }"
+            },
+            "transition": {
+              "in": "carouselDown",
+              "out": "slideDown"
+            },
+            "start": 11.5,
+            "length": 5.5,
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.487,
+              "y": 0
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_4 }}"
+            },
+            "start": 11,
+            "length": 7,
+            "effect": "zoomIn",
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "fit": "crop",
+            "scale": 1
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/car-sale-slideshow-video/eaabeec9-66cc-4522-bb38-bee193e14de4/source.mp4"
+            },
+            "length": 2,
+            "start": 17
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_5 }}"
+            },
+            "length": 4,
+            "effect": "zoomIn",
+            "position": "center",
+            "start": 17
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/car-sale-slideshow-video/601da9e5-c415-448f-92a8-cd91e0c08f98/source.mp4"
+            },
+            "length": 2,
+            "start": 20
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "UPGRADES",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "color": "#ffffff",
+                "size": 60
+              },
+              "alignment": {
+                "horizontal": "left"
+              },
+              "width": 620,
+              "height": 108
+            },
+            "start": 21,
+            "length": 4,
+            "transition": {
+              "in": "slideDown",
+              "out": "slideUp"
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.245,
+              "y": 0.057
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ UPGRADES }}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "color": "#ffffff",
+                "size": 36
+              },
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "width": 903,
+              "height": 300
+            },
+            "start": 21,
+            "length": 4,
+            "transition": {
+              "in": "slideDown",
+              "out": "slideUp"
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.171,
+              "y": -0.124
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "html",
+              "width": 50,
+              "height": 300,
+              "background": "#d96657",
+              "html": "<p data-html-type=\"text\"> </p>",
+              "css": "p { color: #ffffff; font-size: 32px; font-family: 'Roboto Black'; text-align: center; }"
+            },
+            "transition": {
+              "in": "carouselDown",
+              "out": "slideDown"
+            },
+            "start": 21,
+            "length": 4,
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.487,
+              "y": 0
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_6 }}"
+            },
+            "start": 20,
+            "length": 6,
+            "effect": "zoomIn",
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/car-sale-slideshow-video/9f9607f6-8153-437a-a04f-3b7b01eefb01/source.mp4"
+            },
+            "length": 2,
+            "start": 25
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ PRICE }}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "color": "#ffffff",
+                "size": 150
+              },
+              "alignment": {
+                "horizontal": "center"
+              },
+              "width": 1133,
+              "height": 180
+            },
+            "start": 28,
+            "length": 3,
+            "transition": {
+              "out": "slideUp",
+              "in": "slideDown"
+            },
+            "fit": "none",
+            "scale": 1,
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "including taxes and registration",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "color": "#ffffff",
+                "size": 36
+              },
+              "alignment": {
+                "horizontal": "center"
+              },
+              "width": 620,
+              "height": 93
+            },
+            "transition": {
+              "out": "slideUp",
+              "in": "slideDown"
+            },
+            "start": 28,
+            "length": 3,
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": -0.143
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/car-sale-slideshow-video/69795645-7356-4170-a0ff-406522f34301/source.png"
+            },
+            "start": 30.8,
+            "length": 5.2,
+            "fit": "none",
+            "transition": {
+              "in": "slideUp"
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "carmart.co",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "color": "#ffffff",
+                "size": 40
+              },
+              "alignment": {
+                "horizontal": "center"
+              },
+              "width": 1920,
+              "height": 1080
+            },
+            "length": 5,
+            "offset": {
+              "x": 0,
+              "y": -0.2
+            },
+            "start": 31,
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "none",
+            "scale": 1,
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_7 }}"
+            },
+            "start": 25,
+            "length": 8,
+            "effect": "zoomIn",
+            "transition": {
+              "out": "fade"
+            },
+            "position": "center",
+            "fit": "crop",
+            "scale": 1,
+            "opacity": 0.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "audio",
+              "src": "https://templates.shotstack.io/car-sale-slideshow-video/4b639106-e1fc-4808-85c0-18a13ce1c56c/source.mp3",
+              "effect": "fadeOut",
+              "volume": 1
+            },
+            "start": 0,
+            "length": 36
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "merge": [
+    {
+      "find": "YEAR",
+      "replace": "2021"
+    },
+    {
+      "find": "MAKE",
+      "replace": "MERCEDES-BENZ"
+    },
+    {
+      "find": "MODEL",
+      "replace": "A-CLASS A-180 AUTO"
+    },
+    {
+      "find": "SELLER",
+      "replace": "DEALER"
+    },
+    {
+      "find": "TYPE",
+      "replace": "USED"
+    },
+    {
+      "find": "STATE",
+      "replace": "QUEENSLAND"
+    },
+    {
+      "find": "POSTCODE",
+      "replace": "4029"
+    },
+    {
+      "find": "IMAGE_1",
+      "replace": "https://templates.shotstack.io/car-sale-slideshow-video/27efb285-a3b2-47e6-8440-574a6b660183/pexels-photo-9513395.jpg"
+    },
+    {
+      "find": "IMAGE_2",
+      "replace": "https://templates.shotstack.io/car-sale-slideshow-video/ec960f5b-85be-453e-a951-e1469da2dd6a/source.jpg"
+    },
+    {
+      "find": "IMAGE_3",
+      "replace": "https://templates.shotstack.io/car-sale-slideshow-video/96fd90d8-c88b-482c-a539-e375314c564b/source.jpg"
+    },
+    {
+      "find": "IMAGE_4",
+      "replace": "https://templates.shotstack.io/car-sale-slideshow-video/cda2590c-1033-430a-bd0f-ca28506f99c8/source.jpg"
+    },
+    {
+      "find": "IMAGE_5",
+      "replace": "https://templates.shotstack.io/car-sale-slideshow-video/6726f69d-af0f-4701-b5f9-98594f9ccfad/source.jpg"
+    },
+    {
+      "find": "IMAGE_6",
+      "replace": "https://templates.shotstack.io/car-sale-slideshow-video/a25bb50a-8813-4514-9913-3e323cd7cf8c/source.jpg"
+    },
+    {
+      "find": "IMAGE_7",
+      "replace": "https://templates.shotstack.io/car-sale-slideshow-video/e574b011-2c53-47df-acfe-e0759840a106/source.jpg"
+    },
+    {
+      "find": "ODOMETER",
+      "replace": "48,364"
+    },
+    {
+      "find": "SPEC",
+      "replace": "4CYL 2.0L TURBO DIESEL"
+    },
+    {
+      "find": "INTERIOR",
+      "replace": "White Nappa leather, front heated seats, 4 door, 5 seats."
+    },
+    {
+      "find": "UPGRADES",
+      "replace": "Harmon Kardon sound system, Keyless Go, 360 surround view camera, rain sensing wipers."
+    },
+    {
+      "find": "PRICE",
+      "replace": "$46,990"
+    }
+  ]
+}

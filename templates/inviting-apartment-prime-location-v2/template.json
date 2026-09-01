@@ -1,0 +1,494 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/inviting-apartment-prime-location/a9d72c7f-235b-4763-aa7c-3aa646fb0a7b/RWmQoKGA8fEkrIPtSZ3_J7er2dUSC0Fr.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/vujahdayscript/v10/RWmQoKGA8fEkrIPtSZ3_J7er2dUiDEtvAlaMKw.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm45xW5rygbi49c.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TITLE}}",
+              "font": {
+                "family": "RWmQoKGA8fEkrIPtSZ3_J7er2dUiDEtvAlaMKw",
+                "size": 166,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.037,
+              "y": -0.07
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 800,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.5,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": 0.1283793597371129,
+              "y": 0.21782660747885432
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 4
+              }
+            },
+            "transition": {
+              "out": "fade"
+            },
+            "width": 790,
+            "height": 787,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.5,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 1.5,
+            "offset": {
+              "x": 0.13057760340032834,
+              "y": 0.2190000077969678
+            },
+            "scale": 1,
+            "transform": {
+              "rotate": {
+                "angle": 4
+              }
+            },
+            "transition": {
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 803,
+            "height": 805
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.5,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_3 }}"
+            },
+            "start": 4,
+            "scale": 1,
+            "offset": {
+              "x": 0.13421125374494008,
+              "y": 0.21627475704356278
+            },
+            "transform": {
+              "rotate": {
+                "angle": 4
+              }
+            },
+            "transition": {
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 800,
+            "height": 800
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_4 }}"
+            },
+            "start": 6.5,
+            "offset": {
+              "x": 0.12573269931077696,
+              "y": 0.2162747726374984
+            },
+            "scale": 1,
+            "transform": {
+              "rotate": {
+                "angle": 4
+              }
+            },
+            "transition": {},
+            "fit": "contain",
+            "width": 792,
+            "height": 795
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA}}{{PHONE}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 35,
+                "weight": 500,
+                "color": "{{ BROWN_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 1.4,
+            "length": "end",
+            "offset": {
+              "x": -0.083,
+              "y": -0.353
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 700,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DATE_TIME}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 35,
+                "weight": 500,
+                "color": "{{ BROWN_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.13,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.245,
+              "y": -0.303
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 350,
+            "height": 110
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{STATUS}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 40,
+                "weight": 700,
+                "color": "{{ BROWN_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": -0.245,
+              "y": -0.263
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 350,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION_2}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 35,
+                "weight": 500,
+                "color": "{{ BROWN_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.198
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 880,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION_1}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 51,
+                "weight": 900,
+                "color": "{{ BROWN_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.148
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 880,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 900 900\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"900\" height=\"900\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.133,
+              "y": 0.219
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 4
+              }
+            },
+            "width": 900,
+            "height": 900
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"#e0dac7\"/></svg>"
+            },
+            "start": 0,
+            "length": 10,
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "TITLE",
+      "replace": "For Lease"
+    },
+    {
+      "find": "DESCRIPTION_1",
+      "replace": "1 Bed 1 Bath with patio"
+    },
+    {
+      "find": "DESCRIPTION_2",
+      "replace": "$2000 with pool, oven, and heater included"
+    },
+    {
+      "find": "STATUS",
+      "replace": "Open house"
+    },
+    {
+      "find": "DATE_TIME",
+      "replace": "Sun 6 September 10am-11am"
+    },
+    {
+      "find": "CTA",
+      "replace": "Dm or call me "
+    },
+    {
+      "find": "PHONE",
+      "replace": "+123-456-7890 "
+    },
+    {
+      "find": "BROWN_FONT_COLOR",
+      "replace": "#3d1a1a"
+    },
+    {
+      "find": "TEXT_FONT_COLOR_2",
+      "replace": "#000000"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/inviting-apartment-prime-location/7f903f77-3a53-41f3-8f20-6eec45006fac/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_2",
+      "replace": "https://templates.shotstack.io/inviting-apartment-prime-location/db18c8d3-a216-495b-b6a6-f46818abbc1c/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_3",
+      "replace": "https://templates.shotstack.io/inviting-apartment-prime-location/4241ca17-8c7a-44c5-81cf-468e093cf70c/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_4",
+      "replace": "https://templates.shotstack.io/inviting-apartment-prime-location/3ec5638c-8941-4a32-94e6-068e8aa10280/source.jpg"
+    }
+  ]
+}

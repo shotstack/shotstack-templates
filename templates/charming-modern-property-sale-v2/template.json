@@ -1,0 +1,633 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "Title",
+              "font": {
+                "family": "Open Sans Bold",
+                "size": 72,
+                "weight": 700,
+                "color": "#000000",
+                "opacity": 1
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 10,
+            "length": 5,
+            "fit": "none",
+            "width": 600,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_DESCRIPTION_2}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 46,
+                "weight": 600,
+                "color": "{{ TEXT_BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 7.4,
+            "length": "end",
+            "offset": {
+              "y": -0.45,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_DESCRIPTION}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 48,
+                "weight": 800,
+                "color": "{{ TEXT_BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 7.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.405
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 500,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_TITLE}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 41,
+                "weight": 600,
+                "color": "{{ TEXT_BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 7,
+            "length": "end",
+            "offset": {
+              "x": 0.005,
+              "y": -0.327
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 400,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 500 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"500\" height=\"200\" fill=\"{{ TEXT_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 7,
+            "length": "end",
+            "offset": {
+              "x": 0.005,
+              "y": -0.329
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 500,
+            "height": 200
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/charming-modern-property-sale/e4fcec0d-a2ca-4af8-8bbc-cfabb628e629/source.png"
+            },
+            "start": 7,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_3 }}"
+            },
+            "start": 7,
+            "scale": 1,
+            "transition": {
+              "in": "fade"
+            },
+            "offset": {
+              "x": 0,
+              "y": 0.049766070717259435
+            },
+            "fit": "contain",
+            "width": 1000,
+            "height": 1000
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_DESCRIPTION}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 64,
+                "weight": 800,
+                "color": "{{ TEXT_BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 4.2,
+            "length": 2.8,
+            "offset": {
+              "x": 0,
+              "y": -0.406
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fadeFast"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_TITLE}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 60,
+                "weight": 800,
+                "color": "{{ TEXT_BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 4,
+            "length": 3,
+            "offset": {
+              "x": 0,
+              "y": -0.349
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fadeFast"
+            },
+            "width": 500,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 4,
+            "scale": 1,
+            "transition": {
+              "in": "slideRight",
+              "out": "fadeFast"
+            },
+            "offset": {
+              "x": 0,
+              "y": 0.052068530701754434
+            },
+            "fit": "contain",
+            "width": 1000,
+            "height": 1000
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 500 17\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"500\" height=\"17\" fill=\"{{ TEXT_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 4.5,
+            "length": "end",
+            "offset": {
+              "x": 0.403,
+              "y": 0.388
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 500,
+            "height": 17
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 500 17\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"500\" height=\"17\" fill=\"{{ TEXT_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 4.4,
+            "length": "end",
+            "offset": {
+              "x": 0.403,
+              "y": 0.352
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 500,
+            "height": 17
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 500 17\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"500\" height=\"17\" fill=\"{{ TEXT_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 4,
+            "length": "end",
+            "offset": {
+              "x": -0.409,
+              "y": -0.235
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 500,
+            "height": 17
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 500 17\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"500\" height=\"17\" fill=\"{{ TEXT_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 4,
+            "length": "end",
+            "offset": {
+              "x": -0.412,
+              "y": -0.269
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 500,
+            "height": 17
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"#000000\" fill-opacity=\"0.26\"/></svg>"
+            },
+            "start": 3.9952,
+            "length": "end",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/charming-modern-property-sale/38eda812-17e6-4f65-b5b5-e67dea0ca95c/source.png"
+            },
+            "start": 0.5,
+            "length": 3.5
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"200\" fill=\"{{ TEXT_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0.5,
+            "length": 3.5,
+            "offset": {
+              "x": -0.306,
+              "y": -0.397
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "width": 200,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TITLE}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 96,
+                "weight": 800,
+                "color": "{{ TEXT_BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.23,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "down",
+                "style": "word"
+              }
+            },
+            "start": 0.4,
+            "length": 3.6,
+            "offset": {
+              "x": 0.139,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "width": 649,
+            "height": 389
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1200 2500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1200\" height=\"2500\" fill=\"#000000\"/></svg>"
+            },
+            "start": 0.2,
+            "length": 3.8,
+            "transform": {
+              "rotate": {
+                "angle": 75
+              }
+            },
+            "offset": {
+              "x": 0.076,
+              "y": -0.457
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/charming-modern-property-sale/d9d4ecde-c2e0-4802-8463-d10d11a0c9d6/source.png"
+            },
+            "start": 0.2,
+            "length": 3.8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1500 1080\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1500\" height=\"1080\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0,
+            "length": 4,
+            "opacity": 1,
+            "transform": {
+              "rotate": {
+                "angle": 45
+              }
+            },
+            "offset": {
+              "x": -0.468,
+              "y": -0.588
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "width": 1500,
+            "height": 1080
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 10,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "crop"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "TITLE",
+      "replace": "MODERN REAL ESTATE"
+    },
+    {
+      "find": "S2_TITLE",
+      "replace": "START PRICE"
+    },
+    {
+      "find": "S2_DESCRIPTION",
+      "replace": "$1499.99"
+    },
+    {
+      "find": "S3_TITLE",
+      "replace": "BOOK NOW"
+    },
+    {
+      "find": "S3_DESCRIPTION",
+      "replace": "CONTACT US"
+    },
+    {
+      "find": "S3_DESCRIPTION_2",
+      "replace": "+123 456 7890"
+    },
+    {
+      "find": "TEXT_BACKGROUND_COLOR",
+      "replace": "#fed98b"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/charming-modern-property-sale/5081bd56-fac0-44b7-b467-b9d8efefbeba/shotstack-proxy.webp"
+    },
+    {
+      "find": "IMAGE_SRC_2",
+      "replace": "https://templates.shotstack.io/charming-modern-property-sale/4fce101f-8a79-486e-b722-7702a307513f/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_3",
+      "replace": "https://templates.shotstack.io/charming-modern-property-sale/d19e6deb-3d8b-4454-a4fe-7f05a64bb50a/source.jpg"
+    }
+  ]
+}

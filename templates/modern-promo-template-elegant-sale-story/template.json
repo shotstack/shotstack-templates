@@ -1,0 +1,1509 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/437a3dce-7fdc-4e96-9e33-8bb3e5334d84/OpNCnoEEmtHa6GcOrgs.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/3f8b2042-ffae-4073-bfe4-3d3904015b15/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrDvN_SUGKg.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/2933465e-4702-4869-8d32-e6371ae9ae8b/f0Xs0fCv8dxkDWlZSoXOj6CphMloFvErGJw.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/f2e4facb-1998-4106-9a51-c8f4960c4654/ea8Aad44WunzF9a-dL6toA8r8kqSK3A.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/6740dd19-5414-4886-bab0-b8002c7ced55/j8_16_LD37rqfuwxyIuaZhE6cRXOLtm2gfT2hq-J.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/bcd77453-e012-40ca-af47-42787b71f363/nuFqD-PLTZX4XIgT-P2ToCDudWHHflqUpTpfjWdzO4eN.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/867110fe-89ab-41b0-8957-e5edf29b20a2/Y4GQYbJ8VTEp4t3MKJSMjg5OIzhi0J_ZRg.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/aa89802b-3196-4411-bf33-65b579876f1d/j8_16_LD37rqfuwxyIuaZhE6cRXOLtm2gfT2hq-J.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/5a4912ab-c07b-4540-82cb-fd4503b68507/c4m_1mF4GcnstG_Jh1QH6ac4hNLeNyeYUpolKQM.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/f4e72d2c-ff5d-41d3-b720-337cd95bdd0c/wEOhEADFm8hSaQTFG18FErVhsC9x-tarUfbtqA.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/110f963a-fff0-4d4e-aba3-97a67ba9d0c8/source.png"
+            },
+            "start": 7.4,
+            "length": 3.3
+          },
+          {
+            "length": 3.3,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_5 }}"
+            },
+            "start": 7.4,
+            "scale": 0.12,
+            "offset": {
+              "x": -0.125,
+              "y": -0.041
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 243,
+              "height": 243,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}",
+                "borderRadius": 19
+              }
+            },
+            "start": 7.4,
+            "length": 3.3,
+            "offset": {
+              "x": -0.125,
+              "y": -0.041
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/1a63061c-d038-4897-b384-92ab4cd52a3b/source.png"
+            },
+            "start": 7.2,
+            "length": 3.5
+          },
+          {
+            "length": 3.5,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_6 }}"
+            },
+            "start": 7.2,
+            "scale": 0.19,
+            "offset": {
+              "x": 0.149,
+              "y": -0.014
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 253,
+              "height": 377,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}",
+                "borderRadius": 19
+              }
+            },
+            "start": 7,
+            "length": 3.7,
+            "offset": {
+              "x": 0.149,
+              "y": -0.014
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/aa8a188b-20b5-4e7e-8ed2-311aafd00af3/source.png"
+            },
+            "start": 6.8,
+            "length": 3.9
+          },
+          {
+            "length": 3.9,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_7 }}"
+            },
+            "start": 6.8,
+            "scale": 0.12,
+            "offset": {
+              "x": 0,
+              "y": -0.197
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 365,
+              "height": 240,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}",
+                "borderRadius": 19
+              }
+            },
+            "start": 6.8,
+            "length": 3.9,
+            "offset": {
+              "x": 0,
+              "y": -0.197
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/95cbbce3-2022-4ee5-9e20-86d4673c5f13/source.png"
+            },
+            "start": 6.7,
+            "length": 4
+          },
+          {
+            "length": 4,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_4 }}"
+            },
+            "start": 6.7,
+            "scale": 0.12,
+            "offset": {
+              "x": 0.149,
+              "y": 0.177
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 243,
+              "height": 243,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}",
+                "borderRadius": 19
+              }
+            },
+            "start": 6.7,
+            "length": 4,
+            "offset": {
+              "x": 0.149,
+              "y": 0.177
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/2c58ae3a-954f-46dd-b0b8-e84989f595f9/source.png"
+            },
+            "start": 6.5,
+            "length": 4.2
+          },
+          {
+            "length": 4.2,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_3 }}"
+            },
+            "start": 6.5,
+            "scale": 0.19,
+            "offset": {
+              "x": -0.126,
+              "y": 0.147
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 253,
+              "height": 377,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}",
+                "borderRadius": 19
+              }
+            },
+            "start": 6.5,
+            "length": 4.2,
+            "offset": {
+              "x": -0.126,
+              "y": 0.147
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{WEBSITE}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "36",
+                "lineHeight": 1
+              },
+              "width": 450,
+              "height": 125,
+              "background": {
+                "borderRadius": 26
+              }
+            },
+            "start": 11.6,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.254
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{CTA}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "39",
+                "lineHeight": 1
+              },
+              "width": 450,
+              "height": 125,
+              "background": {
+                "borderRadius": 26,
+                "color": "{{ BROWN_BACKGROUND_COLOR_2 }}"
+              }
+            },
+            "start": 11.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.188
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "35",
+                "lineHeight": 1.2
+              },
+              "width": 550,
+              "height": 350
+            },
+            "start": 11.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.033
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_TITLE}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "102",
+                "lineHeight": 1.2
+              },
+              "width": 690,
+              "height": 380
+            },
+            "start": 11.1038,
+            "length": "end",
+            "offset": {
+              "x": 0.017,
+              "y": 0.158
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 5,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": -0.407,
+              "y": -0.444
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{CONTACT}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "39",
+                "lineHeight": 1
+              },
+              "width": 450,
+              "height": 100
+            },
+            "start": 0.7351,
+            "length": "end",
+            "offset": {
+              "x": 0.208,
+              "y": -0.443
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 5,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": 0.407,
+              "y": 0.444
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{BRAND_NAME}}",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "39",
+                "lineHeight": 1
+              },
+              "width": 450,
+              "height": 100
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": -0.26,
+              "y": 0.444
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_TITLE}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "65",
+                "lineHeight": 1
+              },
+              "width": 520,
+              "height": 300
+            },
+            "start": 1,
+            "length": 4.65,
+            "offset": {
+              "y": 0.233,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 200,
+              "height": 100,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 5,
+            "length": 1,
+            "offset": {
+              "y": 0.044,
+              "x": 0
+            },
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/c3f38373-701e-463d-922e-bf1979a21150/source.mp4"
+            },
+            "start": 5,
+            "length": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "35",
+                "lineHeight": 1
+              },
+              "width": 594,
+              "height": 150
+            },
+            "start": 1,
+            "length": 10,
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.04,
+                  "from": 0.12,
+                  "to": 0.12,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.04,
+                  "length": 1.12,
+                  "from": 0.12,
+                  "to": 0.12,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 1.16,
+                  "length": 0.43,
+                  "from": 0.12,
+                  "to": 0.12,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 1.59,
+                  "length": 2.79,
+                  "from": 0.12,
+                  "to": 0.12,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                },
+                {
+                  "start": 4.38,
+                  "length": 1.18,
+                  "from": 0.12,
+                  "to": 0.29,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                },
+                {
+                  "start": 5.56,
+                  "length": 3.07,
+                  "from": 0.29,
+                  "to": 0.29,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                },
+                {
+                  "start": 8.63,
+                  "length": 0.98,
+                  "from": 0.29,
+                  "to": 0.29,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.04,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.04,
+                  "length": 1.12,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 1.16,
+                  "length": 0.43,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 1.59,
+                  "length": 2.79,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 4.38,
+                  "length": 1.18,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 5.56,
+                  "length": 3.07,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 8.63,
+                  "length": 0.98,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.04,
+                "from": 0,
+                "to": 0,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.04,
+                "length": 1.12,
+                "from": 0,
+                "to": 0,
+                "interpolation": "linear"
+              },
+              {
+                "start": 1.16,
+                "length": 0.43,
+                "from": 0,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 1.59,
+                "length": 2.79,
+                "from": 1,
+                "to": 0.995,
+                "interpolation": "linear"
+              },
+              {
+                "start": 4.38,
+                "length": 1.18,
+                "from": 0.995,
+                "to": 0.995,
+                "interpolation": "linear"
+              },
+              {
+                "start": 5.56,
+                "length": 3.07,
+                "from": 0.995,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 8.63,
+                "length": 0.98,
+                "from": 1,
+                "to": 0,
+                "interpolation": "linear"
+              }
+            ],
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.04,
+                "from": 0.8,
+                "to": 0.8,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.04,
+                "length": 1.12,
+                "from": 0.8,
+                "to": 0.8,
+                "interpolation": "linear"
+              },
+              {
+                "start": 1.16,
+                "length": 0.43,
+                "from": 0.8,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 1.59,
+                "length": 2.79,
+                "from": 1,
+                "to": 0.998,
+                "interpolation": "linear"
+              },
+              {
+                "start": 4.38,
+                "length": 1.18,
+                "from": 0.998,
+                "to": 0.998,
+                "interpolation": "linear"
+              },
+              {
+                "start": 5.56,
+                "length": 3.07,
+                "from": 0.998,
+                "to": 0.998,
+                "interpolation": "linear"
+              },
+              {
+                "start": 8.63,
+                "length": 0.98,
+                "from": 0.998,
+                "to": 0.998,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.04,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear",
+                    "easing": "linear"
+                  },
+                  {
+                    "start": 0.04,
+                    "length": 1.12,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 1.16,
+                    "length": 0.43,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 1.59,
+                    "length": 2.79,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 4.38,
+                    "length": 1.18,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 5.56,
+                    "length": 3.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 8.63,
+                    "length": 0.98,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 594,
+              "height": 150,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 1,
+            "length": 10,
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.04,
+                  "from": 0.12,
+                  "to": 0.12,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.04,
+                  "length": 1.12,
+                  "from": 0.12,
+                  "to": 0.12,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 1.16,
+                  "length": 0.43,
+                  "from": 0.12,
+                  "to": 0.12,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 1.59,
+                  "length": 2.79,
+                  "from": 0.12,
+                  "to": 0.12,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                },
+                {
+                  "start": 4.38,
+                  "length": 1.18,
+                  "from": 0.12,
+                  "to": 0.29,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                },
+                {
+                  "start": 5.56,
+                  "length": 3.07,
+                  "from": 0.29,
+                  "to": 0.29,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                },
+                {
+                  "start": 8.63,
+                  "length": 0.98,
+                  "from": 0.29,
+                  "to": 0.29,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.04,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.04,
+                  "length": 1.12,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 1.16,
+                  "length": 0.43,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 1.59,
+                  "length": 2.79,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 4.38,
+                  "length": 1.18,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 5.56,
+                  "length": 3.07,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 8.63,
+                  "length": 0.98,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.04,
+                "from": 0,
+                "to": 0,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.04,
+                "length": 1.12,
+                "from": 0,
+                "to": 0,
+                "interpolation": "linear"
+              },
+              {
+                "start": 1.16,
+                "length": 0.43,
+                "from": 0,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 1.59,
+                "length": 2.79,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 4.38,
+                "length": 1.18,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 5.56,
+                "length": 3.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 8.63,
+                "length": 0.98,
+                "from": 1,
+                "to": 0,
+                "interpolation": "linear"
+              }
+            ],
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.04,
+                "from": 0.8,
+                "to": 0.8,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.04,
+                "length": 1.12,
+                "from": 0.8,
+                "to": 0.8,
+                "interpolation": "linear"
+              },
+              {
+                "start": 1.16,
+                "length": 0.43,
+                "from": 0.8,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 1.59,
+                "length": 2.79,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 4.38,
+                "length": 1.18,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 5.56,
+                "length": 3.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 8.63,
+                "length": 0.98,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.04,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear",
+                    "easing": "linear"
+                  },
+                  {
+                    "start": 0.04,
+                    "length": 1.12,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 1.16,
+                    "length": 0.43,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 1.59,
+                    "length": 2.79,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 4.38,
+                    "length": 1.18,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 5.56,
+                    "length": 3.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 8.63,
+                    "length": 0.98,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/50259a20-63d1-401f-9344-dc710c6c2acf/source.png"
+            },
+            "start": 1,
+            "length": 10
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/647df2b0-7c62-4824-b147-6e7a03e094b8/source.mp4"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "#050505"
+              }
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/c9b02129-5b35-4176-98a5-d14a967270fc/source.mp4"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 0,
+            "fit": "cover"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ OVERLAY }}",
+                "opacity": 0.37
+              }
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 16.03,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 0,
+            "scale": 1
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "IMAGE_SRC_2",
+      "replace": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/7a4e5f16-43e4-4b74-9bf2-f3b602c62b64/source.jpg"
+    },
+    {
+      "find": "S1_TITLE",
+      "replace": "WHAT ARE YOU LOOKING FOR?"
+    },
+    {
+      "find": "S1_DESCRIPTION",
+      "replace": "Elegant Furniture"
+    },
+    {
+      "find": "BRAND_NAME",
+      "replace": "JACK FURNITURE"
+    },
+    {
+      "find": "CONTACT",
+      "replace": "@jacksitehere"
+    },
+    {
+      "find": "IMAGE_SRC_3",
+      "replace": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/6ea05f19-456d-46d4-b622-42c34ff695a9/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_4",
+      "replace": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/792ee347-b706-44b1-a461-10df64203d86/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_5",
+      "replace": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/c129aa7f-b363-4c6e-a8fa-e4b4d6865b2f/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_6",
+      "replace": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/4d373dd2-1885-49ae-b3fb-7eed688fbc5d/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_7",
+      "replace": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/eb44d3e7-4f30-47fe-907d-b0a754e5f151/source.jpg"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "S2_TITLE",
+      "replace": "UNIQUE ITEMS, BUY NOW!"
+    },
+    {
+      "find": "S2_DESCRIPTION",
+      "replace": "Don't lose out on our Elegant pieces. Add luxury to your home now!"
+    },
+    {
+      "find": "CTA",
+      "replace": "VISIT US NOW AT"
+    },
+    {
+      "find": "WEBSITE",
+      "replace": "www.jacksite.com"
+    },
+    {
+      "find": "BROWN_BACKGROUND_COLOR_2",
+      "replace": "#442613"
+    },
+    {
+      "find": "OVERLAY",
+      "replace": "#b99898"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/modern-promo-template-elegant-sale-story/10bec521-cba9-4556-9192-6917bcd41dcf/source.mp3"
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": 2.62,
+            "asset": {
+              "type": "audio",
+              "src": "{{ Ringtone }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1,
+              "trim": 2.58
+            },
+            "start": 2.61
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "auto",
+            "fit": "contain",
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/event-promo-sales-template-urban-offer/u11bq5p15w5n3h17xvoc53uu/source_5069fac9.webm"
+            },
+            "start": 2.5883892764136904,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.880000000000001,
+            "asset": {
+              "type": "video",
+              "src": "{{ S4_VIDEO }}",
+              "volume": 0
+            },
+            "start": 7.76,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3,
+            "asset": {
+              "type": "video",
+              "src": "{{ S3_VIDEO }}"
+            },
+            "start": 5.14,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.8,
+            "asset": {
+              "type": "video",
+              "src": "{{ S2_VIDEO }}"
+            },
+            "start": 2.55,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.8,
+            "asset": {
+              "type": "image",
+              "src": "{{ Profile_Photos }}"
+            },
+            "start": 0.0016,
+            "scale": 1,
+            "fit": "contain",
+            "width": 390,
+            "height": 390,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/event-promo-sales-template-urban-offer/38826ca1-f8dc-4834-92f5-f8a177571a0a/source.png"
+            },
+            "start": 0.0016,
+            "length": 2.8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.8,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/event-promo-sales-template-urban-offer/c1ef8fc3-6c3c-43d6-97bf-7bffa510017a/source.png"
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": -0.23997996383356412
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 788,
+            "height": 168
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.8,
+            "fit": "contain",
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/event-promo-sales-template-urban-offer/u11bq5p15w5n3h17xvoc53uu/source_20744351.webm"
+            },
+            "start": 0,
+            "scale": 1,
+            "width": 750,
+            "height": 1333,
+            "offset": {
+              "x": 0,
+              "y": 0.0013760163206085001
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.8,
+            "fit": "contain",
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/event-promo-sales-template-urban-offer/u11bq5p15w5n3h17xvoc53uu/source_b550e915.webm"
+            },
+            "start": 0,
+            "offset": {
+              "x": -0.003,
+              "y": 0.0015751793032787187
+            },
+            "position": "center",
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title_2}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 36,
+                "weight": 600,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 0,
+            "length": 2.8,
+            "offset": {
+              "x": 0,
+              "y": 0.263
+            },
+            "position": "center",
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title_1}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 65,
+                "weight": 800,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 0,
+            "length": 2.8,
+            "offset": {
+              "x": 0,
+              "y": 0.338
+            },
+            "position": "center",
+            "width": 500,
+            "height": 120
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 888 1704\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"888\" height=\"1704\" fill=\"{{ S1_BACKGROUND_COLOR }}\" fill-opacity=\"0.36\" rx=\"100\" ry=\"100\"/></svg>"
+            },
+            "start": 0,
+            "length": 2.8,
+            "width": 888,
+            "height": 1704
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.8,
+            "asset": {
+              "type": "video",
+              "src": "{{ S4_VIDEO }}"
+            },
+            "start": 0,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "contain"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Title_1",
+      "replace": "NEW YORK"
+    },
+    {
+      "find": "Title_2",
+      "replace": "is calling ...."
+    },
+    {
+      "find": "S1_BACKGROUND_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "Profile_Photos",
+      "replace": "https://templates.shotstack.io/event-promo-sales-template-urban-offer/6a05e68b-828e-4add-9cca-a5b8cf309df6/source.jpg"
+    },
+    {
+      "find": "S1_VIDEO",
+      "replace": "https://templates.shotstack.io/event-promo-sales-template-urban-offer/1f26ebf8-eaac-46ed-b950-c78c3a39575d/source.mp4"
+    },
+    {
+      "find": "S2_VIDEO",
+      "replace": "https://templates.shotstack.io/event-promo-sales-template-urban-offer/84e48c52-008c-4caa-8604-01e7c7152543/source.mp4"
+    },
+    {
+      "find": "S3_VIDEO",
+      "replace": "https://templates.shotstack.io/event-promo-sales-template-urban-offer/f4bfcff8-17e9-48cd-8351-eb44e0d6e91b/source.mp4"
+    },
+    {
+      "find": "S4_VIDEO",
+      "replace": "https://templates.shotstack.io/event-promo-sales-template-urban-offer/ab292098-2ab0-4e8e-90de-4872d145be7c/source.mp4"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/event-promo-sales-template-urban-offer/6b8f936e-f340-4a1e-8b67-9e763a1c20b8/source.mp3"
+    },
+    {
+      "find": "Ringtone",
+      "replace": "https://templates.shotstack.io/event-promo-sales-template-urban-offer/0345d142-cebb-4677-b0c3-72b20b3281fe/source.mp3"
+    }
+  ]
+}

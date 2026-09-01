@@ -1,0 +1,743 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/national-holiday-sale-promo-travel-offer/0c76f1f3-ac1a-40d7-8b98-7a5f31918aa9/source.otf"
+      },
+      {
+        "src": "https://templates.shotstack.io/national-holiday-sale-promo-travel-offer/0de9534a-26e7-4b77-91d5-eae880673889/source.otf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 350 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"350\" height=\"200\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 12,
+            "length": 4,
+            "offset": {
+              "x": 0,
+              "y": -0.192
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 350,
+            "height": 200
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/national-holiday-sale-promo-travel-offer/9be6ced3-91e6-4a8a-8400-896d5ba370a8/source.png"
+            },
+            "start": 12,
+            "length": 4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Body}}",
+              "font": {
+                "family": "Agrandir",
+                "size": 86,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 12,
+            "length": 4,
+            "offset": {
+              "x": 0,
+              "y": 0.031
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 600,
+            "height": 900
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 880 1720\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"880\" height=\"1720\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 12,
+            "length": 4,
+            "transition": {
+              "in": "fade"
+            },
+            "position": "center",
+            "width": 880,
+            "height": 1720
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/national-holiday-sale-promo-travel-offer/94ce4f4a-3c1a-4534-ab1d-09ae04c92659/source.mp4"
+            },
+            "start": 12,
+            "length": 4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 922 1704\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"922\" height=\"1704\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 12,
+            "length": 4,
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 922,
+            "height": 1704
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/national-holiday-sale-promo-travel-offer/bf9b2c2c-7226-4da0-a4c0-a1072248ace2/source.png"
+            },
+            "start": 12,
+            "length": 4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4,
+            "asset": {
+              "type": "video",
+              "src": "{{ S4_VIDEO }}",
+              "volume": 0
+            },
+            "start": 12,
+            "transition": {
+              "in": "fade"
+            },
+            "fit": "crop",
+            "width": 1100,
+            "height": 1931,
+            "offset": {
+              "x": 0.009100582437275972,
+              "y": -0.0027511760752688018
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_subtitle_2}}",
+              "font": {
+                "family": "Agrandir",
+                "size": 120,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "character"
+              }
+            },
+            "start": 8,
+            "length": 4.7,
+            "offset": {
+              "x": 0,
+              "y": -0.059
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "width": 700,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_Subtitle_1}}",
+              "font": {
+                "family": "Agrandir",
+                "size": 120,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "character"
+              }
+            },
+            "start": 8,
+            "length": 4.7,
+            "offset": {
+              "x": 0,
+              "y": 0.268
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "width": 700,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.7,
+            "asset": {
+              "type": "video",
+              "src": "{{ S3_VIDEO_2 }}",
+              "volume": 1
+            },
+            "start": 8,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": -0.06540091959635416
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "fit": "contain",
+            "width": 770,
+            "height": 582
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.7,
+            "asset": {
+              "type": "video",
+              "src": "{{ S3_VIDEO_1 }}",
+              "volume": 1
+            },
+            "start": 8,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0.265
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "fit": "contain",
+            "width": 770,
+            "height": 582
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 864 1692\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"864\" height=\"1692\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 8,
+            "length": 4.7,
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "width": 864,
+            "height": 1692
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 8,
+            "length": 4.7,
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "position": "center",
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_Subtitle}}",
+              "font": {
+                "family": "Agrandir",
+                "size": 120,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "character"
+              }
+            },
+            "start": 4,
+            "length": 4.7,
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "width": 700,
+            "height": 162
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 880 1720\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"880\" height=\"1720\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 4,
+            "length": 4.7,
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "width": 880,
+            "height": 1720
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/national-holiday-sale-promo-travel-offer/8d1f7e96-85e9-4653-84a6-a76c689b9e69/source.mp4"
+            },
+            "start": 4,
+            "length": 4.7
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.7,
+            "asset": {
+              "type": "video",
+              "src": "{{ S2_VIDEO }}",
+              "volume": 0
+            },
+            "start": 4,
+            "scale": 1,
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/national-holiday-sale-promo-travel-offer/8751a93d-1b8a-4d7c-a422-09061d763eed/source.png"
+            },
+            "start": 4,
+            "length": 4.7
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 4,
+            "length": 4.7,
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 300 5\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"300\" height=\"5\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 4.7,
+            "offset": {
+              "y": -0.018,
+              "x": 0.132
+            },
+            "transition": {
+              "in": "slideRight",
+              "out": "fade"
+            },
+            "width": 300,
+            "height": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Producer}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 46,
+                "weight": 800,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": 4.7,
+            "offset": {
+              "x": 0,
+              "y": -0.09
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "width": 700,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Title_2}}",
+              "font": {
+                "family": "Agrandir",
+                "size": 120,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": 4.7,
+            "offset": {
+              "x": 0.172,
+              "y": 0.065
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 450,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Title_1}}",
+              "font": {
+                "family": "Burgues Script",
+                "size": 120,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0,
+            "length": 4.7,
+            "offset": {
+              "x": -0.16,
+              "y": 0.093
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "width": 300,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.7,
+            "fit": "contain",
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/national-holiday-sale-promo-travel-offer/i1h5tggqlv9rm8rel5993y9a/source_cac46d11.webm"
+            },
+            "start": 0,
+            "scale": 1,
+            "transition": {
+              "out": "fade"
+            },
+            "width": 990,
+            "height": 1720,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.7,
+            "asset": {
+              "type": "video",
+              "src": "{{ S1_VIDEO }}",
+              "volume": 0
+            },
+            "start": 0,
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "S1_Title_1",
+      "replace": "The"
+    },
+    {
+      "find": "S1_Title_2",
+      "replace": "INDIA TOUR"
+    },
+    {
+      "find": "S1_Producer",
+      "replace": "By Travel Survey"
+    },
+    {
+      "find": "S1_VIDEO",
+      "replace": "https://templates.shotstack.io/national-holiday-sale-promo-travel-offer/02a217f0-a114-4f93-a298-65903aa01c33/source.mp4"
+    },
+    {
+      "find": "S2_VIDEO",
+      "replace": "https://templates.shotstack.io/national-holiday-sale-promo-travel-offer/1860e4d5-0589-4b06-b6bd-cd8d7191bae2/source.mp4"
+    },
+    {
+      "find": "S2_Subtitle",
+      "replace": "BUILDINGS"
+    },
+    {
+      "find": "S3_VIDEO_1",
+      "replace": "https://templates.shotstack.io/national-holiday-sale-promo-travel-offer/2c9b0db0-24b2-4eb8-b17b-cea53f6333a4/source.mp4"
+    },
+    {
+      "find": "S3_VIDEO_2",
+      "replace": "https://templates.shotstack.io/national-holiday-sale-promo-travel-offer/94b5f042-180e-4ce0-b802-ad9f03064c27/source.mp4"
+    },
+    {
+      "find": "S3_Subtitle_1",
+      "replace": "CULTURE"
+    },
+    {
+      "find": "S3_subtitle_2",
+      "replace": "FOOD"
+    },
+    {
+      "find": "S4_VIDEO",
+      "replace": "https://templates.shotstack.io/national-holiday-sale-promo-travel-offer/7da81249-b12a-4646-b355-da53e84ec495/source.mp4"
+    },
+    {
+      "find": "Body",
+      "replace": "FROM THE COLORS OF JAIPUR TO THE CALM OF KERALA, INDIA IS PURE MAGIC."
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#f0dc00"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/national-holiday-sale-promo-travel-offer/348ca736-3555-46d0-b153-986edfefb61c/source.mp3"
+    }
+  ]
+}

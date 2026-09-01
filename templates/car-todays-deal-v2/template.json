@@ -1,0 +1,385 @@
+{
+  "timeline": {
+    "soundtrack": {
+      "src": "https://templates.shotstack.io/car-todays-deal/90c54bb5-157a-4a2b-9eaf-09727f3f9cd5/ambisax.mp3",
+      "effect": "fadeOut"
+    },
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/car-todays-deal/24a8a7fd-f5ce-43c6-a454-07a8ba267872/source.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/roboto/v50/KFOmCnqEu92Fr1Me5WZLCzYlKw.ttf"
+      }
+    ],
+    "background": "#ffffff",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/car-todays-deal/b52e4c0b-7a24-47d8-87f8-7d906ed37fa0/source.png"
+            },
+            "offset": {
+              "x": -0.2030849306688726,
+              "y": -0.12328288647563423
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast"
+            },
+            "scale": 1,
+            "start": 2,
+            "length": 8,
+            "fit": "contain",
+            "width": 640,
+            "height": 675
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/car-todays-deal/a3385c9c-4d3b-4fc4-ad21-caae68990b81/source.png"
+            },
+            "offset": {
+              "x": -0.015284130990344605,
+              "y": -0.03585852410529217
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast"
+            },
+            "scale": 1,
+            "start": 2,
+            "length": 8,
+            "width": 875,
+            "height": 496,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "ONLY",
+              "font": {
+                "family": "Roboto",
+                "size": 76,
+                "weight": 400,
+                "color": "#8a0000",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": 0.308,
+              "y": -0.073
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDownSlow"
+            },
+            "start": 2,
+            "length": 8,
+            "width": 350,
+            "height": 86
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ PRICE }}",
+              "font": {
+                "family": "Roboto",
+                "size": 90,
+                "weight": 400,
+                "color": "#8a0000",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": 0.307,
+              "y": -0.164
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUpSlow"
+            },
+            "start": 2,
+            "length": 8,
+            "width": 375,
+            "height": 113
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/car-todays-deal/a7a35730-631d-4a86-8351-1a199bf52222/source.png"
+            },
+            "offset": {
+              "x": 0.30672629186519973,
+              "y": -0.13475013444104178
+            },
+            "position": "center",
+            "opacity": 1,
+            "transition": {
+              "in": "slideDown"
+            },
+            "scale": 1,
+            "start": 2,
+            "length": 8,
+            "fit": "contain",
+            "width": 459,
+            "height": 478
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ YEAR }} MODEL ON SALE TODAY ONLY",
+              "font": {
+                "family": "Roboto",
+                "size": 58,
+                "weight": 400,
+                "color": "#4d4d4d",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "right",
+                "style": "word"
+              }
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": 0.211,
+              "y": 0.172
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "start": 1.5,
+            "length": 8.5,
+            "width": 950,
+            "height": 77
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "TODAY'S DEAL",
+              "font": {
+                "family": "Roboto",
+                "size": 145,
+                "weight": 400,
+                "color": "#4d4d4d",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "left",
+                "style": "word"
+              }
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": 0.157,
+              "y": 0.272
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "start": 1,
+            "length": 9,
+            "width": 1141,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/car-todays-deal/zfakopyrwh56qluw2ar2cvus/source_808ce938.webm"
+            },
+            "offset": {
+              "x": -0.41987132450609543,
+              "y": -0.0008191146700955809
+            },
+            "position": "center",
+            "scale": 1,
+            "length": 10,
+            "start": 0,
+            "fit": "contain",
+            "width": 845,
+            "height": 1078
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE }}"
+            },
+            "start": 1.21,
+            "offset": {
+              "x": -0.1468069506193462,
+              "y": -0.1725022692466572
+            },
+            "position": "center",
+            "length": 8.79,
+            "scale": 1,
+            "transition": {
+              "in": "carouselRightSlow"
+            },
+            "fit": "contain",
+            "width": 996,
+            "height": 589
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/car-todays-deal/c2a15257-ed5f-4581-a917-f453ea1f8bb5/source.png"
+            },
+            "start": 0,
+            "offset": {
+              "x": 0.05641677204699569,
+              "y": 0.23723787167652877
+            },
+            "position": "center",
+            "opacity": 0.5,
+            "fit": "contain",
+            "length": 10,
+            "effect": "zoomInSlow",
+            "scale": 1,
+            "width": 1561,
+            "height": 1104
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/car-todays-deal/92d85fa7-c488-4ade-b2ba-9749f1640a00/source.mp4",
+              "volume": 1
+            },
+            "length": 10,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "position": "center",
+            "scale": 1,
+            "start": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "format": "mp4",
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "PRICE",
+      "replace": "$45,000"
+    },
+    {
+      "find": "YEAR",
+      "replace": "2023"
+    },
+    {
+      "find": "IMAGE",
+      "replace": "https://templates.shotstack.io/car-todays-deal/66b4caa1-ff0e-4d74-a2cc-0dfc336ceec2/source.png"
+    }
+  ]
+}

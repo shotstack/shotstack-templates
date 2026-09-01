@@ -1,0 +1,1901 @@
+{
+  "timeline": {
+    "soundtrack": {
+      "src": "https://templates.shotstack.io/top-10-tourism-listicle/4abe59eb-345a-4925-b268-ed4e53f55622/lit.mp3",
+      "effect": "fadeOut"
+    },
+    "background": "#ffffff",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ TITLE }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 84,
+                "weight": 400,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.322,
+              "y": 0.266
+            },
+            "position": "center",
+            "length": 4,
+            "width": 473,
+            "height": 502
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ TITLE }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 84,
+                "weight": 400,
+                "color": "#282828",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0,
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "fit": "none",
+            "scale": 1,
+            "position": "center",
+            "length": 4,
+            "offset": {
+              "x": -0.321,
+              "y": 0.265
+            },
+            "width": 473,
+            "height": 502
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "1",
+              "font": {
+                "family": "Clear Sans",
+                "size": 400,
+                "weight": 400,
+                "color": "#ff7a02",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.29,
+              "y": -0.157
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "start": 1,
+            "length": 5,
+            "fit": "none",
+            "scale": 1,
+            "position": "center",
+            "width": 584,
+            "height": 370
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "2",
+              "font": {
+                "family": "Clear Sans",
+                "size": 400,
+                "weight": 400,
+                "color": "#ff7a02",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.29,
+              "y": -0.157
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "start": 8,
+            "length": 5,
+            "fit": "none",
+            "scale": 1,
+            "position": "center",
+            "width": 584,
+            "height": 370
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "3",
+              "font": {
+                "family": "Clear Sans",
+                "size": 400,
+                "weight": 400,
+                "color": "#ff7a02",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.29,
+              "y": -0.157
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "start": 15,
+            "length": 5,
+            "width": 584,
+            "height": 370
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "4",
+              "font": {
+                "family": "Clear Sans",
+                "size": 400,
+                "weight": 400,
+                "color": "#ff7a02",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.29,
+              "y": -0.157
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "start": 22,
+            "length": 5,
+            "width": 584,
+            "height": 370
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "5",
+              "font": {
+                "family": "Clear Sans",
+                "size": 400,
+                "weight": 400,
+                "color": "#ff7a02",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.29,
+              "y": -0.157
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "start": 29,
+            "length": 5,
+            "fit": "none",
+            "scale": 1,
+            "position": "center",
+            "width": 584,
+            "height": 370
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "6",
+              "font": {
+                "family": "Clear Sans",
+                "size": 400,
+                "weight": 400,
+                "color": "#ff7a02",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.29,
+              "y": -0.157
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "start": 36,
+            "length": 5,
+            "width": 584,
+            "height": 370
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "7",
+              "font": {
+                "family": "Clear Sans",
+                "size": 400,
+                "weight": 400,
+                "color": "#ff7a02",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.29,
+              "y": -0.157
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "start": 43,
+            "length": 5,
+            "width": 584,
+            "height": 370
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "8",
+              "font": {
+                "family": "Clear Sans",
+                "size": 400,
+                "weight": 400,
+                "color": "#ff7a02",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.29,
+              "y": -0.157
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "start": 50,
+            "length": 5,
+            "width": 584,
+            "height": 370
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "9",
+              "font": {
+                "family": "Clear Sans",
+                "size": 400,
+                "weight": 400,
+                "color": "#ff7a02",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.29,
+              "y": -0.157
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "start": 57,
+            "length": 5,
+            "width": 584,
+            "height": 370
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "10",
+              "font": {
+                "family": "Clear Sans",
+                "size": 400,
+                "weight": 400,
+                "color": "#ff7a02",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.29,
+              "y": -0.157
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "start": 64,
+            "length": 5,
+            "fit": "none",
+            "scale": 1,
+            "position": "center",
+            "width": 584,
+            "height": 370
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_0dd3e8da.webm",
+              "volume": 1
+            },
+            "length": 2,
+            "start": 6.48
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_0dd3e8da.webm",
+              "volume": 1
+            },
+            "length": 2,
+            "start": 13.48
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_0dd3e8da.webm",
+              "volume": 1
+            },
+            "length": 2,
+            "start": 20.48
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_0dd3e8da.webm",
+              "volume": 1
+            },
+            "length": 2,
+            "start": 27.48
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_0dd3e8da.webm",
+              "volume": 1
+            },
+            "length": 2,
+            "start": 34.48
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_0dd3e8da.webm",
+              "volume": 1
+            },
+            "length": 2,
+            "start": 41.48,
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_0dd3e8da.webm",
+              "volume": 1
+            },
+            "length": 2,
+            "start": 48.48
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_0dd3e8da.webm",
+              "volume": 1
+            },
+            "length": 2,
+            "start": 55.48
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_0dd3e8da.webm",
+              "volume": 1
+            },
+            "length": 2,
+            "start": 62.48
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ 1_TOP }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 39,
+                "weight": 400,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "offset": {
+              "x": -0.274,
+              "y": -0.325
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "start": 1.1,
+            "length": 4.8,
+            "width": 614,
+            "height": 46
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ 2_TOP }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 39,
+                "weight": 400,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.274,
+              "y": -0.325
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "start": 8.1,
+            "length": 4.8,
+            "width": 614,
+            "height": 46
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ 3_TOP }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 39,
+                "weight": 400,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.274,
+              "y": -0.325
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "start": 15.1,
+            "length": 4.8,
+            "width": 614,
+            "height": 46
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ 4_TOP }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 39,
+                "weight": 400,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.274,
+              "y": -0.325
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "length": 4.8,
+            "start": 22.1,
+            "width": 614,
+            "height": 46
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ 5_TOP }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 39,
+                "weight": 400,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.274,
+              "y": -0.325
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "length": 4.8,
+            "start": 29.1,
+            "fit": "none",
+            "scale": 1,
+            "position": "center",
+            "width": 614,
+            "height": 46
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ 6_TOP }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 39,
+                "weight": 400,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.274,
+              "y": -0.325
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "length": 4.8,
+            "start": 36.1,
+            "width": 614,
+            "height": 46
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ 7_TOP }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 39,
+                "weight": 400,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.274,
+              "y": -0.325
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "length": 4.8,
+            "start": 43.1,
+            "width": 614,
+            "height": 46
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ 8_TOP }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 39,
+                "weight": 400,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.274,
+              "y": -0.325
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "length": 4.8,
+            "start": 50.1,
+            "width": 614,
+            "height": 46
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ 9_TOP }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 39,
+                "weight": 400,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.274,
+              "y": -0.325
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "length": 4.8,
+            "start": 57.1,
+            "width": 614,
+            "height": 46
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ 10_TOP }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 39,
+                "weight": 400,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.274,
+              "y": -0.325
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "length": 4.8,
+            "start": 64.1,
+            "width": 614,
+            "height": 46
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ 1_BOTTOM }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 26,
+                "weight": 400,
+                "color": "#282828",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "offset": {
+              "x": -0.205,
+              "y": -0.383
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "start": 1.2,
+            "length": 4.6,
+            "width": 457,
+            "height": 46
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ 2_BOTTOM }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 26,
+                "weight": 400,
+                "color": "#282828",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.205,
+              "y": -0.383
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "start": 8.2,
+            "length": 4.6,
+            "width": 457,
+            "height": 46
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ 3_BOTTOM }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 26,
+                "weight": 400,
+                "color": "#282828",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.205,
+              "y": -0.383
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "length": 4.6,
+            "start": 15.2,
+            "width": 457,
+            "height": 46
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ 4_BOTTOM }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 26,
+                "weight": 400,
+                "color": "#282828",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.205,
+              "y": -0.383
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "length": 4.6,
+            "start": 22.2,
+            "width": 457,
+            "height": 46
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ 5_BOTTOM }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 26,
+                "weight": 400,
+                "color": "#282828",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.205,
+              "y": -0.383
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "length": 4.6,
+            "start": 29.2,
+            "fit": "none",
+            "scale": 1,
+            "position": "center",
+            "width": 457,
+            "height": 46
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ 6_BOTTOM }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 26,
+                "weight": 400,
+                "color": "#282828",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.205,
+              "y": -0.383
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "length": 4.6,
+            "start": 36.2,
+            "width": 457,
+            "height": 46
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ 7_BOTTOM }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 26,
+                "weight": 400,
+                "color": "#282828",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.205,
+              "y": -0.383
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "length": 4.6,
+            "start": 43.2,
+            "width": 457,
+            "height": 46
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ 8_BOTTOM }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 26,
+                "weight": 400,
+                "color": "#282828",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "transition": {
+              "in": "wipeLeft",
+              "out": "wipeRight"
+            },
+            "offset": {
+              "x": -0.205,
+              "y": -0.383
+            },
+            "length": 4.6,
+            "start": 50.2,
+            "width": 457,
+            "height": 46
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ 9_BOTTOM }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 26,
+                "weight": 400,
+                "color": "#282828",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": -0.205,
+              "y": -0.383
+            },
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "length": 4.6,
+            "start": 57.2,
+            "width": 457,
+            "height": 46
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ 10_BOTTOM }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 26,
+                "weight": 400,
+                "color": "#282828",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "transition": {
+              "in": "wipeLeft",
+              "out": "wipeRight"
+            },
+            "offset": {
+              "x": -0.205,
+              "y": -0.383
+            },
+            "length": 4.6,
+            "start": 64.2,
+            "width": 457,
+            "height": 46
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_df923edb.webm",
+              "volume": 1
+            },
+            "offset": {
+              "x": -0.262,
+              "y": -0.351
+            },
+            "length": 5,
+            "start": 0.5,
+            "fit": "none"
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_59e9df05.webm",
+              "volume": 1
+            },
+            "offset": {
+              "x": -0.262,
+              "y": -0.351
+            },
+            "length": 1.5,
+            "start": 5.5,
+            "fit": "none"
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_df923edb.webm",
+              "volume": 1
+            },
+            "offset": {
+              "x": -0.262,
+              "y": -0.351
+            },
+            "start": 7.5,
+            "length": 5,
+            "fit": "none"
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_59e9df05.webm",
+              "volume": 1
+            },
+            "fit": "none",
+            "length": 1.5,
+            "offset": {
+              "x": -0.262,
+              "y": -0.351
+            },
+            "start": 12.5
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_df923edb.webm",
+              "volume": 1
+            },
+            "fit": "none",
+            "length": 5,
+            "start": 14.5,
+            "offset": {
+              "x": -0.262,
+              "y": -0.351
+            }
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_59e9df05.webm",
+              "volume": 1
+            },
+            "fit": "none",
+            "length": 1.5,
+            "offset": {
+              "x": -0.262,
+              "y": -0.351
+            },
+            "start": 19.5
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_df923edb.webm",
+              "volume": 1
+            },
+            "fit": "none",
+            "length": 5,
+            "start": 21.5,
+            "offset": {
+              "x": -0.262,
+              "y": -0.351
+            }
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_59e9df05.webm",
+              "volume": 1
+            },
+            "fit": "none",
+            "length": 1.5,
+            "offset": {
+              "x": -0.262,
+              "y": -0.351
+            },
+            "start": 26.5
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_df923edb.webm",
+              "volume": 1
+            },
+            "fit": "none",
+            "length": 5,
+            "start": 28.5,
+            "offset": {
+              "x": -0.262,
+              "y": -0.351
+            },
+            "scale": 1,
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_59e9df05.webm",
+              "volume": 1
+            },
+            "fit": "none",
+            "length": 1.5,
+            "offset": {
+              "x": -0.262,
+              "y": -0.351
+            },
+            "start": 33.5
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_df923edb.webm",
+              "volume": 1
+            },
+            "fit": "none",
+            "length": 5,
+            "start": 35.5,
+            "offset": {
+              "x": -0.262,
+              "y": -0.351
+            }
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_59e9df05.webm",
+              "volume": 1
+            },
+            "fit": "none",
+            "length": 1.5,
+            "offset": {
+              "x": -0.262,
+              "y": -0.351
+            },
+            "start": 40.5
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_df923edb.webm",
+              "volume": 1
+            },
+            "fit": "none",
+            "length": 5,
+            "start": 42.5,
+            "offset": {
+              "x": -0.262,
+              "y": -0.351
+            }
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_59e9df05.webm",
+              "volume": 1
+            },
+            "fit": "none",
+            "length": 1.5,
+            "offset": {
+              "x": -0.262,
+              "y": -0.351
+            },
+            "start": 47.5
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_df923edb.webm",
+              "volume": 1
+            },
+            "fit": "none",
+            "length": 5,
+            "start": 49.5,
+            "offset": {
+              "x": -0.262,
+              "y": -0.351
+            }
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_59e9df05.webm",
+              "volume": 1
+            },
+            "fit": "none",
+            "length": 1.5,
+            "offset": {
+              "x": -0.262,
+              "y": -0.351
+            },
+            "start": 54.5
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_df923edb.webm",
+              "volume": 1
+            },
+            "fit": "none",
+            "length": 5,
+            "start": 56.5,
+            "offset": {
+              "x": -0.262,
+              "y": -0.351
+            }
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_59e9df05.webm",
+              "volume": 1
+            },
+            "fit": "none",
+            "length": 1.5,
+            "offset": {
+              "x": -0.262,
+              "y": -0.351
+            },
+            "start": 61.5
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_df923edb.webm",
+              "volume": 1
+            },
+            "fit": "none",
+            "length": 5,
+            "start": 63.5,
+            "offset": {
+              "x": -0.262,
+              "y": -0.351
+            }
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/top-10-tourism-listicle/qbdrktfb3v08a56dbglp5qqa/source_59e9df05.webm",
+              "volume": 1
+            },
+            "fit": "none",
+            "length": 1.5,
+            "offset": {
+              "x": -0.262,
+              "y": -0.351
+            },
+            "start": 68.5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_1 }}",
+              "volume": 1
+            },
+            "start": 0,
+            "length": 7,
+            "transition": {
+              "in": "fade"
+            },
+            "fit": "contain",
+            "width": 1920,
+            "height": 1080,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_2 }}",
+              "volume": 1
+            },
+            "length": 7,
+            "start": 7,
+            "fit": "contain",
+            "width": 1920,
+            "height": 1080,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_3 }}",
+              "volume": 1
+            },
+            "length": 7,
+            "start": 14,
+            "fit": "contain",
+            "width": 1920,
+            "height": 1080,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_4 }}",
+              "volume": 1
+            },
+            "length": 7,
+            "start": 21,
+            "fit": "contain",
+            "width": 1920,
+            "height": 1080,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_5 }}",
+              "volume": 1
+            },
+            "length": 7,
+            "start": 28,
+            "position": "center",
+            "fit": "contain",
+            "width": 1920,
+            "height": 1080,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_6 }}",
+              "volume": 1
+            },
+            "length": 7,
+            "start": 35,
+            "fit": "contain",
+            "width": 1920,
+            "height": 1080,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_7 }}",
+              "volume": 1
+            },
+            "length": 7,
+            "start": 42,
+            "fit": "contain",
+            "width": 1920,
+            "height": 1080,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_8 }}",
+              "volume": 1
+            },
+            "length": 7,
+            "start": 49,
+            "fit": "contain",
+            "width": 1920,
+            "height": 1080,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_9 }}",
+              "volume": 1
+            },
+            "length": 7,
+            "start": 56,
+            "fit": "contain",
+            "width": 1920,
+            "height": 1080,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_10 }}",
+              "volume": 1
+            },
+            "length": 7,
+            "start": 63,
+            "transition": {
+              "out": "fade"
+            },
+            "fit": "contain",
+            "width": 1920,
+            "height": 1083,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "TITLE",
+      "replace": "TOP 10 TOURIST SPOTS IN EUROPE"
+    },
+    {
+      "find": "1_TOP",
+      "replace": "EIFFEL TOWER"
+    },
+    {
+      "find": "1_BOTTOM",
+      "replace": "PARIS, FRANCE"
+    },
+    {
+      "find": "2_TOP",
+      "replace": "THE COLOSSEUM"
+    },
+    {
+      "find": "2_BOTTOM",
+      "replace": "ROME, ITALY"
+    },
+    {
+      "find": "3_TOP",
+      "replace": "LOUVRE MUSEUM"
+    },
+    {
+      "find": "3_BOTTOM",
+      "replace": "PARIS, FRANCE"
+    },
+    {
+      "find": "4_TOP",
+      "replace": "BUCKINGHAM PALACE"
+    },
+    {
+      "find": "4_BOTTOM",
+      "replace": "LONDON, UNITED KINGDOM"
+    },
+    {
+      "find": "5_TOP",
+      "replace": "VATICAN CITY"
+    },
+    {
+      "find": "5_BOTTOM",
+      "replace": "VATICAN CITY"
+    },
+    {
+      "find": "6_TOP",
+      "replace": "THE ACROPOLIS"
+    },
+    {
+      "find": "6_BOTTOM",
+      "replace": "ATHENS, GREECE"
+    },
+    {
+      "find": "7_TOP",
+      "replace": "LAKE GENEVA"
+    },
+    {
+      "find": "7_BOTTOM",
+      "replace": "GENEVA, SWITZERLAND"
+    },
+    {
+      "find": "8_TOP",
+      "replace": "NEUSCHWANSTEIN CASTLE"
+    },
+    {
+      "find": "8_BOTTOM",
+      "replace": "SCHWANGAU, GERMANY"
+    },
+    {
+      "find": "9_TOP",
+      "replace": "CHARLES BRIDGE"
+    },
+    {
+      "find": "9_BOTTOM",
+      "replace": "PRAGUE, CZECH REPUBLIC"
+    },
+    {
+      "find": "10_TOP",
+      "replace": "VENICE GRAND CANAL"
+    },
+    {
+      "find": "10_BOTTOM",
+      "replace": "VENICE, ITALY"
+    },
+    {
+      "find": "VIDEO_1",
+      "replace": "https://templates.shotstack.io/top-10-tourism-listicle/a24efec9-2b88-4042-9933-61da86770ed2/source.mp4"
+    },
+    {
+      "find": "VIDEO_2",
+      "replace": "https://templates.shotstack.io/top-10-tourism-listicle/51266ae1-69df-429f-a0c2-dfc4c44a1485/source.mp4"
+    },
+    {
+      "find": "VIDEO_3",
+      "replace": "https://templates.shotstack.io/top-10-tourism-listicle/b3bac1a3-88e6-4442-83ad-45819dc11f7b/source.mp4"
+    },
+    {
+      "find": "VIDEO_4",
+      "replace": "https://templates.shotstack.io/top-10-tourism-listicle/4ccfde25-b5b8-45b8-98e0-839904b283c2/source.mp4"
+    },
+    {
+      "find": "VIDEO_5",
+      "replace": "https://templates.shotstack.io/top-10-tourism-listicle/c90b8a2f-9b22-4d7f-bd86-882c72207a27/source.mp4"
+    },
+    {
+      "find": "VIDEO_6",
+      "replace": "https://templates.shotstack.io/top-10-tourism-listicle/eb1c167b-d1e0-42b6-a25c-8a635e500fe6/source.mp4"
+    },
+    {
+      "find": "VIDEO_7",
+      "replace": "https://templates.shotstack.io/top-10-tourism-listicle/31f96075-44cd-4234-aaf2-21dfa1564c13/source.mp4"
+    },
+    {
+      "find": "VIDEO_8",
+      "replace": "https://templates.shotstack.io/top-10-tourism-listicle/87cdf62c-361d-49a9-976b-93273fb45163/source.mp4"
+    },
+    {
+      "find": "VIDEO_9",
+      "replace": "https://templates.shotstack.io/top-10-tourism-listicle/6bae63ae-aadc-4178-b3af-724087a3a893/source.mp4"
+    },
+    {
+      "find": "VIDEO_10",
+      "replace": "https://templates.shotstack.io/top-10-tourism-listicle/a3b228e9-50d9-4480-a293-fdee6cd1c48c/source.mp4"
+    }
+  ]
+}

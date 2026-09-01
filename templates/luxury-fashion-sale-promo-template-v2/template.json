@@ -1,0 +1,430 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/luxury-fashion-sale-promo-template/9d23b3a9-1138-4155-9213-383b95ff35a6/YA9Vr02Y5lucHqUlbEe51kBtp76Mjg.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/luxury-fashion-sale-promo-template/4f0e07b6-2e3a-4822-bd1a-f4df18081f6c/rax5HieDvtMOe0iICsUccChdu0o.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/luxury-fashion-sale-promo-template/fdb96b00-95a5-46a8-950b-5b7d4fddfd39/mFTpWb0X2bLb_cx6To2B8GpKoD5qlPxX.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/luxury-fashion-sale-promo-template/6748b57e-d222-4d25-8657-345dfa0a896d/6xKhdSpbNNCT-sWPCms.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/arapey/v17/-W__XJn-UDDA2RC6Z9AcZkIzeg.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/prata/v22/6xKhdSpbNNCT-vWIAG_5LWwJ.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/euphoriascript/v22/mFTpWb0X2bLb_cx6To2B8GpKoD5ak_ZT1D8x7Q.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/luxury-fashion-sale-promo-template/6215d10b-17e4-49f5-8c7f-76f2da937884/source.png"
+            },
+            "start": 0.7,
+            "length": 4.3
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1275\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1275\" fill=\"{{ RED_BACKGROUND_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.168
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 1080,
+            "height": 1275
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_3 }}"
+            },
+            "start": 0.6,
+            "scale": 1,
+            "offset": {
+              "x": -0.0044091226234083125,
+              "y": -0.3359701777183308
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "fit": "contain",
+            "width": 717,
+            "height": 313
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA}}",
+              "font": {
+                "family": "Arapey",
+                "size": 64,
+                "weight": 400,
+                "color": "{{ BLACK_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ PINK_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 0
+              }
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": -0.191,
+              "y": -0.196
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 310,
+            "height": 107
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.5,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 0.5,
+            "scale": 1,
+            "offset": {
+              "x": -0.19087056821857357,
+              "y": -0.05659375
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "fit": "contain",
+            "width": 310,
+            "height": 321
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.6,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0.4,
+            "scale": 1,
+            "offset": {
+              "x": 0.17753532182103615,
+              "y": -0.09826041666666674
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "fit": "contain",
+            "width": 324,
+            "height": 481
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_DESCRIPTION}}",
+              "font": {
+                "family": "Prata",
+                "size": 36,
+                "weight": 400,
+                "color": "{{ BLACK_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "left",
+                "style": "word"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "y": 0.07
+            },
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 736,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_TITLE}}",
+              "font": {
+                "family": "Arapey",
+                "size": 201,
+                "weight": 400,
+                "color": "{{ BLACK_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 0.84,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "right",
+                "style": "word"
+              }
+            },
+            "start": 0.2,
+            "length": 4.8,
+            "offset": {
+              "x": 0,
+              "y": 0.20757291666666666
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 883,
+            "height": 381
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TITLE}}",
+              "font": {
+                "family": "Euphoria Script",
+                "size": 134,
+                "weight": 400,
+                "color": "{{ BLACK_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "right",
+                "style": "word"
+              }
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.341
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 800,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/luxury-fashion-sale-promo-template/359e55fa-e2dd-4581-9378-e2c4ab7c0b88/source.png"
+            },
+            "start": 0,
+            "length": 5
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 972 729\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"972\" height=\"729\" fill=\"{{ RED_BACKGROUND_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.05,
+              "y": 0.312
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 972,
+            "height": 729
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ MAIN_BACKGROUND_COLOR_3 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 5,
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "TITLE",
+      "replace": "New Arrival"
+    },
+    {
+      "find": "S1_TITLE",
+      "replace": "LUXURY FASHION"
+    },
+    {
+      "find": "S1_DESCRIPTION",
+      "replace": "Experience the elegance of our latest collection where timeless fashion meets modern sophistication."
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/luxury-fashion-sale-promo-template/727b4f3c-6cf0-4c1f-9405-c80f0ee18011/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_2",
+      "replace": "https://templates.shotstack.io/luxury-fashion-sale-promo-template/8dde437d-7d5b-42d0-89b3-1841b144821a/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_3",
+      "replace": "https://templates.shotstack.io/luxury-fashion-sale-promo-template/e9f4fb28-3c30-4260-8b3e-6e4d6752cd87/source.jpg"
+    },
+    {
+      "find": "CTA",
+      "replace": "Shop Now"
+    },
+    {
+      "find": "BLACK_FONT_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "PINK_BACKGROUND_COLOR",
+      "replace": "#d86464"
+    },
+    {
+      "find": "RED_BACKGROUND_COLOR_2",
+      "replace": "#bc2929"
+    },
+    {
+      "find": "MAIN_BACKGROUND_COLOR_3",
+      "replace": "#ffb3b3"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/luxury-fashion-sale-promo-template/71e7ff1a-80e2-45fb-9311-1addce68c504/source.mp3"
+    }
+  ]
+}

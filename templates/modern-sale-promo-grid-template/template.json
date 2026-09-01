@@ -1,0 +1,767 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/modern-sale-promo-grid-template/9545c56e-5682-463f-b552-e39ef6ac7e2a/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/modern-sale-promo-grid-template/bd52325d-711d-4cfe-ac9d-f0218e94db9f/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/modern-sale-promo-grid-template/83b2444f-0dd7-4250-989e-5a407fe6b58c/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_handle}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Oswald",
+                "size": "70",
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 72
+            },
+            "start": 5.27,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.342
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_CTA}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Gistesy",
+                "size": "180",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 300
+            },
+            "start": 4.9,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.16
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ S2_IMAGE_11 }}"
+            },
+            "start": 4.62,
+            "scale": 0.45,
+            "transition": {
+              "in": "slideRight"
+            },
+            "offset": {
+              "x": 0,
+              "y": 0.199
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_Discount}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Oswald",
+                "size": "90",
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 300
+            },
+            "start": 0.9,
+            "length": 4,
+            "offset": {
+              "x": 0,
+              "y": -0.179
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideRight",
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_Sub_Title_1}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Oswald",
+                "size": "90",
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 300
+            },
+            "start": 0.4,
+            "length": 4,
+            "offset": {
+              "x": 0,
+              "y": 0.18
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_7 }}"
+            },
+            "start": 1,
+            "scale": 0.13,
+            "offset": {
+              "x": 0.31,
+              "y": -0.191
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideRight",
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 285,
+              "height": 285,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 1,
+            "length": 4,
+            "offset": {
+              "x": 0.31,
+              "y": -0.191
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_6 }}"
+            },
+            "start": 0.8,
+            "scale": 0.13,
+            "offset": {
+              "x": -0.316,
+              "y": -0.19
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 285,
+              "height": 285,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 0.8,
+            "length": 4,
+            "offset": {
+              "x": -0.316,
+              "y": -0.191
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideRight",
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_10 }}"
+            },
+            "start": 1.3,
+            "scale": 0.15,
+            "offset": {
+              "x": 0.31,
+              "y": -0.359
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.99,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_8 }}"
+            },
+            "start": 1.1,
+            "scale": 0.15,
+            "offset": {
+              "x": -0.316,
+              "y": -0.362
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideRight",
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_9 }}"
+            },
+            "start": 1.2,
+            "scale": 0.13,
+            "offset": {
+              "x": 0,
+              "y": -0.359
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 285,
+              "height": 285,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 1.2,
+            "length": 4,
+            "offset": {
+              "x": 0,
+              "y": -0.358
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideRight",
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_5 }}"
+            },
+            "start": 0.5,
+            "scale": 0.15,
+            "offset": {
+              "x": 0.31,
+              "y": 0.199
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_4 }}"
+            },
+            "start": 0.3,
+            "scale": 0.15,
+            "offset": {
+              "x": -0.316,
+              "y": 0.199
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideRight",
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_3 }}"
+            },
+            "start": 0.2,
+            "scale": 0.13,
+            "offset": {
+              "x": 0.31,
+              "y": 0.366
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 285,
+              "height": 285,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 0.2,
+            "length": 4,
+            "offset": {
+              "x": 0.31,
+              "y": 0.368
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideRight",
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_2 }}"
+            },
+            "start": 0.1,
+            "scale": 0.15,
+            "offset": {
+              "x": 0,
+              "y": 0.368
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_1 }}"
+            },
+            "start": 0,
+            "scale": 0.13,
+            "offset": {
+              "x": -0.316,
+              "y": 0.368
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideRight",
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 285,
+              "height": 285,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": 4,
+            "offset": {
+              "x": -0.316,
+              "y": 0.368
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_Title_2}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Oswald",
+                "size": "150",
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 300
+            },
+            "start": 0.7,
+            "length": 4,
+            "opacity": 1,
+            "offset": {
+              "x": 0,
+              "y": -0.051
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideUp",
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_Title_1}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Gistesy",
+                "size": "150",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 250
+            },
+            "start": 0.6,
+            "length": 4,
+            "offset": {
+              "x": 0,
+              "y": 0.05
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown",
+              "out": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": 9,
+            "position": "center"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "S1_IMAGE_1",
+      "replace": "https://templates.shotstack.io/modern-sale-promo-grid-template/9aeabfd9-71ad-4513-88e5-62d8458fb9e1/source.png"
+    },
+    {
+      "find": "S1_IMAGE_2",
+      "replace": "https://templates.shotstack.io/modern-sale-promo-grid-template/6a69cfc8-e872-4295-bd30-70d71d7a669f/source.png"
+    },
+    {
+      "find": "S1_IMAGE_3",
+      "replace": "https://templates.shotstack.io/modern-sale-promo-grid-template/871796d3-943b-4e14-8a09-5fc3abf79389/source.png"
+    },
+    {
+      "find": "S1_IMAGE_4",
+      "replace": "https://templates.shotstack.io/modern-sale-promo-grid-template/f808e067-5ba8-49c4-921b-ef158b5ab077/source.png"
+    },
+    {
+      "find": "S1_IMAGE_5",
+      "replace": "https://templates.shotstack.io/modern-sale-promo-grid-template/f5ba05ee-ac15-4a5a-8d4b-fba861aca796/source.png"
+    },
+    {
+      "find": "S1_IMAGE_6",
+      "replace": "https://templates.shotstack.io/modern-sale-promo-grid-template/00fe6e0b-70a6-46e0-ba7f-ef83aae91578/source.png"
+    },
+    {
+      "find": "S1_IMAGE_7",
+      "replace": "https://templates.shotstack.io/modern-sale-promo-grid-template/6ec01770-b0d6-41e2-85c1-5d7d96df6ae8/source.png"
+    },
+    {
+      "find": "S1_IMAGE_8",
+      "replace": "https://templates.shotstack.io/modern-sale-promo-grid-template/f60bcaef-a8f2-4c98-8fba-d1ece2257473/source.png"
+    },
+    {
+      "find": "S1_IMAGE_9",
+      "replace": "https://templates.shotstack.io/modern-sale-promo-grid-template/8abab57e-e31b-4abd-a0c7-4b460e1f7ce1/source.png"
+    },
+    {
+      "find": "S1_IMAGE_10",
+      "replace": "https://templates.shotstack.io/modern-sale-promo-grid-template/949ae166-505a-40f1-a9ce-e6d5f67e769f/source.png"
+    },
+    {
+      "find": "S1_Sub_Title_1",
+      "replace": "QUICK DEAL"
+    },
+    {
+      "find": "S1_Title_2",
+      "replace": "SALES"
+    },
+    {
+      "find": "S1_Discount",
+      "replace": "30% OFF"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#524f4c"
+    },
+    {
+      "find": "S2_IMAGE_11",
+      "replace": "https://templates.shotstack.io/modern-sale-promo-grid-template/c59ad1d6-52b2-4ee6-b3b7-9fe77a9030a1/source.png"
+    },
+    {
+      "find": "S2_CTA",
+      "replace": "Shop with us"
+    },
+    {
+      "find": "S2_handle",
+      "replace": "@ fazmodel"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/modern-sale-promo-grid-template/df31e2a2-3543-4862-92a6-7ac98c10fb05/source.mp3"
+    },
+    {
+      "find": "S1_Title_1",
+      "replace": "Summer Holiday"
+    }
+  ]
+}

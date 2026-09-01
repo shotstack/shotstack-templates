@@ -1,0 +1,366 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/sales-event-poster-promotion-offer-template/65d56299-69fa-4d3e-a3fe-036ffeccbad8/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/sales-event-poster-promotion-offer-template/3dacc97c-12ed-4fe9-911e-deb900c40064/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/sales-event-poster-promotion-offer-template/f2d7deed-cc1d-461e-8591-2545ee3f2167/source.png"
+            },
+            "start": 1,
+            "scale": 0.3,
+            "offset": {
+              "x": -0.369,
+              "y": 0.094
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/sales-event-poster-promotion-offer-template/b639bb7b-647b-4ca0-b4cd-ee852d2088d5/source.png"
+            },
+            "start": 1,
+            "scale": 0.3,
+            "offset": {
+              "x": 0.365,
+              "y": 0.118
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ PRODUCT_IMAGE }}"
+            },
+            "start": 0.6,
+            "scale": 0.49,
+            "offset": {
+              "x": 0,
+              "y": -0.101
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ STAND_IMAGE }}"
+            },
+            "start": 0.4,
+            "scale": 0.6,
+            "offset": {
+              "x": 0.017,
+              "y": -0.2
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA}}",
+              "font": {
+                "family": "Antonio SemiBold",
+                "size": 75,
+                "weight": 600,
+                "color": "{{ TEXT_BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 0
+              }
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.177
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 400,
+            "height": 120
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Discount}}",
+              "font": {
+                "family": "Antonio SemiBold",
+                "size": 80,
+                "weight": 600,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "down",
+                "style": "word"
+              }
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.253
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 900,
+            "height": 130
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title}}",
+              "font": {
+                "family": "Antonio",
+                "size": 200,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "down",
+                "style": "word"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.321
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 900,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{Offer}}",
+              "font": {
+                "family": "Antonio SemiBold",
+                "size": 80,
+                "weight": 600,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "down",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": 5,
+            "offset": {
+              "x": 0,
+              "y": 0.396
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 900,
+            "height": 130
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ TEXT_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 5,
+            "position": "center",
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/sales-event-poster-promotion-offer-template/ea69ae49-3ef2-424e-878a-d0557a0aab73/source.mp4"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Offer",
+      "replace": "LIMITED-TIME OFFER"
+    },
+    {
+      "find": "Title",
+      "replace": "JULY SALES"
+    },
+    {
+      "find": "Discount",
+      "replace": "SAVE UP TO 50% TODAY"
+    },
+    {
+      "find": "CTA",
+      "replace": "ORDER NOW"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "TEXT_BACKGROUND_COLOR",
+      "replace": "#087fba"
+    },
+    {
+      "find": "PRODUCT_IMAGE",
+      "replace": "https://templates.shotstack.io/sales-event-poster-promotion-offer-template/afe3fe39-d6c2-4e28-acc7-5f87dc4d55be/source.png"
+    },
+    {
+      "find": "STAND_IMAGE",
+      "replace": "https://templates.shotstack.io/sales-event-poster-promotion-offer-template/28a155a5-06ab-404a-9e3e-783bd0caa6a8/source.png"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/sales-event-poster-promotion-offer-template/c31ed98e-b24f-4e08-910a-a92b549e88f3/source.mp3"
+    }
+  ]
+}

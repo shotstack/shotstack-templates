@@ -1,0 +1,532 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Contact_&_Web}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 40,
+                "weight": 500,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": 0.217,
+              "y": -0.381
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 500,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 40,
+                "weight": 500,
+                "color": "{{ CTA_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1,
+                "borderRadius": 41
+              }
+            },
+            "start": 0.65,
+            "length": "end",
+            "offset": {
+              "x": 0.304,
+              "y": -0.29
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 320,
+            "height": 90
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Discount}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 40,
+                "weight": 500,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "top"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.324,
+              "y": -0.158
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 250,
+            "height": 300
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-apparel-sale-promo-template-3d/ca6db932-2bb0-4b29-a5e9-a66de58058f3/source.png"
+            },
+            "start": 0.1,
+            "length": 4.9
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 450 450\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"450\" height=\"450\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": 0.387,
+              "y": 0.445
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 180
+              }
+            },
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 450,
+            "height": 450
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-apparel-sale-promo-template-3d/2ea290cd-1ffd-40a4-b63c-5b39aa9cd852/source.png"
+            },
+            "start": 0.65,
+            "length": 4.35
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 600 600\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"600\" height=\"600\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.65,
+            "length": "end",
+            "offset": {
+              "x": -0.354,
+              "y": -0.476
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 600,
+            "height": 600
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Brand_Name}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 60,
+                "weight": 500,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.202,
+              "y": 0.445
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 550,
+            "height": 90
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ Product_2 }}"
+            },
+            "start": 0.5,
+            "scale": 1,
+            "offset": {
+              "x": -0.3978957123470327,
+              "y": -0.11098099224841607
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight"
+            },
+            "fit": "contain",
+            "width": 1125,
+            "height": 1077
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ Product_1 }}"
+            },
+            "start": 0.4,
+            "scale": 1,
+            "offset": {
+              "x": 0.30725925925925923,
+              "y": 0.198
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            },
+            "fit": "contain",
+            "width": 1100,
+            "height": 997
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 169,
+                "weight": 900,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "style": "word",
+                "direction": "right"
+              }
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": -0.048,
+              "y": 0.294
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 900,
+            "height": 400
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-apparel-sale-promo-template-3d/2b51d818-bdf5-49df-8d4f-f2b0e7f07176/source.png"
+            },
+            "start": 0.2,
+            "length": 4.8
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1000 1000\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1000\" height=\"1000\" fill=\"{{ Prd_1_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0.247,
+              "y": 0.198
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 1000,
+            "height": 1000
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-apparel-sale-promo-template-3d/2b2cd298-ba3b-41ba-a97c-641666074741/source.mp4"
+            },
+            "start": 0.4,
+            "length": 4.6
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1050 1950\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1050\" height=\"1950\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.299,
+              "y": -0.188
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 1050,
+            "height": 1950
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-apparel-sale-promo-template-3d/b09407fe-a6b1-41bb-a0a4-da2dd62ca482/source.png"
+            },
+            "start": 0.45,
+            "length": 4.55
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1000 1000\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1000\" height=\"1000\" fill=\"{{ Prd_2_BACKGROUND_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0.45,
+            "length": "end",
+            "offset": {
+              "x": -0.274,
+              "y": -0.189
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 1000,
+            "height": 1000
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0.01
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 5,
+            "position": "center",
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ],
+    "fonts": [
+      {
+        "src": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm45xW5rygbi49c.ttf"
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Brand_Name",
+      "replace": "FAZ OUTFIT"
+    },
+    {
+      "find": "Title",
+      "replace": "New Arrival"
+    },
+    {
+      "find": "Product_1",
+      "replace": "https://templates.shotstack.io/modern-apparel-sale-promo-template-3d/d64d4bb2-c341-41a5-9e22-c743045f45b6/source.png"
+    },
+    {
+      "find": "Product_2",
+      "replace": "https://templates.shotstack.io/modern-apparel-sale-promo-template-3d/02fa3d30-8398-4144-b620-1d3e2b9f72b1/source.png"
+    },
+    {
+      "find": "Discount",
+      "replace": "Fast Lane Discount: 45% Off for First 10!"
+    },
+    {
+      "find": "CTA",
+      "replace": "BUY TODAY"
+    },
+    {
+      "find": "Contact_&_Web",
+      "replace": "022-123-5678 www.fazoutfit.com"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#000000"
+    },
+    {
+      "find": "CTA_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "Prd_1_BACKGROUND_COLOR",
+      "replace": "#95c5d6"
+    },
+    {
+      "find": "Prd_2_BACKGROUND_COLOR_2",
+      "replace": "#504f92"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#d2d2d0"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/modern-apparel-sale-promo-template-3d/2a34aab8-82b0-46a7-a3ec-86816a9e35f6/source.mp3"
+    }
+  ]
+}

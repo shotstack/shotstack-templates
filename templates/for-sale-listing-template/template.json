@@ -1,0 +1,961 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/for-sale-listing-template/8d8edf76-1197-4bf0-a097-33b04adcb5d9/B50TF6xQr2TXJBnGOFME6u5OR83oRP5qkH7gOw.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/for-sale-listing-template/aa945602-c58d-4f0e-8130-e295f51051c3/e3tmeuGtX-Co5MNzeAOqinEQfEnS.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 5,
+              "height": 50,
+              "background": {
+                "color": "#ffffff"
+              }
+            },
+            "start": 2,
+            "length": "end",
+            "offset": {
+              "x": 0.109,
+              "y": -0.234
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 5,
+              "height": 50,
+              "background": {
+                "color": "#ffffff"
+              }
+            },
+            "start": 1.8,
+            "length": "end",
+            "offset": {
+              "x": -0.108,
+              "y": -0.234
+            },
+            "transition": {
+              "in": "fade"
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/for-sale-listing-template/cccfce02-757d-47ab-86d9-d05b74fb4d4b/source.png"
+            },
+            "start": 3,
+            "scale": 0.4,
+            "offset": {
+              "x": 0.365,
+              "y": -0.341
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeftSlow"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/for-sale-listing-template/d9864ded-10c4-4097-a758-3358a643ecb5/source.png"
+            },
+            "start": 2.5,
+            "scale": 0.2,
+            "offset": {
+              "x": -0.391,
+              "y": -0.38
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ LOGO2 }}"
+            },
+            "start": 2.6,
+            "fit": "crop",
+            "scale": 0.2,
+            "offset": {
+              "x": -0.215,
+              "y": -0.38
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": " {{WEBSITE}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Abhaya Libre",
+                "size": "28",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 35
+            },
+            "start": 3.8,
+            "length": "end",
+            "offset": {
+              "x": 0.055,
+              "y": -0.464
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": " {{EMAIL}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Abhaya Libre",
+                "size": "28",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 35
+            },
+            "start": 3.6,
+            "length": "end",
+            "offset": {
+              "x": 0.055,
+              "y": -0.435
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": " {{PHONE_NUMBER}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Abhaya Libre",
+                "size": "28",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 35
+            },
+            "start": 3.4,
+            "length": "end",
+            "offset": {
+              "x": 0.055,
+              "y": -0.407
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": " {{PARTNER}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Abhaya Libre",
+                "size": "25",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 50
+            },
+            "start": 3.2,
+            "length": "end",
+            "offset": {
+              "x": 0.055,
+              "y": -0.364
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": " {{AGENT_NAME}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Petit Formal Script",
+                "size": "45",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 70
+            },
+            "start": 3,
+            "length": "end",
+            "offset": {
+              "x": 0.055,
+              "y": -0.318
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{SQFT}} SQFT",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Abhaya Libre",
+                "size": "42",
+                "lineHeight": 1
+              },
+              "width": 200,
+              "height": 50
+            },
+            "start": 2.2,
+            "length": "end",
+            "offset": {
+              "x": 0.223,
+              "y": -0.234
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{BATHS}} BATHS",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Abhaya Libre",
+                "size": "42",
+                "lineHeight": 1
+              },
+              "width": 200,
+              "height": 50
+            },
+            "start": 1.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.234
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{BEDS}} BEDS ",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR3 }}",
+                "family": "Abhaya Libre",
+                "size": "42",
+                "lineHeight": 1
+              },
+              "width": 200,
+              "height": 50
+            },
+            "start": 1.4,
+            "length": "end",
+            "offset": {
+              "x": -0.198,
+              "y": -0.234
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 70,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "y": -0.231,
+              "x": 0
+            },
+            "transition": {
+              "in": "fadeFast"
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 255,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR2 }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "y": -0.381,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": " {{STREET}}",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR3 }}",
+                "family": "Abhaya Libre",
+                "size": "32",
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 50
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.343,
+              "y": 0.424
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": " {{CITY_STATE}}",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Abhaya Libre",
+                "size": "31",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 50
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": 0.298,
+              "y": 0.388
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "$000,000",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR2 }}",
+                "family": "Abhaya Libre",
+                "size": "61",
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 50
+            },
+            "start": 2,
+            "length": "end",
+            "offset": {
+              "x": 0.347,
+              "y": 0.251
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": " {{PRICE STATUS}}",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR2 }}",
+                "family": "Abhaya Libre",
+                "size": "33",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 50
+            },
+            "start": 1.3,
+            "length": "end",
+            "offset": {
+              "x": 0.299,
+              "y": 0.292
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeftSlow"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": " {{S1_DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR2 }}",
+                "family": "Petit Formal Script",
+                "size": "95",
+                "lineHeight": 1
+              },
+              "width": 600,
+              "height": 110
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.119,
+              "y": 0.378
+            },
+            "position": "center",
+            "transition": {
+              "in": "zoom"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": " {{S1_HEADING}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Abhaya Libre",
+                "size": "105",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 100
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.315,
+              "y": 0.429
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR2 }}",
+                "family": "Montserrat ExtraBold",
+                "size": "59",
+                "lineHeight": 1
+              },
+              "width": 528,
+              "height": 130,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR2 }}",
+                "borderRadius": 68
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.338,
+              "y": 0.41
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeftSlow"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/for-sale-listing-template/0a8ad16a-bfe9-4035-8df2-9f5014dfffb5/source.png"
+            },
+            "start": 1,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 704,
+              "height": 1080,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.192,
+              "y": -0.046
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeSlow"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/for-sale-listing-template/b2eebe13-12b7-4035-b658-43985ad9cf22/source.png"
+            },
+            "start": 1.5,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 596,
+              "height": 393,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}"
+              }
+            },
+            "start": 1.5,
+            "length": "end",
+            "offset": {
+              "x": 0.314,
+              "y": -0.01
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/for-sale-listing-template/dd9cc795-7e2f-447b-855f-a1bc40be8739/source.jpg"
+            },
+            "start": 1.5,
+            "scale": 0.36,
+            "offset": {
+              "x": 0.312,
+              "y": -0.011
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/for-sale-listing-template/3df7d671-2948-44d4-9de5-b353f9cfc6d3/source.png"
+            },
+            "start": 1.5,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 9,
+            "asset": {
+              "type": "image",
+              "src": "{{ HOUSE_IMAGE_FRONT }}"
+            },
+            "start": 1,
+            "scale": 0.65,
+            "offset": {
+              "x": -0.192,
+              "y": -0.033
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeSlow"
+            },
+            "fit": "crop"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/for-sale-listing-template/3b65e909-da03-4763-b973-3c6fb4b50874/source.png"
+            },
+            "start": 1,
+            "length": 9
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ BACKGROUND_IMAGE_SRC }}"
+            },
+            "start": 0,
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1080
+    }
+  },
+  "merge": [
+    {
+      "find": "S1_HEADING",
+      "replace": "JUST"
+    },
+    {
+      "find": "S1_DESCRIPTION",
+      "replace": "Listed"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#b54f4f"
+    },
+    {
+      "find": "TEXT_FONT_COLOR2",
+      "replace": "#0f1829"
+    },
+    {
+      "find": "STREET",
+      "replace": "123 Main Street"
+    },
+    {
+      "find": "TEXT_FONT_COLOR3",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "CITY_STATE",
+      "replace": "CITY, STATE ZIP CODE"
+    },
+    {
+      "find": "PRICE STATUS",
+      "replace": "ASKING PRICE"
+    },
+    {
+      "find": "BEDS",
+      "replace": "0 "
+    },
+    {
+      "find": "BATHS",
+      "replace": "0 "
+    },
+    {
+      "find": "SQFT",
+      "replace": "0000"
+    },
+    {
+      "find": "AGENT_NAME",
+      "replace": "John Robert"
+    },
+    {
+      "find": "PARTNER",
+      "replace": "Partner Designation | LIC#000000"
+    },
+    {
+      "find": "PHONE_NUMBER",
+      "replace": "(000) 000-0000"
+    },
+    {
+      "find": "EMAIL",
+      "replace": "johnrobert@gmail.com"
+    },
+    {
+      "find": "WEBSITE",
+      "replace": "www.johnrebert.com"
+    },
+    {
+      "find": "LOGO1",
+      "replace": "https://templates.shotstack.io/for-sale-listing-template/465170ef-79e5-4a5f-b0a3-f005e0519115/shotstack-proxy.webp"
+    },
+    {
+      "find": "LOGO2",
+      "replace": "https://templates.shotstack.io/for-sale-listing-template/5c69b602-87f2-42e1-82b8-90d8978bea9d/source.png"
+    },
+    {
+      "find": "AGENT_PIC",
+      "replace": "https://templates.shotstack.io/for-sale-listing-template/4383523a-d459-4873-9d82-c1169e675d2f/shotstack-proxy.webp"
+    },
+    {
+      "find": "HOUSE_IMAGE_RIGHTSIDE",
+      "replace": "https://templates.shotstack.io/for-sale-listing-template/88df344e-3b2e-480c-bc6e-1361845c7f9e/shotstack-proxy.webp"
+    },
+    {
+      "find": "HOUSE_IMAGE_FRONT",
+      "replace": "https://templates.shotstack.io/for-sale-listing-template/7d124d0d-09e8-4fb1-9394-09c208400f6c/shotstack-proxy.webp"
+    },
+    {
+      "find": "BACKGROUND_IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/for-sale-listing-template/4b186b98-46c9-4312-a8b8-56936bb6ba8d/source.jpg"
+    }
+  ]
+}

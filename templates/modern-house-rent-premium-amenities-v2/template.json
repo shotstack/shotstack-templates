@@ -1,0 +1,1164 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "REAL ESTATE",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 22,
+                "weight": 800,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.15,
+            "length": "end",
+            "offset": {
+              "x": 0.001,
+              "y": 0.365
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 300,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ LOGO }}"
+            },
+            "start": 0.1,
+            "transition": {
+              "in": "slideDown"
+            },
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0.4167634304204064
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 143,
+            "height": 149
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 250 500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"250\" height=\"500\" fill=\"{{ SHAPE_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "y": 0.403,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 250,
+            "height": 500
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/e7634e0a-b708-4771-a2e9-830fae937264/source.png"
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{PHONE}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 34,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "background": {
+                "opacity": 1,
+                "borderRadius": 0
+              },
+              "padding": 54,
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": 0.081,
+              "y": -0.448
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 379,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/73fe74e6-5424-4bab-b9fd-fcebc01c8e75/source.png"
+            },
+            "start": 0.9,
+            "length": 9.1
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"60\" height=\"60\" fill=\"{{ TEXT_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": -0.122,
+              "y": -0.448
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 60,
+            "height": 60
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 27,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "opacity": 1,
+                "borderRadius": 0
+              },
+              "padding": 54
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.336
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 308,
+            "height": 58
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{HEADER}}",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 34,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.176
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 300,
+            "height": 60
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION_9}}",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 34,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.339,
+              "y": -0.279
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 205,
+            "height": 39
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION_6}}",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 34,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.66,
+            "length": "end",
+            "offset": {
+              "x": 0.339,
+              "y": -0.242
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 205,
+            "height": 39
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION_7}}",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 34,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.26,
+              "y": -0.279
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 205,
+            "height": 39
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION_4}}",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 34,
+                "weight": 400,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.26,
+              "y": -0.242
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 205,
+            "height": 39
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION_8}}",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 34,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.034,
+              "y": -0.279
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 205,
+            "height": 39
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION_1}}",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 34,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.26,
+              "y": -0.21
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 205,
+            "height": 39
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION_2}}",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 34,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.034,
+              "y": -0.208
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 205,
+            "height": 39
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION_5}}",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 34,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.034,
+              "y": -0.242
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 205,
+            "height": 39
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION_3}}",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 34,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.339,
+              "y": -0.208
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 205,
+            "height": 39
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/f07d001c-4065-496e-9552-62af46df9e9b/source.png"
+            },
+            "start": 0.6,
+            "length": 9.4
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 35 35\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"35\" height=\"35\" fill=\"{{ ICON_COLOR }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.207,
+              "y": -0.209
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 35,
+            "height": 35
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 35 35\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"35\" height=\"35\" fill=\"{{ ICON_COLOR }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.207,
+              "y": -0.242
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 35,
+            "height": 35
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/5b38c8d4-f484-481d-9506-314b473fa707/source.png"
+            },
+            "start": 0.6,
+            "length": 9.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 35 35\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"35\" height=\"35\" fill=\"{{ ICON_COLOR }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.207,
+              "y": -0.279
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 35,
+            "height": 35
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/c94bd1fc-6ab5-49ec-97a7-3f9d51d24c77/source.png"
+            },
+            "start": 0.6,
+            "length": 9.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/bd4b409c-a79e-438c-a864-782c47507aeb/source.png"
+            },
+            "start": 0.6,
+            "length": 9.4
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 35 35\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"35\" height=\"35\" fill=\"{{ ICON_COLOR }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.386,
+              "y": -0.21
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 35,
+            "height": 35
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 35 35\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"35\" height=\"35\" fill=\"{{ ICON_COLOR }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.386,
+              "y": -0.248
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 35,
+            "height": 35
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/6b2eef6f-82d0-47a4-b3d8-538748093505/source.png"
+            },
+            "start": 0.6,
+            "length": 9.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/63ab7fde-e229-4038-b40d-e236b9a2b061/source.png"
+            },
+            "start": 0.6,
+            "length": 9.4
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 35 35\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"35\" height=\"35\" fill=\"{{ ICON_COLOR }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.386,
+              "y": -0.279
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 35,
+            "height": 35
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 35 35\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"35\" height=\"35\" fill=\"{{ ICON_COLOR }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.104,
+              "y": -0.279
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 35,
+            "height": 35
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/7c1cc4be-2ac0-4b6e-b93e-2b9db55a55e7/source.png"
+            },
+            "start": 0.6,
+            "length": 9.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/241ccef9-aec8-40aa-996e-e934d9846ddb/source.png"
+            },
+            "start": 0.6,
+            "length": 9.4
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 35 35\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"35\" height=\"35\" fill=\"{{ ICON_COLOR }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.104,
+              "y": -0.209
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 35,
+            "height": 35
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 35 35\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"35\" height=\"35\" fill=\"{{ ICON_COLOR }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.104,
+              "y": -0.242
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 35,
+            "height": 35
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/8fe33b3d-675d-42cc-8d61-0738143c41c5/source.png"
+            },
+            "start": 0.6,
+            "length": 9.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION}}",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 40,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.121
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 300,
+            "height": 60
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TITLE}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 51,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "opacity": 1,
+                "borderRadius": 0
+              },
+              "padding": 54,
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.072
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 700,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0.1,
+            "scale": 1,
+            "offset": {
+              "x": 0.001440129311107428,
+              "y": 0.23758219003066408
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "fit": "contain",
+            "width": 1127,
+            "height": 1596
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/f660f255-1032-45f4-b19d-8dbf45aef30f/source.png"
+            },
+            "start": 0.1,
+            "length": 9.9
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1500 2500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1500\" height=\"2500\" fill=\"{{ SHAPE_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "y": -0.017,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/b3710f09-bc54-4902-a642-7dd77f910908/source.png"
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ BACKGROUND_COLOR_3 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 10,
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ],
+    "fonts": [
+      {
+        "src": "https://fonts.gstatic.com/s/didactgothic/v21/ahcfv8qz1zt6hCC5G4F_P4ASpUySp0LlcyQ.ttf"
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "TITLE",
+      "replace": "YOUR GATEWAY TO MODERN LIVING"
+    },
+    {
+      "find": "DESCRIPTION",
+      "replace": "House for Rent"
+    },
+    {
+      "find": "HEADER",
+      "replace": "Our Facilities"
+    },
+    {
+      "find": "DESCRIPTION_1",
+      "replace": "Dining"
+    },
+    {
+      "find": "DESCRIPTION_2",
+      "replace": "2 Bedrooms"
+    },
+    {
+      "find": "DESCRIPTION_3",
+      "replace": "Study"
+    },
+    {
+      "find": "DESCRIPTION_4",
+      "replace": "Store"
+    },
+    {
+      "find": "DESCRIPTION_5",
+      "replace": "1 Bathroom"
+    },
+    {
+      "find": "DESCRIPTION_6",
+      "replace": "Pool"
+    },
+    {
+      "find": "DESCRIPTION_7",
+      "replace": "Garage"
+    },
+    {
+      "find": "DESCRIPTION_8",
+      "replace": "Livingroom"
+    },
+    {
+      "find": "DESCRIPTION_9",
+      "replace": "Internet"
+    },
+    {
+      "find": "CTA",
+      "replace": "BOOK NOW"
+    },
+    {
+      "find": "PHONE",
+      "replace": "+123 456 7890"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "ICON_COLOR",
+      "replace": "#00c732"
+    },
+    {
+      "find": "SHAPE_COLOR_2",
+      "replace": "#1a2537"
+    },
+    {
+      "find": "BACKGROUND_COLOR_3",
+      "replace": "#293547"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/ccf5fd5c-05f4-472f-b3a3-1688f0953779/source.jpg"
+    },
+    {
+      "find": "LOGO",
+      "replace": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/049f0a8b-d4c8-4f6f-9ab5-9ff99e165115/source.png"
+    }
+  ]
+}

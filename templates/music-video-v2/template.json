@@ -1,0 +1,162 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/music-video/1d2176e7-cb3d-4182-bafa-d131ea8b60bb/3Jn5SD_00GqwlBnWc1TUJG0CduA.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/gowundodum/v12/3Jn5SD_00GqwlBnWc1TUJF0FfORL0fNy.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TEXT_VAR_455}}",
+              "font": {
+                "family": "Gowun Dodum",
+                "size": 65,
+                "weight": 400,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "style": "word",
+                "direction": "left"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.042,
+              "y": -0.387
+            },
+            "position": "center",
+            "width": 800,
+            "height": 124
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TEXT_VAR_512}}",
+              "font": {
+                "family": "Gowun Dodum",
+                "size": 100,
+                "weight": 400,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "left",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.042,
+              "y": -0.299
+            },
+            "position": "center",
+            "width": 800,
+            "height": 124
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "auto",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0,
+            "fit": "contain",
+            "width": 1080,
+            "height": 1080,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1080
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/music-video/b07bbc1f-ca0b-4018-aa93-7507cb8d238b/source.jpg"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/music-video/bb6151e7-8c5a-4f57-ab40-1298b7933928/source.mp3"
+    },
+    {
+      "find": "TEXT_VAR_512",
+      "replace": "Luna Raye"
+    },
+    {
+      "find": "TEXT_VAR_455",
+      "replace": "Echoes of Midnight"
+    }
+  ]
+}

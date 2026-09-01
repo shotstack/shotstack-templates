@@ -1,0 +1,845 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/urban-oasis-furnished-home/4f97c716-1f8b-464b-9ee4-4961681376ae/jizzRFVKsm4Bt9PrbSzC4KLlQUF5lRJg5j-l5PvyhfTdd4TcYMNf.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/urban-oasis-furnished-home/4c4d23f3-eef2-436b-bcbd-1625f6d0499f/TuGOUUFzXI5FBtUq5a8bh68BJxxEVam7tVlWfxw.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0.342,
+              "y": 0.41
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 100,
+            "height": 100
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/urban-oasis-furnished-home/d4cafcdc-6e38-43c9-b1cd-37fbf3001140/source.png"
+            },
+            "start": 0.2,
+            "length": 9.8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/urban-oasis-furnished-home/c5b6e4b8-95c0-4991-9d01-5a77f066cc12/source.png"
+            },
+            "start": 0.2,
+            "length": 9.8
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 150 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"150\" height=\"150\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.324,
+              "y": 0.376
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 150,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/urban-oasis-furnished-home/47b604f9-55af-449f-b068-df16ef435836/source.png"
+            },
+            "start": 0,
+            "length": 10
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 170 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"170\" height=\"170\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.257,
+              "y": -0.154
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 170,
+            "height": 170
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{WEBSITE}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 32,
+                "weight": 600,
+                "color": "{{ BLACK }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.65,
+            "length": "end",
+            "offset": {
+              "x": 0.116,
+              "y": -0.432
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 550,
+            "height": 110
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_DESCRIPTION_3}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 22,
+                "weight": 600,
+                "color": "{{ WHITE }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.55,
+            "length": "end",
+            "offset": {
+              "x": 0.336,
+              "y": -0.355
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 140,
+            "height": 70
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_DESCRIPTION_2}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 22,
+                "weight": 600,
+                "color": "{{ WHITE }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.45,
+            "length": "end",
+            "offset": {
+              "x": 0.036,
+              "y": -0.355
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 140,
+            "height": 70
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_DESCRIPTION_1}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 22,
+                "weight": 600,
+                "color": "{{ WHITE }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.26,
+              "y": -0.355
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 140,
+            "height": 70
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/urban-oasis-furnished-home/d106b2fc-91b0-4d30-ab1e-0016129f7675/source.png"
+            },
+            "start": 0.45,
+            "length": 9.55
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 70 70\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"70\" height=\"70\" fill=\"{{ WHITE }}\"/></svg>"
+            },
+            "start": 0.45,
+            "length": "end",
+            "offset": {
+              "x": 0.228,
+              "y": -0.355
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 70,
+            "height": 70
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/urban-oasis-furnished-home/b15b6fdf-a042-4daa-a584-31407047bf5f/source.png"
+            },
+            "start": 0.45,
+            "length": 9.55
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 70 70\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"70\" height=\"70\" fill=\"{{ WHITE }}\"/></svg>"
+            },
+            "start": 0.45,
+            "length": "end",
+            "offset": {
+              "x": -0.074,
+              "y": -0.355
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 70,
+            "height": 70
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/urban-oasis-furnished-home/8b6187a4-5619-4767-9353-3476e8dbd886/source.png"
+            },
+            "start": 0.45,
+            "length": 9.55
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 70 70\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"70\" height=\"70\" fill=\"{{ WHITE }}\"/></svg>"
+            },
+            "start": 0.45,
+            "length": "end",
+            "offset": {
+              "x": -0.371,
+              "y": -0.355
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 70,
+            "height": 70
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "WEBSITE",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 32,
+                "weight": 600,
+                "color": "{{ WHITE }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.288,
+              "y": -0.432
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 250,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 70,
+                "weight": 600,
+                "color": "{{ WHITE }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.35,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.272
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 850,
+            "height": 125
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_TITLE}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 48,
+                "weight": 600,
+                "color": "{{ BLACK }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.25,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.184
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 520,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TITLE}}",
+              "font": {
+                "family": "Roboto Black",
+                "size": 107,
+                "weight": 900,
+                "color": "{{ WHITE }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.405
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 950,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 280 120\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"280\" height=\"120\" fill=\"#917459\" rx=\"32\" ry=\"32\"/></svg>"
+            },
+            "start": 0.58,
+            "length": "end",
+            "offset": {
+              "x": -0.288,
+              "y": -0.432
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 280,
+            "height": 120
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/urban-oasis-furnished-home/6d1b3015-4751-45e6-9f06-d945d568aa6a/source.png"
+            },
+            "start": 0.4,
+            "length": 9.6
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 250 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"250\" height=\"110\" fill=\"{{ WHITE }}\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "y": -0.355,
+              "x": -0.296
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 250,
+            "height": 110
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 250 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"250\" height=\"110\" fill=\"{{ WHITE }}\"/></svg>"
+            },
+            "start": 0.45,
+            "length": "end",
+            "offset": {
+              "y": -0.355,
+              "x": 0.296
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 250,
+            "height": 110
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/urban-oasis-furnished-home/b4ca4219-bc83-47e6-a075-2b77447a8425/source.png"
+            },
+            "start": 0.45,
+            "length": 9.55
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 250 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"250\" height=\"110\" fill=\"{{ WHITE }}\"/></svg>"
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "y": -0.355,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 250,
+            "height": 110
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/urban-oasis-furnished-home/433d4977-2e15-4a28-904f-69fecfb82edb/source.png"
+            },
+            "start": 0.5,
+            "length": 9.5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 900 120\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"900\" height=\"120\" fill=\"#ffffff\" rx=\"32\" ry=\"32\"/></svg>"
+            },
+            "start": 0.55,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.432
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 900,
+            "height": 120
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 900 140\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"900\" height=\"140\" fill=\"{{ Box_COLOR }}\" rx=\"32\" ry=\"32\"/></svg>"
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.272
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 900,
+            "height": 140
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 550 120\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"550\" height=\"120\" fill=\"#ffffff\" rx=\"32\" ry=\"32\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.185
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 550,
+            "height": 120
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 650\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"650\" fill=\"{{ Element_BACKGROUND_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "y": -0.352,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 1080,
+            "height": 650
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/urban-oasis-furnished-home/528a7a71-48fd-425c-917d-557140e15a27/source.png"
+            },
+            "start": 0,
+            "length": 10
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"#000000\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 10,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_SRC }}",
+              "volume": 1
+            },
+            "start": 0,
+            "transition": {
+              "in": "fade"
+            },
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "TITLE",
+      "replace": "House for Sale"
+    },
+    {
+      "find": "S1_TITLE",
+      "replace": "SPECIFICATIONS"
+    },
+    {
+      "find": "DESCRIPTION",
+      "replace": "5,000 SQUARE FEET"
+    },
+    {
+      "find": "S2_DESCRIPTION_1",
+      "replace": "SIX BEDROOM"
+    },
+    {
+      "find": "S2_DESCRIPTION_2",
+      "replace": "FIVE BATHROOM"
+    },
+    {
+      "find": "S2_DESCRIPTION_3",
+      "replace": "INCLUDING FURNITURE"
+    },
+    {
+      "find": "WEBSITE",
+      "replace": "www.realestatecompany.com"
+    },
+    {
+      "find": "VIDEO_SRC",
+      "replace": "https://templates.shotstack.io/urban-oasis-furnished-home/1eed2e34-9ee4-45c5-914d-50b0cf3160f3/source.mp4"
+    },
+    {
+      "find": "WHITE",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BLACK",
+      "replace": "#000000"
+    },
+    {
+      "find": "Box_COLOR",
+      "replace": "#917459"
+    },
+    {
+      "find": "Element_BACKGROUND_COLOR_2",
+      "replace": "#6b6161"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#aba6a6"
+    }
+  ]
+}

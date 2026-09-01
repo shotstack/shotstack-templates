@@ -1,0 +1,947 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_DESCRIPTION_2}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "25",
+                "lineHeight": 1.26
+              },
+              "width": 650,
+              "height": 150
+            },
+            "start": 5.8,
+            "length": 4.2,
+            "offset": {
+              "x": -0.12,
+              "y": -0.282
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_DESCRIPTION_2}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "25",
+                "lineHeight": 1.26
+              },
+              "width": 650,
+              "height": 150
+            },
+            "start": 10.8,
+            "length": 4.2,
+            "offset": {
+              "x": -0.12,
+              "y": -0.281
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": " {{S3_DESCRIPTION_2}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "25",
+                "lineHeight": 1.26
+              },
+              "width": 650,
+              "height": 150
+            },
+            "start": 15.8,
+            "length": 4.2,
+            "offset": {
+              "x": -0.12,
+              "y": -0.282
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S4_DESCRIPTION_2}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "25",
+                "lineHeight": 1.26
+              },
+              "width": 650,
+              "height": 150
+            },
+            "start": 20.8,
+            "length": 4.2,
+            "offset": {
+              "x": -0.12,
+              "y": -0.282
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S5_DESCRIPTION_2}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "25",
+                "lineHeight": 1.26
+              },
+              "width": 650,
+              "height": 150
+            },
+            "start": 25.8,
+            "length": 4.2,
+            "offset": {
+              "x": -0.12,
+              "y": -0.282
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": " {{WEBSITE}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "25",
+                "lineHeight": 1.26
+              },
+              "width": 650,
+              "height": 150
+            },
+            "start": 30.8,
+            "length": 4.2,
+            "offset": {
+              "x": -0.12,
+              "y": -0.226
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "25",
+                "lineHeight": 1.26
+              },
+              "width": 600,
+              "height": 150
+            },
+            "start": 5.4,
+            "length": 4.6,
+            "offset": {
+              "x": -0.143,
+              "y": -0.166
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "25",
+                "lineHeight": 1.26
+              },
+              "width": 600,
+              "height": 150
+            },
+            "start": 10.4,
+            "length": 4.6,
+            "offset": {
+              "x": -0.143,
+              "y": -0.166
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S3_DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "25",
+                "lineHeight": 1.26
+              },
+              "width": 600,
+              "height": 150
+            },
+            "start": 15.4,
+            "length": 4.6,
+            "offset": {
+              "x": -0.143,
+              "y": -0.166
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S4_DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "25",
+                "lineHeight": 1.26
+              },
+              "width": 600,
+              "height": 150
+            },
+            "start": 20.4,
+            "length": 4.6,
+            "offset": {
+              "x": -0.143,
+              "y": -0.166
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S5_DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "25",
+                "lineHeight": 1.26
+              },
+              "width": 600,
+              "height": 150
+            },
+            "start": 25.4,
+            "length": 4.6,
+            "offset": {
+              "x": -0.143,
+              "y": -0.166
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S6_DESCRIPTION_2}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ S6_TEXT_FONT_COLOR_2 }}",
+                "family": "Montserrat SemiBold",
+                "size": "25",
+                "lineHeight": 1.26
+              },
+              "width": 800,
+              "height": 150
+            },
+            "start": 30.4,
+            "length": 4.6,
+            "offset": {
+              "x": -0.051,
+              "y": -0.13
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_TITLE}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "50",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 80
+            },
+            "start": 5,
+            "length": 5,
+            "offset": {
+              "x": -0.189,
+              "y": -0.06
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_TITLE}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "50",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 80
+            },
+            "start": 10,
+            "length": 5,
+            "offset": {
+              "x": -0.189,
+              "y": -0.06
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S3_TITLE}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "50",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 80
+            },
+            "start": 15,
+            "length": 5,
+            "offset": {
+              "x": -0.189,
+              "y": -0.06
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S4_TITLE}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "50",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 80
+            },
+            "start": 20,
+            "length": 5,
+            "offset": {
+              "x": -0.189,
+              "y": -0.06
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S5_TITLE}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "50",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 80
+            },
+            "start": 25,
+            "length": 5,
+            "offset": {
+              "x": -0.189,
+              "y": -0.06
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S6_TITLE}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "70",
+                "lineHeight": 1
+              },
+              "width": 762,
+              "height": 400
+            },
+            "start": 30,
+            "length": 5,
+            "offset": {
+              "x": -0.069,
+              "y": 0.09
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "102",
+                "lineHeight": 1
+              },
+              "width": 797,
+              "height": 346
+            },
+            "start": 0,
+            "length": 5,
+            "offset": {
+              "x": -0.055,
+              "y": 0.054
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{TITLE}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Didact Gothic",
+                "size": "56",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 58
+            },
+            "start": 0,
+            "length": 5,
+            "offset": {
+              "x": -0.192,
+              "y": 0.248
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": " {{BRAND_NAME}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "23",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 39
+            },
+            "start": 0,
+            "length": 35,
+            "offset": {
+              "x": -0.206,
+              "y": -0.459
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 950,
+              "height": 5,
+              "background": {
+                "color": "{{ LINE_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": 35,
+            "offset": {
+              "y": -0.41
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "fit": "contain",
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/cinematic-real-estate-promo-template/i6lgtn7i92iwi27bqw8kb0hc/source_5b161197.webm"
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Cinematic-Real-Estate-Promo-Template/400df50f-81a2-474a-bb20-2f93bec105c2/source.mp4"
+            },
+            "start": 0,
+            "length": 35
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": " {{S5_TITLE}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1,
+                "opacity": 1
+              },
+              "width": 1080,
+              "height": 1080,
+              "background": {
+                "color": "{{ S6_TEXT_BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": 35,
+            "opacity": 0.33,
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1080,
+              "background": {
+                "color": "#000000"
+              }
+            },
+            "start": 30,
+            "length": 5,
+            "effect": "zoomInSlow"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/Cinematic-Real-Estate-Promo-Template/f5a374a7-aaa2-4272-a758-a6dbb88f82c1/source.jpg"
+            },
+            "start": 25,
+            "scale": 1,
+            "effect": "zoomIn"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "image",
+              "src": "{{ S4_IMAGE_SRC }}"
+            },
+            "start": 20,
+            "scale": 1,
+            "effect": "zoomOutSlow"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "image",
+              "src": "{{ S3_IMAGE_SRC }}"
+            },
+            "start": 15,
+            "effect": "zoomInSlow"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "image",
+              "src": "{{ S2_IMAGE_SRC }}"
+            },
+            "start": 10,
+            "scale": 1,
+            "effect": "zoomOutSlow"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_SRC }}"
+            },
+            "start": 5,
+            "effect": "zoomInSlow"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0,
+            "effect": "zoomOutSlow"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1080
+    }
+  },
+  "merge": [
+    {
+      "find": "TITLE",
+      "replace": "Welcome to your"
+    },
+    {
+      "find": "DESCRIPTION",
+      "replace": "VIRTUAL PROPERTY TOUR"
+    },
+    {
+      "find": "BRAND_NAME",
+      "replace": "BORCELLE REAL ESTATE"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "S1_TITLE",
+      "replace": "Living Room"
+    },
+    {
+      "find": "S1_DESCRIPTION",
+      "replace": "Step into the spacious and bright living room, featuring large windows that flood the space with natural light."
+    },
+    {
+      "find": "S1_DESCRIPTION_2",
+      "replace": "The open floor plan is perfect for entertaining, and the modern fixtures add a touch of elegance"
+    },
+    {
+      "find": "S2_TITLE",
+      "replace": "KITCHEN"
+    },
+    {
+      "find": "S2_DESCRIPTION",
+      "replace": "The kitchen is a chef's dream, equipped with stainless steel appliances, granite countertops, and ample cabinet space."
+    },
+    {
+      "find": "S2_DESCRIPTION_2",
+      "replace": "The central island provides additional workspace and is ideal for casual dining."
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/Cinematic-Real-Estate-Promo-Template/e08a3319-c4f9-42f9-b867-9c719475db31/source.jpg"
+    },
+    {
+      "find": "S1_IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/Cinematic-Real-Estate-Promo-Template/0c217a83-72a8-445d-b12c-c5dee7e15fd6/source.jpg"
+    },
+    {
+      "find": "S2_IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/Cinematic-Real-Estate-Promo-Template/0dfcc344-553d-42d3-8160-7004dc070743/source.jpg"
+    },
+    {
+      "find": "S3_TITLE",
+      "replace": "MASTERS ROOM"
+    },
+    {
+      "find": "S3_DESCRIPTION",
+      "replace": "The master bedroom offers a peaceful retreat with its generous size, walk-in closet, and ensuite bathroom."
+    },
+    {
+      "find": "S3_DESCRIPTION_2",
+      "replace": "Large windows provide beautiful views and plenty of natural light."
+    },
+    {
+      "find": "S3_IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/Cinematic-Real-Estate-Promo-Template/8e289005-d2f8-4d3d-aa5f-b036a993bca1/source.jpg"
+    },
+    {
+      "find": "S4_TITLE",
+      "replace": "BATHROOM"
+    },
+    {
+      "find": "S4_DESCRIPTION",
+      "replace": "Each bathroom is tastefully designed with modern fixtures, tile flooring, and stylish vanities."
+    },
+    {
+      "find": "S4_DESCRIPTION_2",
+      "replace": "The master bath includes a double sink, a soaking tub, and a separate shower."
+    },
+    {
+      "find": "S4_IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/Cinematic-Real-Estate-Promo-Template/f09ab03a-9024-4e43-8323-bfb99572376e/source.jpg"
+    },
+    {
+      "find": "S5_TITLE",
+      "replace": "Outdoor Space"
+    },
+    {
+      "find": "S5_DESCRIPTION",
+      "replace": "Enjoy the beautifully landscaped backyard, perfect for outdoor activities and relaxation."
+    },
+    {
+      "find": "S5_DESCRIPTION_2",
+      "replace": "The patio area is ideal for barbecues and entertaining guests."
+    },
+    {
+      "find": "S6_TITLE",
+      "replace": "Thank you for joining us on this virtual tour"
+    },
+    {
+      "find": "S6_DESCRIPTION_2",
+      "replace": "We hope you enjoyed exploring this beautiful property. For more information or to schedule a visit, please contact us!"
+    },
+    {
+      "find": "WEBSITE",
+      "replace": "www.reallygreatsite.com"
+    },
+    {
+      "find": "S6_TEXT_BACKGROUND_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "S6_TEXT_FONT_COLOR_2",
+      "replace": "#a7fbd7"
+    },
+    {
+      "find": "LINE_COLOR",
+      "replace": "#ebf9ff"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/Cinematic-Real-Estate-Promo-Template/7febcf63-a8b8-4172-96ac-22ce101392b6/source.mp3"
+    }
+  ]
+}

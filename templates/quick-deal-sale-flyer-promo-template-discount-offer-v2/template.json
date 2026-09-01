@@ -1,0 +1,637 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Discount}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 42,
+                "weight": 600,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": 0.2648070175438598,
+              "y": 0.101
+            },
+            "transform": {
+              "rotate": {
+                "angle": -21.7
+              }
+            },
+            "width": 127,
+            "height": 141
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 250 250\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"250\" height=\"250\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": 0.264,
+              "y": 0.102
+            },
+            "transform": {
+              "rotate": {
+                "angle": -25.4
+              }
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 250,
+            "height": 250
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/quick-deal-sale-flyer-promo-template-discount-offer/23385f4c-66be-4e57-a79d-a88560d2f9ca/source.png"
+            },
+            "start": 0.7,
+            "length": 4.31
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Email}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "weight": 600,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.36,
+            "length": 3.65,
+            "offset": {
+              "x": 0.351,
+              "y": -0.463
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Phone}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "weight": 600,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.25,
+            "length": "end",
+            "offset": {
+              "x": 0.032,
+              "y": -0.463
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 200,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Web}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "weight": 600,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.15,
+            "length": "end",
+            "offset": {
+              "x": -0.272,
+              "y": -0.463
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 320,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/quick-deal-sale-flyer-promo-template-discount-offer/99c16188-f83e-4915-906e-239ef10dff01/source.png"
+            },
+            "start": 1.3,
+            "length": 3.71
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 50 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"50\" height=\"50\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 1.3,
+            "length": "end",
+            "offset": {
+              "y": -0.455,
+              "x": 0.135
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 50,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 50 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"50\" height=\"50\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": -0.099,
+              "y": -0.463
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 50,
+            "height": 50
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/quick-deal-sale-flyer-promo-template-discount-offer/1be6197c-d551-4dff-9f66-c7a91328e765/source.png"
+            },
+            "start": 1.2,
+            "length": 3.8099999999999996
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/quick-deal-sale-flyer-promo-template-discount-offer/7de5f8bc-8030-47bd-8e12-bf06da85969c/source.png"
+            },
+            "start": 1.1,
+            "length": 3.9099999999999997
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 50 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"50\" height=\"50\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 1.1,
+            "length": "end",
+            "offset": {
+              "x": -0.456,
+              "y": -0.463
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 50,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 630 0\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"630\" height=\"0\" fill=\"#000000\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.002,
+              "y": -0.132
+            },
+            "position": "center",
+            "width": 1080,
+            "height": 1350
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/quick-deal-sale-flyer-promo-template-discount-offer/432e3801-cc87-4ed6-9198-5f5391fcdf58/source.png"
+            },
+            "start": 0.6,
+            "length": 4.41
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 800\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"800\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.286,
+              "y": 0.464
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 800,
+            "height": 800
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"100\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.463
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselUpSlow"
+            },
+            "width": 1080,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/quick-deal-sale-flyer-promo-template-discount-offer/d9336aa2-ec54-4cea-812a-e2c738c5081d/source.png"
+            },
+            "start": 0.9,
+            "length": 4.109999999999999
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 800\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"800\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "y": -0.402,
+              "x": -0.212
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 800,
+            "height": 800
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 54,
+                "weight": 600,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": 0.343,
+              "y": -0.32
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 260,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": -0.008131154913651227,
+              "y": -0.01000000743605705
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 8.8
+              }
+            },
+            "transition": {
+              "in": "carouselUpSlow"
+            },
+            "fit": "contain",
+            "width": 873,
+            "height": 803
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title_2}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 120,
+                "weight": 800,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.253
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 1000,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title_1}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 46,
+                "weight": 800,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.294,
+              "y": 0.397
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1350\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1350\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 5,
+            "width": 1080,
+            "height": 1350
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1350
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Title_1",
+      "replace": "SMART TECH"
+    },
+    {
+      "find": "Title_2",
+      "replace": "QUICK DEAL"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/quick-deal-sale-flyer-promo-template-discount-offer/24e6393e-35cc-4dbf-8e3b-fa9a894d5cb5/source.png"
+    },
+    {
+      "find": "Discount",
+      "replace": "40% OFF"
+    },
+    {
+      "find": "CTA",
+      "replace": "BUY TODAY"
+    },
+    {
+      "find": "Web",
+      "replace": "www.techplaced.com"
+    },
+    {
+      "find": "Phone",
+      "replace": "123-455-3210"
+    },
+    {
+      "find": "Email",
+      "replace": "messagehere@email.com"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#45b599"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/quick-deal-sale-flyer-promo-template-discount-offer/9ad93171-321a-4d29-8d42-ff2e32084f9a/source.mp3"
+    }
+  ]
+}

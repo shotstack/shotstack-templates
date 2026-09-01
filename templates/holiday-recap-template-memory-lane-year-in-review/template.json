@@ -1,0 +1,422 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/holiday-recap-template-memory-lane-yaear-in-review/d6dd647f-6938-43c7-a1e5-7a8d57f457ce/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/holiday-recap-template-memory-lane-year-in-review/6993f8d6-736e-4b46-a943-6e18b0de932a/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S5_Body}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "EB Garamond SemiBold",
+                "size": "90",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 300
+            },
+            "start": 18.17,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.215
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S5_Subtitle}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Autumn in November",
+                "size": "70",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 200
+            },
+            "start": 17.79,
+            "length": "end",
+            "offset": {
+              "x": -0.009,
+              "y": 0.336
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "{{ S5_VIDEO }}"
+            },
+            "start": 17.6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_Subtitle}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Autumn in November",
+                "size": "150",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 300
+            },
+            "start": 5.01,
+            "length": 12.59,
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3,
+            "asset": {
+              "type": "image",
+              "src": "{{ S4_IMAGE }}"
+            },
+            "start": 14.6,
+            "scale": 0.51,
+            "offset": {
+              "x": 0.135,
+              "y": 0.251
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3,
+            "asset": {
+              "type": "video",
+              "src": "{{ S4_VIDEO }}"
+            },
+            "start": 14.6,
+            "scale": 0.5,
+            "offset": {
+              "x": -0.026,
+              "y": -0.25
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ S3_IMAGE_5 }}"
+            },
+            "start": 13.6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ S3_IMAGE_4 }}"
+            },
+            "start": 12.6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ S3_IMAGE_3 }}"
+            },
+            "start": 11.6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ S3_IMAGE_2 }}"
+            },
+            "start": 10.6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ S3_IMAGE_1 }}"
+            },
+            "start": 9.6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "image",
+              "src": "{{ S2_IMAGE }}"
+            },
+            "start": 4.6,
+            "scale": 0.5,
+            "offset": {
+              "x": -0.025,
+              "y": 0.25
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "{{ S2_VIDEO }}"
+            },
+            "start": 4.6,
+            "scale": 0.5,
+            "offset": {
+              "x": 0.07,
+              "y": -0.25
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_Subtitle}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "EB Garamond SemiBold",
+                "size": "100",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 100
+            },
+            "start": 0.65,
+            "length": 3.95,
+            "offset": {
+              "x": 0.02,
+              "y": -0.446
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_Title}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Autumn in November",
+                "size": "160",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 700
+            },
+            "start": 0.29,
+            "length": 4.31,
+            "offset": {
+              "x": 0.01,
+              "y": 0.302
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.6,
+            "asset": {
+              "type": "video",
+              "src": "{{ S1_VIDEO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "S1_Title",
+      "replace": "Autumn in November"
+    },
+    {
+      "find": "S1_Subtitle",
+      "replace": "MEMORY LANE"
+    },
+    {
+      "find": "S1_VIDEO",
+      "replace": "https://templates.shotstack.io/holiday-recap-template-memory-lane-year-in-review/959b89c4-9bae-4bd1-b3a6-59b7ac4fb673/source.mp4"
+    },
+    {
+      "find": "S2_Subtitle",
+      "replace": "Highlight"
+    },
+    {
+      "find": "S2_VIDEO",
+      "replace": "https://templates.shotstack.io/holiday-recap-template-memory-lane-year-in-review/7411ba92-707e-4c45-a890-3eb110523d91/source.mp4"
+    },
+    {
+      "find": "S2_IMAGE",
+      "replace": "https://templates.shotstack.io/holiday-recap-template-memory-lane-year-in-review/211275e6-12ba-4f5a-aaf8-dc4598619946/source.jpg"
+    },
+    {
+      "find": "S3_IMAGE_1",
+      "replace": "https://templates.shotstack.io/holiday-recap-template-memory-lane-year-in-review/a6febc0c-9c1b-479f-bcc5-ad0488749f56/source.jpg"
+    },
+    {
+      "find": "S3_IMAGE_2",
+      "replace": "https://templates.shotstack.io/holiday-recap-template-memory-lane-year-in-review/a1368c39-7eba-42bc-8337-f093129c643f/source.jpg"
+    },
+    {
+      "find": "S3_IMAGE_3",
+      "replace": "https://templates.shotstack.io/holiday-recap-template-memory-lane-year-in-review/40dcb30c-590b-4bc0-9b37-4f84a310774f/source.jpg"
+    },
+    {
+      "find": "S3_IMAGE_4",
+      "replace": "https://templates.shotstack.io/holiday-recap-template-memory-lane-year-in-review/d325291d-e4b6-44fb-a54c-667663bb001d/source.jpg"
+    },
+    {
+      "find": "S3_IMAGE_5",
+      "replace": "https://templates.shotstack.io/holiday-recap-template-memory-lane-year-in-review/92ce8bf9-c54f-49ac-8381-a536ae0878c4/source.jpg"
+    },
+    {
+      "find": "S4_VIDEO",
+      "replace": "https://templates.shotstack.io/holiday-recap-template-memory-lane-year-in-review/fff00ebe-36f1-4ce1-a36c-aa6aac701b49/source.mp4"
+    },
+    {
+      "find": "S4_IMAGE",
+      "replace": "https://templates.shotstack.io/holiday-recap-template-memory-lane-year-in-review/fb354986-9fa8-4003-93c9-b37da291c481/source.jpg"
+    },
+    {
+      "find": "S5_VIDEO",
+      "replace": "https://templates.shotstack.io/holiday-recap-template-memory-lane-year-in-review/921df409-3cff-44fc-a4fa-08aac35c7b13/source.mp4"
+    },
+    {
+      "find": "S5_Subtitle",
+      "replace": "Happy Autumn Break"
+    },
+    {
+      "find": "S5_Body",
+      "replace": "may it be as colorful as the fall leaves!"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/holiday-recap-template-memory-lane-year-in-review/aeb23361-b385-4dc1-9c40-31c074b4cda0/source.mp3"
+    }
+  ]
+}

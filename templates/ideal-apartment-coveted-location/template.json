@@ -1,0 +1,871 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/ideal-apartment-coveted-location/0070f0ca-4f29-4b77-a1e0-ffadfcd77abd/jizzRFVKsm4Bt9PrbSzC4KLlQUF5lRJg5j-l5PvyhfTdd4TcYMNf.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_DESCRIPTION_3}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "35",
+                "lineHeight": 1
+              },
+              "width": 283,
+              "height": 75
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.149,
+              "y": -0.302
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_DESCRIPTION_4}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "35",
+                "lineHeight": 1
+              },
+              "width": 283,
+              "height": 75
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.251,
+              "y": -0.302
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "35",
+                "lineHeight": 1
+              },
+              "width": 283,
+              "height": 75
+            },
+            "start": 0.45,
+            "length": "end",
+            "offset": {
+              "x": -0.149,
+              "y": -0.206
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_DESCRIPTION_2}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "35",
+                "lineHeight": 1
+              },
+              "width": 283,
+              "height": 75
+            },
+            "start": 0.45,
+            "length": "end",
+            "offset": {
+              "x": 0.251,
+              "y": -0.206
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_DESCRIPTION_2}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Didact Gothic",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 60
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "y": -0.432
+            },
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": " {{S2_DESCRIPTION_1}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Didact Gothic",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 600,
+              "height": 62
+            },
+            "start": 0.75,
+            "length": "end",
+            "offset": {
+              "y": -0.399
+            },
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 70,
+              "height": 70,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}"
+              }
+            },
+            "start": 0.55,
+            "length": "end",
+            "offset": {
+              "x": -0.329,
+              "y": -0.298
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/ideal-apartment-coveted-location/be3a5b91-3137-4dd3-b4bb-f703eff5f1c4/source.png"
+            },
+            "start": 0.55,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 70,
+              "height": 70,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}"
+              }
+            },
+            "start": 0.55,
+            "length": "end",
+            "offset": {
+              "x": 0.07,
+              "y": -0.298
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/ideal-apartment-coveted-location/7711ad9c-fe39-402e-8d03-0da62631058e/source.png"
+            },
+            "start": 0.55,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/ideal-apartment-coveted-location/bfa24c26-b0ea-4595-83c5-882b19f867e0/source.png"
+            },
+            "start": 0.4,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 70,
+              "height": 70,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.329,
+              "y": -0.205
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 70,
+              "height": 70,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.07,
+              "y": -0.205
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/ideal-apartment-coveted-location/f083eb09-1a32-4ee6-aea2-cd3afc0c2748/source.png"
+            },
+            "start": 0.4,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_TITLE}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "42",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 100
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "y": -0.371
+            },
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 4,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "y": -0.33
+            },
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 3,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}"
+              }
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "y": -0.235
+            },
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 3,
+              "height": 350,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.254
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Didact Gothic",
+                "size": "46",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 75
+            },
+            "start": 0.25,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.127
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ADDRESS}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Didact Gothic",
+                "size": "41",
+                "lineHeight": 1
+              },
+              "width": 600,
+              "height": 55
+            },
+            "start": 0.15,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.247
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{TITLE}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Noto Serif Khitan Small Script",
+                "size": "127",
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 200
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.185
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/ideal-apartment-coveted-location/e6338246-e872-4ffa-ae3f-9d279a8d5b41/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 400,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "y": 0.185,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1050,
+              "height": 650,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}"
+              }
+            },
+            "start": 0.35,
+            "length": "end",
+            "offset": {
+              "y": -0.306,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/ideal-apartment-coveted-location/1f05a4d7-8503-4f84-a6d1-465c0f693f0e/source.png"
+            },
+            "start": 0.35,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 780,
+              "height": 390,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}",
+                "borderRadius": 40
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "y": 0.185
+            },
+            "transition": {
+              "in": "fadeFast"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_SRC_2 }}",
+              "volume": 0
+            },
+            "start": 0,
+            "scale": 0.3,
+            "offset": {
+              "y": 0.023
+            },
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 10,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_SRC }}",
+              "volume": 0
+            },
+            "start": 0,
+            "scale": 0.3,
+            "offset": {
+              "x": 0,
+              "y": 0.337
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "ADDRESS",
+      "replace": "123 Anywhere St., Any City"
+    },
+    {
+      "find": "TITLE",
+      "replace": "FOR SALE"
+    },
+    {
+      "find": "DESCRIPTION",
+      "replace": "PRICE : $350000"
+    },
+    {
+      "find": "S1_DESCRIPTION",
+      "replace": "2 Bathrooms"
+    },
+    {
+      "find": "S1_DESCRIPTION_2",
+      "replace": "2 Bedrooms"
+    },
+    {
+      "find": "S1_DESCRIPTION_3",
+      "replace": "1500 Sqft."
+    },
+    {
+      "find": "S1_DESCRIPTION_4",
+      "replace": "1 Car Garage"
+    },
+    {
+      "find": "S2_TITLE",
+      "replace": "Get in Touch For More Info!"
+    },
+    {
+      "find": "S2_DESCRIPTION_1",
+      "replace": "hello@reallygreatsite.com"
+    },
+    {
+      "find": "S2_DESCRIPTION_2",
+      "replace": "+123-456-7890"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "VIDEO_SRC",
+      "replace": "https://templates.shotstack.io/ideal-apartment-coveted-location/472eb1d4-7a82-461b-b911-4b793615a451/source.mp4"
+    },
+    {
+      "find": "VIDEO_SRC_2",
+      "replace": "https://templates.shotstack.io/ideal-apartment-coveted-location/23bc1412-d3b1-44fe-96fc-93d5d4a5b6c0/source.mp4"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/ideal-apartment-coveted-location/95e33266-c5f3-4753-a72c-ac382feadefb/shotstack-proxy.mp3"
+    }
+  ]
+}

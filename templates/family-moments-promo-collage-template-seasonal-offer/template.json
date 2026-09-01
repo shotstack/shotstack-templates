@@ -1,0 +1,233 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/family-moments-promo-collage-template-seasonal-offer/5f1fd084-3f0c-4f04-9920-95895c832543/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title}}",
+              "font": {
+                "family": "Great Vibes",
+                "size": 150,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1,
+                "weight": 400,
+                "style": "normal",
+                "lineHeight": 1
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.2,
+            "length": "end",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 900,
+            "height": 500
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_4 }}",
+              "volume": 1
+            },
+            "start": 0.6,
+            "scale": 0.32,
+            "offset": {
+              "x": -0.248,
+              "y": -0.16
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_5 }}",
+              "volume": 1
+            },
+            "start": 0.8,
+            "scale": 0.185,
+            "offset": {
+              "x": -0.207,
+              "y": -0.412
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_3 }}",
+              "volume": 1
+            },
+            "start": 0.4,
+            "scale": 0.32,
+            "offset": {
+              "x": 0.245,
+              "y": 0.16
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_2 }}",
+              "volume": 1
+            },
+            "start": 0.2,
+            "scale": 0.185,
+            "offset": {
+              "x": 0.208,
+              "y": 0.412
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_6 }}",
+              "volume": 1
+            },
+            "start": 1,
+            "scale": 0.41,
+            "offset": {
+              "x": 0.295,
+              "y": -0.249
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 10,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_1 }}",
+              "volume": 1
+            },
+            "start": 0,
+            "scale": 0.415,
+            "offset": {
+              "x": -0.301,
+              "y": 0.252
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "Title",
+      "replace": "A Happy Family Vacation Recap"
+    },
+    {
+      "find": "VIDEO_1",
+      "replace": "https://templates.shotstack.io/family-moments-promo-collage-template-seasonal-offer/3fd19d1f-efeb-4a7d-8510-2e1b54c76771/source.mp4"
+    },
+    {
+      "find": "VIDEO_2",
+      "replace": "https://templates.shotstack.io/family-moments-promo-collage-template-seasonal-offer/0058a6c5-755d-42fb-b2da-31f30cc63b56/source.mp4"
+    },
+    {
+      "find": "VIDEO_3",
+      "replace": "https://templates.shotstack.io/family-moments-promo-collage-template-seasonal-offer/4611111b-fe17-4aa1-8208-5df3a77e3c69/source.mp4"
+    },
+    {
+      "find": "VIDEO_4",
+      "replace": "https://templates.shotstack.io/family-moments-promo-collage-template-seasonal-offer/e6c36597-6f1f-494e-b70a-74630f162ecc/source.mp4"
+    },
+    {
+      "find": "VIDEO_5",
+      "replace": "https://templates.shotstack.io/family-moments-promo-collage-template-seasonal-offer/3f651826-1c52-42bc-9e75-4b08f3d9d1df/source.mp4"
+    },
+    {
+      "find": "VIDEO_6",
+      "replace": "https://templates.shotstack.io/family-moments-promo-collage-template-seasonal-offer/6fe97982-cac7-4fcc-805a-d4402a2f9585/source.mp4"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/family-moments-promo-collage-template-seasonal-offer/9701ea98-fd73-4c60-b1c8-a08865ea457c/source.mp3"
+    }
+  ]
+}

@@ -1,0 +1,506 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/family-year-end-sale-story-promo-template/b98a126d-c41a-4678-82f8-8f01e559b69a/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_Title}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Helvetica",
+                "size": "70",
+                "lineHeight": 1
+              },
+              "width": 450,
+              "height": 400
+            },
+            "start": 0.6,
+            "length": 4.4,
+            "offset": {
+              "x": 0.24,
+              "y": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.6,
+            "asset": {
+              "type": "video",
+              "src": "{{ S1_VIDEO_3 }}"
+            },
+            "start": 0.4,
+            "scale": 0.36,
+            "offset": {
+              "x": 0,
+              "y": -0.307
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/family-year-end-sale-story-promo-template/3eda3503-eede-437d-8955-e12319a878ef/source.mp4"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1002,
+              "height": 694,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "borderRadius": 100
+              }
+            },
+            "start": 0.4,
+            "length": 4.6,
+            "offset": {
+              "x": 0,
+              "y": -0.308
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "{{ S1_VIDEO_1 }}"
+            },
+            "start": 0,
+            "scale": 0.47,
+            "offset": {
+              "x": -0.24,
+              "y": 0.184
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "fade"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/family-year-end-sale-story-promo-template/4b0204eb-f1fb-4ceb-92ea-0fa264c1c952/source.mp4"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 512,
+              "height": 1123,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "borderRadius": 100
+              }
+            },
+            "start": 0,
+            "length": 5,
+            "offset": {
+              "x": -0.241,
+              "y": 0.184
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.8,
+            "asset": {
+              "type": "video",
+              "src": "{{ S1_VIDEO_2 }}"
+            },
+            "start": 0.2,
+            "scale": 0.37,
+            "offset": {
+              "x": 0.24,
+              "y": 0.294
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft",
+              "out": "fade"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/family-year-end-sale-story-promo-template/e7e3b348-d0e2-4b74-93fc-59f287fecd87/source.mp4"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 495,
+              "height": 712,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "borderRadius": 100
+              }
+            },
+            "start": 0.2,
+            "length": 4.8,
+            "offset": {
+              "x": 0.24,
+              "y": 0.295
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_Body}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Helvetica",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 200,
+              "background": {}
+            },
+            "start": 6.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.207
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_Title_3}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Helvetica",
+                "size": "177",
+                "lineHeight": 1
+              },
+              "width": 600,
+              "height": 150
+            },
+            "start": 5.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.148
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_Title_2}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Helvetica",
+                "size": "96",
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 120
+            },
+            "start": 5.6,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.211
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_Title_1}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Helvetica",
+                "size": "66",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 100
+            },
+            "start": 5.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.253
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "fit": "contain",
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/family-year-end-sale-story-promo-template/hxyl2eht3dfj5jmueo7xu2so/source_cac46d11.webm"
+            },
+            "start": 5.2,
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ S2_VIDEO }}",
+              "volume": 0
+            },
+            "start": 5,
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ TEXT_BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": 12,
+            "transition": {}
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "S1_Title",
+      "replace": "THE FAMILY YEAR-END DUMP"
+    },
+    {
+      "find": "S1_VIDEO_1",
+      "replace": "https://templates.shotstack.io/family-year-end-sale-story-promo-template/f2c05cc1-9371-4489-b432-59fb03e15206/source.mp4"
+    },
+    {
+      "find": "S1_VIDEO_2",
+      "replace": "https://templates.shotstack.io/family-year-end-sale-story-promo-template/d546a9d6-2b1d-490a-b498-db37dd9d3e35/source.mp4"
+    },
+    {
+      "find": "S1_VIDEO_3",
+      "replace": "https://templates.shotstack.io/family-year-end-sale-story-promo-template/5bfa2b9a-d795-4d63-8608-9605567993a6/source.mp4"
+    },
+    {
+      "find": "S2_Title_1",
+      "replace": "Happy"
+    },
+    {
+      "find": "S2_Title_2",
+      "replace": "New Year"
+    },
+    {
+      "find": "S2_Title_3",
+      "replace": "2026"
+    },
+    {
+      "find": "S2_Body",
+      "replace": "It’s been fun, and now begins a new chapter for even greater things"
+    },
+    {
+      "find": "S2_VIDEO",
+      "replace": "https://templates.shotstack.io/family-year-end-sale-story-promo-template/efb3f69d-6444-4ef1-8bd6-2a73707a4ec0/source.mp4"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "TEXT_BACKGROUND_COLOR",
+      "replace": "#404040"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/family-year-end-sale-story-promo-template/28f4b306-af5f-4a62-b858-c53a190e32f4/source.mp3"
+    }
+  ]
+}

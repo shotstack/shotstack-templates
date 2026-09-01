@@ -1,0 +1,1498 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1920,
+              "height": 1920,
+              "background": {
+                "color": "#000000"
+              }
+            },
+            "start": 12.99,
+            "length": 1,
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.02,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.02,
+                  "length": 0.85,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.02,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.02,
+                  "length": 0.85,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.02,
+                "from": 1,
+                "to": 0,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.02,
+                "length": 0.85,
+                "from": 0,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.02,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.02,
+                "length": 0.85,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.02,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear",
+                    "easing": "linear"
+                  },
+                  {
+                    "start": 0.02,
+                    "length": 0.85,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/professional-property-listing-template/cec7b6f4-ca7b-420f-8cf4-fad01039ee7e/source.png"
+            },
+            "start": 0.05,
+            "offset": {
+              "x": -0.359,
+              "y": 0.405
+            },
+            "position": "center",
+            "scale": 0.5,
+            "transition": {
+              "in": "fade"
+            }
+          },
+          {
+            "length": 5,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/professional-property-listing-template/4699a943-9740-41ce-97b6-3a209c1b462d/source.png"
+            },
+            "start": 5.05,
+            "offset": {
+              "x": -0.359,
+              "y": 0.405
+            },
+            "position": "center",
+            "scale": 0.5,
+            "transition": {
+              "in": "fade"
+            }
+          },
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/professional-property-listing-template/d3f447a1-bdad-4494-984e-b4020919786f/source.png"
+            },
+            "start": 10.05,
+            "offset": {
+              "x": -0.359,
+              "y": 0.405
+            },
+            "position": "center",
+            "scale": 0.5,
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4,
+            "asset": {
+              "type": "image",
+              "src": "{{ Logo_1 }}"
+            },
+            "start": 2.5,
+            "scale": 0.2,
+            "offset": {
+              "x": 0.353,
+              "y": 0.345
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "fit": "crop"
+          },
+          {
+            "length": 4,
+            "asset": {
+              "type": "image",
+              "src": "{{ Logo_2 }}"
+            },
+            "start": 8,
+            "scale": 0.25,
+            "offset": {
+              "x": 0.353,
+              "y": 0.345
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": "200",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 603,
+              "background": {
+                "color": "{{ Logo_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 100
+              }
+            },
+            "start": 2,
+            "length": 5,
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.37,
+                  "from": 0.353,
+                  "to": 0.353,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.37,
+                  "length": 4.07,
+                  "from": 0.353,
+                  "to": 0.353,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 4.44,
+                  "length": 0.4,
+                  "from": 0.353,
+                  "to": 0.353,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.37,
+                  "from": 0.66,
+                  "to": 0.405,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.37,
+                  "length": 4.07,
+                  "from": 0.405,
+                  "to": 0.406,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 4.44,
+                  "length": 0.4,
+                  "from": 0.406,
+                  "to": 0.66,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.37,
+                "from": 0,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.37,
+                "length": 4.07,
+                "from": 1,
+                "to": 0.997,
+                "interpolation": "linear"
+              },
+              {
+                "start": 4.44,
+                "length": 0.4,
+                "from": 0.997,
+                "to": 0,
+                "interpolation": "linear"
+              }
+            ],
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.37,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.37,
+                "length": 4.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 4.44,
+                "length": 0.4,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.37,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.37,
+                    "length": 4.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 4.44,
+                    "length": 0.4,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": "200",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 603,
+              "background": {
+                "color": "#ffffff",
+                "opacity": 1,
+                "borderRadius": 100
+              }
+            },
+            "start": 7.55,
+            "length": "end",
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.37,
+                  "from": 0.353,
+                  "to": 0.353,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.37,
+                  "length": 4.07,
+                  "from": 0.353,
+                  "to": 0.353,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 4.44,
+                  "length": 0.4,
+                  "from": 0.353,
+                  "to": 0.353,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.37,
+                  "from": 0.66,
+                  "to": 0.405,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.37,
+                  "length": 4.07,
+                  "from": 0.405,
+                  "to": 0.406,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 4.44,
+                  "length": 0.4,
+                  "from": 0.406,
+                  "to": 0.66,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.37,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.37,
+                    "length": 4.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 4.44,
+                    "length": 0.4,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            },
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.37,
+                "from": 0,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.37,
+                "length": 4.07,
+                "from": 1,
+                "to": 0.997,
+                "interpolation": "linear"
+              },
+              {
+                "start": 4.44,
+                "length": 0.4,
+                "from": 0.997,
+                "to": 0,
+                "interpolation": "linear"
+              }
+            ],
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.37,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.37,
+                "length": 4.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 4.44,
+                "length": 0.4,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 80,
+              "height": 80,
+              "background": {
+                "color": "#ffffff"
+              }
+            },
+            "start": 11.5,
+            "length": "end",
+            "offset": {
+              "x": -0.407,
+              "y": -0.315
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/professional-property-listing-template/fc380ba4-99d8-4dfd-b6a5-8741e46b28e3/source.png"
+            },
+            "start": 11.5,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 80,
+              "height": 80,
+              "background": {
+                "color": "#ffffff"
+              }
+            },
+            "start": 11.7,
+            "length": "end",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "offset": {
+              "x": -0.407,
+              "y": -0.379
+            },
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/professional-property-listing-template/7f3318d5-68ff-4120-95de-0d82fa5c6dbc/source.png"
+            },
+            "start": 11.7,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Website}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "48",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 100
+            },
+            "start": 11.7,
+            "length": "end",
+            "offset": {
+              "x": -0.168,
+              "y": -0.378
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Gmail}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "48",
+                "lineHeight": 1
+              },
+              "width": 1000,
+              "height": 100
+            },
+            "start": 11.5,
+            "length": "end",
+            "offset": {
+              "x": -0.119,
+              "y": -0.315
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 80,
+              "height": 80,
+              "background": {
+                "color": "#ffffff"
+              }
+            },
+            "start": 8.4,
+            "length": 3.1,
+            "offset": {
+              "x": -0.417,
+              "y": -0.365
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/professional-property-listing-template/0c957c95-e8ed-44bd-9e7f-a4243162ed8e/source.png"
+            },
+            "start": 8.4,
+            "length": 3.1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Phone}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "48",
+                "lineHeight": 1
+              },
+              "width": 1500,
+              "height": 100
+            },
+            "start": 8.4,
+            "length": 3.1,
+            "offset": {
+              "y": -0.365,
+              "x": 0.008
+            },
+            "transition": {
+              "in": "slideUp"
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Partner}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "48",
+                "lineHeight": 1
+              },
+              "width": 1000,
+              "height": 100
+            },
+            "start": 8.2,
+            "length": 3.3,
+            "offset": {
+              "x": -0.121,
+              "y": -0.315
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Agent}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "87",
+                "lineHeight": 1
+              },
+              "width": 1920,
+              "height": 200
+            },
+            "start": 8,
+            "length": "end",
+            "offset": {
+              "x": 0.064,
+              "y": -0.226
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 80,
+              "height": 80,
+              "background": {
+                "color": "#ffffff"
+              }
+            },
+            "start": 4.5,
+            "length": 3.5,
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "offset": {
+              "x": -0.415,
+              "y": -0.31
+            },
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/professional-property-listing-template/bcc9a33f-b5ae-4f0d-9b7f-c700c6d50414/source.png"
+            },
+            "start": 4.5,
+            "length": 3.5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 80,
+              "height": 80,
+              "background": {
+                "color": "#ffffff"
+              }
+            },
+            "start": 4.5,
+            "length": 3.5,
+            "offset": {
+              "x": -0.415,
+              "y": -0.365
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/professional-property-listing-template/24ae7e64-ed86-4b1e-aee8-4ba74f292496/source.png"
+            },
+            "start": 4.5,
+            "length": 3.5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Time}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "48",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 100
+            },
+            "start": 4.7,
+            "length": 3.3,
+            "offset": {
+              "x": -0.176,
+              "y": -0.365
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Date }}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "48",
+                "lineHeight": 1
+              },
+              "width": 1000,
+              "height": 100
+            },
+            "start": 4.5,
+            "length": 3.5,
+            "offset": {
+              "x": -0.127,
+              "y": -0.309
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 80,
+              "height": 80,
+              "background": {
+                "color": "#ffffff"
+              }
+            },
+            "start": 1,
+            "length": 3.5,
+            "offset": {
+              "x": -0.424,
+              "y": -0.362
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/professional-property-listing-template/74c14875-0c1c-4ec5-ac03-dc0dc746305c/source.png"
+            },
+            "start": 1,
+            "length": 3.5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ADDRESS}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "48",
+                "lineHeight": 1
+              },
+              "width": 1500,
+              "height": 100
+            },
+            "start": 1.2,
+            "length": 3.3,
+            "offset": {
+              "y": -0.365,
+              "x": 0
+            },
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{BED}}BED | {{BATHS}} BATHS | {{SQFT}} SQFT ",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "48",
+                "lineHeight": 1
+              },
+              "width": 1000,
+              "height": 100
+            },
+            "start": 1,
+            "length": 3.5,
+            "offset": {
+              "x": -0.127,
+              "y": -0.315
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Status}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "87",
+                "lineHeight": 1
+              },
+              "width": 1920,
+              "height": 200
+            },
+            "start": 1,
+            "length": 7,
+            "offset": {
+              "x": 0.064,
+              "y": -0.226
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "top"
+              },
+              "font": {
+                "color": "#ba9222",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1150,
+              "height": 188,
+              "background": {
+                "color": "{{ Shape_color }}",
+                "opacity": 0.19,
+                "borderRadius": 0
+              }
+            },
+            "start": 1,
+            "length": 7,
+            "offset": {
+              "y": -0.226,
+              "x": -0.21
+            },
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "top"
+              },
+              "font": {
+                "color": "#d56910",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1150,
+              "height": 188,
+              "background": {
+                "color": "{{ Shape_color }}",
+                "opacity": 0.19,
+                "borderRadius": 0
+              }
+            },
+            "start": 8.1,
+            "length": "end",
+            "offset": {
+              "y": -0.226,
+              "x": -0.21
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1920,
+              "height": 1920,
+              "background": {
+                "color": "{{ Gradient_Color }}",
+                "opacity": "{{ TEXT_BACKGROUND_OPACITY }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/professional-property-listing-template/82eacc1d-9029-4d42-9e28-0b673bad6ae2/source.mp4"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1920,
+              "height": 1920,
+              "background": {
+                "color": "{{ line_BACKGROUND_COLOR_2 }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/professional-property-listing-template/f144e8af-2dc2-4e56-81aa-60fba8f8da97/source.mp4"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3,
+            "fit": "crop",
+            "asset": {
+              "type": "image-to-video",
+              "src": "{{ S1_IMAGE-TO-VIDEO_SRC }}",
+              "prompt": "{{Prompt}}",
+              "aspectRatio": "16:9"
+            },
+            "start": 0
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/professional-property-listing-template/bbeec517-798d-403f-9442-d7ee4b227d00/source.mp4"
+            },
+            "start": 2,
+            "length": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3,
+            "fit": "crop",
+            "asset": {
+              "type": "image-to-video",
+              "src": "{{ S2_IMAGE-TO-VIDEO_SRC_2 }}",
+              "prompt": "{{Prompt}}",
+              "aspectRatio": "16:9"
+            },
+            "start": 2,
+            "transition": {
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3,
+            "fit": "crop",
+            "asset": {
+              "type": "image-to-video",
+              "src": "{{ S3_IMAGE-TO-VIDEO_SRC_3 }}",
+              "prompt": "{{Prompt}}",
+              "aspectRatio": "16:9"
+            },
+            "start": 4,
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/professional-property-listing-template/81b9f1bc-83bd-401b-b914-7a6c104e6b81/double-arrow-right.mp4"
+            },
+            "start": 6,
+            "length": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3,
+            "fit": "crop",
+            "asset": {
+              "type": "image-to-video",
+              "prompt": "{{Prompt}}",
+              "aspectRatio": "16:9",
+              "src": "{{ S4_IMAGE-TO-VIDEO_SRC }}"
+            },
+            "start": 6,
+            "transition": {
+              "out": "fade"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/professional-property-listing-template/c834abfe-d9d6-43ae-8aaf-2928d4a5c8a7/source.mp4"
+            },
+            "start": 8,
+            "length": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3,
+            "fit": "crop",
+            "asset": {
+              "type": "image-to-video",
+              "src": "{{ S5_IMAGE-TO-VIDEO_SRC }}",
+              "prompt": "{{Prompt}}",
+              "aspectRatio": "16:9"
+            },
+            "start": 8,
+            "transition": {
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4,
+            "fit": "crop",
+            "asset": {
+              "type": "image-to-video",
+              "prompt": "{{Prompt}}",
+              "aspectRatio": "16:9",
+              "src": "{{ S6_IMAGE-TO-VIDEO_SRC }}"
+            },
+            "start": 10
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/professional-property-listing-template/55dba6eb-c753-46bd-a542-28c4afba5ac4/double-arrow-right.mp4"
+            },
+            "start": 13,
+            "length": 1
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1920,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "S1_IMAGE-TO-VIDEO_SRC",
+      "replace": "https://templates.shotstack.io/professional-property-listing-template/a3f0d34f-ba98-4189-bfd5-002d00a8c9c9/source.jpg"
+    },
+    {
+      "find": "S2_IMAGE-TO-VIDEO_SRC_2",
+      "replace": "https://templates.shotstack.io/professional-property-listing-template/cb791f67-1477-4af5-a3e3-99f3b928a2fb/source.jpg"
+    },
+    {
+      "find": "Prompt",
+      "replace": "orbit left around the object"
+    },
+    {
+      "find": "Gradient_Color",
+      "replace": "#000000"
+    },
+    {
+      "find": "Shape_color",
+      "replace": "#d3a527"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "Status",
+      "replace": "UNDER CONTRACT"
+    },
+    {
+      "find": "Bed",
+      "replace": "2"
+    },
+    {
+      "find": "Baths",
+      "replace": "5"
+    },
+    {
+      "find": "SQFT",
+      "replace": "0000"
+    },
+    {
+      "find": "ADDRESS",
+      "replace": "123 MAIN STREET, CITY, ZIP CODE"
+    },
+    {
+      "find": "Date ",
+      "replace": "MONDAY, APRIL 1ST"
+    },
+    {
+      "find": "Time",
+      "replace": "10:00-11:00AM"
+    },
+    {
+      "find": "Agent",
+      "replace": "Henry Caldwell"
+    },
+    {
+      "find": "Partner",
+      "replace": "PARTNER DESIGNATION|LIC #3000000"
+    },
+    {
+      "find": "Phone",
+      "replace": "(000) 000-0000"
+    },
+    {
+      "find": "Gmail",
+      "replace": "HenryCaldwell@gmail.com"
+    },
+    {
+      "find": "Website",
+      "replace": "www.HenryCaldwell.com"
+    },
+    {
+      "find": "Logo_1",
+      "replace": "https://templates.shotstack.io/professional-property-listing-template/b787b8c7-89ff-4995-b259-eb081cfdac96/shotstack-proxy.webp"
+    },
+    {
+      "find": "Logo_2",
+      "replace": "https://templates.shotstack.io/professional-property-listing-template/6cb1e76d-4fc1-4bf5-a276-f9241f227072/shotstack-proxy.webp"
+    },
+    {
+      "find": "Logo_BACKGROUND_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "line_BACKGROUND_COLOR_2",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "TEXT_BACKGROUND_OPACITY",
+      "replace": "0.5"
+    },
+    {
+      "find": "S3_IMAGE-TO-VIDEO_SRC_3",
+      "replace": "https://templates.shotstack.io/professional-property-listing-template/e44dbe22-fbda-427b-bf4b-a9af0d8fd48c/source.jpg"
+    },
+    {
+      "find": "S4_IMAGE-TO-VIDEO_SRC",
+      "replace": "https://templates.shotstack.io/professional-property-listing-template/508bf06e-88e6-4118-b20b-0c43cedc5c42/source.jpg"
+    },
+    {
+      "find": "S5_IMAGE-TO-VIDEO_SRC",
+      "replace": "https://templates.shotstack.io/professional-property-listing-template/8ab1a125-a3c4-4071-bb1f-044b211432e0/source.jpg"
+    },
+    {
+      "find": "S6_IMAGE-TO-VIDEO_SRC",
+      "replace": "https://templates.shotstack.io/professional-property-listing-template/a1406a55-57d0-4bb8-936c-8f06e21530d2/source.jpg"
+    },
+    {
+      "find": "S7_IMAGE-TO-VIDEO_SRC",
+      "replace": "https://templates.shotstack.io/professional-property-listing-template/1a8b4021-ae7e-407c-a429-f4058bc291d3/source.jpg"
+    }
+  ]
+}

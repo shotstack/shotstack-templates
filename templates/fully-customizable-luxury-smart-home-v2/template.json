@@ -1,0 +1,1082 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/fully-customizable-luxury-smart-home/43369c76-8655-4c18-918f-b7fb3c39e572/source.png"
+            },
+            "start": 1.3,
+            "length": 8.7
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 50 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"50\" height=\"50\" fill=\"#0a473d\"/></svg>"
+            },
+            "start": 1.3,
+            "length": "end",
+            "offset": {
+              "x": -0.404,
+              "y": -0.467
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 50,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{WEBSITE}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 34,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "character"
+              }
+            },
+            "start": 1.4,
+            "length": 8.6,
+            "offset": {
+              "x": -0.127,
+              "y": -0.467
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 500,
+            "height": 75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{PHONE}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 38,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.7,
+            "length": "end",
+            "offset": {
+              "x": 0.282,
+              "y": -0.467
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 300,
+            "height": 75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_TITLE}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 38,
+                "weight": 800,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.6,
+            "length": "end",
+            "offset": {
+              "x": 0.282,
+              "y": -0.435
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 300,
+            "height": 75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_DESCRIPTION_6}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 28,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.5,
+            "length": "end",
+            "offset": {
+              "x": 0.308,
+              "y": -0.377
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 300,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_DESCRIPTION_5}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 28,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.4,
+            "length": "end",
+            "offset": {
+              "x": 0.308,
+              "y": -0.356
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 300,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_DESCRIPTION_4}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 28,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.3,
+            "length": "end",
+            "offset": {
+              "x": 0.308,
+              "y": -0.333
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 300,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_DESCRIPTION_3}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 28,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": 0.308,
+              "y": -0.312
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 300,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_DESCRIPTION_2}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 28,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.1,
+            "length": "end",
+            "offset": {
+              "x": 0.308,
+              "y": -0.289
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 300,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_DESCRIPTION_1}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 28,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": 0.308,
+              "y": -0.268
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 300,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{AMOUNT}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 59,
+                "weight": 800,
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0.271,
+              "y": -0.163
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 270,
+            "height": 75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DURATION}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 34,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": 0.271,
+              "y": -0.194
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 270,
+            "height": 75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_TITLE}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 28,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": 0.271,
+              "y": -0.116
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 270,
+            "height": 75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ LOGO }}"
+            },
+            "start": 0.5,
+            "scale": 1,
+            "offset": {
+              "x": -0.29208333333333336,
+              "y": -0.11147656250000004
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 142,
+            "height": 155,
+            "fit": "contain",
+            "transform": {
+              "rotate": {
+                "angle": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{BRAND_NAME}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 32,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.106,
+              "y": -0.123
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 219,
+            "height": 83
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_DESCRIPTION}}",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 30,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.29,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "top"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.188,
+              "y": -0.361
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 474,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_TITLE}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 24,
+                "weight": 800,
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": -0.295,
+              "y": -0.299
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 250,
+            "height": 60
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 53,
+                "weight": 800,
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "style": "word",
+                "direction": "up"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": -0.189,
+              "y": -0.232
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 480,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TITLE}}",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 45,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": -0.18,
+              "y": -0.181
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 500,
+            "height": 75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_5 }}"
+            },
+            "start": 0.3,
+            "scale": 1,
+            "offset": {
+              "x": 0.15926536444284356,
+              "y": 0.05458333333333332
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 644,
+            "height": 421,
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": -0.13342592592592595,
+              "y": 0.2850729166666666
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "crop",
+            "width": 599,
+            "height": 415
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 9.8,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_4 }}"
+            },
+            "start": 0.2,
+            "offset": {
+              "x": -0.28787037037037033,
+              "y": 0.05458333333333332
+            },
+            "position": "center",
+            "scale": 1,
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "crop",
+            "width": 267,
+            "height": 424
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_3 }}"
+            },
+            "start": 0.1,
+            "scale": 1,
+            "offset": {
+              "x": 0.31343203110951023,
+              "y": 0.28531535095489013
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 311,
+            "height": 409,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 550 700\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"550\" height=\"700\" fill=\"#975b07\" rx=\"28\" ry=\"28\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.18,
+              "y": -0.253
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 550,
+            "height": 700
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/fully-customizable-luxury-smart-home/20a2fe87-2434-43be-a822-3099d2a849a5/source.png"
+            },
+            "start": 0,
+            "length": 10
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 2000 2000\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"2000\" height=\"2000\" fill=\"#975b07\"/></svg>"
+            },
+            "start": 0,
+            "length": 10,
+            "offset": {
+              "x": 0.024,
+              "y": 0.619
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 2000,
+            "height": 2000
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/fully-customizable-luxury-smart-home/30e6920a-bf36-48e5-9b40-0396ee51ca28/source.png"
+            },
+            "start": 0.5,
+            "length": 9.5
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 350 350\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"350\" height=\"350\" fill=\"#975b07\"/></svg>"
+            },
+            "start": 0.5,
+            "length": 9.5,
+            "offset": {
+              "x": 0.271,
+              "y": -0.155
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 350,
+            "height": 350
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 10,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/fully-customizable-luxury-smart-home/07dc1212-d87c-4050-a9b4-9f6f8465983e/source.png"
+            },
+            "start": 0
+          }
+        ]
+      }
+    ],
+    "fonts": [
+      {
+        "src": "https://fonts.gstatic.com/s/didactgothic/v21/ahcfv8qz1zt6hCC5G4F_P4ASpUySp0LlcyQ.ttf"
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "BRAND_NAME",
+      "replace": "REAL ESTATE"
+    },
+    {
+      "find": "TITLE",
+      "replace": "Smart Home for Sale"
+    },
+    {
+      "find": "DESCRIPTION",
+      "replace": "Borcelle Village Houses"
+    },
+    {
+      "find": "S1_TITLE",
+      "replace": "About Property :"
+    },
+    {
+      "find": "S1_DESCRIPTION",
+      "replace": "Meticulousty designed and equipped with the latest in home automation technology, this residence offers unparalleled, security, and energy efficiency."
+    },
+    {
+      "find": "S2_TITLE",
+      "replace": "Asking Price:"
+    },
+    {
+      "find": "AMOUNT",
+      "replace": "$1500"
+    },
+    {
+      "find": "DURATION",
+      "replace": "/ month"
+    },
+    {
+      "find": "S2_DESCRIPTION_1",
+      "replace": "- Smart Lighting"
+    },
+    {
+      "find": "S2_DESCRIPTION_2",
+      "replace": "- Climate Control"
+    },
+    {
+      "find": "S2_DESCRIPTION_3",
+      "replace": "- Security"
+    },
+    {
+      "find": "S2_DESCRIPTION_4",
+      "replace": "- Home Theater"
+    },
+    {
+      "find": "S2_DESCRIPTION_5",
+      "replace": "- Solar Panels"
+    },
+    {
+      "find": "S2_DESCRIPTION_6",
+      "replace": "- Outdoor Oasis"
+    },
+    {
+      "find": "S3_TITLE",
+      "replace": "BOOK NOW"
+    },
+    {
+      "find": "PHONE",
+      "replace": "+123-456-7890"
+    },
+    {
+      "find": "WEBSITE",
+      "replace": "www.realestate.com"
+    },
+    {
+      "find": "LOGO",
+      "replace": "https://templates.shotstack.io/fully-customizable-luxury-smart-home/cb201d89-4e34-4430-b2d2-1b8fa5cbb5cb/source.png"
+    },
+    {
+      "find": "IMAGE_SRC_2",
+      "replace": "https://templates.shotstack.io/fully-customizable-luxury-smart-home/312f5d5a-b353-4caa-969c-b3228b589f4a/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_3",
+      "replace": "https://templates.shotstack.io/fully-customizable-luxury-smart-home/ae69b7f1-4aed-49f2-a23b-cafd79edc854/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_4",
+      "replace": "https://templates.shotstack.io/fully-customizable-luxury-smart-home/5c07f6da-5b5d-40ac-9010-ed8f7dce4fc3/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_5",
+      "replace": "https://templates.shotstack.io/fully-customizable-luxury-smart-home/acb237d8-bba6-4f75-86da-468475eb83a5/source.jpg"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/fully-customizable-luxury-smart-home/27abb5ce-0e96-46c9-af7c-941c90e95302/source.mp3"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#0a473d"
+    },
+    {
+      "find": "TEXT_FONT_COLOR_2",
+      "replace": "#ffffff"
+    }
+  ]
+}

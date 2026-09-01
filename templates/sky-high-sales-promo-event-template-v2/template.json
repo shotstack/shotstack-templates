@@ -1,0 +1,312 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/sky-high-sales-promo-event-template/b48baa44-dfc5-459c-847f-354a5fddac2a/source.otf"
+      },
+      {
+        "src": "https://templates.shotstack.io/sky-high-sales-promo-event-template/5a7bf155-b9ee-4c92-ac01-9631929e2a99/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4,
+            "asset": {
+              "type": "video",
+              "src": "{{ S3_VIDEO }}",
+              "volume": 1
+            },
+            "start": 8,
+            "transition": {
+              "in": "carouselLeft"
+            },
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.7,
+            "asset": {
+              "type": "video",
+              "src": "{{ S2_VIDEO_2 }}",
+              "volume": 1
+            },
+            "start": 4,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0.2500669019429549
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft",
+              "out": "carouselLeft"
+            },
+            "fit": "contain",
+            "width": 1080,
+            "height": 962
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.7,
+            "asset": {
+              "type": "video",
+              "src": "{{ S2_VIDEO_1 }}",
+              "volume": 1
+            },
+            "start": 4,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": -0.2499999858934313
+            },
+            "transition": {
+              "out": "carouselLeft",
+              "in": "carouselLeft"
+            },
+            "fit": "contain",
+            "width": 1080,
+            "height": 974
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Subtitle_2}}",
+              "font": {
+                "family": "Arimo SemiBold",
+                "size": 45,
+                "weight": 600,
+                "color": "#ffd500",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": 4.7,
+            "offset": {
+              "x": -0.112,
+              "y": -0.468
+            },
+            "position": "center",
+            "transition": {
+              "out": "carouselLeft"
+            },
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Subtitle_1}}",
+              "font": {
+                "family": "Arimo SemiBold",
+                "size": 45,
+                "weight": 600,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": 4.7,
+            "offset": {
+              "x": 0.28,
+              "y": 0.474
+            },
+            "position": "center",
+            "transition": {
+              "out": "carouselLeft"
+            },
+            "width": 400,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title}}",
+              "font": {
+                "family": "Migra Extrabold",
+                "size": 175,
+                "weight": 800,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1,
+                "stroke": {
+                  "width": 2,
+                  "color": "#000000",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": 4.7,
+            "transition": {
+              "out": "carouselLeft"
+            },
+            "width": 700,
+            "height": 400
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.7,
+            "asset": {
+              "type": "video",
+              "src": "{{ S1_VIDEO }}",
+              "volume": 1
+            },
+            "start": 0,
+            "transition": {
+              "out": "carouselLeft"
+            },
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Title",
+      "replace": "Sky Diving"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#faffff"
+    },
+    {
+      "find": "Subtitle_1",
+      "replace": "AIR FEEL"
+    },
+    {
+      "find": "Subtitle_2",
+      "replace": "ELECTRIFY RUSH OF FREEDOM"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#ffd500"
+    },
+    {
+      "find": "S1_VIDEO",
+      "replace": "https://templates.shotstack.io/sky-high-sales-promo-event-template/2433cd25-11a2-4be8-bb40-58519299579c/source.mp4"
+    },
+    {
+      "find": "S2_VIDEO_1",
+      "replace": "https://templates.shotstack.io/sky-high-sales-promo-event-template/4ce942eb-7a38-411c-993f-01bd5b319458/source.mp4"
+    },
+    {
+      "find": "S2_VIDEO_2",
+      "replace": "https://templates.shotstack.io/sky-high-sales-promo-event-template/f3d3483c-5b0f-4d94-bd89-9b64757d6674/source.mp4"
+    },
+    {
+      "find": "S3_VIDEO",
+      "replace": "https://templates.shotstack.io/sky-high-sales-promo-event-template/94ce873b-c850-430a-bf07-b9230fb9dd05/source.mp4"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/sky-high-sales-promo-event-template/0d9979a1-f453-49fd-b9a9-640bfd83f489/source.mp3"
+    }
+  ]
+}

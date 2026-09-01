@@ -1,0 +1,258 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/electric-car-for-sale/005e8330-4e6a-4115-8d63-82fe4b0268b3/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/electric-car-for-sale/79984860-9f68-470c-b534-39c8b50b2584/source.ttf"
+      }
+    ],
+    "background": "#ffffff",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ LOGO }}"
+            },
+            "start": 0,
+            "offset": {
+              "x": -0.364,
+              "y": 0.358
+            },
+            "position": "center",
+            "length": 10,
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "none",
+            "scale": 0.12
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "Lease starting at {{ PRICE }}/month",
+              "font": {
+                "family": "Roboto",
+                "size": 44,
+                "color": "#373737",
+                "opacity": 1,
+                "weight": 400,
+                "style": "normal",
+                "lineHeight": 1
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.28,
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.236,
+              "y": -0.368
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "length": 9.72,
+            "width": 840,
+            "height": 83
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ MODEL }}",
+              "font": {
+                "family": "Roboto",
+                "size": 100,
+                "color": "#4abe36",
+                "opacity": 1,
+                "weight": 400,
+                "style": "normal",
+                "lineHeight": 1
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0,
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.236,
+              "y": -0.032
+            },
+            "position": "center",
+            "length": 10,
+            "transition": {
+              "in": "carouselRight"
+            },
+            "width": 840,
+            "height": 356
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "TESLA",
+              "font": {
+                "family": "Roboto Black",
+                "size": 80,
+                "color": "#121212",
+                "opacity": 1,
+                "weight": 400,
+                "style": "normal",
+                "lineHeight": 1
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0,
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.236,
+              "y": 0.175
+            },
+            "position": "center",
+            "length": 10,
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 840,
+            "height": 144
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/electric-car-for-sale/bad6eca8-53dd-4b26-b8fd-d64c4ade3d52/source.png"
+            },
+            "start": 0,
+            "offset": {
+              "x": -0.214,
+              "y": 0.01
+            },
+            "position": "center",
+            "length": 10,
+            "scale": 0.67,
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE }}"
+            },
+            "start": 0.3,
+            "offset": {
+              "x": 0.311,
+              "y": 0
+            },
+            "position": "center",
+            "length": 9.7,
+            "effect": "zoomInSlow",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/electric-car-for-sale/a22fa93d-aeee-4a79-a29d-0fa6334f771c/source.jpg"
+            },
+            "start": 0,
+            "offset": {
+              "x": 0.06,
+              "y": -0.166
+            },
+            "position": "center",
+            "scale": 1.37,
+            "length": 10,
+            "opacity": 0.7
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "audio",
+              "src": "https://templates.shotstack.io/electric-car-for-sale/eed78e07-26f5-4b78-8724-b611cd4a99ab/just-cool.mp3",
+              "effect": "fadeOut",
+              "volume": 1
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "IMAGE",
+      "replace": "https://templates.shotstack.io/electric-car-for-sale/a7bc8cd1-1cf6-4020-841f-5b47b0d0f3b8/source.jpg"
+    },
+    {
+      "find": "LOGO",
+      "replace": "https://templates.shotstack.io/electric-car-for-sale/bac152a4-d053-47d8-bd87-b2ca5152cc35/source.png"
+    },
+    {
+      "find": "MAKE",
+      "replace": "TESLA"
+    },
+    {
+      "find": "MODEL",
+      "replace": "MODEL S"
+    },
+    {
+      "find": "PRICE",
+      "replace": "$329"
+    }
+  ]
+}

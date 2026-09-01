@@ -1,0 +1,423 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/sweet-deal-promo-offer-template/3fca99ca-baa2-4f1c-a7bb-e632fc5434da/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/sweet-deal-promo-offer-template/3d54f97e-32f3-4580-993c-2efb781b7428/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/sweet-deal-promo-offer-template/38dd820e-4ae2-4a3b-9679-6b85641ddad6/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Web}}",
+              "font": {
+                "family": "Poppins SemiBold",
+                "size": 45,
+                "weight": 600,
+                "color": "{{ BACKGROUND_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.91,
+            "length": "end",
+            "offset": {
+              "y": -0.466
+            },
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 900,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA}}",
+              "font": {
+                "family": "Poppins SemiBold",
+                "size": 75,
+                "weight": 600,
+                "color": "{{ BACKGROUND_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ BACKGROUND_COLOR_1 }}",
+                "opacity": 1,
+                "borderRadius": 49
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.408
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 450,
+            "height": 110
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/sweet-deal-promo-offer-template/f814aff3-7e4d-47e3-93f6-46b2f8d54407/source.png"
+            },
+            "start": 0.7,
+            "length": 4.3
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Discount}}",
+              "font": {
+                "family": "Poppins SemiBold",
+                "size": 105,
+                "weight": 600,
+                "color": "{{ BACKGROUND_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 0.8,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ BACKGROUND_COLOR_1 }}",
+                "opacity": 1,
+                "borderRadius": 0
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": -0.154,
+              "y": -0.138
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 400
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Body}}",
+              "font": {
+                "family": "Poppins SemiBold",
+                "size": 50,
+                "weight": 600,
+                "color": "{{ BACKGROUND_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "top"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.005,
+              "y": 0.095
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 750,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Brand_Name}}",
+              "font": {
+                "family": "Poppins SemiBold",
+                "size": 60,
+                "weight": 600,
+                "color": "{{ BACKGROUND_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.414
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 900,
+            "height": 90
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title}}",
+              "font": {
+                "family": "Poppins Black",
+                "size": 204,
+                "weight": 900,
+                "color": "{{ BACKGROUND_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.284
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 500
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ Product }}"
+            },
+            "start": 0.6,
+            "scale": 1,
+            "offset": {
+              "x": -0.007725018457427863,
+              "y": -0.1411309513365385
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 957,
+            "height": 882,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/sweet-deal-promo-offer-template/7d937f0b-c383-4df3-80c2-09c14c3cc054/source.png"
+            },
+            "start": 0.1,
+            "length": 4.9
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 3000 3000\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"3000\" height=\"3000\" fill=\"{{ BACKGROUND_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.541
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"#f7a198\"/></svg>"
+            },
+            "start": 0,
+            "length": 5,
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Brand_Name",
+      "replace": "Melt & Whirl"
+    },
+    {
+      "find": "Title",
+      "replace": "Sugar Frost"
+    },
+    {
+      "find": "Body",
+      "replace": "Melt & WhiMelts in moments, swirls through your soul"
+    },
+    {
+      "find": "Product",
+      "replace": "https://templates.shotstack.io/sweet-deal-promo-offer-template/a2d2b611-733d-4a2d-8a5b-864ed29fb787/source.png"
+    },
+    {
+      "find": "Discount",
+      "replace": "40% Off"
+    },
+    {
+      "find": "CTA",
+      "replace": "Buy Now!"
+    },
+    {
+      "find": "Web",
+      "replace": "@melt&whirl | www.melt&whirl.com"
+    },
+    {
+      "find": "BACKGROUND_COLOR_1",
+      "replace": "#f7a198"
+    },
+    {
+      "find": "BACKGROUND_COLOR_2",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/sweet-deal-promo-offer-template/ced5edfb-6bc3-4666-b029-69b611868d16/source.mp3"
+    }
+  ]
+}

@@ -1,0 +1,948 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 0,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.36,
+                "from": 0,
+                "to": 0,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.36,
+                "length": 0.22,
+                "from": 0,
+                "to": 0.45,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.58,
+                "length": 0.11,
+                "from": 0.45,
+                "to": 0.4,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.36,
+                  "from": 0.168,
+                  "to": 0.168,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.36,
+                  "length": 0.22,
+                  "from": 0.168,
+                  "to": 0.168,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.58,
+                  "length": 0.11,
+                  "from": 0.168,
+                  "to": 0.168,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.36,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.36,
+                  "length": 0.22,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.58,
+                  "length": 0.11,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.36,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.36,
+                "length": 0.22,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.58,
+                "length": 0.11,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.36,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear",
+                    "easing": "linear"
+                  },
+                  {
+                    "start": 0.36,
+                    "length": 0.22,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.58,
+                    "length": 0.11,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Bold-Poster-Ad-Animation/30e43c5b-0660-4326-a37c-9cda62884ad4/circle-400x400.jpg"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 470,
+              "height": 470,
+              "background": {
+                "color": "{{ DOT_COLOR }}"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.168,
+              "y": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Bold-Poster-Ad-Animation/766af8a5-fd39-422f-80e5-d1ff970a4020/circle.jpg"
+            },
+            "start": 0.6,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.18,
+                "from": 0,
+                "to": 0.3,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.18,
+                "length": 0.12,
+                "from": 0.3,
+                "to": 0.25,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.18,
+                  "from": 0.254,
+                  "to": 0.254,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.18,
+                  "length": 0.12,
+                  "from": 0.254,
+                  "to": 0.254,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.18,
+                  "from": 0.252,
+                  "to": 0.252,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.18,
+                  "length": 0.12,
+                  "from": 0.252,
+                  "to": 0.252,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.18,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.18,
+                "length": 0.12,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.18,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.18,
+                    "length": 0.12,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Bold-Poster-Ad-Animation/3094b8c0-d46b-4be7-bd3d-031db0f45033/circle-400x400.jpg"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 300,
+              "background": {
+                "color": "{{ DOT_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.18,
+                  "from": 0.254,
+                  "to": 0.254,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.18,
+                  "from": 0.252,
+                  "to": 0.252,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.18,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.18,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.18,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Bold-Poster-Ad-Animation/23cf8261-5b2c-4ca4-b04d-7672952dd262/circle.jpg"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_3 }}"
+            },
+            "start": 0,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.59,
+                "from": 0,
+                "to": 0,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.59,
+                "length": 0.18,
+                "from": 0,
+                "to": 0.3,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.77,
+                "length": 0.13,
+                "from": 0.3,
+                "to": 0.25,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.59,
+                  "from": 0.254,
+                  "to": 0.254,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.59,
+                  "length": 0.18,
+                  "from": 0.254,
+                  "to": 0.254,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.77,
+                  "length": 0.13,
+                  "from": 0.254,
+                  "to": 0.254,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.59,
+                  "from": -0.252,
+                  "to": -0.252,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.59,
+                  "length": 0.18,
+                  "from": -0.252,
+                  "to": -0.252,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.77,
+                  "length": 0.13,
+                  "from": -0.252,
+                  "to": -0.252,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.59,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.59,
+                "length": 0.18,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.77,
+                "length": 0.13,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.59,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear",
+                    "easing": "linear"
+                  },
+                  {
+                    "start": 0.59,
+                    "length": 0.18,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.77,
+                    "length": 0.13,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Bold-Poster-Ad-Animation/e5743416-c8e8-4167-a787-2e396a9a3663/circle-400x400.jpg"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Bold-Poster-Ad-Animation/29b861eb-288a-4b8c-81aa-9a92cbb5a520/circle.jpg"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 300,
+              "background": {
+                "color": "{{ DOT_COLOR }}"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0.254,
+              "y": -0.252
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeFast"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": " {{CTA}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#183ac3",
+                "family": "Montserrat SemiBold",
+                "size": "24",
+                "lineHeight": 1
+              },
+              "width": 253,
+              "height": 57,
+              "background": {
+                "color": "{{ DOT_COLOR }}",
+                "borderRadius": 29
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.31,
+              "y": -0.265
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1.4
+              },
+              "width": 400,
+              "height": 180
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.242,
+              "y": -0.127
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{TITLE}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "74",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 200
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.247,
+              "y": 0.185
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Bold-Poster-Ad-Animation/d7f471e6-2c4c-4100-8f54-5c11b9d613a8/source.mp4"
+            },
+            "start": 0,
+            "length": 4
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 800,
+              "background": {
+                "color": "{{ DOT_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.161,
+              "y": 0
+            },
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Bold-Poster-Ad-Animation/d7f471e6-2c4c-4100-8f54-5c11b9d613a8/source.mp4"
+            },
+            "start": 4,
+            "length": 4
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Bold-Poster-Ad-Animation/d7f471e6-2c4c-4100-8f54-5c11b9d613a8/source.mp4"
+            },
+            "start": 8,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Bold-Poster-Ad-Animation/8df0fdbd-8914-40a6-b80a-13cec0984df4/source.mp4"
+            },
+            "start": 0,
+            "length": 5
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1080,
+              "background": {
+                "color": "{{ ELEMENT_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Bold-Poster-Ad-Animation/8df0fdbd-8914-40a6-b80a-13cec0984df4/source.mp4"
+            },
+            "start": 5,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1080,
+              "background": {
+                "color": "{{ ELEMENT_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Bold-Poster-Ad-Animation/3c01f642-2ddb-43ec-9f9c-9eb101c40511/source.mp4"
+            },
+            "start": 0,
+            "length": 5
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Bold-Poster-Ad-Animation/3c01f642-2ddb-43ec-9f9c-9eb101c40511/source.mp4"
+            },
+            "start": 5,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1080,
+              "background": {
+                "color": "{{ ELEMENT_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.629,
+              "y": 0
+            },
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Bold-Poster-Ad-Animation/644dfa25-d131-449a-9209-3dbe71f94973/circle.jpg"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#3136af",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1080,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR_3 }}"
+              }
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1080
+    }
+  },
+  "merge": [
+    {
+      "find": "TITLE",
+      "replace": "TRAVEL AGENCY"
+    },
+    {
+      "find": "DESCRIPTION",
+      "replace": "Take You on a Journey (f a Lifetime, Unforgettable Destinations, Personalized Service, and Memories Forever!"
+    },
+    {
+      "find": "CTA",
+      "replace": "BOOK NOW"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "DOT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "ELEMENT_COLOR",
+      "replace": "#209efe"
+    },
+    {
+      "find": "BACKGROUND_COLOR_3",
+      "replace": "#183ac3"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/Bold-Poster-Ad-Animation/ab078103-f3f5-4b34-80a1-47079803a346/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_2",
+      "replace": "https://templates.shotstack.io/Bold-Poster-Ad-Animation/4fa1957b-e623-4aa1-b7e4-0a3d2a02092d/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_3",
+      "replace": "https://templates.shotstack.io/Bold-Poster-Ad-Animation/e69699b3-8ec9-489c-be05-d5e7391db233/shotstack-proxy.webp"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/Bold-Poster-Ad-Animation/65eff9c8-bcb6-46c9-a71e-0de793b9b826/source.mp3"
+    }
+  ]
+}

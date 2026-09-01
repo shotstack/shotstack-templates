@@ -1,0 +1,663 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/adventure-awaits-nature-retreat-travel-sale-template/5cc1b59f-705e-45c3-9902-a20c6fe71eb8/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/adventure-awaits-nature-retreat-travel-sale-template/86a9fb3f-6689-4126-ac23-2c5b7646ace8/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/adventure-awaits-nature-retreat-travel-sale-template/5c3d7a09-669f-4c0e-ae37-402df69661bd/source.otf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/amaticsc/v28/TUZyzwprpvBS1izr_vO0De6ecZQf1A.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S5_Subtitle}}",
+              "font": {
+                "family": "Autography",
+                "size": 100,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 17.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.376
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideUp"
+            },
+            "width": 900,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "{{ S5_VIDEO }}",
+              "volume": 1
+            },
+            "start": 17,
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S4_Subtitle}}",
+              "font": {
+                "family": "Autography",
+                "size": 100,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 13.8,
+            "length": 3.2,
+            "offset": {
+              "x": 0,
+              "y": 0.417
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideUp",
+              "in": "slideDown"
+            },
+            "width": 950,
+            "height": 300
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/adventure-awaits-nature-retreat-travel-sale-template/cff28637-8ca2-4bca-8de3-41261b0beed6/source.png"
+            },
+            "start": 13.4,
+            "length": 3.6
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 2000 2000\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"2000\" height=\"2000\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 13.4,
+            "length": 3.6,
+            "offset": {
+              "x": -0.005,
+              "y": 0.395
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 180
+              }
+            },
+            "transition": {
+              "in": "slideDown",
+              "out": "slideUp"
+            },
+            "width": 2000,
+            "height": 2000
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4,
+            "asset": {
+              "type": "video",
+              "src": "{{ S4_VIDEO }}",
+              "volume": 1
+            },
+            "start": 13,
+            "transition": {
+              "out": "slideUp",
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_Subtitle_2}}",
+              "font": {
+                "family": "Autography",
+                "size": 100,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 10,
+            "length": 3,
+            "offset": {
+              "x": 0,
+              "y": -0.311
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideDown"
+            },
+            "width": 800,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_Subtitle_1}}",
+              "font": {
+                "family": "Autography",
+                "size": 90,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 9.8,
+            "length": 3.2,
+            "offset": {
+              "y": 0.31
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideLeft"
+            },
+            "width": 950,
+            "height": 300
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.4,
+            "asset": {
+              "type": "video",
+              "src": "{{ S3_VIDEO_1 }}",
+              "volume": 1
+            },
+            "start": 9.6,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": -0.31682764726478696
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideDown"
+            },
+            "width": 993,
+            "height": 560,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.6,
+            "asset": {
+              "type": "video",
+              "src": "{{ S3_VIDEO_2 }}",
+              "volume": 1
+            },
+            "start": 9.4,
+            "scale": 1,
+            "transition": {
+              "out": "slideDown",
+              "in": "slideLeft"
+            },
+            "width": 993,
+            "height": 560,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.8,
+            "asset": {
+              "type": "video",
+              "src": "{{ S3_VIDEO_3 }}",
+              "volume": 1
+            },
+            "start": 9.2,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0.311
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideLeft"
+            },
+            "width": 993,
+            "height": 560,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4,
+            "asset": {
+              "type": "video",
+              "src": "{{ S3_VIDEO_BACKGROUND }}",
+              "volume": 1
+            },
+            "start": 9,
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"200\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 6.2,
+            "length": 2.8,
+            "offset": {
+              "x": -0.011,
+              "y": 0.431
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideLeft"
+            },
+            "width": 200,
+            "height": 200
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/adventure-awaits-nature-retreat-travel-sale-template/b35a1813-4ff8-405f-837e-b1d7b3fe4f0b/source.mp4"
+            },
+            "start": 6.2,
+            "length": 2.8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_Subtitle_2}}",
+              "font": {
+                "family": "Autography",
+                "size": 150,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 5.8,
+            "length": 3.2,
+            "offset": {
+              "x": 0,
+              "y": 0.272
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideLeft"
+            },
+            "width": 1000,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{S2_Subtitle_1}}",
+              "font": {
+                "family": "Amatic SC",
+                "size": 200,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn"
+              }
+            },
+            "start": 5.4,
+            "length": 3.6,
+            "offset": {
+              "x": 0,
+              "y": 0.326
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideLeft"
+            },
+            "width": 950,
+            "height": 400
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4,
+            "asset": {
+              "type": "video",
+              "src": "{{ S2_VIDEO }}",
+              "volume": 1
+            },
+            "start": 5,
+            "transition": {
+              "out": "slideLeft",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Title}}",
+              "font": {
+                "family": "Amatic SC",
+                "size": 210,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.4,
+            "length": 4.6,
+            "offset": {
+              "x": 0.01,
+              "y": -0.305
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideUp"
+            },
+            "width": 800,
+            "height": 700
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "{{ S1_VIDEO }}",
+              "volume": 1
+            },
+            "start": 0,
+            "transition": {
+              "out": "slideUp"
+            },
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "S1_Title",
+      "replace": "Nature retreat Throwback"
+    },
+    {
+      "find": "S1_VIDEO",
+      "replace": "https://templates.shotstack.io/adventure-awaits-nature-retreat-travel-sale-template/2f1c025d-3e6b-4534-a7aa-ab8a18342156/source.mp4"
+    },
+    {
+      "find": "S2_Subtitle_1",
+      "replace": "WILD MOMENT"
+    },
+    {
+      "find": "S2_Subtitle_2",
+      "replace": "Peaceful Memories"
+    },
+    {
+      "find": "S2_VIDEO",
+      "replace": "https://templates.shotstack.io/adventure-awaits-nature-retreat-travel-sale-template/7604bdb1-0801-40db-af1b-b6bbdf7e0347/source.mp4"
+    },
+    {
+      "find": "S3_Subtitle_1",
+      "replace": "A holiday that leaves memories"
+    },
+    {
+      "find": "S3_Subtitle_2",
+      "replace": "Not just photos."
+    },
+    {
+      "find": "S3_VIDEO_1",
+      "replace": "https://templates.shotstack.io/adventure-awaits-nature-retreat-travel-sale-template/f15ac665-eb9f-40d8-883e-e51cb4744447/source.mp4"
+    },
+    {
+      "find": "S3_VIDEO_2",
+      "replace": "https://templates.shotstack.io/adventure-awaits-nature-retreat-travel-sale-template/bc79baa6-1f30-4576-925f-24155999fda8/source.mp4"
+    },
+    {
+      "find": "S3_VIDEO_3",
+      "replace": "https://templates.shotstack.io/adventure-awaits-nature-retreat-travel-sale-template/50e595f0-18d5-4c87-bdbf-d3a8c48305eb/source.mp4"
+    },
+    {
+      "find": "S4_Subtitle",
+      "replace": "Joy that shines brighter than pictures."
+    },
+    {
+      "find": "S4_VIDEO",
+      "replace": "https://templates.shotstack.io/adventure-awaits-nature-retreat-travel-sale-template/eb2272b2-3fa9-41ab-b6f9-0158fcb17875/source.mp4"
+    },
+    {
+      "find": "S5_Subtitle",
+      "replace": "Nature doesn’t end here; it stays with you."
+    },
+    {
+      "find": "S5_VIDEO",
+      "replace": "https://templates.shotstack.io/adventure-awaits-nature-retreat-travel-sale-template/9a0c0f45-17d6-4c80-8687-a859a4978bc6/source.mp4"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#000000"
+    },
+    {
+      "find": "S3_VIDEO_BACKGROUND",
+      "replace": "https://templates.shotstack.io/adventure-awaits-nature-retreat-travel-sale-template/5e2cfab9-9b5a-435f-ad15-de15eb211924/source.mp4"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/adventure-awaits-nature-retreat-travel-sale-template/4a30234f-4c3e-41ac-bc1d-3eb10472e5df/source.mp3"
+    }
+  ]
+}

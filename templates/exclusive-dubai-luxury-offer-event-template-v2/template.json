@@ -1,0 +1,2194 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/b4cf414f-8984-447f-bc39-5eaff6dc6231/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/9845c935-ed06-4a4f-9d61-8e7e8869fc33/source.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/opensans/v44/mem8YaGs126MiZpBA-U1UpcaXcl0Aw.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrFJDUc1NECPY.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Social_Handle}}",
+              "font": {
+                "family": "Open Sans",
+                "size": 48,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 22.25,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.019
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 600,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA}}",
+              "font": {
+                "family": "Poppins",
+                "size": 85,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "down",
+                "style": "word"
+              }
+            },
+            "start": 21.77,
+            "length": 4.77,
+            "offset": {
+              "x": 0,
+              "y": 0.068
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/20cf700a-5f75-451f-a68e-a619b6d3e79c/source.png"
+            },
+            "start": 21.539255478050592,
+            "length": 5
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1478 1478\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1478\" height=\"1478\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 21.539255478050592,
+            "length": 5,
+            "offset": {
+              "x": -0.501,
+              "y": 0.445
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 1478,
+            "height": 1478
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/25ceb50b-b212-439c-a493-033d264ded7d/source.png"
+            },
+            "start": 22.26,
+            "length": 4.28
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1478 1478\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1478\" height=\"1478\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 22.26,
+            "length": 4.28,
+            "offset": {
+              "x": 0.398,
+              "y": -0.519
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 180
+              }
+            },
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 1478,
+            "height": 1478
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "{{ S9_VIDEO }}",
+              "volume": 0
+            },
+            "start": 21.55004285714285,
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Social_Handle}}",
+              "font": {
+                "family": "Open Sans",
+                "size": 48,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "opacity": 1,
+                "borderRadius": 0
+              }
+            },
+            "start": 19.45,
+            "length": 2.1,
+            "offset": {
+              "x": 0,
+              "y": -0.444
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            },
+            "width": 500,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S8_Subtitle}}",
+              "font": {
+                "family": "Poppins",
+                "size": 45,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 19.16,
+            "length": 2.39,
+            "offset": {
+              "x": 0,
+              "y": 0.042
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S8_Title}}",
+              "font": {
+                "family": "Poppins",
+                "size": 85,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "down",
+                "style": "word"
+              }
+            },
+            "start": 18.8484,
+            "length": 2.7,
+            "offset": {
+              "x": 0,
+              "y": -0.018
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/479cfc0d-a68e-4477-b589-988e5aa79873/source.png"
+            },
+            "start": 18.8484,
+            "length": 2.7
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1478 1478\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1478\" height=\"1478\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 18.8484,
+            "length": 2.7,
+            "offset": {
+              "x": 0.469,
+              "y": 0.469
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 90
+              }
+            },
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideRight"
+            },
+            "width": 1478,
+            "height": 1478
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/29500fd1-f318-494a-b93c-74e6ce8689eb/source.png"
+            },
+            "start": 19.17,
+            "length": 2.38
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1478 1478\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1478\" height=\"1478\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 19.17,
+            "length": 2.38,
+            "offset": {
+              "x": -0.434,
+              "y": -0.48
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -90
+              }
+            },
+            "transition": {
+              "out": "slideLeft",
+              "in": "slideRight"
+            },
+            "width": 1478,
+            "height": 1478
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.7,
+            "asset": {
+              "type": "video",
+              "src": "{{ S8_VIDEO }}",
+              "volume": 0
+            },
+            "start": 18.86,
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Social_Handle}}",
+              "font": {
+                "family": "Open Sans",
+                "size": 48,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 16.81,
+            "length": 2.04,
+            "offset": {
+              "x": 0,
+              "y": -0.444
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "width": 600,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S7_Subtile}}",
+              "font": {
+                "family": "Poppins",
+                "size": 45,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "down",
+                "style": "word"
+              }
+            },
+            "start": 16.47,
+            "length": 2.38,
+            "offset": {
+              "x": 0,
+              "y": 0.024
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S7_Title}}",
+              "font": {
+                "family": "Poppins",
+                "size": 85,
+                "weight": 400,
+                "color": "#dcbe18",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "character"
+              }
+            },
+            "start": 16.1485,
+            "length": 2.7,
+            "offset": {
+              "x": 0,
+              "y": -0.018
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "width": 800,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/cc7a6850-65fb-4543-a6ec-c3c89da89276/source.png"
+            },
+            "start": 16.14,
+            "length": 2.71
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1478 1478\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1478\" height=\"1478\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 16.14,
+            "length": 2.71,
+            "offset": {
+              "x": -0.501,
+              "y": 0.445
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideLeft",
+              "in": "slideRight"
+            },
+            "width": 1478,
+            "height": 1478
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/3fed39d1-d50c-41cd-941a-7cb14e56a6b8/source.png"
+            },
+            "start": 16.37,
+            "length": 2.48
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1478 1478\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1478\" height=\"1478\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 16.37,
+            "length": 2.48,
+            "offset": {
+              "x": 0.398,
+              "y": -0.519
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 180
+              }
+            },
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideRight"
+            },
+            "width": 1478,
+            "height": 1478
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.7,
+            "asset": {
+              "type": "video",
+              "src": "{{ S7_VIDEO }}",
+              "volume": 0
+            },
+            "start": 16.16,
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Social_Handle}}",
+              "font": {
+                "family": "Open Sans",
+                "size": 48,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 14.03,
+            "length": 2.12,
+            "offset": {
+              "x": 0,
+              "y": -0.444
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            },
+            "width": 600,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S6_Subtitle}}",
+              "font": {
+                "family": "Poppins",
+                "size": 45,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "style": "word",
+                "direction": "down"
+              }
+            },
+            "start": 13.78,
+            "length": 2.37,
+            "offset": {
+              "x": 0,
+              "y": 0.024
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S6_Title}}",
+              "font": {
+                "family": "Poppins",
+                "size": 85,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "character"
+              }
+            },
+            "start": 13.4485,
+            "length": 2.7,
+            "offset": {
+              "x": 0,
+              "y": -0.018
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/e5fbf69e-8706-43cb-9f9c-ff79a6d63282/source.png"
+            },
+            "start": 13.4485,
+            "length": 2.7
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1478 1478\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1478\" height=\"1478\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 13.4485,
+            "length": 2.7,
+            "offset": {
+              "x": 0.453,
+              "y": 0.469
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 90
+              }
+            },
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideRight"
+            },
+            "width": 1478,
+            "height": 1478
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/34f5bae1-05f2-4503-b4c1-d3aeec5cdb64/source.png"
+            },
+            "start": 13.82,
+            "length": 2.33
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1478 1478\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1478\" height=\"1478\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 13.82,
+            "length": 2.33,
+            "offset": {
+              "x": -0.339,
+              "y": -0.519
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -90
+              }
+            },
+            "transition": {
+              "out": "slideLeft",
+              "in": "slideRight"
+            },
+            "width": 1478,
+            "height": 1478
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.7,
+            "asset": {
+              "type": "video",
+              "src": "{{ S6_VIDEO }}",
+              "volume": 0
+            },
+            "start": 13.46,
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Social_Handle}}",
+              "font": {
+                "family": "Open Sans",
+                "size": 48,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 11.42,
+            "length": 2.03,
+            "offset": {
+              "x": 0,
+              "y": -0.444
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S5_Subtitle}}",
+              "font": {
+                "family": "Poppins",
+                "size": 45,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "down",
+                "style": "word"
+              }
+            },
+            "start": 11.05,
+            "length": 2.4,
+            "offset": {
+              "x": 0,
+              "y": 0.024
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S5_Title}}",
+              "font": {
+                "family": "Poppins",
+                "size": 85,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "character"
+              }
+            },
+            "start": 10.7486,
+            "length": 2.7,
+            "offset": {
+              "x": 0,
+              "y": -0.018
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "width": 800,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/771ada33-eb4b-48cb-a2d5-ea25f9b19e7c/source.png"
+            },
+            "start": 10.77,
+            "length": 2.68
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1478 1478\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1478\" height=\"1478\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 10.77,
+            "length": 2.68,
+            "offset": {
+              "x": -0.501,
+              "y": 0.445
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideLeft",
+              "in": "slideRight"
+            },
+            "width": 1478,
+            "height": 1478
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/b4360b33-147e-4cd4-855e-514d518ec42b/source.png"
+            },
+            "start": 11.16,
+            "length": 2.29
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1478 1478\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1478\" height=\"1478\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 11.16,
+            "length": 2.29,
+            "offset": {
+              "x": 0.398,
+              "y": -0.519
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 180
+              }
+            },
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideRight"
+            },
+            "width": 1478,
+            "height": 1478
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.7,
+            "asset": {
+              "type": "video",
+              "src": "{{ S5_VIDEO }}",
+              "volume": 0,
+              "trim": 1.91
+            },
+            "start": 10.74,
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Social_Handle}}",
+              "font": {
+                "family": "Open Sans",
+                "size": 48,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 8.68,
+            "length": 2.07,
+            "offset": {
+              "x": 0,
+              "y": -0.444
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S4_Subtitle}}",
+              "font": {
+                "family": "Poppins",
+                "size": 45,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "style": "word",
+                "direction": "down"
+              }
+            },
+            "start": 8.32,
+            "length": 2.43,
+            "offset": {
+              "x": 0,
+              "y": 0.024
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S4_Title}}",
+              "font": {
+                "family": "Poppins",
+                "size": 85,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "character"
+              }
+            },
+            "start": 8.048614285714287,
+            "length": 2.7,
+            "offset": {
+              "x": 0,
+              "y": -0.018
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "width": 800,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/ff95bb6b-ab0a-4446-bb78-17efd3984764/source.png"
+            },
+            "start": 8.36,
+            "length": 2.39
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1478 1478\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1478\" height=\"1478\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 8.36,
+            "length": 2.39,
+            "offset": {
+              "x": -0.061,
+              "y": -0.58
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -90
+              }
+            },
+            "transition": {
+              "out": "slideLeft",
+              "in": "slideRight"
+            },
+            "width": 1478,
+            "height": 1478
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/ba21d499-e7c5-43aa-8e7c-b4a835f3715f/source.png"
+            },
+            "start": 8.048614285714287,
+            "length": 2.7
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1478 1478\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1478\" height=\"1478\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 8.048614285714287,
+            "length": 2.7,
+            "offset": {
+              "x": 0.483,
+              "y": 0.453
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 90
+              }
+            },
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideRight"
+            },
+            "width": 1478,
+            "height": 1478
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.7,
+            "asset": {
+              "type": "video",
+              "src": "{{ S4_VIDEO }}",
+              "volume": 0
+            },
+            "start": 8.07,
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Social_Handle}}",
+              "font": {
+                "family": "Open Sans",
+                "size": 48,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 5.95,
+            "length": 2.16,
+            "offset": {
+              "x": 0,
+              "y": -0.444
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_Subtitle}}",
+              "font": {
+                "family": "Poppins",
+                "size": 45,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "style": "word",
+                "direction": "down"
+              }
+            },
+            "start": 5.64,
+            "length": 2.46,
+            "offset": {
+              "x": 0,
+              "y": 0.024
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_Title}}",
+              "font": {
+                "family": "Poppins",
+                "size": 85,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "character"
+              }
+            },
+            "start": 5.39,
+            "length": 2.7,
+            "offset": {
+              "x": 0,
+              "y": -0.018
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "width": 800,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/6d0b8cdb-4b99-4f04-b487-7bcadac22595/source.png"
+            },
+            "start": 5.42,
+            "length": 2.7
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1478 1478\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1478\" height=\"1478\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 5.42,
+            "length": 2.7,
+            "offset": {
+              "x": -0.501,
+              "y": 0.445
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideLeft",
+              "in": "slideRight"
+            },
+            "width": 1478,
+            "height": 1478
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/b331bd87-2740-450f-8ee6-997127a3e2d9/source.png"
+            },
+            "start": 5.67,
+            "length": 2.43
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1478 1478\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1478\" height=\"1478\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 5.67,
+            "length": 2.43,
+            "offset": {
+              "x": 0.398,
+              "y": -0.519
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 180
+              }
+            },
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideRight"
+            },
+            "width": 1478,
+            "height": 1478
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.7,
+            "asset": {
+              "type": "video",
+              "src": "{{ S3_VIDEO }}",
+              "volume": 0
+            },
+            "start": 5.388685714285715,
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Social_Handle}}",
+              "font": {
+                "family": "Open Sans",
+                "size": 48,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 2.7,
+            "length": 2.7,
+            "offset": {
+              "x": 0,
+              "y": 0.451
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            },
+            "width": 600,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_Title_1}}",
+              "font": {
+                "family": "Poppins",
+                "size": 121,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 2.86,
+            "length": 2.52,
+            "offset": {
+              "x": 0,
+              "y": 0.091
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "width": 800,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1478 1478\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1478\" height=\"1478\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 3.26,
+            "length": 2.16,
+            "offset": {
+              "x": -0.391,
+              "y": -0.488
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -90
+              }
+            },
+            "transition": {
+              "out": "slideLeft",
+              "in": "slideRight"
+            },
+            "width": 1478,
+            "height": 1478
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/0da020a7-d8d0-46fc-b6cb-508ee204bd84/source.png"
+            },
+            "start": 3.26,
+            "length": 2.16
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1478 1478\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1478\" height=\"1478\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 2.76,
+            "length": 2.66,
+            "offset": {
+              "x": 0.076,
+              "y": 0.579
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 90
+              }
+            },
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideRight"
+            },
+            "width": 1478,
+            "height": 1478
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/0585189e-cb31-4057-a1f9-839e94de49e8/source.png"
+            },
+            "start": 2.76,
+            "length": 2.66
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_Subtitle}}",
+              "font": {
+                "family": "Open Sans",
+                "size": 48,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 3.28,
+            "length": 2.14,
+            "offset": {
+              "x": 0,
+              "y": -0.43
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_Title_2}}",
+              "font": {
+                "family": "Poppins",
+                "size": 121,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "style": "word",
+                "direction": "down"
+              }
+            },
+            "start": 3.02,
+            "length": 2.4,
+            "offset": {
+              "x": 0,
+              "y": -0.018
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "width": 800,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.7,
+            "asset": {
+              "type": "video",
+              "src": "{{ S2_VIDEO }}",
+              "volume": 0
+            },
+            "start": 2.7,
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Social_Handle}}",
+              "font": {
+                "family": "Open Sans",
+                "size": 48,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.18,
+            "length": 2.52,
+            "offset": {
+              "x": 0.011,
+              "y": 0.455
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Title_1}}",
+              "font": {
+                "family": "Poppins",
+                "size": 121,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.44,
+            "length": 2.26,
+            "offset": {
+              "x": 0,
+              "y": 0.091
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Subtitle}}",
+              "font": {
+                "family": "Open Sans",
+                "size": 48,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.95,
+            "length": 1.75,
+            "offset": {
+              "x": 0,
+              "y": -0.43
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Title_2}}",
+              "font": {
+                "family": "Poppins",
+                "size": 121,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "down",
+                "style": "word"
+              }
+            },
+            "start": 0.69,
+            "length": 2.01,
+            "offset": {
+              "x": 0,
+              "y": -0.018
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "width": 800,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/c0498e90-9b0f-41b3-af32-172444403f11/source.png"
+            },
+            "start": 0.55,
+            "length": 2.15
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1478 1478\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1478\" height=\"1478\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.55,
+            "length": 2.15,
+            "offset": {
+              "x": 0.478,
+              "y": -0.411
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 180
+              }
+            },
+            "transition": {
+              "out": "slideRight",
+              "in": "slideLeft"
+            },
+            "width": 1478,
+            "height": 1478
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1478 1478\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1478\" height=\"1478\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 2.7,
+            "offset": {
+              "x": -0.642,
+              "y": 0.264
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "slideLeft"
+            },
+            "width": 1478,
+            "height": 1478
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/181ba74a-e66d-42b8-9644-547fe28c7fe7/source.png"
+            },
+            "start": 0,
+            "length": 2.7
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.7,
+            "asset": {
+              "type": "video",
+              "src": "{{ S1_VIDEO }}",
+              "volume": 0
+            },
+            "start": 0,
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "S1_Title_1",
+      "replace": "HABIBI"
+    },
+    {
+      "find": "S1_Title_2",
+      "replace": "COME TO DUBAI"
+    },
+    {
+      "find": "Social_Handle",
+      "replace": "@TRAVELSURVEY"
+    },
+    {
+      "find": "S1_Subtitle",
+      "replace": "FEEL LUXURY"
+    },
+    {
+      "find": "S1_VIDEO",
+      "replace": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/5f720f27-81ae-488c-848b-98a54f4c82b9/source.mp4"
+    },
+    {
+      "find": "S2_Title_1",
+      "replace": "PLACES"
+    },
+    {
+      "find": "S2_Title_2",
+      "replace": "TO VISIT IN DUBAI"
+    },
+    {
+      "find": "S2_Subtitle",
+      "replace": "FOR FUN TRIP"
+    },
+    {
+      "find": "S2_VIDEO",
+      "replace": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/554cd230-4481-4d57-9774-69817c3eca10/source.m4v"
+    },
+    {
+      "find": "S3_Title",
+      "replace": "Burj Khalifa"
+    },
+    {
+      "find": "S3_Subtitle",
+      "replace": "World’s Tallest Building"
+    },
+    {
+      "find": "S3_VIDEO",
+      "replace": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/37ea2a30-15bc-4936-8e84-a33b40055d71/source.m4v"
+    },
+    {
+      "find": "S4_Title",
+      "replace": "Dubai Mall"
+    },
+    {
+      "find": "S4_Subtitle",
+      "replace": "Shopping & Entertainment Giant"
+    },
+    {
+      "find": "S4_VIDEO",
+      "replace": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/1c02efc4-8579-452b-83c4-daf33671b8b3/source.mp4"
+    },
+    {
+      "find": "S5_Title",
+      "replace": "Palm Jumeirah"
+    },
+    {
+      "find": "S5_Subtitle",
+      "replace": "Iconic Man-Made Island"
+    },
+    {
+      "find": "S5_VIDEO",
+      "replace": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/e12df1db-cfe3-4535-8dda-9b3990c5d91a/source.m4v"
+    },
+    {
+      "find": "S6_Title",
+      "replace": "Desert Safari"
+    },
+    {
+      "find": "S6_Subtitle",
+      "replace": "Adventure in the Sands"
+    },
+    {
+      "find": "S6_VIDEO",
+      "replace": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/3fc5bdad-b302-4d5a-b302-139a40e27247/source.mp4"
+    },
+    {
+      "find": "S7_Title",
+      "replace": "Dubai Marina"
+    },
+    {
+      "find": "S7_Subtile",
+      "replace": "Waterfront Fun"
+    },
+    {
+      "find": "S7_VIDEO",
+      "replace": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/321017c5-1188-4e28-b09f-e65f8372a8ec/source.m4v"
+    },
+    {
+      "find": "S8_Title",
+      "replace": "IMG Worlds of Adventure"
+    },
+    {
+      "find": "S8_Subtitle",
+      "replace": "Indoor Theme Park"
+    },
+    {
+      "find": "S8_VIDEO",
+      "replace": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/9099b78e-acb6-47e4-bfc0-4fe2bde2a7c1/source.m4v"
+    },
+    {
+      "find": "CTA",
+      "replace": "VISIT US"
+    },
+    {
+      "find": "S9_VIDEO",
+      "replace": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/7740cd6a-4304-4cc2-98f2-477f4275f6a1/source.m4v"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#dcbe18"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/exclusive-dubai-luxury-offer-event-template/8f8e5859-eb17-40e9-95a2-2fd63ad94373/source.mp3"
+    }
+  ]
+}

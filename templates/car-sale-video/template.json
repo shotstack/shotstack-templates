@@ -1,0 +1,301 @@
+{
+  "timeline": {
+    "soundtrack": {
+      "src": "https://templates.shotstack.io/car-sale-video/3d741a59-187b-429e-a72f-85ea0755ffb0/majesty.mp3",
+      "effect": "fadeOut"
+    },
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/car-sale-video/b2799f1a-5d42-4c76-8673-b3e64051cfeb/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/car-sale-video/e73223a1-799a-4387-a504-b4ab1241d08f/source.ttf"
+      }
+    ],
+    "background": "#000000",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "www.mycardealership.com",
+              "font": {
+                "family": "Roboto Black",
+                "color": "#c40005",
+                "size": 41
+              },
+              "alignment": {
+                "horizontal": "center"
+              },
+              "width": 524,
+              "height": 74
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": 0.3,
+              "y": -0.375
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            },
+            "start": 0.25,
+            "length": 9.75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "SAVE",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "color": "#ff090f",
+                "size": 71
+              },
+              "alignment": {
+                "horizontal": "center"
+              },
+              "width": 300,
+              "height": 81
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": 0.355,
+              "y": 0.198
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselDown"
+            },
+            "start": 0.15,
+            "length": 9.85
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ DISCOUNT }}",
+              "font": {
+                "family": "Roboto Black",
+                "color": "#3b3b3b",
+                "size": 93
+              },
+              "alignment": {
+                "horizontal": "center"
+              },
+              "width": 300,
+              "height": 107
+            },
+            "start": 0,
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": 0.356,
+              "y": 0.114
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselDown"
+            },
+            "length": 10
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/car-sale-video/36cc1c50-ec33-4c12-ae51-5048fd93338d/source.png"
+            },
+            "start": 0,
+            "offset": {
+              "x": 0.353,
+              "y": 0.129
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "length": 10,
+            "scale": 0.17
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ LOGO }}"
+            },
+            "start": 0,
+            "offset": {
+              "x": -0.378,
+              "y": 0.381
+            },
+            "position": "center",
+            "scale": 0.1,
+            "transition": {
+              "in": "slideRight"
+            },
+            "length": 10
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "NOW ON",
+              "font": {
+                "family": "Roboto Black",
+                "color": "#da0c11",
+                "size": 251
+              },
+              "alignment": {
+                "horizontal": "center"
+              },
+              "width": 1063,
+              "height": 260
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.05,
+              "y": 0.149
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselDown"
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "RUNOUT SALE",
+              "font": {
+                "family": "Times New Roman",
+                "color": "#1a1a1a",
+                "size": 112
+              },
+              "alignment": {
+                "horizontal": "center"
+              },
+              "width": 1000,
+              "height": 115
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.052,
+              "y": 0.313
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselDown"
+            },
+            "start": 0.25,
+            "length": 9.75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE }}"
+            },
+            "start": 0,
+            "offset": {
+              "x": -0.156,
+              "y": -0.257
+            },
+            "position": "center",
+            "transition": {
+              "in": "zoom"
+            },
+            "effect": "zoomInSlow",
+            "length": 10,
+            "scale": 0.44
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/car-sale-video/fb93ccc3-b8b0-4ec6-b0bf-5e44f1b33f41/source.png"
+            },
+            "start": 0,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "position": "center",
+            "scale": 1,
+            "length": 10,
+            "opacity": 0.35
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/car-sale-video/b38b6a84-964a-4866-9c2b-9275b32910fd/source.jpg"
+            },
+            "start": 0,
+            "offset": {
+              "x": -0.008,
+              "y": 0.074
+            },
+            "position": "center",
+            "scale": 1.43,
+            "length": 10
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "size": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "merge": [
+    {
+      "find": "DISCOUNT",
+      "replace": "30%"
+    },
+    {
+      "find": "IMAGE",
+      "replace": "https://templates.shotstack.io/car-sale-video/3a10f0fc-e444-452f-8d4d-fa6ccfa48853/source.png"
+    },
+    {
+      "find": "LOGO",
+      "replace": "https://templates.shotstack.io/car-sale-video/38e58ea8-b6dd-40f4-bb38-28601c9843c8/source.png"
+    }
+  ]
+}

@@ -1,0 +1,485 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/luxury-travel-offer-promo-survey-template/967fa507-f2d2-494b-b91d-f325e2f8e3b3/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/luxury-travel-offer-promo-survey-template/20fd23cd-1be9-41b8-8a44-393db723add6/source.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/questrial/v19/QdVUSTchPBm7nuUeVf7EuStkm20oJA.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 210 210\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"210\" height=\"210\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.047
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 210,
+            "height": 210
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/luxury-travel-offer-promo-survey-template/c38a6f90-acbd-46bc-9934-78a324a5fc25/source.png"
+            },
+            "start": 1,
+            "length": 9
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Body}}",
+              "font": {
+                "family": "Questrial",
+                "size": 32,
+                "weight": 400,
+                "color": "#000000",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.192
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 400,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title_2}}",
+              "font": {
+                "family": "Questrial",
+                "size": 32,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.058
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title_1}}",
+              "font": {
+                "family": "Heading Now Trial 14",
+                "size": 144,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.147
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 300,
+            "height": 300
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 580 1046\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"580\" height=\"1046\" fill=\"{{ SHAPE_COLOR }}\" rx=\"34\" ry=\"34\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 580,
+            "height": 1046
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_6 }}",
+              "volume": 1
+            },
+            "start": 0.1,
+            "scale": 1,
+            "offset": {
+              "x": 0.31899999999999995,
+              "y": -0.40345833333333325
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDownSlow"
+            },
+            "fit": "contain",
+            "width": 655,
+            "height": 1012
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/luxury-travel-offer-promo-survey-template/fa0caf0b-d879-494a-ab66-a495b4aeb697/source.png"
+            },
+            "start": 0.1,
+            "length": 9.9
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_2 }}",
+              "volume": 1
+            },
+            "start": 0.3,
+            "scale": 1,
+            "offset": {
+              "x": 0.31899999999999995,
+              "y": 0.6507083333333334
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDownSlow"
+            },
+            "fit": "contain",
+            "width": 655,
+            "height": 1012
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/luxury-travel-offer-promo-survey-template/3a34e870-d128-4de5-8ab3-de27ee4adc7c/source.png"
+            },
+            "start": 0.3,
+            "length": 9.7
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_3 }}",
+              "volume": 1
+            },
+            "start": 0.2,
+            "scale": 1,
+            "offset": {
+              "x": 0.31899999999999995,
+              "y": 0.12362500000000015
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDownSlow"
+            },
+            "fit": "contain",
+            "width": 655,
+            "height": 1012
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/luxury-travel-offer-promo-survey-template/54cf4f61-4945-4392-9366-03e61601ac00/source.png"
+            },
+            "start": 0.2,
+            "length": 9.8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_1 }}",
+              "volume": 1
+            },
+            "start": 0.1,
+            "scale": 1,
+            "offset": {
+              "x": -0.30324074074074076,
+              "y": 0.5359375
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUpSlow"
+            },
+            "fit": "contain",
+            "width": 655,
+            "height": 1012
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/luxury-travel-offer-promo-survey-template/da42463f-11c0-4623-b0cd-f67e432de736/source.png"
+            },
+            "start": 0.1,
+            "length": 9.9
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_5 }}",
+              "volume": 1
+            },
+            "start": 0.3,
+            "scale": 1,
+            "offset": {
+              "x": -0.2983102672528157,
+              "y": -0.5284236120629262
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUpSlow"
+            },
+            "fit": "contain",
+            "width": 655,
+            "height": 1012
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/luxury-travel-offer-promo-survey-template/36d5c1c6-f368-4cb3-8f73-2dc5af3a9299/source.png"
+            },
+            "start": 0.3,
+            "length": 9.7
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 9.8,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_4 }}",
+              "volume": 1
+            },
+            "start": 0.2,
+            "scale": 1,
+            "offset": {
+              "x": -0.2983102672528157,
+              "y": 0.003124999999999989
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUpSlow"
+            },
+            "fit": "contain",
+            "width": 655,
+            "height": 1012
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/luxury-travel-offer-promo-survey-template/1781d67b-ebd8-4824-8f77-a4d4f890a47a/source.png"
+            },
+            "start": 0.2,
+            "length": 9.8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Title_1",
+      "replace": "TOUR PREMIUM"
+    },
+    {
+      "find": "Title_2",
+      "replace": "WITH TRAVEL SURVEY"
+    },
+    {
+      "find": "Body",
+      "replace": "FEEL THE WORLD WITH OUR LUXUROUS JOURNEY AT AN AFFORDABLE PRICE"
+    },
+    {
+      "find": "VIDEO_1",
+      "replace": "https://templates.shotstack.io/luxury-travel-offer-promo-survey-template/979c7a67-a575-4649-92ac-f27cf4005d65/source.mp4"
+    },
+    {
+      "find": "VIDEO_2",
+      "replace": "https://templates.shotstack.io/luxury-travel-offer-promo-survey-template/c35bf616-17f1-4e15-a3ae-a3024733c345/source.mp4"
+    },
+    {
+      "find": "VIDEO_3",
+      "replace": "https://templates.shotstack.io/luxury-travel-offer-promo-survey-template/46559110-8438-495e-a465-283d2f6e9c3d/source.mp4"
+    },
+    {
+      "find": "VIDEO_4",
+      "replace": "https://templates.shotstack.io/luxury-travel-offer-promo-survey-template/0cb17d84-2c4c-4992-b37e-0426137e47d4/source.mp4"
+    },
+    {
+      "find": "VIDEO_5",
+      "replace": "https://templates.shotstack.io/luxury-travel-offer-promo-survey-template/7c94ab3e-5c7e-4cc4-bb31-3bd405fe1d82/source.mp4"
+    },
+    {
+      "find": "VIDEO_6",
+      "replace": "https://templates.shotstack.io/luxury-travel-offer-promo-survey-template/29e108c5-62ff-401a-9ec7-b63754ba99e3/source.mp4"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "SHAPE_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/luxury-travel-offer-promo-survey-template/93b85447-7835-4006-962b-5ffd555d3dc0/source.mp3"
+    }
+  ]
+}

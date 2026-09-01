@@ -1,0 +1,1374 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/vibrant-sale-promo-story-template-offer/a69bcb40-42db-46eb-92a8-405ed72e77a5/source.otf"
+      },
+      {
+        "src": "https://templates.shotstack.io/vibrant-sale-promo-story-template-offer/0cc10363-27d8-4377-8d74-86b367388162/source.otf"
+      }
+    ],
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{Web}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 35,
+                "weight": 600,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": -0.375
+            },
+            "width": 800,
+            "height": 90
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_5 }}"
+            },
+            "start": 3.95,
+            "length": 1,
+            "scale": 1,
+            "opacity": 1,
+            "fit": "contain",
+            "width": 508,
+            "height": 667
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/vibrant-sale-promo-story-template-offer/5db088cb-2de4-4339-bb67-d65cc6ec94b7/source.png"
+            },
+            "start": 3.95,
+            "length": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_stroke}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "stroke": {
+                  "width": 5,
+                  "color": "{{ FONT_COLOR }}",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 3.93,
+            "length": "end",
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": -0.074
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_stroke}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "stroke": {
+                  "width": 5,
+                  "color": "{{ FONT_COLOR }}",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 3.933990476190477,
+            "length": "end",
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": 0.045
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_stroke}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "stroke": {
+                  "width": 5,
+                  "color": "{{ FONT_COLOR }}",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 3.933990476190477,
+            "length": "end",
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": 0.172
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_stroke}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "stroke": {
+                  "width": 5,
+                  "color": "{{ FONT_COLOR }}",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 3.933990476190477,
+            "length": "end",
+            "position": "center",
+            "offset": {
+              "x": 0.005,
+              "y": 0.304
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_fill}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 3.933990476190477,
+            "length": "end",
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": -0.196
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_4 }}"
+            },
+            "start": 2.9369,
+            "length": 1,
+            "scale": 1,
+            "fit": "contain",
+            "width": 508,
+            "height": 667
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/vibrant-sale-promo-story-template-offer/e000c45d-0c0f-476b-b9d9-35fd5b7b0a6b/source.png"
+            },
+            "start": 2.9369,
+            "length": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_stroke}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "stroke": {
+                  "width": 5,
+                  "color": "#ffffff",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 2.9428,
+            "length": 1,
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": -0.196
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_stroke}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "stroke": {
+                  "width": 5,
+                  "color": "{{ FONT_COLOR }}",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 2.9428,
+            "length": 1,
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": 0.045
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_stroke}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "stroke": {
+                  "width": 5,
+                  "color": "{{ FONT_COLOR }}",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 2.9428,
+            "length": 1,
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": 0.172
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_stroke}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "stroke": {
+                  "width": 5,
+                  "color": "{{ FONT_COLOR }}",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 2.9428,
+            "length": 1,
+            "position": "center",
+            "offset": {
+              "x": 0.005,
+              "y": 0.304
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_fill}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 2.9428,
+            "length": 1,
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": -0.076
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_3 }}"
+            },
+            "start": 1.9153,
+            "length": 1,
+            "scale": 1,
+            "fit": "contain",
+            "width": 508,
+            "height": 667
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/vibrant-sale-promo-story-template-offer/3cd47495-0714-43a8-8b30-92fb4ee603c6/source.png"
+            },
+            "start": 1.9153,
+            "length": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_stroke}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "stroke": {
+                  "width": 5,
+                  "color": "{{ FONT_COLOR }}",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 1.9493,
+            "length": 1,
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": -0.196
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_stroke}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "stroke": {
+                  "width": 5,
+                  "color": "{{ FONT_COLOR }}",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 1.9493,
+            "length": 1,
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": -0.076
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_stroke}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "stroke": {
+                  "width": 5,
+                  "color": "{{ FONT_COLOR }}",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 1.9493,
+            "length": 1,
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": 0.172
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_stroke}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "stroke": {
+                  "width": 5,
+                  "color": "{{ FONT_COLOR }}",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 1.9493,
+            "length": 1,
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": 0.3022083333333333
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_fill}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 1.9493,
+            "length": 1,
+            "position": "center",
+            "offset": {
+              "x": -0.005,
+              "y": 0.045
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 0.9820714285714287,
+            "length": 1,
+            "scale": 1,
+            "fit": "contain",
+            "width": 508,
+            "height": 667
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/vibrant-sale-promo-story-template-offer/81131ed7-fe72-4c0d-a113-592e7a58e0ac/source.png"
+            },
+            "start": 0.9820714285714287,
+            "length": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "SHOP",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "stroke": {
+                  "width": 5,
+                  "color": "{{ FONT_COLOR }}",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 0.97,
+            "length": 1,
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": -0.196
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_stroke}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "stroke": {
+                  "width": 5,
+                  "color": "{{ FONT_COLOR }}",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 0.969,
+            "length": 1,
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": -0.076
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_stroke}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "stroke": {
+                  "width": 5,
+                  "color": "{{ FONT_COLOR }}",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 0.969,
+            "length": 1,
+            "position": "center",
+            "offset": {
+              "x": -0.005,
+              "y": 0.045
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_stroke}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "stroke": {
+                  "width": 5,
+                  "color": "{{ FONT_COLOR }}",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 0.969,
+            "length": 1,
+            "position": "center",
+            "offset": {
+              "x": 0.005,
+              "y": 0.304
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_fill}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 0.969,
+            "length": 1,
+            "position": "center",
+            "offset": {
+              "x": 0.005,
+              "y": 0.172
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0,
+            "length": 1,
+            "scale": 1,
+            "fit": "contain",
+            "width": 508,
+            "height": 667,
+            "offset": {
+              "x": 0,
+              "y": -0.0015868503636490908
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/vibrant-sale-promo-story-template-offer/6637d9ec-ae7e-4123-845c-26965abf880b/source.png"
+            },
+            "start": 0,
+            "length": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_stroke}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "stroke": {
+                  "width": 5,
+                  "color": "{{ FONT_COLOR }}",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 0,
+            "length": 1,
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": -0.196
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_stroke}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "stroke": {
+                  "width": 5,
+                  "color": "{{ FONT_COLOR }}",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 0,
+            "length": 1,
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": -0.076
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_stroke}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "stroke": {
+                  "width": 5,
+                  "color": "{{ FONT_COLOR }}",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 0,
+            "length": 1,
+            "position": "center",
+            "offset": {
+              "x": -0.005,
+              "y": 0.045
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_stroke}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "stroke": {
+                  "width": 5,
+                  "color": "{{ FONT_COLOR }}",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 0,
+            "length": 1,
+            "position": "center",
+            "offset": {
+              "x": 0.005,
+              "y": 0.172
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Back_text_fill}}",
+              "font": {
+                "family": "Telegraf UltraBold",
+                "size": 280,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 0,
+            "length": 1,
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": 0.302
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "fps": 25,
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Back_text_fill",
+      "replace": "SHOP"
+    },
+    {
+      "find": "Back_text_stroke",
+      "replace": "SHOP"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#f9f6f6"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#eb7d00"
+    },
+    {
+      "find": "Web",
+      "replace": "WWW.FAZLUXURY.COM"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/vibrant-sale-promo-story-template-offer/e695fdd9-d1e6-4053-ab23-6d0b9e3ba06a/source.png"
+    },
+    {
+      "find": "IMAGE_SRC_2",
+      "replace": "https://templates.shotstack.io/vibrant-sale-promo-story-template-offer/4167d035-70b7-4a52-95ec-cfd7d7f8ec39/source.png"
+    },
+    {
+      "find": "IMAGE_SRC_3",
+      "replace": "https://templates.shotstack.io/vibrant-sale-promo-story-template-offer/a584d7d1-fc76-4d4a-b84b-09e65f89bede/source.png"
+    },
+    {
+      "find": "IMAGE_SRC_4",
+      "replace": "https://templates.shotstack.io/vibrant-sale-promo-story-template-offer/43071018-7c23-477d-9b28-921afed2d5bf/source.png"
+    },
+    {
+      "find": "IMAGE_SRC_5",
+      "replace": "https://templates.shotstack.io/vibrant-sale-promo-story-template-offer/fccfda57-1821-4a5c-9a2f-41352d6b2123/source.png"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/vibrant-sale-promo-story-template-offer/56911e03-7cbd-41ac-ba83-5a10f0c3bc24/source.mp3"
+    }
+  ]
+}

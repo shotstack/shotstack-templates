@@ -1,0 +1,758 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/coastal-getaway-travel-deal-promo-template/b978101f-f38c-4ab5-8fce-3d8416029b5c/source.otf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 150,
+              "height": 2000,
+              "background": {
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 0.5
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.498,
+              "y": 0.003
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 150,
+              "height": 2000,
+              "background": {
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 0.5
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.5,
+              "y": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/coastal-getaway-travel-deal-promo-template/607090a8-394f-465e-a1a4-c8e09f6275b3/source.mp4"
+            },
+            "start": 15.2,
+            "length": 5
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 350,
+              "height": 350,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 16.3,
+            "length": 3.9,
+            "offset": {
+              "x": 0,
+              "y": -0.083
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Customer_Service}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Knockout HTF50-Welterweight",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 72
+            },
+            "start": 15.99,
+            "length": 4.21,
+            "offset": {
+              "x": 0,
+              "y": -0.028
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Social_Handle}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Knockout HTF50-Welterweight",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 72
+            },
+            "start": 15.8,
+            "length": 4.4,
+            "offset": {
+              "x": 0,
+              "y": 0.015
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Web}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Knockout HTF50-Welterweight",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 72
+            },
+            "start": 15.62,
+            "length": 4.58,
+            "offset": {
+              "x": 0,
+              "y": 0.052
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Phone}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Knockout HTF50-Welterweight",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 72
+            },
+            "start": 15.5,
+            "length": 4.7,
+            "offset": {
+              "x": 0,
+              "y": 0.086
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_Company_Name}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 72
+            },
+            "start": 15.33,
+            "length": 4.87,
+            "offset": {
+              "x": 0,
+              "y": 0.124
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_Logo }}"
+            },
+            "start": 15.2,
+            "scale": 0.15,
+            "offset": {
+              "x": 0,
+              "y": 0.187
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S4_Subtitle}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ BACKGROUND_COLOR }}",
+                "family": "Knockout HTF50-Welterweight",
+                "size": "100",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 250
+            },
+            "start": 10.9,
+            "length": 5,
+            "offset": {
+              "x": 0,
+              "y": 0.195
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "{{ S4_VIDEO }}",
+              "volume": 0
+            },
+            "start": 10.9,
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S3_Subtile}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ BACKGROUND_COLOR }}",
+                "family": "Knockout HTF50-Welterweight",
+                "size": "100",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 250
+            },
+            "start": 7.1,
+            "length": 4.5,
+            "offset": {
+              "x": 0,
+              "y": 0.195
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.5,
+            "asset": {
+              "type": "video",
+              "src": "{{ S3_VIDEO }}",
+              "volume": 0
+            },
+            "start": 7.1,
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_Subtitle}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ BACKGROUND_COLOR }}",
+                "family": "Knockout HTF50-Welterweight",
+                "size": "100",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 250
+            },
+            "start": 3.3,
+            "length": 4.5,
+            "offset": {
+              "x": 0,
+              "y": 0.195
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.5,
+            "asset": {
+              "type": "video",
+              "src": "{{ S2_VIDEO }}",
+              "volume": 0
+            },
+            "start": 3.3,
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_Company_Name}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 72
+            },
+            "start": 0.2,
+            "length": 3.8,
+            "offset": {
+              "x": 0,
+              "y": 0.363
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_Logo }}"
+            },
+            "start": 0,
+            "scale": 0.1,
+            "offset": {
+              "x": 0,
+              "y": 0.425
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_Subtitle}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Knockout HTF50-Welterweight",
+                "size": "107",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 200
+            },
+            "start": 0.74,
+            "length": 3.26,
+            "offset": {
+              "x": 0,
+              "y": -0.342
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Web}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 72
+            },
+            "start": 1.06,
+            "length": 2.94,
+            "offset": {
+              "x": 0,
+              "y": -0.403
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_Title}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Knockout HTF50-Welterweight",
+                "size": "80",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 200
+            },
+            "start": 0.34,
+            "length": 3.66,
+            "offset": {
+              "x": 0,
+              "y": 0.323
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.41,
+            "asset": {
+              "type": "video",
+              "src": "{{ S1_VIDEO }}",
+              "volume": 0,
+              "trim": 0.56
+            },
+            "start": 0.59,
+            "scale": 0.55,
+            "offset": {
+              "x": 0,
+              "y": -0.026
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "S1_Title",
+      "replace": "EXPLORE SPANISH"
+    },
+    {
+      "find": "S1_Subtitle",
+      "replace": "TRADITION"
+    },
+    {
+      "find": "S1_Logo",
+      "replace": "https://templates.shotstack.io/coastal-getaway-travel-deal-promo-template/38b38527-8d99-40d8-8252-0db096828fd4/source.png"
+    },
+    {
+      "find": "S1_Company_Name",
+      "replace": "TRAVEL SURVEY"
+    },
+    {
+      "find": "S1_VIDEO",
+      "replace": "https://templates.shotstack.io/coastal-getaway-travel-deal-promo-template/15ef49b4-3259-438b-b191-d60cd26dce2c/source.mp4"
+    },
+    {
+      "find": "S2_Subtitle",
+      "replace": "CULTURE RECIPES"
+    },
+    {
+      "find": "S2_VIDEO",
+      "replace": "https://templates.shotstack.io/coastal-getaway-travel-deal-promo-template/8be2dfbf-9152-47e3-bff9-97343155690e/source.m4v"
+    },
+    {
+      "find": "S3_Subtile",
+      "replace": "SPAIN PAELLA"
+    },
+    {
+      "find": "S3_VIDEO",
+      "replace": "https://templates.shotstack.io/coastal-getaway-travel-deal-promo-template/ad37db95-3016-419b-bc97-83459b84de4d/source.mp4"
+    },
+    {
+      "find": "S4_Subtitle",
+      "replace": "OR MEXICO TACOS"
+    },
+    {
+      "find": "S4_VIDEO",
+      "replace": "https://templates.shotstack.io/coastal-getaway-travel-deal-promo-template/952f2591-418a-47bc-a277-9dde569cd6a9/source.m4v"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "Web",
+      "replace": "www.travellingsurvey.com"
+    },
+    {
+      "find": "Phone",
+      "replace": "001-234-5678"
+    },
+    {
+      "find": "Social_Handle",
+      "replace": "@travellingsurvey"
+    },
+    {
+      "find": "Customer_Service",
+      "replace": "Hello@travellingsurvey.com"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/coastal-getaway-travel-deal-promo-template/e6cdadcf-e389-4442-be6b-d47dac997cb4/source.mp3"
+    }
+  ]
+}

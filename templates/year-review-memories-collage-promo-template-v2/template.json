@@ -1,0 +1,1135 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/year-review-memories-collage-promo-template/192bafa8-1849-460e-b34a-5206b608d916/source.otf"
+      },
+      {
+        "src": "https://templates.shotstack.io/year-review-memories-collage-promo-template/d62a41e9-2a53-40c0-becc-26bf0fb464c0/source.otf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 800\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"800\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 9.1538,
+            "length": "end",
+            "offset": {
+              "x": 0.014,
+              "y": 0.204
+            },
+            "position": "center",
+            "width": 800,
+            "height": 800
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/year-review-memories-collage-promo-template/a72d2d3a-ec12-43f5-acc2-110acd1a96e8/source.mp4"
+            },
+            "start": 9.1538,
+            "length": 0.8461999999999996
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 800\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"800\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 7.8046,
+            "length": "end",
+            "offset": {
+              "x": 0.014,
+              "y": 0.204
+            },
+            "position": "center",
+            "width": 800,
+            "height": 800
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/year-review-memories-collage-promo-template/dc3b7483-ef0a-493b-a7bd-b89919a8941b/source.mp4"
+            },
+            "start": 7.8046,
+            "length": 2.1954000000000002
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 800\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"800\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 6.205785714285712,
+            "length": "end",
+            "offset": {
+              "x": 0.014,
+              "y": 0.204
+            },
+            "position": "center",
+            "width": 800,
+            "height": 800
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/year-review-memories-collage-promo-template/bb8f3df8-4497-45bc-b264-3ba2a9d834d8/source.mp4"
+            },
+            "start": 6.205785714285712,
+            "length": 3.794214285714288
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_Body}}",
+              "font": {
+                "family": "Sofia Pro",
+                "size": 46,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 4.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.221
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_Subtitle}}",
+              "font": {
+                "family": "Sofia Pro",
+                "size": 180,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 4.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.046
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_Title}}",
+              "font": {
+                "family": "Sofia Pro",
+                "size": 80,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 4.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.039
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 700,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 800\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"800\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 4.6,
+            "length": "end",
+            "offset": {
+              "x": 0.014,
+              "y": 0.204
+            },
+            "position": "center",
+            "width": 800,
+            "height": 800
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/year-review-memories-collage-promo-template/ed94e80f-263b-46b7-af7c-933ae65a6693/source.mp4"
+            },
+            "start": 4.6,
+            "length": 5.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Title}}",
+              "font": {
+                "family": "Autography",
+                "size": 82,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 1.7,
+            "length": 2.3,
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "width": 900,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1000 900\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1000\" height=\"900\" fill=\"{{ BACKGROUND_COLOR_2 }}\"/></svg>"
+            },
+            "start": 1.6,
+            "length": 2.4,
+            "offset": {
+              "x": 0,
+              "y": -0.024
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fadeFast"
+            },
+            "width": 1000,
+            "height": 900
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/year-review-memories-collage-promo-template/bb6c688e-5345-4951-96ea-773b38d23778/source.png"
+            },
+            "start": 1.6,
+            "length": 2.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.6,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_1 }}"
+            },
+            "start": 1.4,
+            "scale": 1,
+            "transform": {
+              "rotate": {
+                "angle": 7
+              }
+            },
+            "offset": {
+              "x": 0.324,
+              "y": -0.378
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft",
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 358,
+            "height": 358
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 470\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"470\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 1.4,
+            "length": 2.6,
+            "offset": {
+              "x": 0.315,
+              "y": -0.396
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 7
+              }
+            },
+            "transition": {
+              "in": "slideLeft",
+              "out": "fadeFast"
+            },
+            "width": 400,
+            "height": 470
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.7,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_2 }}"
+            },
+            "start": 1.3,
+            "scale": 1,
+            "offset": {
+              "x": -0.023,
+              "y": -0.362
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -5
+              }
+            },
+            "transition": {
+              "in": "slideUp",
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 358,
+            "height": 358
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 470\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"470\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 1.3,
+            "length": 2.7,
+            "offset": {
+              "x": -0.015,
+              "y": -0.378
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -5
+              }
+            },
+            "transition": {
+              "in": "slideUp",
+              "out": "fadeFast"
+            },
+            "width": 400,
+            "height": 470
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.8,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_3 }}"
+            },
+            "start": 1.2,
+            "scale": 1,
+            "transform": {
+              "rotate": {
+                "angle": 6
+              }
+            },
+            "offset": {
+              "x": -0.374,
+              "y": -0.374
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 358,
+            "height": 358
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 470\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"470\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 1.2,
+            "length": 2.8,
+            "offset": {
+              "x": -0.373,
+              "y": -0.386
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 6
+              }
+            },
+            "transition": {
+              "in": "slideRight",
+              "out": "fadeFast"
+            },
+            "width": 400,
+            "height": 470
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.9,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_4 }}"
+            },
+            "start": 1.1,
+            "scale": 1,
+            "offset": {
+              "x": 0.315,
+              "y": -0.148
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -7
+              }
+            },
+            "transition": {
+              "in": "slideLeft",
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 358,
+            "height": 358
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 470\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"470\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 1.1,
+            "length": 2.9,
+            "offset": {
+              "x": 0.315,
+              "y": -0.161
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -7
+              }
+            },
+            "transition": {
+              "in": "slideLeft",
+              "out": "fadeFast"
+            },
+            "width": 400,
+            "height": 470
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_5 }}"
+            },
+            "start": 1,
+            "scale": 1,
+            "offset": {
+              "x": -0.045,
+              "y": -0.148
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 358,
+            "height": 358
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 470\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"470\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 1,
+            "length": 3,
+            "offset": {
+              "x": -0.045,
+              "y": -0.161
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fadeFast"
+            },
+            "width": 400,
+            "height": 470
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.1,
+            "asset": {
+              "type": "image",
+              "src": "{{S1_IMAGE_6}}"
+            },
+            "start": 0.9,
+            "scale": 1,
+            "offset": {
+              "x": -0.35485185185185186,
+              "y": -0.13867708333333328
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -5
+              }
+            },
+            "transition": {
+              "in": "slideRight",
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 358,
+            "height": 427
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 470\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"470\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 0.9,
+            "length": 3.1,
+            "offset": {
+              "x": -0.35,
+              "y": -0.139
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -5
+              }
+            },
+            "transition": {
+              "in": "slideRight",
+              "out": "fadeFast"
+            },
+            "width": 400,
+            "height": 470
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.2,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_7 }}"
+            },
+            "start": 0.8,
+            "scale": 1,
+            "transform": {
+              "rotate": {
+                "angle": 5
+              }
+            },
+            "offset": {
+              "x": 0.331,
+              "y": 0.156
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft",
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 358,
+            "height": 358
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 470\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"470\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 0.8,
+            "length": 3.2,
+            "offset": {
+              "x": 0.325,
+              "y": 0.141
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 5
+              }
+            },
+            "transition": {
+              "in": "slideLeft",
+              "out": "fadeFast"
+            },
+            "width": 400,
+            "height": 470
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.3,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_8 }}"
+            },
+            "start": 0.7,
+            "scale": 1,
+            "transform": {
+              "rotate": {
+                "angle": -7
+              }
+            },
+            "offset": {
+              "x": -0.031,
+              "y": 0.119
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown",
+              "out": "fadeFast"
+            },
+            "width": 358,
+            "height": 358,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 470\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"470\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 0.7,
+            "length": 3.3,
+            "offset": {
+              "x": -0.03,
+              "y": 0.104
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -7
+              }
+            },
+            "transition": {
+              "in": "slideDown",
+              "out": "fadeFast"
+            },
+            "width": 400,
+            "height": 470
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.4,
+            "asset": {
+              "type": "image",
+              "src": "{{S1_IMAGE_9}}"
+            },
+            "start": 0.6,
+            "transform": {
+              "rotate": {
+                "angle": 6
+              }
+            },
+            "scale": 1,
+            "offset": {
+              "x": -0.35762962962962963,
+              "y": 0.15829166666666672
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 358,
+            "height": 358
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 470\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"470\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": 3.4,
+            "offset": {
+              "x": -0.358,
+              "y": 0.146
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 6
+              }
+            },
+            "transition": {
+              "in": "slideRight",
+              "out": "fadeFast"
+            },
+            "width": 400,
+            "height": 470
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.5,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_10 }}"
+            },
+            "start": 0.5,
+            "scale": 1,
+            "offset": {
+              "x": 0.32400000000000007,
+              "y": 0.3783261911374748
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -8
+              }
+            },
+            "transition": {
+              "in": "slideLeft",
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 358,
+            "height": 422
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 470\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"470\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 0.5,
+            "length": 3.5,
+            "offset": {
+              "x": 0.325,
+              "y": 0.378
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -8
+              }
+            },
+            "transition": {
+              "in": "slideLeft",
+              "out": "fadeFast"
+            },
+            "width": 400,
+            "height": 470
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.7,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_11 }}"
+            },
+            "start": 0.3,
+            "scale": 1,
+            "offset": {
+              "x": -0.014,
+              "y": 0.373
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 7
+              }
+            },
+            "transition": {
+              "in": "slideDown",
+              "out": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 358,
+            "height": 358
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 470\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"470\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 0.3,
+            "length": 3.7,
+            "offset": {
+              "x": -0.015,
+              "y": 0.358
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 7
+              }
+            },
+            "transition": {
+              "in": "slideDown",
+              "out": "fadeFast"
+            },
+            "width": 400,
+            "height": 470
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.8,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_12 }}"
+            },
+            "start": 0.2,
+            "scale": 1,
+            "offset": {
+              "x": -0.33240740740740743,
+              "y": 0.40354840032512546
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -7
+              }
+            },
+            "transition": {
+              "out": "fadeFast",
+              "in": "slideRight"
+            },
+            "fit": "contain",
+            "width": 358,
+            "height": 358
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 470\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"470\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 0.2,
+            "length": 3.8,
+            "offset": {
+              "x": -0.328,
+              "y": 0.386
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -7
+              }
+            },
+            "transition": {
+              "out": "fadeFast",
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 470
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ BACKGROUND_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 10,
+            "position": "center",
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "S1_Title",
+      "replace": "Family Memories for the year"
+    },
+    {
+      "find": "S1_IMAGE_1",
+      "replace": "https://templates.shotstack.io/year-review-memories-collage-promo-template/cf3e0fe5-77c5-468f-adc0-13ffe469473f/source.png"
+    },
+    {
+      "find": "S1_IMAGE_2",
+      "replace": "https://templates.shotstack.io/year-review-memories-collage-promo-template/b0fcbfb1-2b8c-4c65-b949-bea21446a071/source.png"
+    },
+    {
+      "find": "S1_IMAGE_3",
+      "replace": "https://templates.shotstack.io/year-review-memories-collage-promo-template/6e4cfd8c-c281-450f-8009-2e512957273f/source.png"
+    },
+    {
+      "find": "S1_IMAGE_4",
+      "replace": "https://templates.shotstack.io/year-review-memories-collage-promo-template/8130244e-8c21-45f1-8fd5-ba5582793a40/source.png"
+    },
+    {
+      "find": "S1_IMAGE_5",
+      "replace": "https://templates.shotstack.io/year-review-memories-collage-promo-template/2655fbe8-fefb-49f0-9296-e4fbacd12d64/source.png"
+    },
+    {
+      "find": "S1_IMAGE_6",
+      "replace": "https://templates.shotstack.io/year-review-memories-collage-promo-template/6dd42532-3f6e-4f67-a99e-f8746a3b4859/source.png"
+    },
+    {
+      "find": "S1_IMAGE_7",
+      "replace": "https://templates.shotstack.io/year-review-memories-collage-promo-template/495bc610-9877-4c59-b454-f6855003b684/source.png"
+    },
+    {
+      "find": "S1_IMAGE_8",
+      "replace": "https://templates.shotstack.io/year-review-memories-collage-promo-template/5c0656a1-299a-40f0-8951-69cc7e709fd2/source.png"
+    },
+    {
+      "find": "S1_IMAGE_9",
+      "replace": "https://templates.shotstack.io/year-review-memories-collage-promo-template/5ffd810d-ccb3-4411-921e-cd408b8fd14d/source.png"
+    },
+    {
+      "find": "S1_IMAGE_10",
+      "replace": "https://templates.shotstack.io/year-review-memories-collage-promo-template/596b52dd-7c75-4454-b7fe-4347e495b878/source.png"
+    },
+    {
+      "find": "S1_IMAGE_11",
+      "replace": "https://templates.shotstack.io/year-review-memories-collage-promo-template/17f3c7a4-8cf3-4339-877f-776e63a673e8/source.png"
+    },
+    {
+      "find": "S1_IMAGE_12",
+      "replace": "https://templates.shotstack.io/year-review-memories-collage-promo-template/cf3fa457-4a50-4e79-8584-115717228771/source.png"
+    },
+    {
+      "find": "S2_Title",
+      "replace": "HAPPY NEW"
+    },
+    {
+      "find": "S2_Subtitle",
+      "replace": "YEAR"
+    },
+    {
+      "find": "S2_Body",
+      "replace": "Celebrate life, embrace change, welcome new beginnings"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "SHAPE_COLOR",
+      "replace": "#dbdbdb"
+    },
+    {
+      "find": "BACKGROUND_COLOR_2",
+      "replace": "#000000"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/year-review-memories-collage-promo-template/c4e173f7-3f11-469b-98e3-d086375f4a55/source.mp3"
+    },
+    {
+      "find": "MEDIA_1",
+      "replace": "https://templates.shotstack.io/year-review-memories-collage-promo-template/5ffd810d-ccb3-4411-921e-cd408b8fd14d/source.png"
+    }
+  ]
+}

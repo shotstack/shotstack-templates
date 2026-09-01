@@ -1,0 +1,842 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/explore-germany-travel-promotion-template/218c6edc-caff-42d1-9dfa-77201abdfbdc/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "DON'T MISS IT",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Garet Book",
+                "size": "32",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 72
+            },
+            "start": 13,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.033
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 419,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}"
+              }
+            },
+            "start": 13,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.03
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/explore-germany-travel-promotion-template/e8ab1bc0-96c7-46ff-ad14-ed16a8bbd87b/source.png"
+            },
+            "start": 13.02356713169643,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Text_%}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Garet Book",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 650,
+              "height": 200
+            },
+            "start": 13,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.032
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 728,
+              "height": 380,
+              "background": {
+                "color": "{{ TEXT_BACKGROUND_COLOR }}",
+                "borderRadius": 50,
+                "opacity": 0.6
+              }
+            },
+            "start": 13,
+            "length": 3.8,
+            "transition": {
+              "in": "carouselUp"
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Text_4}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Garet Book",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 650,
+              "height": 200
+            },
+            "start": 8.58,
+            "length": 5.22,
+            "offset": {
+              "x": 0,
+              "y": -0.23
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown",
+              "out": "carouselUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 800,
+              "background": {
+                "color": "{{ TEXT_BACKGROUND_COLOR }}",
+                "opacity": 0.6
+              }
+            },
+            "start": 8.28,
+            "length": 5.52,
+            "offset": {
+              "x": 0,
+              "y": -0.165
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 180
+              }
+            },
+            "transition": {
+              "out": "carouselUp",
+              "in": "slideDown"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/explore-germany-travel-promotion-template/bb898e9d-67c9-4a42-8f86-f753a2ba804c/source.png"
+            },
+            "start": 8,
+            "length": 5.8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Text_3}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Garet Book",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 650,
+              "height": 200
+            },
+            "start": 3.52,
+            "length": 4.48,
+            "offset": {
+              "x": 0,
+              "y": 0.313
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 800,
+              "background": {
+                "color": "{{ TEXT_BACKGROUND_COLOR }}",
+                "opacity": 0.6
+              }
+            },
+            "start": 3.17,
+            "length": 4.83,
+            "offset": {
+              "x": 0,
+              "y": 0.24
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/explore-germany-travel-promotion-template/655f848f-2ee1-4376-9e44-fb193800da54/source.png"
+            },
+            "start": 3,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_12 }}",
+              "volume": 0
+            },
+            "start": 13,
+            "transition": {
+              "in": "carouselUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1.8,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_11 }}",
+              "volume": 0
+            },
+            "start": 12,
+            "scale": 1.16,
+            "transition": {
+              "out": "carouselUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_10 }}",
+              "volume": 0
+            },
+            "start": 11
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_9 }}",
+              "volume": 0
+            },
+            "start": 10
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_8 }}",
+              "volume": 0
+            },
+            "start": 9
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_7 }}",
+              "volume": 0
+            },
+            "start": 8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_6 }}",
+              "volume": 0
+            },
+            "start": 7
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_5 }}",
+              "volume": 0
+            },
+            "start": 6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_4 }}",
+              "volume": 0
+            },
+            "start": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_3 }}",
+              "volume": 0
+            },
+            "start": 4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_2 }}",
+              "volume": 0
+            },
+            "start": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Text_1}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Garet Book",
+                "size": "34",
+                "lineHeight": 1
+              },
+              "width": 650,
+              "height": 200
+            },
+            "start": 0.6,
+            "length": 2.42,
+            "offset": {
+              "x": 0,
+              "y": -0.134
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Search}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Garet Book",
+                "size": "36",
+                "lineHeight": 1
+              },
+              "width": 550,
+              "height": 72
+            },
+            "start": 0.4,
+            "length": 2.61,
+            "offset": {
+              "x": -0.032,
+              "y": 0.379
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Text_2}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Garet Book",
+                "size": "32",
+                "lineHeight": 1
+              },
+              "width": 250,
+              "height": 72
+            },
+            "start": 0.6,
+            "length": 2.37,
+            "offset": {
+              "x": 0,
+              "y": -0.227
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 419,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}"
+              }
+            },
+            "start": 0.6,
+            "length": 2.34,
+            "offset": {
+              "x": 0,
+              "y": -0.227
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/explore-germany-travel-promotion-template/922990dc-accd-4ac4-8ed1-ffd4afe0018b/source.png"
+            },
+            "start": 0,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/explore-germany-travel-promotion-template/ad0ea36a-5332-4e37-90b1-3e80d44b8c72/source.png"
+            },
+            "start": 0,
+            "length": 3
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 55,
+              "height": 55,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}"
+              }
+            },
+            "start": 0.3,
+            "length": 2.67,
+            "offset": {
+              "x": 0.254,
+              "y": 0.379
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 734,
+              "height": 130,
+              "background": {
+                "color": "{{ TEXT_BACKGROUND_COLOR }}",
+                "borderRadius": 65,
+                "opacity": 0.5
+              }
+            },
+            "start": 0.2,
+            "length": 2.79,
+            "offset": {
+              "x": 0,
+              "y": 0.379
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 728,
+              "height": 446,
+              "background": {
+                "color": "{{ TEXT_BACKGROUND_COLOR }}",
+                "borderRadius": 50,
+                "opacity": 0.5
+              }
+            },
+            "start": 0.5,
+            "length": 2.45,
+            "offset": {
+              "x": 0,
+              "y": -0.172
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_1 }}",
+              "volume": 0
+            },
+            "start": 0,
+            "transition": {
+              "out": "fade"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "Search",
+      "replace": "Tour through Germany"
+    },
+    {
+      "find": "Text_1",
+      "replace": "I should never miss exploring these extraordinary sights, cultural treasures, and once-in-a-lifetime experiences when traveling to Germany."
+    },
+    {
+      "find": "Text_2",
+      "replace": "JOIN ME"
+    },
+    {
+      "find": "Text_3",
+      "replace": "Grand structures that showcase centuries of German history and craftsmanship."
+    },
+    {
+      "find": "Text_4",
+      "replace": "Majestic buildings surrounded by scenic landscapes, steeped in legend and romance."
+    },
+    {
+      "find": "Text_%",
+      "replace": "Germany – Too Remarkable to Miss"
+    },
+    {
+      "find": "VIDEO_1",
+      "replace": "https://templates.shotstack.io/explore-germany-travel-promotion-template/ef26baf2-e65f-4a37-8a7c-f3d99ac9ddc7/source.m4v"
+    },
+    {
+      "find": "VIDEO_2",
+      "replace": "https://templates.shotstack.io/explore-germany-travel-promotion-template/d12c8340-863a-4c69-a793-b334c9c4b69c/source.m4v"
+    },
+    {
+      "find": "VIDEO_3",
+      "replace": "https://templates.shotstack.io/explore-germany-travel-promotion-template/fa7d18e1-b725-4a93-bc85-fe363a04c89d/source.mp4"
+    },
+    {
+      "find": "VIDEO_4",
+      "replace": "https://templates.shotstack.io/explore-germany-travel-promotion-template/aa901f74-c828-4691-95d4-fe8411f15f1b/source.m4v"
+    },
+    {
+      "find": "VIDEO_5",
+      "replace": "https://templates.shotstack.io/explore-germany-travel-promotion-template/0069b328-abd5-4a85-b6f8-d25945a07b67/source.mp4"
+    },
+    {
+      "find": "VIDEO_6",
+      "replace": "https://templates.shotstack.io/explore-germany-travel-promotion-template/349b4a25-7c1e-49cc-934d-eacb588eb61b/source.m4v"
+    },
+    {
+      "find": "VIDEO_7",
+      "replace": "https://templates.shotstack.io/explore-germany-travel-promotion-template/901760dd-8cb6-4e60-afca-9918f5e34586/source.mp4"
+    },
+    {
+      "find": "VIDEO_8",
+      "replace": "https://templates.shotstack.io/explore-germany-travel-promotion-template/38099998-4339-4093-bdaf-d02336c904e8/source.mp4"
+    },
+    {
+      "find": "VIDEO_9",
+      "replace": "https://templates.shotstack.io/explore-germany-travel-promotion-template/79dce8a9-84ed-4b0c-a933-63d3b5f11bc8/source.m4v"
+    },
+    {
+      "find": "VIDEO_10",
+      "replace": "https://templates.shotstack.io/explore-germany-travel-promotion-template/eb04ba24-c4d8-43a9-856c-bbd773e964e7/source.m4v"
+    },
+    {
+      "find": "VIDEO_11",
+      "replace": "https://templates.shotstack.io/explore-germany-travel-promotion-template/97ea02c4-c1d6-4732-98fc-aac7dabe163b/source.m4v"
+    },
+    {
+      "find": "VIDEO_12",
+      "replace": "https://templates.shotstack.io/explore-germany-travel-promotion-template/075c8a54-b6bc-4b23-8718-02587883d868/source.mp4"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "TEXT_BACKGROUND_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/explore-germany-travel-promotion-template/5be36cb7-aaca-4c9a-9725-57fd0315a990/source.mp3"
+    }
+  ]
+}

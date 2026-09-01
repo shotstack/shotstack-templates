@@ -1,0 +1,438 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/chic-sale-story-promotion-template/f16adad7-dcdf-4689-8bc3-4a7feffc5d06/6xKpdSJbL9-e9LuoeQiDRQR8WOXaPw.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/chic-sale-story-promotion-template/ff157a00-d2d8-40fd-9c59-e43483267216/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aX8.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/chic-sale-story-promotion-template/6bdc31ff-de78-43ab-b9da-9900be72560a/source.png"
+            },
+            "start": 0,
+            "scale": 0.06,
+            "offset": {
+              "x": 0,
+              "y": -0.156
+            },
+            "position": "center",
+            "opacity": 0.38
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_5 }}"
+            },
+            "start": 4,
+            "scale": 0.4,
+            "offset": {
+              "y": 0.1
+            },
+            "transition": {
+              "in": "fadeFast"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/chic-sale-story-promotion-template/f89176e8-35df-413b-8956-09fc0ffdac78/source.png"
+            },
+            "start": 4,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/chic-sale-story-promotion-template/18b5c046-708e-4041-81d1-dfef068b7740/source.png"
+            },
+            "start": 3,
+            "length": "end"
+          },
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_4 }}"
+            },
+            "start": 3,
+            "scale": 0.4,
+            "offset": {
+              "y": 0.1
+            },
+            "transition": {
+              "in": "fadeFast"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_3 }}"
+            },
+            "start": 2,
+            "scale": 0.4,
+            "offset": {
+              "y": 0.1
+            },
+            "transition": {
+              "in": "fadeFast"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/chic-sale-story-promotion-template/d20a2a62-55f2-4d05-b660-ac985a9c5d2e/source.png"
+            },
+            "start": 2,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 1,
+            "scale": 0.4,
+            "offset": {
+              "y": 0.1,
+              "x": 0
+            },
+            "transition": {
+              "in": "fadeFast"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/chic-sale-story-promotion-template/402b1485-b648-4ea0-ad5c-683788bd9a23/source.png"
+            },
+            "start": 1,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/chic-sale-story-promotion-template/8771f4a5-6b6a-467c-9e98-192219f307c7/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0,
+            "scale": 0.4,
+            "offset": {
+              "y": 0.1,
+              "x": 0
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/chic-sale-story-promotion-template/4c3d39a8-5b14-4dc1-b3a1-9469d2476d99/source.png"
+            },
+            "start": 0,
+            "scale": 0.42,
+            "offset": {
+              "y": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{WEBSITE}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat",
+                "size": "36",
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 75
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.403
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{TITLE}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Pinyon Script",
+                "size": "149",
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 400
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.287
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{CTA}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "49",
+                "lineHeight": 1
+              },
+              "width": 397,
+              "height": 112,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}",
+                "borderRadius": 28
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.009,
+              "y": 0.439
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#e6fee1",
+                "family": "Montserrat ExtraBold",
+                "size": "49",
+                "lineHeight": 1
+              },
+              "width": 420,
+              "height": 130,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "borderRadius": 28
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.009,
+              "y": 0.439
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 1720,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}",
+                "borderRadius": 73
+              }
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": 5,
+            "position": "center"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "CTA",
+      "replace": "SHOP NOW"
+    },
+    {
+      "find": "TITLE",
+      "replace": "New Collection"
+    },
+    {
+      "find": "WEBSITE",
+      "replace": "www.websiteshop.com"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#e6fee1"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#3c483e"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/chic-sale-story-promotion-template/6eb77374-971e-4252-8287-583017cad016/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_2",
+      "replace": "https://templates.shotstack.io/chic-sale-story-promotion-template/9671b250-b389-44dd-a48c-be1f12a76a08/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_3",
+      "replace": "https://templates.shotstack.io/chic-sale-story-promotion-template/c42ca0ce-11d0-478c-801e-dae34b3e8656/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_4",
+      "replace": "https://templates.shotstack.io/chic-sale-story-promotion-template/e1e13021-df87-4de6-96b7-55f1c79c4787/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_5",
+      "replace": "https://templates.shotstack.io/chic-sale-story-promotion-template/ec682bc3-05c1-4e71-abff-eb6482cd96d8/source.jpg"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/chic-sale-story-promotion-template/8e05a021-5af9-4316-bbe6-5487da48233c/source.mp3"
+    }
+  ]
+}

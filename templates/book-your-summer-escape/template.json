@@ -1,0 +1,2673 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ S3_ICON }}"
+            },
+            "start": 6.04,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.02,
+                "from": 0.08,
+                "to": 0.08,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.02,
+                "length": 0.25,
+                "from": 0.08,
+                "to": 0.08,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.02,
+                  "from": -0.1,
+                  "to": -0.15,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.02,
+                  "length": 0.25,
+                  "from": -0.15,
+                  "to": 0,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.02,
+                  "from": 0.239,
+                  "to": 0.239,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.02,
+                  "length": 0.25,
+                  "from": 0.239,
+                  "to": 0.239,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.02,
+                "from": 0,
+                "to": 0,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.02,
+                "length": 0.25,
+                "from": 0,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.02,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear",
+                    "easing": "linear"
+                  },
+                  {
+                    "start": 0.02,
+                    "length": 0.25,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ S3_ICON }}"
+            },
+            "start": 6.42,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.03,
+                "from": 0.08,
+                "to": 0.08,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.03,
+                "length": 0.3,
+                "from": 0.08,
+                "to": 0.08,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.03,
+                  "from": -0.15,
+                  "to": -0.15,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.03,
+                  "length": 0.3,
+                  "from": -0.15,
+                  "to": 0,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.03,
+                  "from": -0.22,
+                  "to": -0.22,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.03,
+                  "length": 0.3,
+                  "from": -0.22,
+                  "to": -0.22,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.03,
+                    "from": 180,
+                    "to": 180,
+                    "interpolation": "linear",
+                    "easing": "linear"
+                  },
+                  {
+                    "start": 0.03,
+                    "length": 0.3,
+                    "from": 180,
+                    "to": 180,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            },
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.03,
+                "from": 0,
+                "to": 0,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.03,
+                "length": 0.3,
+                "from": 0,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              }
+            ],
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S3_PHONENUMBER}}",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Clear Sans",
+                "size": "55",
+                "lineHeight": 1
+              },
+              "width": 975,
+              "height": 134
+            },
+            "start": 7.02,
+            "length": "end",
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.03,
+                  "from": -0.1,
+                  "to": -0.1,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.03,
+                  "length": 0.29,
+                  "from": -0.1,
+                  "to": -0.141,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.03,
+                  "from": -0.445,
+                  "to": -0.445,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.03,
+                  "length": 0.29,
+                  "from": -0.445,
+                  "to": -0.445,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.03,
+                "from": 0,
+                "to": 0,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.03,
+                "length": 0.29,
+                "from": 0,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              }
+            ],
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.03,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.03,
+                "length": 0.29,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.03,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear",
+                    "easing": "linear"
+                  },
+                  {
+                    "start": 0.03,
+                    "length": 0.29,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "Find more info at\n{{S3_WEBSITE}}",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Clear Sans",
+                "size": "55",
+                "lineHeight": 1
+              },
+              "width": 975,
+              "height": 400
+            },
+            "start": 6.27,
+            "length": "end",
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.01,
+                  "from": 0,
+                  "to": -0.05,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.01,
+                  "length": 0.42,
+                  "from": -0.05,
+                  "to": -0.141,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.01,
+                  "from": -0.391,
+                  "to": -0.391,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.01,
+                  "length": 0.42,
+                  "from": -0.391,
+                  "to": -0.391,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.01,
+                "from": 0,
+                "to": 0,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.01,
+                "length": 0.42,
+                "from": 0,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              }
+            ],
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.01,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.01,
+                "length": 0.42,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.01,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear",
+                    "easing": "linear"
+                  },
+                  {
+                    "start": 0.01,
+                    "length": 0.42,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S3_DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Clear Sans",
+                "size": "60",
+                "lineHeight": 1
+              },
+              "width": 975,
+              "height": 200
+            },
+            "start": 6.42,
+            "length": "end",
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.06,
+                  "from": -0.1,
+                  "to": -0.1,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.06,
+                  "length": 0.52,
+                  "from": -0.1,
+                  "to": 0,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.06,
+                  "from": -0.072,
+                  "to": -0.072,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.06,
+                  "length": 0.52,
+                  "from": -0.072,
+                  "to": -0.072,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.06,
+                "from": 0,
+                "to": 0,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.06,
+                "length": 0.52,
+                "from": 0,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              }
+            ],
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.06,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.06,
+                "length": 0.52,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.06,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear",
+                    "easing": "linear"
+                  },
+                  {
+                    "start": 0.06,
+                    "length": 0.52,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "30% off on your stay!",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Clear Sans",
+                "size": "60",
+                "lineHeight": 1
+              },
+              "width": 975,
+              "height": 400
+            },
+            "start": 6.59,
+            "length": "end",
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.05,
+                  "from": -0.1,
+                  "to": -0.1,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.05,
+                  "length": 0.52,
+                  "from": -0.1,
+                  "to": 0,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.05,
+                  "from": -0.103,
+                  "to": -0.103,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.05,
+                  "length": 0.52,
+                  "from": -0.103,
+                  "to": -0.103,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.05,
+                "from": 0,
+                "to": 0,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.05,
+                "length": 0.52,
+                "from": 0,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              }
+            ],
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.05,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.05,
+                "length": 0.52,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.05,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear",
+                    "easing": "linear"
+                  },
+                  {
+                    "start": 0.05,
+                    "length": 0.52,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S3_5LETTERWORD_1}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "family": "Clear Sans",
+                "size": "180",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 250
+            },
+            "start": 6,
+            "length": "end",
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.28,
+                  "from": 0.007,
+                  "to": 0.007,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.28,
+                  "length": 0.43,
+                  "from": 0.007,
+                  "to": 0.007,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.28,
+                  "from": 0.05,
+                  "to": 0.05,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.28,
+                  "length": 0.43,
+                  "from": 0.05,
+                  "to": 0.118,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.28,
+                "from": 0,
+                "to": 0,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.28,
+                "length": 0.43,
+                "from": 0,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              }
+            ],
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.28,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.28,
+                "length": 0.43,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.28,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear",
+                    "easing": "linear"
+                  },
+                  {
+                    "start": 0.28,
+                    "length": 0.43,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S3_5LETTERWORD_2}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "family": "Clear Sans",
+                "size": "180",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 250
+            },
+            "start": 6.12,
+            "length": "end",
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.28,
+                  "from": 0.429,
+                  "to": 0.429,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.28,
+                  "length": 0.43,
+                  "from": 0.429,
+                  "to": 0.429,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.28,
+                  "from": 0.05,
+                  "to": 0.05,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.28,
+                  "length": 0.43,
+                  "from": 0.05,
+                  "to": 0.118,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.28,
+                "from": 0,
+                "to": 0,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.28,
+                "length": 0.43,
+                "from": 0,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              }
+            ],
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.28,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.28,
+                "length": 0.43,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.28,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear",
+                    "easing": "linear"
+                  },
+                  {
+                    "start": 0.28,
+                    "length": 0.43,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S3_10LETTERWORD_3}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "family": "Clear Sans",
+                "size": "180",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 200
+            },
+            "start": 6.43,
+            "length": "end",
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.28,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.28,
+                  "length": 0.43,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.28,
+                  "from": -0.1,
+                  "to": -0.1,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.28,
+                  "length": 0.43,
+                  "from": -0.1,
+                  "to": 0.024,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.28,
+                "from": 0,
+                "to": 0,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.28,
+                "length": 0.43,
+                "from": 0,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              }
+            ],
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.28,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.28,
+                "length": 0.43,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.28,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear",
+                    "easing": "linear"
+                  },
+                  {
+                    "start": 0.28,
+                    "length": 0.43,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.12,
+            "asset": {
+              "type": "image",
+              "src": "{{ S2_ICON_1 }}"
+            },
+            "start": 1.98,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.01,
+                "from": 1,
+                "to": 0.15,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.01,
+                "length": 0.77,
+                "from": 0.15,
+                "to": 0.15,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.78,
+                "length": 2.74,
+                "from": 0.15,
+                "to": 0.15,
+                "interpolation": "linear"
+              },
+              {
+                "start": 3.52,
+                "length": 0.62,
+                "from": 0.15,
+                "to": 0.15,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.01,
+                  "from": 0,
+                  "to": -0.451,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.01,
+                  "length": 0.77,
+                  "from": -0.451,
+                  "to": -0.451,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.78,
+                  "length": 2.74,
+                  "from": -0.451,
+                  "to": -0.451,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 3.52,
+                  "length": 0.62,
+                  "from": -0.451,
+                  "to": -0.451,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.01,
+                  "from": 0,
+                  "to": -0.5,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.01,
+                  "length": 0.77,
+                  "from": -0.5,
+                  "to": -0.443,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                },
+                {
+                  "start": 0.78,
+                  "length": 2.74,
+                  "from": -0.443,
+                  "to": -0.443,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                },
+                {
+                  "start": 3.52,
+                  "length": 0.62,
+                  "from": -0.443,
+                  "to": -0.3,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.01,
+                "from": 0,
+                "to": 0,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.01,
+                "length": 0.77,
+                "from": 0,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              },
+              {
+                "start": 0.78,
+                "length": 2.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              },
+              {
+                "start": 3.52,
+                "length": 0.62,
+                "from": 1,
+                "to": 0,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.01,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear",
+                    "easing": "linear"
+                  },
+                  {
+                    "start": 0.01,
+                    "length": 0.77,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.78,
+                    "length": 2.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 3.52,
+                    "length": 0.62,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.13,
+            "asset": {
+              "type": "image",
+              "src": "{{ S2_ICON_2 }}"
+            },
+            "start": 1.96,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.01,
+                "from": 1,
+                "to": 0.15,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.01,
+                "length": 0.77,
+                "from": 0.15,
+                "to": 0.15,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.78,
+                "length": 2.74,
+                "from": 0.15,
+                "to": 0.15,
+                "interpolation": "linear"
+              },
+              {
+                "start": 3.52,
+                "length": 0.62,
+                "from": 0.15,
+                "to": 0.15,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.01,
+                  "from": 0,
+                  "to": 0.438,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.01,
+                  "length": 0.77,
+                  "from": 0.438,
+                  "to": 0.438,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.78,
+                  "length": 2.74,
+                  "from": 0.438,
+                  "to": 0.438,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 3.52,
+                  "length": 0.62,
+                  "from": 0.438,
+                  "to": 0.438,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.01,
+                  "from": 0,
+                  "to": -0.26,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.01,
+                  "length": 0.77,
+                  "from": -0.26,
+                  "to": -0.2,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                },
+                {
+                  "start": 0.78,
+                  "length": 2.74,
+                  "from": -0.2,
+                  "to": -0.2,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                },
+                {
+                  "start": 3.52,
+                  "length": 0.62,
+                  "from": -0.2,
+                  "to": -0.05,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                }
+              ]
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.01,
+                    "from": 0,
+                    "to": 20,
+                    "interpolation": "linear",
+                    "easing": "linear"
+                  },
+                  {
+                    "start": 0.01,
+                    "length": 0.77,
+                    "from": 20,
+                    "to": 20,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.78,
+                    "length": 2.74,
+                    "from": 20,
+                    "to": 20,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 3.52,
+                    "length": 0.62,
+                    "from": 20,
+                    "to": 20,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            },
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.01,
+                "from": 0,
+                "to": 0,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.01,
+                "length": 0.77,
+                "from": 0,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              },
+              {
+                "start": 0.78,
+                "length": 2.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              },
+              {
+                "start": 3.52,
+                "length": 0.62,
+                "from": 1,
+                "to": 0,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              }
+            ],
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.14,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/book-your-summer-escape/c86266d2-2f30-41b7-9985-4bce3609f7db/source.png"
+            },
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.03,
+                "from": 1,
+                "to": 0.1,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.03,
+                "length": 0.78,
+                "from": 0.1,
+                "to": 0.1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.81,
+                "length": 2.76,
+                "from": 0.1,
+                "to": 0.1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 3.57,
+                "length": 0.59,
+                "from": 0.1,
+                "to": 0.1,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.03,
+                  "from": 0,
+                  "to": -0.308,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.03,
+                  "length": 0.78,
+                  "from": -0.308,
+                  "to": -0.308,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.81,
+                  "length": 2.76,
+                  "from": -0.308,
+                  "to": -0.308,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 3.57,
+                  "length": 0.59,
+                  "from": -0.308,
+                  "to": -0.308,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.03,
+                  "from": 0,
+                  "to": -0.387,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.03,
+                  "length": 0.78,
+                  "from": -0.387,
+                  "to": -0.345,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                },
+                {
+                  "start": 0.81,
+                  "length": 2.76,
+                  "from": -0.345,
+                  "to": -0.345,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                },
+                {
+                  "start": 3.57,
+                  "length": 0.59,
+                  "from": -0.345,
+                  "to": -0.2,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.03,
+                "from": 0,
+                "to": 0,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.03,
+                "length": 0.78,
+                "from": 0,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              },
+              {
+                "start": 0.81,
+                "length": 2.76,
+                "from": 1,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              },
+              {
+                "start": 3.57,
+                "length": 0.59,
+                "from": 1,
+                "to": 0,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.03,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear",
+                    "easing": "linear"
+                  },
+                  {
+                    "start": 0.03,
+                    "length": 0.78,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.81,
+                    "length": 2.76,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 3.57,
+                    "length": 0.59,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            },
+            "start": 1.95
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": " {{S2_DESCRIPTION_1}}\n {{S2_DESCRIPTION_3}} \n {{S2_DESCRIPTION_2}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Clear Sans",
+                "size": "50",
+                "lineHeight": 1.2
+              },
+              "width": 800,
+              "height": 300,
+              "background": {
+                "color": "#b3e4ea",
+                "borderRadius": 47
+              }
+            },
+            "start": 1.92,
+            "length": 4.18,
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.03,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.03,
+                  "length": 0.79,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.82,
+                  "length": 2.75,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 3.57,
+                  "length": 0.61,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.03,
+                  "from": -0.387,
+                  "to": -0.387,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.03,
+                  "length": 0.79,
+                  "from": -0.387,
+                  "to": -0.344,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                },
+                {
+                  "start": 0.82,
+                  "length": 2.75,
+                  "from": -0.344,
+                  "to": -0.346,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                },
+                {
+                  "start": 3.57,
+                  "length": 0.61,
+                  "from": -0.346,
+                  "to": -0.2,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.03,
+                "from": 0,
+                "to": 0,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.03,
+                "length": 0.79,
+                "from": 0,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              },
+              {
+                "start": 0.82,
+                "length": 2.75,
+                "from": 1,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              },
+              {
+                "start": 3.57,
+                "length": 0.61,
+                "from": 1,
+                "to": 0,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              }
+            ],
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.03,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.03,
+                "length": 0.79,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.82,
+                "length": 2.75,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 3.57,
+                "length": 0.61,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.03,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear",
+                    "easing": "linear"
+                  },
+                  {
+                    "start": 0.03,
+                    "length": 0.79,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.82,
+                    "length": 2.75,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 3.57,
+                    "length": 0.61,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_TITLE}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Clear Sans",
+                "size": "140",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 500
+            },
+            "start": 1.9,
+            "length": 4.2,
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.76,
+                  "from": -0.1,
+                  "to": -0.07,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                },
+                {
+                  "start": 0.76,
+                  "length": 2.82,
+                  "from": -0.07,
+                  "to": -0.07,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                },
+                {
+                  "start": 3.58,
+                  "length": 0.6,
+                  "from": -0.07,
+                  "to": -0.1,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.76,
+                  "from": 0.31,
+                  "to": 0.31,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.76,
+                  "length": 2.82,
+                  "from": 0.31,
+                  "to": 0.31,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 3.58,
+                  "length": 0.6,
+                  "from": 0.31,
+                  "to": 0.31,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.76,
+                "from": 0,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              },
+              {
+                "start": 0.76,
+                "length": 2.82,
+                "from": 1,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              },
+              {
+                "start": 3.58,
+                "length": 0.6,
+                "from": 1,
+                "to": 0,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              }
+            ],
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.76,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.76,
+                "length": 2.82,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 3.58,
+                "length": 0.6,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.76,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.76,
+                    "length": 2.82,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 3.58,
+                    "length": 0.6,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "auto",
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_ICON_2 }}"
+            },
+            "start": 0,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.67,
+                "from": 0.15,
+                "to": 0.15,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.67,
+                "length": 1.05,
+                "from": 0.15,
+                "to": 0.15,
+                "interpolation": "linear"
+              },
+              {
+                "start": 1.72,
+                "length": 0.53,
+                "from": 0.15,
+                "to": 0.15,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.67,
+                  "from": 0.417,
+                  "to": 0.417,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.67,
+                  "length": 1.05,
+                  "from": 0.417,
+                  "to": 0.417,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 1.72,
+                  "length": 0.53,
+                  "from": 0.417,
+                  "to": 0.417,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.67,
+                  "from": -0.15,
+                  "to": 0.022,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                },
+                {
+                  "start": 0.67,
+                  "length": 1.05,
+                  "from": 0.022,
+                  "to": 0.022,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                },
+                {
+                  "start": 1.72,
+                  "length": 0.53,
+                  "from": 0.022,
+                  "to": 0.15,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.67,
+                "from": 0,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              },
+              {
+                "start": 0.67,
+                "length": 1.05,
+                "from": 1,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              },
+              {
+                "start": 1.72,
+                "length": 0.53,
+                "from": 1,
+                "to": 0,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.67,
+                    "from": 0,
+                    "to": 25.008,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.67,
+                    "length": 1.05,
+                    "from": 25.008,
+                    "to": 64.622,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 1.72,
+                    "length": 0.53,
+                    "from": 64.622,
+                    "to": 84.402,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_ICON_1 }}"
+            },
+            "start": 0,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.67,
+                "from": 0.2,
+                "to": 0.2,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.67,
+                "length": 1.05,
+                "from": 0.2,
+                "to": 0.2,
+                "interpolation": "linear"
+              },
+              {
+                "start": 1.72,
+                "length": 0.53,
+                "from": 0.2,
+                "to": 0.2,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.67,
+                  "from": -0.415,
+                  "to": -0.415,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.67,
+                  "length": 1.05,
+                  "from": -0.415,
+                  "to": -0.415,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 1.72,
+                  "length": 0.53,
+                  "from": -0.415,
+                  "to": -0.415,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.67,
+                  "from": -0.25,
+                  "to": -0.164,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                },
+                {
+                  "start": 0.67,
+                  "length": 1.05,
+                  "from": -0.164,
+                  "to": -0.164,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                },
+                {
+                  "start": 1.72,
+                  "length": 0.53,
+                  "from": -0.164,
+                  "to": -0.1,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.67,
+                "from": 0,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              },
+              {
+                "start": 0.67,
+                "length": 1.05,
+                "from": 1,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              },
+              {
+                "start": 1.72,
+                "length": 0.53,
+                "from": 1,
+                "to": 0,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.67,
+                    "from": 0,
+                    "to": 25.008,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.67,
+                    "length": 1.05,
+                    "from": 25.008,
+                    "to": 64.622,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 1.72,
+                    "length": 0.53,
+                    "from": 64.622,
+                    "to": 84.402,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_TITLE}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Clear Sans",
+                "size": "140",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 500
+            },
+            "start": 0.01,
+            "length": 2,
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.76,
+                  "from": -0.1,
+                  "to": -0.07,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                },
+                {
+                  "start": 0.76,
+                  "length": 0.36,
+                  "from": -0.07,
+                  "to": -0.07,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                },
+                {
+                  "start": 1.12,
+                  "length": 0.82,
+                  "from": -0.07,
+                  "to": -0.1,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.76,
+                  "from": 0.31,
+                  "to": 0.31,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.76,
+                  "length": 0.36,
+                  "from": 0.31,
+                  "to": 0.31,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 1.12,
+                  "length": 0.82,
+                  "from": 0.31,
+                  "to": 0.31,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.76,
+                "from": 0,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              },
+              {
+                "start": 0.76,
+                "length": 0.36,
+                "from": 1,
+                "to": 1,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              },
+              {
+                "start": 1.12,
+                "length": 0.82,
+                "from": 1,
+                "to": 0,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              }
+            ],
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.76,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.76,
+                "length": 0.36,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 1.12,
+                "length": 0.82,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.76,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.76,
+                    "length": 0.36,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 1.12,
+                    "length": 0.82,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Clear Sans",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 975,
+              "height": 134
+            },
+            "start": 0,
+            "length": 2,
+            "offset": {
+              "x": 0.028,
+              "y": 0.137
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/book-your-summer-escape/13465e01-629e-40e8-bc7a-8f66083169dd/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "#000000"
+              }
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.68,
+            "asset": {
+              "type": "image",
+              "src": "{{ S3_IMAGE_SRC }}"
+            },
+            "start": 5.82,
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.03,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.03,
+                  "length": 0.4,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.03,
+                  "from": 1,
+                  "to": 1,
+                  "interpolation": "linear",
+                  "easing": "linear"
+                },
+                {
+                  "start": 0.03,
+                  "length": 0.4,
+                  "from": 1,
+                  "to": 0,
+                  "interpolation": "bezier",
+                  "easing": "easeInOut"
+                }
+              ]
+            },
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.03,
+                "from": 0,
+                "to": 1,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.03,
+                "length": 0.4,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.03,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear",
+                "easing": "linear"
+              },
+              {
+                "start": 0.03,
+                "length": 0.4,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.03,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear",
+                    "easing": "linear"
+                  },
+                  {
+                    "start": 0.03,
+                    "length": 0.4,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.94,
+            "asset": {
+              "type": "image",
+              "src": "{{ S2_IMAGE_SRC }}"
+            },
+            "start": 1.9,
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.49,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_SRC }}"
+            },
+            "start": 0,
+            "scale": 1
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "S1_IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/book-your-summer-escape/b1934d63-73f6-4a83-a9ae-f0b203456e96/source.jpg"
+    },
+    {
+      "find": "S1_TITLE",
+      "replace": "Book Your Summer Escape"
+    },
+    {
+      "find": "S1_DESCRIPTION",
+      "replace": "Indulge in opulence and serenity with our top-notch amenities."
+    },
+    {
+      "find": "S1_ICON_1",
+      "replace": "https://templates.shotstack.io/book-your-summer-escape/530022b5-39bb-4ae3-87cb-b1a88e2d63f4/source.png"
+    },
+    {
+      "find": "S1_ICON_2",
+      "replace": "https://templates.shotstack.io/book-your-summer-escape/5f8b39cc-5092-4252-931a-30e1d1f6418d/source.png"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "S2_IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/book-your-summer-escape/f7f2eaae-0d38-4b04-a2cf-d4aa421b55f3/source.jpg"
+    },
+    {
+      "find": "S2_TITLE",
+      "replace": "Exclusive Villa Features"
+    },
+    {
+      "find": "S2_DESCRIPTION_1",
+      "replace": "Spacious Living Areas"
+    },
+    {
+      "find": "S2_DESCRIPTION_2",
+      "replace": "Outdoor Spaces and Pool"
+    },
+    {
+      "find": "S2_DESCRIPTION_3",
+      "replace": "Fully Equipped Kitchen "
+    },
+    {
+      "find": "S2_ICON_1",
+      "replace": "https://templates.shotstack.io/book-your-summer-escape/e4411548-569f-4f17-a063-cd1f8d6f1107/source.png"
+    },
+    {
+      "find": "S2_ICON_2",
+      "replace": "https://templates.shotstack.io/book-your-summer-escape/43b17530-69dd-4ca0-9e07-187acf905c95/source.png"
+    },
+    {
+      "find": "S3_IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/book-your-summer-escape/fa552409-9a79-4011-be2c-e20c19525b49/source.jpg"
+    },
+    {
+      "find": "S3_ICON",
+      "replace": "https://templates.shotstack.io/book-your-summer-escape/005157df-0765-499a-a943-d1a3e62019da/source.png"
+    },
+    {
+      "find": "S3_WEBSITE",
+      "replace": "reallygreatsite.com"
+    },
+    {
+      "find": "S3_PHONENUMBER",
+      "replace": "+123-456-7890"
+    },
+    {
+      "find": "S3_5LETTERWORD_1",
+      "replace": "Early"
+    },
+    {
+      "find": "S3_5LETTERWORD_2",
+      "replace": "Bird"
+    },
+    {
+      "find": "S3_10LETTERWORD_3",
+      "replace": "Discount!"
+    },
+    {
+      "find": "S3_DESCRIPTION",
+      "replace": "Book for 3 nights and save"
+    },
+    {
+      "find": "TEXT_FONT_COLOR_2",
+      "replace": "#d3f2f3"
+    }
+  ]
+}

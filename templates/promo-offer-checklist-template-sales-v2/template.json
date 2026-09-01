@@ -1,0 +1,538 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_DESCRIPTION_4}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 38,
+                "weight": 500,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "word"
+              }
+            },
+            "start": 1.1,
+            "length": "end",
+            "offset": {
+              "x": 0.041,
+              "y": -0.32
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 675,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/promo-offer-checklist-template-sales/5dd1e57f-9499-4b69-8448-949bbba564e8/source.png"
+            },
+            "start": 1.05,
+            "length": 8.95
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"60\" height=\"60\" fill=\"{{ POINTERS_COLOR }}\"/></svg>"
+            },
+            "start": 1.05,
+            "length": "end",
+            "offset": {
+              "x": -0.322,
+              "y": -0.32
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 60,
+            "height": 60
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 275\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"275\" fill=\"{{ BOX_COLOR_2 }}\" fill-opacity=\"0.32\" rx=\"31\" ry=\"31\"/></svg>"
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "y": -0.32,
+              "x": 0.007
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 800,
+            "height": 275
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_DESCRIPTION_3}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 38,
+                "weight": 500,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "word"
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": 0.041,
+              "y": -0.14
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 675,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"60\" height=\"60\" fill=\"{{ POINTERS_COLOR }}\"/></svg>"
+            },
+            "start": 0.85,
+            "length": "end",
+            "offset": {
+              "x": -0.322,
+              "y": -0.14
+            },
+            "position": "center",
+            "width": 60,
+            "height": 60
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/promo-offer-checklist-template-sales/7adb511d-b128-4aee-b8df-aa61b7c2ebf0/source.png"
+            },
+            "start": 0.85,
+            "length": 9.15
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 275\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"275\" fill=\"{{ BOX_COLOR_2 }}\" fill-opacity=\"0.32\" rx=\"31\" ry=\"31\"/></svg>"
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "y": -0.14,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 800,
+            "height": 275
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_DESCRIPTION_2}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 38,
+                "weight": 500,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "word"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.041,
+              "y": 0.04
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 675,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/promo-offer-checklist-template-sales/b60e53b3-232e-48e1-9148-b73c061d7715/source.png"
+            },
+            "start": 0.55,
+            "length": 9.45
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"60\" height=\"60\" fill=\"{{ POINTERS_COLOR }}\"/></svg>"
+            },
+            "start": 0.55,
+            "length": "end",
+            "offset": {
+              "x": -0.322,
+              "y": 0.04
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 60,
+            "height": 60
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 275\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"275\" fill=\"{{ BOX_COLOR_2 }}\" fill-opacity=\"0.32\" rx=\"31\" ry=\"31\"/></svg>"
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "y": 0.04
+            },
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 800,
+            "height": 275
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_DESCRIPTION_1}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 38,
+                "weight": 500,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "word"
+              }
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": 0.041,
+              "y": 0.22
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 675,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/promo-offer-checklist-template-sales/bc5244ab-046a-48fe-8f06-9f80af3a16b6/source.png"
+            },
+            "start": 0.25,
+            "length": 9.75
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"60\" height=\"60\" fill=\"{{ POINTERS_COLOR }}\"/></svg>"
+            },
+            "start": 0.25,
+            "length": "end",
+            "offset": {
+              "x": -0.322,
+              "y": 0.22
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 60,
+            "height": 60
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 275\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"275\" fill=\"{{ BOX_COLOR_2 }}\" fill-opacity=\"0.32\" rx=\"31\" ry=\"31\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "y": 0.22
+            },
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 800,
+            "height": 275
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_TITLE}}",
+              "font": {
+                "family": "-W__XJn-UDDA2RC6Z9AcZkIzeg",
+                "size": 66,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.37
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 600,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"#000000\" fill-opacity=\"0.14\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 10,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_SRC }}",
+              "volume": 0
+            },
+            "start": 0,
+            "fit": "crop",
+            "width": 1080,
+            "height": 2044,
+            "offset": {
+              "x": 0,
+              "y": -0.0322916666666672
+            }
+          }
+        ]
+      }
+    ],
+    "fonts": [
+      {
+        "src": "https://fonts.gstatic.com/s/arapey/v17/-W__XJn-UDDA2RC6Z9AcZkIzeg.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm45xW5rygbi49c.ttf"
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "S1_TITLE",
+      "replace": "HOW TO MAKE YOUR SKIN GLOW"
+    },
+    {
+      "find": "S1_DESCRIPTION_1",
+      "replace": "Drink plenty of water daily to keep your skin plump and radiant."
+    },
+    {
+      "find": "S1_DESCRIPTION_2",
+      "replace": "Exfoliate 1 to 2 times a week to remove dead skin cells and reveal fresh, glowing skin."
+    },
+    {
+      "find": "S1_DESCRIPTION_3",
+      "replace": "Apply a good moisturizer suited to your skin type to maintain hydration and softness."
+    },
+    {
+      "find": "S1_DESCRIPTION_4",
+      "replace": "Use sunscreen every day to prevent sun damage and keep your skin tone even."
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "POINTERS_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "BOX_COLOR_2",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "VIDEO_SRC",
+      "replace": "https://templates.shotstack.io/promo-offer-checklist-template-sales/d314908c-0a76-4799-8cd6-a84a53db17ec/source.mp4"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/promo-offer-checklist-template-sales/2d42798e-126f-49e1-bbd3-6d3f4bd2342b/source.mp3"
+    }
+  ]
+}

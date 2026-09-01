@@ -1,0 +1,1179 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "REAL ESTATE",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Montserrat ExtraBold",
+                "size": "22",
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 50
+            },
+            "start": 0.15,
+            "length": "end",
+            "offset": {
+              "x": 0.001,
+              "y": 0.365
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ LOGO }}"
+            },
+            "start": 0.1,
+            "transition": {
+              "in": "slideDown"
+            },
+            "scale": 0.07,
+            "offset": {
+              "x": 0,
+              "y": 0.417
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 250,
+              "height": 500,
+              "background": {
+                "color": "{{ SHAPE_COLOR_2 }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "y": 0.403,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/e7634e0a-b708-4771-a2e9-830fae937264/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{PHONE}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "34",
+                "lineHeight": 1
+              },
+              "width": 379,
+              "height": 100,
+              "background": {
+                "padding": 54
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": 0.081,
+              "y": -0.448
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/73fe74e6-5424-4bab-b9fd-fcebc01c8e75/source.png"
+            },
+            "start": 0.9,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 60,
+              "height": 60,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}"
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": -0.122,
+              "y": -0.448
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{CTA}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "27",
+                "lineHeight": 1
+              },
+              "width": 308,
+              "height": 58,
+              "background": {
+                "padding": 54
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.336
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{HEADER}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Didact Gothic",
+                "size": "34",
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 60
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.176
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{DESCRIPTION_9}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Didact Gothic",
+                "size": "34",
+                "lineHeight": 1
+              },
+              "width": 205,
+              "height": 39
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.339,
+              "y": -0.279
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{DESCRIPTION_6}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Didact Gothic",
+                "size": "34",
+                "lineHeight": 1
+              },
+              "width": 205,
+              "height": 39
+            },
+            "start": 0.66,
+            "length": "end",
+            "offset": {
+              "x": 0.339,
+              "y": -0.242
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{DESCRIPTION_7}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Didact Gothic",
+                "size": "34",
+                "lineHeight": 1
+              },
+              "width": 205,
+              "height": 39
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.26,
+              "y": -0.279
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{DESCRIPTION_4}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Didact Gothic",
+                "size": "34",
+                "lineHeight": 1
+              },
+              "width": 205,
+              "height": 39
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.26,
+              "y": -0.242
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{DESCRIPTION_8}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Didact Gothic",
+                "size": "34",
+                "lineHeight": 1
+              },
+              "width": 205,
+              "height": 39
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.034,
+              "y": -0.279
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{DESCRIPTION_1}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Didact Gothic",
+                "size": "34",
+                "lineHeight": 1
+              },
+              "width": 205,
+              "height": 39
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.26,
+              "y": -0.21
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{DESCRIPTION_2}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Didact Gothic",
+                "size": "34",
+                "lineHeight": 1
+              },
+              "width": 205,
+              "height": 39
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.034,
+              "y": -0.208
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{DESCRIPTION_5}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Didact Gothic",
+                "size": "34",
+                "lineHeight": 1
+              },
+              "width": 205,
+              "height": 39
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.034,
+              "y": -0.242
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{DESCRIPTION_3}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Didact Gothic",
+                "size": "34",
+                "lineHeight": 1
+              },
+              "width": 205,
+              "height": 39
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.339,
+              "y": -0.208
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/f07d001c-4065-496e-9552-62af46df9e9b/source.png"
+            },
+            "start": 0.6,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 35,
+              "height": 35,
+              "background": {
+                "color": "{{ ICON_COLOR }}"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.207,
+              "y": -0.209
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 35,
+              "height": 35,
+              "background": {
+                "color": "{{ ICON_COLOR }}"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.207,
+              "y": -0.242
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/5b38c8d4-f484-481d-9506-314b473fa707/source.png"
+            },
+            "start": 0.6,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 35,
+              "height": 35,
+              "background": {
+                "color": "{{ ICON_COLOR }}"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.207,
+              "y": -0.279
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/c94bd1fc-6ab5-49ec-97a7-3f9d51d24c77/source.png"
+            },
+            "start": 0.6,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/bd4b409c-a79e-438c-a864-782c47507aeb/source.png"
+            },
+            "start": 0.6,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 35,
+              "height": 35,
+              "background": {
+                "color": "{{ ICON_COLOR }}"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.386,
+              "y": -0.21
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 35,
+              "height": 35,
+              "background": {
+                "color": "{{ ICON_COLOR }}"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.386,
+              "y": -0.248
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/6b2eef6f-82d0-47a4-b3d8-538748093505/source.png"
+            },
+            "start": 0.6,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/63ab7fde-e229-4038-b40d-e236b9a2b061/source.png"
+            },
+            "start": 0.6,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 35,
+              "height": 35,
+              "background": {
+                "color": "{{ ICON_COLOR }}"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.386,
+              "y": -0.279
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 35,
+              "height": 35,
+              "background": {
+                "color": "{{ ICON_COLOR }}"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.104,
+              "y": -0.279
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/7c1cc4be-2ac0-4b6e-b93e-2b9db55a55e7/source.png"
+            },
+            "start": 0.6,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/241ccef9-aec8-40aa-996e-e934d9846ddb/source.png"
+            },
+            "start": 0.6,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 35,
+              "height": 35,
+              "background": {
+                "color": "{{ ICON_COLOR }}"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.104,
+              "y": -0.209
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 35,
+              "height": 35,
+              "background": {
+                "color": "{{ ICON_COLOR }}"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.104,
+              "y": -0.242
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/8fe33b3d-675d-42cc-8d61-0738143c41c5/source.png"
+            },
+            "start": 0.6,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Didact Gothic",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 60
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.121
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{TITLE}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "51",
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 150,
+              "background": {
+                "padding": 54
+              }
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.072
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0.1,
+            "scale": 0.8,
+            "offset": {
+              "y": 0.223,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/f660f255-1032-45f4-b19d-8dbf45aef30f/source.png"
+            },
+            "start": 0.1,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1500,
+              "height": 2500,
+              "background": {
+                "color": "{{ SHAPE_COLOR_2 }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "y": -0.017,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/b3710f09-bc54-4902-a642-7dd77f910908/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR_3 }}"
+              }
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "TITLE",
+      "replace": "YOUR GATEWAY TO MODERN LIVING"
+    },
+    {
+      "find": "DESCRIPTION",
+      "replace": "House for Rent"
+    },
+    {
+      "find": "HEADER",
+      "replace": "Our Facilities"
+    },
+    {
+      "find": "DESCRIPTION_1",
+      "replace": "Dining"
+    },
+    {
+      "find": "DESCRIPTION_2",
+      "replace": "2 Bedrooms"
+    },
+    {
+      "find": "DESCRIPTION_3",
+      "replace": "Study"
+    },
+    {
+      "find": "DESCRIPTION_4",
+      "replace": "Store"
+    },
+    {
+      "find": "DESCRIPTION_5",
+      "replace": "1 Bathroom"
+    },
+    {
+      "find": "DESCRIPTION_6",
+      "replace": "Pool"
+    },
+    {
+      "find": "DESCRIPTION_7",
+      "replace": "Garage"
+    },
+    {
+      "find": "DESCRIPTION_8",
+      "replace": "Livingroom"
+    },
+    {
+      "find": "DESCRIPTION_9",
+      "replace": "Internet"
+    },
+    {
+      "find": "CTA",
+      "replace": "BOOK NOW"
+    },
+    {
+      "find": "PHONE",
+      "replace": "+123 456 7890"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "ICON_COLOR",
+      "replace": "#00c732"
+    },
+    {
+      "find": "SHAPE_COLOR_2",
+      "replace": "#1a2537"
+    },
+    {
+      "find": "BACKGROUND_COLOR_3",
+      "replace": "#293547"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/ccf5fd5c-05f4-472f-b3a3-1688f0953779/source.jpg"
+    },
+    {
+      "find": "LOGO",
+      "replace": "https://templates.shotstack.io/modern-house-rent-premium-amenitie/049f0a8b-d4c8-4f6f-9ab5-9ff99e165115/source.png"
+    }
+  ]
+}

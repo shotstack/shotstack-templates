@@ -1,0 +1,2331 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/new-arrival-showcase-template-product-launch-fashion/c72fe2f8-b94d-49b8-a3a6-82da4cf994cc/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/new-arrival-showcase-template-product-launch-fashion/f36fd191-0819-432d-9919-ad4dcfecada1/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/new-arrival-showcase-template-product-launch-fashion/e5c60a67-3b34-4552-bf7e-44a874637066/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/new-arrival-showcase-template-product-launch-fashion/50c80a83-b194-44a9-9ccb-7ef7f25de46a/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/new-arrival-showcase-template-product-launch-fashion/36bda51a-2217-45c6-aa73-27e761d14f56/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/new-arrival-showcase-template-product-launch-fashion/201e3d77-1aa1-4d7b-b13a-30db15880bc0/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/new-arrival-showcase-template-product-launch-fashion/31bed200-377c-4e2e-bb1c-bdfdab50c790/source.png"
+            },
+            "start": 13.95,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 180,
+              "height": 180,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 14.128,
+            "length": "end",
+            "offset": {
+              "x": 0.349,
+              "y": -0.288
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ Logo }}"
+            },
+            "start": 0,
+            "scale": 0.1,
+            "offset": {
+              "x": 0.351,
+              "y": 0.393
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Web}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ Web_COLOR }}",
+                "family": "Poppins Medium",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 140
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.007,
+              "y": -0.471
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5.07,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_4 }}"
+            },
+            "start": 13.7313,
+            "scale": 0.42,
+            "position": "center",
+            "transition": {
+              "in": "carouselUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/new-arrival-showcase-template-product-launch-fashion/956240ea-4f70-4398-b8e3-1e166ed23579/source.png"
+            },
+            "start": 13.76,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Poppins",
+                "size": "32",
+                "lineHeight": 1
+              },
+              "width": 684,
+              "height": 978,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 13.84,
+            "length": "end",
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "offset": {
+              "x": -0.451,
+              "y": 0.462
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Poppins",
+                "size": "32",
+                "lineHeight": 1
+              },
+              "width": 850,
+              "height": 850,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 13.84,
+            "length": "end",
+            "position": "center",
+            "transition": {
+              "in": "carouselUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_4 }}"
+            },
+            "start": 14.34,
+            "scale": 0.10300000000000001,
+            "offset": {
+              "x": 0.349,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 14.04,
+            "scale": 0.10300000000000001,
+            "offset": {
+              "x": -0.125,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_3 }}"
+            },
+            "start": 14.14,
+            "scale": 0.10300000000000001,
+            "offset": {
+              "x": 0.112,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 13.897700000000004,
+            "scale": 0.10300000000000001,
+            "offset": {
+              "x": -0.359,
+              "y": -0.372
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 224,
+              "height": 224,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 14.24,
+            "length": "end",
+            "offset": {
+              "x": 0.351,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 224,
+              "height": 224,
+              "background": {
+                "color": "#ffffff"
+              }
+            },
+            "start": 14.15,
+            "length": "end",
+            "offset": {
+              "x": 0.111,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 224,
+              "height": 224,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 14.04,
+            "length": "end",
+            "offset": {
+              "x": -0.125,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 224,
+              "height": 224,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 13.94,
+            "length": "end",
+            "offset": {
+              "x": -0.36,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Poppins",
+                "size": "32",
+                "lineHeight": 1
+              },
+              "width": 2000,
+              "height": 406,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 13.84,
+            "length": "end",
+            "offset": {
+              "x": 0.067,
+              "y": -0.396
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title_2}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Poppins",
+                "size": "100",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 130
+            },
+            "start": 13.84,
+            "length": "end",
+            "offset": {
+              "x": 0.067,
+              "y": 0.317
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title_1}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Poppins Black",
+                "size": "100",
+                "lineHeight": 1
+              },
+              "width": 550,
+              "height": 130
+            },
+            "start": 13.82,
+            "length": 5,
+            "offset": {
+              "x": -0.048,
+              "y": 0.377
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.2,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_3 }}"
+            },
+            "start": 9.432,
+            "scale": 0.42,
+            "position": "center",
+            "transition": {
+              "out": "carouselDown",
+              "in": "carouselUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 180,
+              "height": 180,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 9.454005924479167,
+            "length": 3.98,
+            "offset": {
+              "x": 0.104,
+              "y": -0.288
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown",
+              "out": "fade"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/new-arrival-showcase-template-product-launch-fashion/6ec1e5c7-2832-4f6c-9922-38d12abedc0b/source.png"
+            },
+            "start": 9.454005924479167,
+            "length": 4.25
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Poppins",
+                "size": "32",
+                "lineHeight": 1
+              },
+              "width": 684,
+              "height": 978,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 9.454005924479167,
+            "length": 4.14,
+            "position": "center",
+            "transition": {
+              "out": "slideLeft",
+              "in": "slideRight"
+            },
+            "offset": {
+              "x": -0.494,
+              "y": 0.448
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/new-arrival-showcase-template-product-launch-fashion/88f81073-ab85-49e0-ad76-40a7ba62c04f/source.png"
+            },
+            "start": 9.454005924479167,
+            "length": 4.22
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Poppins",
+                "size": "32",
+                "lineHeight": 1
+              },
+              "width": 850,
+              "height": 850,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 9.454005924479167,
+            "length": 4.14,
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "carouselUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.26,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_4 }}"
+            },
+            "start": 9.854005924479168,
+            "scale": 0.10300000000000001,
+            "offset": {
+              "x": 0.349,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.26,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 9.654005924479167,
+            "scale": 0.10300000000000001,
+            "offset": {
+              "x": -0.125,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.26,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_3 }}"
+            },
+            "start": 9.754005924479166,
+            "scale": 0.10300000000000001,
+            "offset": {
+              "x": 0.112,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.79,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 9.573105961681545,
+            "scale": 0.10300000000000001,
+            "offset": {
+              "x": -0.359,
+              "y": -0.372
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 224,
+              "height": 224,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 9.854005924479168,
+            "length": 4.28,
+            "offset": {
+              "x": 0.351,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 224,
+              "height": 224,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 9.754005924479166,
+            "length": 4.28,
+            "offset": {
+              "x": 0.111,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 224,
+              "height": 224,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 9.654005924479167,
+            "length": 4.24,
+            "offset": {
+              "x": -0.125,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 224,
+              "height": 224,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 9.554005924479167,
+            "length": 4.3,
+            "offset": {
+              "x": -0.36,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Poppins",
+                "size": "32",
+                "lineHeight": 1
+              },
+              "width": 2000,
+              "height": 406,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 9.454005924479167,
+            "length": 4.81,
+            "offset": {
+              "x": 0,
+              "y": -0.396
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title_2}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Poppins Medium",
+                "size": "100",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 130
+            },
+            "start": 9.454005924479167,
+            "length": 4.17,
+            "offset": {
+              "x": 0.067,
+              "y": 0.317
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title_1}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Poppins Black",
+                "size": "100",
+                "lineHeight": 1
+              },
+              "width": 550,
+              "height": 130
+            },
+            "start": 9.45,
+            "length": 4.09,
+            "offset": {
+              "x": -0.048,
+              "y": 0.377
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideUp",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.18,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 4.9151,
+            "scale": 0.42,
+            "position": "center",
+            "transition": {
+              "in": "carouselUp",
+              "out": "carouselDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/new-arrival-showcase-template-product-launch-fashion/d6d0e2b6-8080-4382-bc3e-560a69530528/source.png"
+            },
+            "start": 4.88,
+            "length": 4.24
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 180,
+              "height": 180,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 5.02,
+            "length": 3.96,
+            "offset": {
+              "x": -0.133,
+              "y": -0.288
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/new-arrival-showcase-template-product-launch-fashion/2e3e90e2-3590-462a-a6d5-1481ec9e25a0/source.png"
+            },
+            "start": 4.75,
+            "length": 4.46
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1200,
+              "height": 1200,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 4.9896,
+            "length": 4.21,
+            "offset": {
+              "x": -0.445,
+              "y": 0.457
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideUp",
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Poppins",
+                "size": "32",
+                "lineHeight": 1
+              },
+              "width": 850,
+              "height": 850,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 4.9768,
+            "length": 4.14,
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "carouselUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.26,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_4 }}"
+            },
+            "start": 5.4,
+            "scale": 0.10300000000000001,
+            "offset": {
+              "x": 0.349,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.26,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 5.12,
+            "scale": 0.10300000000000001,
+            "offset": {
+              "x": -0.125,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.26,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_3 }}"
+            },
+            "start": 5.28,
+            "scale": 0.10300000000000001,
+            "offset": {
+              "x": 0.112,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.79,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 4.95207619047619,
+            "scale": 0.10300000000000001,
+            "offset": {
+              "x": -0.359,
+              "y": -0.372
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 224,
+              "height": 224,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 5.4,
+            "length": 4.28,
+            "offset": {
+              "x": 0.351,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 224,
+              "height": 224,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 5.28,
+            "length": 4.28,
+            "offset": {
+              "x": 0.111,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 224,
+              "height": 224,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 5.12,
+            "length": 4.24,
+            "offset": {
+              "x": -0.125,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 224,
+              "height": 224,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 5.0024,
+            "length": 4.3,
+            "offset": {
+              "x": -0.36,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Poppins",
+                "size": "32",
+                "lineHeight": 1
+              },
+              "width": 2000,
+              "height": 406,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 4.9768,
+            "length": 4.81,
+            "offset": {
+              "x": 0.047,
+              "y": -0.396
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title_2}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Poppins Medium",
+                "size": "100",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 130
+            },
+            "start": 5.01458927641369,
+            "length": 4.17,
+            "offset": {
+              "x": 0.067,
+              "y": 0.317
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "NEW",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Poppins Black",
+                "size": "100",
+                "lineHeight": 1
+              },
+              "width": 550,
+              "height": 130
+            },
+            "start": 5.01458927641369,
+            "length": 4.09,
+            "offset": {
+              "x": -0.048,
+              "y": 0.377
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideUp",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.22,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0.7949,
+            "scale": 0.42,
+            "position": "center",
+            "transition": {
+              "in": "carouselUp",
+              "out": "carouselDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/new-arrival-showcase-template-product-launch-fashion/e3165a42-fe3b-438a-98e8-dc6fde639f1e/source.png"
+            },
+            "start": 0,
+            "length": 5.1
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1200,
+              "height": 1200,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": 5,
+            "offset": {
+              "x": -0.476,
+              "y": 0.461
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideLeft",
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/new-arrival-showcase-template-product-launch-fashion/c8fb2b63-2331-49fa-994f-84ede9494f72/source.png"
+            },
+            "start": 0,
+            "length": 4.84
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 180,
+              "height": 180,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 0.7,
+            "length": 3.98,
+            "offset": {
+              "x": -0.359,
+              "y": -0.288
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.26,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_4 }}"
+            },
+            "start": 0.7,
+            "scale": 0.10300000000000001,
+            "offset": {
+              "x": 0.349,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.26,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 0.5,
+            "scale": 0.10300000000000001,
+            "offset": {
+              "x": -0.125,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.26,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_3 }}"
+            },
+            "start": 0.6,
+            "scale": 0.10300000000000001,
+            "offset": {
+              "x": 0.112,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.35,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0.3479142857142856,
+            "scale": 0.10300000000000001,
+            "offset": {
+              "x": -0.359,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 224,
+              "height": 224,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 0.7,
+            "length": 4.28,
+            "offset": {
+              "x": 0.351,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 224,
+              "height": 224,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 0.6,
+            "length": 4.28,
+            "offset": {
+              "x": 0.111,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 224,
+              "height": 224,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 0.5,
+            "length": 4.24,
+            "offset": {
+              "x": -0.125,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 224,
+              "height": 224,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 0.4,
+            "length": 4.3,
+            "offset": {
+              "x": -0.36,
+              "y": -0.369
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title_1}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Poppins Black",
+                "size": "100",
+                "lineHeight": 1
+              },
+              "width": 550,
+              "height": 130
+            },
+            "start": 0.1,
+            "length": 4.48,
+            "offset": {
+              "x": -0.048,
+              "y": 0.377
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideUp",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title_2}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Poppins Medium",
+                "size": "100",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 130
+            },
+            "start": 0.2,
+            "length": 4.29,
+            "offset": {
+              "x": 0.067,
+              "y": 0.317
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Poppins",
+                "size": "32",
+                "lineHeight": 1
+              },
+              "width": 850,
+              "height": 850,
+              "background": {
+                "color": "{{ Web_COLOR }}"
+              }
+            },
+            "start": 0.8,
+            "length": 4.14,
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "carouselUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Poppins",
+                "size": "32",
+                "lineHeight": 1
+              },
+              "width": 2000,
+              "height": 406,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 0.3,
+            "length": 5,
+            "offset": {
+              "x": -0.033,
+              "y": -0.396
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Background_Text}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Poppins SemiBold",
+                "size": "300",
+                "lineHeight": 1,
+                "opacity": 0.26
+              },
+              "width": 5000,
+              "height": 400
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 4.98,
+                  "from": 0.232,
+                  "to": -0.396,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 4.98,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 4.98,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "scale": [
+              {
+                "start": 0,
+                "length": 4.98,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 4.98,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Background_Text}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Poppins SemiBold",
+                "size": "300",
+                "lineHeight": 1,
+                "opacity": 0.26
+              },
+              "width": 5000,
+              "height": 400
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 4.98,
+                  "from": -0.322,
+                  "to": 0.298,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 4.98,
+                  "from": -0.181,
+                  "to": -0.181,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 4.98,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "scale": [
+              {
+                "start": 0,
+                "length": 4.98,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 4.98,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Background_Text}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Poppins Medium",
+                "size": "300",
+                "lineHeight": 1,
+                "opacity": 0.26
+              },
+              "width": 5000,
+              "height": 400
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 4.98,
+                  "from": -0.353,
+                  "to": 0.135,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 4.98,
+                  "from": 0.17,
+                  "to": 0.17,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 4.98,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "scale": [
+              {
+                "start": 0,
+                "length": 4.98,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 4.98,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 314,
+              "height": 1126,
+              "background": {
+                "color": "{{ Shape_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.349,
+              "y": 0.207
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "position": "center"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "Title_1",
+      "replace": "NEW"
+    },
+    {
+      "find": "Title_2",
+      "replace": "ARRIVAL"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/new-arrival-showcase-template-product-launch-fashion/01c26c5e-8986-4cf1-86a0-11521ae0049d/source.png"
+    },
+    {
+      "find": "IMAGE_SRC_2",
+      "replace": "https://templates.shotstack.io/new-arrival-showcase-template-product-launch-fashion/1be99e62-02dd-405d-9108-f3686f99830e/source.png"
+    },
+    {
+      "find": "IMAGE_SRC_3",
+      "replace": "https://templates.shotstack.io/new-arrival-showcase-template-product-launch-fashion/0f95f226-4735-4a49-84fb-8bc7cad0a198/source.png"
+    },
+    {
+      "find": "IMAGE_SRC_4",
+      "replace": "https://templates.shotstack.io/new-arrival-showcase-template-product-launch-fashion/86aee47d-8894-4e01-a92a-0b7dbf7a78c3/source.png"
+    },
+    {
+      "find": "Background_Text",
+      "replace": "NEW ARRIVAL"
+    },
+    {
+      "find": "Web",
+      "replace": "WWW.WEDDINGGOWN.COM"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "Web_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "Shape_COLOR",
+      "replace": "#bababa"
+    },
+    {
+      "find": "Logo",
+      "replace": "https://templates.shotstack.io/new-arrival-showcase-template-product-launch-fashion/986c14e5-27cc-417c-9674-40d2d5b66f08/source.png"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/new-arrival-showcase-template-product-launch-fashion/f113b945-4541-4c31-9ba5-777d3d8643f9/source.mp3"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#e6e6e6"
+    },
+    {
+      "find": "Review_2",
+      "replace": "https://templates.shotstack.io/new-arrival-showcase-template-product-launch-fashion/52c286b1-9eda-4f36-9250-337235bc919e/source.png"
+    }
+  ]
+}

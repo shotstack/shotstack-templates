@@ -1,0 +1,513 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ WHITE_LOGO }}"
+            },
+            "start": 0.25,
+            "scale": 1,
+            "offset": {
+              "x": -0.21761955022024213,
+              "y": 0.3958862366651648
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "fit": "contain",
+            "width": 148,
+            "height": 142
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TITLE}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 72,
+                "weight": 700,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": 0.17,
+              "y": 0.394
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 650,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 3\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"3\" fill=\"{{ TEXT_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.193,
+              "y": -0.354
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 3\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"3\" fill=\"{{ TEXT_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": -0.193,
+              "y": -0.423
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{PROMO}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 56,
+                "weight": 500,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": 0.225,
+              "y": -0.373
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 200,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{EMAIL}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 35,
+                "weight": 500,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.55,
+            "length": "end",
+            "offset": {
+              "x": -0.193,
+              "y": -0.449
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 425,
+            "height": 99
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ADDRESS}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 29,
+                "weight": 500,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.45,
+            "length": "end",
+            "offset": {
+              "x": -0.193,
+              "y": -0.387
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 425,
+            "height": 99
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{AMOUNT}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 54,
+                "weight": 700,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.35,
+            "length": "end",
+            "offset": {
+              "x": -0.193,
+              "y": -0.321
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 420,
+            "height": 75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_TITLE}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 54,
+                "weight": 700,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": -0.193,
+              "y": -0.283
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 420,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/stylish-home-sale-great-offer/e75886f7-a00b-4b8a-9592-a369e7207329/source.png"
+            },
+            "start": 0.45,
+            "length": 9.55
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 400\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"400\" fill=\"{{ TEXT_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.45,
+            "length": "end",
+            "offset": {
+              "x": 0.225,
+              "y": -0.371
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 400,
+            "height": 400
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/stylish-home-sale-great-offer/6d8d9377-49e1-424c-ba95-050dd813333e/source.png"
+            },
+            "start": 0.2,
+            "length": 9.8
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 220 250\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"220\" height=\"250\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.318,
+              "y": -0.185
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 220,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 980 600\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"980\" height=\"600\" fill=\"{{ BACKGROUND_COLOR }}\" rx=\"51\" ry=\"51\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "y": -0.373,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 980,
+            "height": 600
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"#000000\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "opacity": 0.13,
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 10,
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/stylish-home-sale-great-offer/7dcfca70-2b9c-4b5d-a552-4b42b11f66c7/source.mp4",
+              "volume": 0
+            },
+            "start": 0,
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      }
+    ],
+    "fonts": [
+      {
+        "src": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm45xW5rygbi49c.ttf"
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "TITLE",
+      "replace": "New Listing Modern House"
+    },
+    {
+      "find": "S1_TITLE",
+      "replace": "Special Price"
+    },
+    {
+      "find": "AMOUNT",
+      "replace": "$770.200"
+    },
+    {
+      "find": "ADDRESS",
+      "replace": "Located at 123 Anywhere St., Any City, St"
+    },
+    {
+      "find": "EMAIL",
+      "replace": "@realestate.com"
+    },
+    {
+      "find": "PROMO",
+      "replace": "Get It Now"
+    },
+    {
+      "find": "WHITE_LOGO",
+      "replace": "https://templates.shotstack.io/stylish-home-sale-great-offer/c7848dc6-3e24-4520-969f-4f50a15a50a7/source.png"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#2f7db9"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "VIDEO_SRC",
+      "replace": "https://templates.shotstack.io/stylish-home-sale-great-offer/2442880b-e6ab-43d1-8264-a75baef5c623/shotstack-proxy.mp4"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/stylish-home-sale-great-offer/bf0d075a-e5a3-4e53-937e-959de3971219/source.mp3"
+    }
+  ]
+}

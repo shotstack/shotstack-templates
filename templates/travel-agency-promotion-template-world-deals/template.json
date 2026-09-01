@@ -1,0 +1,813 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Web}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_2 }}",
+                "family": "Montserrat ExtraBold",
+                "size": "33",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 72,
+              "background": {
+                "borderRadius": 35
+              }
+            },
+            "start": 0.65,
+            "length": "end",
+            "offset": {
+              "x": -0.296,
+              "y": -0.44
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Phone}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_2 }}",
+                "family": "Montserrat ExtraBold",
+                "size": "33",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 72,
+              "background": {
+                "borderRadius": 35
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": -0.32,
+              "y": -0.406
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Subtitle}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_2 }}",
+                "family": "Montserrat ExtraBold",
+                "size": "33",
+                "lineHeight": 1
+              },
+              "width": 600,
+              "height": 72,
+              "background": {
+                "color": "{{ SHAPE_COLOR_2 }}",
+                "borderRadius": 35
+              }
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.3
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "Montserrat ExtraBold",
+                "size": "81",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 250
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.368
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{CTA}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 250
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.25,
+              "y": 0.128
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/travel-agency-promotion-template-world-deals/bd263a8c-319a-481f-8f71-3a5673fe94f6/source.jpg"
+            },
+            "start": 0.5,
+            "transform": {
+              "rotate": {
+                "angle": 10
+              }
+            },
+            "scale": 0.2,
+            "offset": {
+              "x": 0.219,
+              "y": -0.271
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 456,
+              "height": 530,
+              "background": {
+                "color": "{{ SHAPE_COLOR_2 }}"
+              }
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": 0.211,
+              "y": -0.293
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 10
+              }
+            },
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/travel-agency-promotion-template-world-deals/3163a9d6-7868-4f19-9436-c7c4369b67d7/source.jpg"
+            },
+            "start": 0.4,
+            "offset": {
+              "y": -0.104,
+              "x": -0.09
+            },
+            "transform": {
+              "rotate": {
+                "angle": -10
+              }
+            },
+            "scale": 0.2,
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 456,
+              "height": 530,
+              "background": {
+                "color": "{{ SHAPE_COLOR_2 }}"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.086,
+              "y": -0.127
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -10
+              }
+            },
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/travel-agency-promotion-template-world-deals/6ebc0631-651e-473e-bc0f-794c8a6313e9/source.jpg"
+            },
+            "start": 0.3,
+            "transform": {
+              "rotate": {
+                "angle": 10
+              }
+            },
+            "scale": 0.2,
+            "offset": {
+              "x": 0.193,
+              "y": 0.123
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 456,
+              "height": 530,
+              "background": {
+                "color": "{{ SHAPE_COLOR_2 }}"
+              }
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": 0.186,
+              "y": 0.096
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 10
+              }
+            },
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 500,
+              "background": {
+                "color": "{{ SHAPE_COLOR_1 }}"
+              }
+            },
+            "start": 0.15,
+            "length": "end",
+            "offset": {
+              "x": 0.488,
+              "y": 0.258
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-agency-promotion-template-world-deals/37ea9b7c-5966-4250-ad76-150910173071/source.png"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 414,
+              "height": 414,
+              "background": {
+                "color": "{{ SHAPE_COLOR_2 }}"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.25,
+              "y": 0.119
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-agency-promotion-template-world-deals/878e963d-e545-4e90-839e-186546feb9e1/source.mp4"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 890,
+              "height": 890,
+              "background": {
+                "color": "{{ SHAPE_COLOR_1 }}"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0.468,
+              "y": -0.009
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-agency-promotion-template-world-deals/24c20591-9a14-432d-ae14-366eeccf89bb/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 600,
+              "height": 600,
+              "background": {
+                "color": "{{ SHAPE_COLOR_1 }}"
+              }
+            },
+            "start": 0.35,
+            "length": "end",
+            "offset": {
+              "x": -0.545,
+              "y": -0.129
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-agency-promotion-template-world-deals/eb906913-9958-4b16-bf3f-372b64f819a3/source.png"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 450,
+              "height": 450,
+              "background": {
+                "color": "{{ SHAPE_COLOR_1 }}"
+              }
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": 0.544,
+              "y": -0.34
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-agency-promotion-template-world-deals/75371459-db43-474f-9f67-b93781b9e3fb/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 450,
+              "height": 450,
+              "background": {
+                "color": "{{ SHAPE_COLOR_1 }}"
+              }
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": -0.476,
+              "y": 0.323
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-agency-promotion-template-world-deals/e3ac8457-3c7b-4fce-9971-7da08f190988/source.png"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-agency-promotion-template-world-deals/6f709470-66f8-466d-b82b-27fc9638cbb8/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 725,
+              "height": 725,
+              "background": {
+                "color": "{{ SHAPE_COLOR_2 }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.488,
+              "y": 0.577
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 725,
+              "height": 725,
+              "background": {
+                "color": "{{ SHAPE_COLOR_2 }}"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.349,
+              "y": -0.48
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-agency-promotion-template-world-deals/99199b78-bef3-431f-97a8-a1874f8abb9c/source.png"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "Title",
+      "replace": "EXPLORE THE WORLD"
+    },
+    {
+      "find": "Subtitle",
+      "replace": "WE'VE GOT YOU COVERED"
+    },
+    {
+      "find": "CTA",
+      "replace": "BOOK TODAY"
+    },
+    {
+      "find": "Phone",
+      "replace": "012-345-7890"
+    },
+    {
+      "find": "Web",
+      "replace": "www.travelsurvey.com"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#0642a2"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#ffae00"
+    },
+    {
+      "find": "SHAPE_COLOR_1",
+      "replace": "#20a4c5"
+    },
+    {
+      "find": "SHAPE_COLOR_2",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#03cafc"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/travel-agency-promotion-template-world-deals/fe5b0b54-cc47-4ff8-b745-afc62a385980/source.mp3"
+    }
+  ]
+}
