@@ -272,4 +272,4 @@ where you can preview it, open it in the Studio editor, or send it to your AI as
 
 ## License
 
-[MIT](LICENSE) — © Shotstack Pty Ltd. Regenerated from the Shotstack CMS by [scripts/export.mjs](scripts/export.mjs).
+[PolyForm Shield 1.0.0](LICENSE) — © Shotstack Pty Ltd. Regenerated from the Shotstack CMS by [scripts/export.mjs](scripts/export.mjs).
