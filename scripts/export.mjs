@@ -170,7 +170,7 @@ ${sections}
 
 ## License
 
-[PolyForm Shield 1.0.0](LICENSE) — © Shotstack Pty Ltd. Regenerated from the Shotstack CMS by [scripts/export.mjs](scripts/export.mjs).
+[PolyForm Shield 1.0.0](LICENSE) — © Shotstack Pty Ltd.
 `;
 }
 
