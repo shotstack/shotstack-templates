@@ -14,10 +14,11 @@ A video template for the Shotstack Edit API.
 
 ```sh
 npm install csv-parse
-SHOTSTACK_API_KEY=your_sandbox_key node render.mjs templates/modern-apparel-sale-promo-template-3d-v2
+SHOTSTACK_API_KEY=your_production_key node render.mjs templates/modern-apparel-sale-promo-template-3d-v2
 ```
 
-One video is rendered per `data.csv` row (free, watermarked sandbox renders — [get a key](https://dashboard.shotstack.io/register)).
+One video is rendered per `data.csv` row ([get a key](https://dashboard.shotstack.io/register)). For free
+watermarked test renders, use a sandbox key and switch `render.mjs` from `/v1/` to `/stage/`.
 
 ## Merge fields
 

@@ -10,10 +10,10 @@
  *      fields, lowercased — the folder's README lists the exact header row.
  *      Columns you leave out keep the template's default value.
  *   3. npm install csv-parse           (Node 18+)
- *   4. SHOTSTACK_API_KEY=your_sandbox_key node render.mjs templates/hello-world
+ *   4. SHOTSTACK_API_KEY=your_production_key node render.mjs templates/hello-world
  *
- * Sandbox renders are free and watermarked (get a key: https://dashboard.shotstack.io/register).
- * For production, replace /stage/ with /v1/ and use a production key.
+ * For free watermarked test renders, use a sandbox key and replace /v1/ with
+ * /stage/ below (get a key: https://dashboard.shotstack.io/register).
  * For big batches, add a callback URL per request instead of polling:
  * https://shotstack.io/docs/guide/architecting-an-application/webhooks/
  */
@@ -22,11 +22,11 @@ import { join } from 'node:path';
 import { parse } from 'csv-parse/sync';
 
 if (!process.env.SHOTSTACK_API_KEY) {
-  console.error('Set SHOTSTACK_API_KEY first (step 4). Free sandbox key: https://dashboard.shotstack.io/register');
+  console.error('Set SHOTSTACK_API_KEY first (step 4). Get a key: https://dashboard.shotstack.io/register');
   process.exit(1);
 }
 
-const API = 'https://api.shotstack.io/edit/stage/render';
+const API = 'https://api.shotstack.io/edit/v1/render';
 const headers = { 'x-api-key': process.env.SHOTSTACK_API_KEY, 'Content-Type': 'application/json' };
 
 const dir = process.argv[2] ?? '.';

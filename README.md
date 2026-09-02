@@ -8,12 +8,12 @@ and a README with its merge fields, so you can render it, batch-personalise it, 
 
 ```sh
 npm install csv-parse
-SHOTSTACK_API_KEY=your_sandbox_key node render.mjs templates/<slug>
+SHOTSTACK_API_KEY=your_production_key node render.mjs templates/<slug>
 ```
 
 [render.mjs](render.mjs) renders any template once per row of a `data.csv` you put in its folder —
-each column overrides the merge field of the same name. Sandbox renders are free and watermarked
-([get a key](https://dashboard.shotstack.io/register)).
+each column overrides the merge field of the same name ([get a key](https://dashboard.shotstack.io/register)).
+For free watermarked test renders, use a sandbox key and switch `render.mjs` from `/v1/` to `/stage/`.
 
 Prefer a UI? Every template links to its page on [shotstack.io/studio/templates](https://shotstack.io/studio/templates/),
 where you can preview it, open it in the Studio editor, or send it to your AI assistant via the
