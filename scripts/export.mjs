@@ -170,7 +170,9 @@ ${sections}
 
 ## License
 
-[PolyForm Shield 1.0.0](LICENSE) — © Shotstack Pty Ltd.
+[PolyForm Shield 1.0.0](LICENSE) — © Shotstack Pty Ltd. The media assets the templates reference
+(hosted on \`templates.shotstack.io\`) remain the property of Shotstack Pty Ltd and may only be used
+with the Shotstack platform, per the [Terms of Service](${SITE}/terms/).
 `;
 }
 
