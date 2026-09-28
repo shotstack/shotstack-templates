@@ -1,0 +1,426 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/art-holiday-cultural-event-story-template/8c5b564d-a2bf-472f-a28d-545e0d107aa2/source.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/pacifico/v23/FwZY7-Qmy14u9lezJ96A4sijpFu_.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm45xW5rygbi49c.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Social_Handle}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 30,
+                "weight": 600,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "transition": {
+              "in": "slideUp"
+            },
+            "offset": {
+              "x": 0,
+              "y": -0.4670000000000001
+            },
+            "position": "center",
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 800\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"800\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.056
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 800
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/art-holiday-cultural-event-story-template/a348aea8-175e-4cbf-9537-3a8aaab328f9/source.png"
+            },
+            "start": 0.6,
+            "length": 13.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title}}",
+              "font": {
+                "family": "FwZY7-Qmy14u9lezJ96A4sijpFu_",
+                "size": 78,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.455
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 800,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 800\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"800\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.005,
+              "y": 0.447
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 800,
+            "height": 800
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/art-holiday-cultural-event-story-template/2458c5fc-2b04-484f-b8ab-f9c9df508670/source.png"
+            },
+            "start": 0,
+            "length": 14
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Body}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 46,
+                "weight": 600,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "up",
+                "duration": 0.6,
+                "style": "word"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.414
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 750,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Subtitle}}",
+              "font": {
+                "family": "FwZY7-Qmy14u9lezJ96A4sijpFu_",
+                "size": 75,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "down",
+                "style": "word",
+                "duration": 0.7
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.16
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1280 2120\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1280\" height=\"2120\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.016
+            },
+            "position": "center",
+            "width": 1280,
+            "height": 2120
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/art-holiday-cultural-event-story-template/5b977323-137e-4d91-9495-ad7eed5c9ef0/source.png"
+            },
+            "start": 0,
+            "length": 14
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1280 2120\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1280\" height=\"2120\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 14,
+            "offset": {
+              "y": -0.024
+            },
+            "position": "center",
+            "width": 1280,
+            "height": 2120
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/art-holiday-cultural-event-story-template/aa78f04e-00ee-4a2a-b4e5-e48b039c98dc/source.png"
+            },
+            "start": 0,
+            "length": 14
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 900 248\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"900\" height=\"248\" fill=\"#d3b91f\" fill-opacity=\"0.34\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.445
+            },
+            "position": "center",
+            "width": 900,
+            "height": 248
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 6.5,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_1 }}",
+              "volume": 0
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": 0.0050000000000000044,
+              "y": -0.07827364582797158
+            },
+            "position": "center",
+            "width": 956,
+            "height": 1702,
+            "fit": "contain"
+          },
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_2 }}",
+              "volume": 0
+            },
+            "start": 6.5,
+            "offset": {
+              "x": 0,
+              "y": -0.08080208333333339
+            },
+            "position": "center",
+            "scale": 1,
+            "fit": "contain",
+            "width": 884,
+            "height": 1483
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Title",
+      "replace": "Artistry Holiday"
+    },
+    {
+      "find": "Body",
+      "replace": "A holiday filled with culture & inspiration"
+    },
+    {
+      "find": "Subtitle",
+      "replace": "Walking Inside Creativity"
+    },
+    {
+      "find": "VIDEO_1",
+      "replace": "https://templates.shotstack.io/art-holiday-cultural-event-story-template/0f7b70d4-e2c9-4cf1-a58c-042835667b45/source.mp4"
+    },
+    {
+      "find": "VIDEO_2",
+      "replace": "https://templates.shotstack.io/art-holiday-cultural-event-story-template/6c0ee0f9-5fec-4079-864e-757c7e688b33/source.mp4"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#d3b91f"
+    },
+    {
+      "find": "Social_Handle",
+      "replace": "@vacationsurvey"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/art-holiday-cultural-event-story-template/7e8221bd-ba34-4fc1-a29c-2a88ff266f32/source.mp3"
+    }
+  ]
+}

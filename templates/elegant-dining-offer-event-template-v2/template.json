@@ -1,0 +1,1004 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-dining-offer-event-template/b38d73eb-233b-4dc6-ba50-8c1df8a1c5be/source.mp4"
+            },
+            "start": 27.93,
+            "length": 5.07
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 240 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"240\" height=\"240\" fill=\"{{ SHAPE_COLOR_1 }}\"/></svg>"
+            },
+            "start": 27.93,
+            "length": 5.07,
+            "offset": {
+              "x": -0.286,
+              "y": 0.255
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 240,
+            "height": 240
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S6_Search}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "weight": 600,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "background": {
+                "opacity": 0.83,
+                "borderRadius": 50
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "character"
+              }
+            },
+            "start": 27.98,
+            "length": 5.02,
+            "offset": {
+              "x": 0.04,
+              "y": 0.401
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeSlow"
+            },
+            "width": 700,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-dining-offer-event-template/264d3f31-9524-4d5a-ab79-42ce11088d6a/source.png"
+            },
+            "start": 27.75,
+            "length": 5.25
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"60\" height=\"60\" fill=\"{{ SHAPE_COLOR_2 }}\" fill-opacity=\"0.83\"/></svg>"
+            },
+            "start": 27.75,
+            "length": 5.25,
+            "offset": {
+              "x": -0.35,
+              "y": 0.401
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 60,
+            "height": 60
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 900 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"900\" height=\"100\" fill=\"{{ SHAPE_COLOR_1 }}\" fill-opacity=\"0.83\" rx=\"50\" ry=\"50\"/></svg>"
+            },
+            "start": 27.5,
+            "length": 5.5,
+            "offset": {
+              "x": 0,
+              "y": 0.401
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 900,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5.5,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/elegant-dining-offer-event-template/8c0ff0a9-bb49-48bc-9ed9-72f9808345fc/source.jpg"
+            },
+            "start": 27.5,
+            "fit": "crop",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": -0.0007807004080888184
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-dining-offer-event-template/a72d823c-3c55-44a2-804f-c9704704a630/source.mp4"
+            },
+            "start": 22.9,
+            "length": 4.6
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 240 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"240\" height=\"240\" fill=\"{{ SHAPE_COLOR_1 }}\"/></svg>"
+            },
+            "start": 22.9,
+            "length": 4.6,
+            "offset": {
+              "x": -0.111,
+              "y": -0.363
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "width": 240,
+            "height": 240
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S5_Search}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "weight": 600,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "background": {
+                "opacity": 0.83,
+                "borderRadius": 50
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "character"
+              }
+            },
+            "start": 22.61,
+            "length": 4.89,
+            "offset": {
+              "x": 0.04,
+              "y": 0.401
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeSlow",
+              "out": "fade"
+            },
+            "width": 700,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-dining-offer-event-template/2df92990-fe9f-4dde-8146-2b75022badd9/source.png"
+            },
+            "start": 22.32,
+            "length": 5.18
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"60\" height=\"60\" fill=\"{{ SHAPE_COLOR_2 }}\" fill-opacity=\"0.83\"/></svg>"
+            },
+            "start": 22.32,
+            "length": 5.18,
+            "offset": {
+              "x": -0.35,
+              "y": 0.401
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "width": 60,
+            "height": 60
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 900 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"900\" height=\"100\" fill=\"{{ SHAPE_COLOR_1 }}\" fill-opacity=\"0.83\" rx=\"50\" ry=\"50\"/></svg>"
+            },
+            "start": 22,
+            "length": 5.5,
+            "offset": {
+              "x": 0,
+              "y": 0.401
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "width": 900,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5.5,
+            "asset": {
+              "type": "image",
+              "src": "{{ S5_IMAGE }}"
+            },
+            "start": 22,
+            "fit": "crop",
+            "width": 1103,
+            "height": 1971,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 240 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"240\" height=\"240\" fill=\"{{ SHAPE_COLOR_1 }}\"/></svg>"
+            },
+            "start": 16.98,
+            "length": 5.02,
+            "offset": {
+              "x": 0.367,
+              "y": -0.395
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "width": 240,
+            "height": 240
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-dining-offer-event-template/04f0cd33-8b29-469a-96d3-76fbe5216895/source.mp4"
+            },
+            "start": 16.98,
+            "length": 5.02
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S4_Search}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "weight": 600,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "background": {
+                "opacity": 0.83,
+                "borderRadius": 50
+              },
+              "animation": {
+                "preset": "typewriter"
+              }
+            },
+            "start": 16.99,
+            "length": 5.01,
+            "offset": {
+              "x": 0.04,
+              "y": 0.401
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeSlow",
+              "out": "fade"
+            },
+            "width": 700,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"60\" height=\"60\" fill=\"{{ SHAPE_COLOR_2 }}\" fill-opacity=\"0.83\"/></svg>"
+            },
+            "start": 16.78,
+            "length": 5.22,
+            "offset": {
+              "x": -0.35,
+              "y": 0.401
+            },
+            "position": "center",
+            "width": 60,
+            "height": 60
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-dining-offer-event-template/22dc12d2-dd1a-4048-8a1c-bbeb6b577fc2/source.png"
+            },
+            "start": 16.78,
+            "length": 5.22
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 900 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"900\" height=\"100\" fill=\"{{ SHAPE_COLOR_1 }}\" fill-opacity=\"0.83\" rx=\"50\" ry=\"50\"/></svg>"
+            },
+            "start": 16.5,
+            "length": 5.5,
+            "offset": {
+              "x": 0,
+              "y": 0.401
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "width": 900,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5.5,
+            "asset": {
+              "type": "image",
+              "src": "{{ S4_IMAGE }}"
+            },
+            "start": 16.5,
+            "fit": "crop",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 240 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"240\" height=\"240\" fill=\"{{ SHAPE_COLOR_1 }}\"/></svg>"
+            },
+            "start": 11.46,
+            "length": 5.04,
+            "offset": {
+              "x": -0.239,
+              "y": -0.185
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "width": 240,
+            "height": 240
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-dining-offer-event-template/eee2a94c-0872-4a47-941c-f2a1c876c474/source.mp4"
+            },
+            "start": 11.46,
+            "length": 5.04
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_Search}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "weight": 600,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "background": {
+                "opacity": 0.83,
+                "borderRadius": 50
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "character"
+              }
+            },
+            "start": 11.55,
+            "length": 4.95,
+            "offset": {
+              "x": 0.04,
+              "y": 0.401
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeSlow",
+              "out": "fade"
+            },
+            "width": 700,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-dining-offer-event-template/ac5c4b29-7abf-44c3-86ee-de4a0bf652fb/source.png"
+            },
+            "start": 11.27,
+            "length": 5.23
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"60\" height=\"60\" fill=\"{{ SHAPE_COLOR_2 }}\" fill-opacity=\"0.83\"/></svg>"
+            },
+            "start": 11.27,
+            "length": 5.23,
+            "offset": {
+              "x": -0.35,
+              "y": 0.401
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "width": 60,
+            "height": 60
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 900 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"900\" height=\"100\" fill=\"{{ SHAPE_COLOR_1 }}\" fill-opacity=\"0.83\" rx=\"50\" ry=\"50\"/></svg>"
+            },
+            "start": 11,
+            "length": 5.5,
+            "offset": {
+              "x": 0,
+              "y": 0.401
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "width": 900,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5.5,
+            "asset": {
+              "type": "image",
+              "src": "{{ S3_IMAGE }}"
+            },
+            "start": 11,
+            "fit": "crop",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-dining-offer-event-template/c449f5ec-0a72-4972-8831-2848614c32e7/source.mp4"
+            },
+            "start": 5.97,
+            "length": 5.03
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 240 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"240\" height=\"240\" fill=\"{{ SHAPE_COLOR_1 }}\"/></svg>"
+            },
+            "start": 5.97,
+            "length": 5.03,
+            "offset": {
+              "x": 0,
+              "y": -0.31
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "width": 240,
+            "height": 240
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_Search}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "weight": 600,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "background": {
+                "opacity": 0.83,
+                "borderRadius": 50
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "character"
+              }
+            },
+            "start": 5.97,
+            "length": 5.03,
+            "offset": {
+              "x": 0.04,
+              "y": 0.401
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "fadeSlow"
+            },
+            "width": 700,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"60\" height=\"60\" fill=\"{{ SHAPE_COLOR_2 }}\" fill-opacity=\"0.83\"/></svg>"
+            },
+            "start": 5.72,
+            "length": 5.28,
+            "offset": {
+              "x": -0.35,
+              "y": 0.401
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "width": 60,
+            "height": 60
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-dining-offer-event-template/dfc4c6b2-2087-40a4-b793-9638ca0e6d24/source.png"
+            },
+            "start": 5.72,
+            "length": 5.28
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 900 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"900\" height=\"100\" fill=\"{{ SHAPE_COLOR_1 }}\" fill-opacity=\"0.83\" rx=\"50\" ry=\"50\"/></svg>"
+            },
+            "start": 5.5,
+            "length": 5.5,
+            "offset": {
+              "x": 0,
+              "y": 0.401
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "width": 900,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5.5,
+            "asset": {
+              "type": "image",
+              "src": "{{ S2_IMAGE }}"
+            },
+            "start": 5.5,
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 240 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"240\" height=\"240\" fill=\"{{ SHAPE_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.34,
+            "length": 5.16,
+            "offset": {
+              "x": 0,
+              "y": -0.31
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "width": 240,
+            "height": 240
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-dining-offer-event-template/6720a45b-768c-4b55-aef8-ef3d9e549f40/source.mp4"
+            },
+            "start": 0.34,
+            "length": 5.16
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Search}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "weight": 600,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "background": {
+                "opacity": 0.83,
+                "borderRadius": 50
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "character"
+              }
+            },
+            "start": 0.4,
+            "length": 5.1,
+            "offset": {
+              "x": 0.04,
+              "y": 0.401
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeSlow",
+              "out": "fade"
+            },
+            "width": 700,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"60\" height=\"60\" fill=\"{{ SHAPE_COLOR_2 }}\" fill-opacity=\"0.83\"/></svg>"
+            },
+            "start": 0.16,
+            "length": 5.34,
+            "offset": {
+              "x": -0.35,
+              "y": 0.401
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "width": 60,
+            "height": 60
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-dining-offer-event-template/8801ea73-ae65-485c-b571-9dfd383414bd/source.png"
+            },
+            "start": 0.16,
+            "length": 5.34
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 900 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"900\" height=\"100\" fill=\"{{ SHAPE_COLOR_1 }}\" fill-opacity=\"0.83\" rx=\"50\" ry=\"50\"/></svg>"
+            },
+            "start": 0,
+            "length": 5.5,
+            "offset": {
+              "x": 0,
+              "y": 0.401
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "width": 900,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5.5,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE }}"
+            },
+            "start": 0,
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "S1_Search",
+      "replace": "Is there a place where flavor becomes emotion?"
+    },
+    {
+      "find": "S1_IMAGE",
+      "replace": "https://templates.shotstack.io/elegant-dining-offer-event-template/88d2752f-5698-4f32-9287-f4b6807ae89b/source.jpg"
+    },
+    {
+      "find": "S2_Search",
+      "replace": "Can one table change the way you dine forever?"
+    },
+    {
+      "find": "S2_IMAGE",
+      "replace": "https://templates.shotstack.io/elegant-dining-offer-event-template/a4dbdb1a-6bb0-40bf-912b-fbf3620d6817/source.jpg"
+    },
+    {
+      "find": "S3_Search",
+      "replace": "Is this where artistry wears an apron?"
+    },
+    {
+      "find": "S3_IMAGE",
+      "replace": "https://templates.shotstack.io/elegant-dining-offer-event-template/bd8fd4ff-65b3-4eb5-a1e2-e1e5bb03eaa3/source.jpg"
+    },
+    {
+      "find": "S4_Search",
+      "replace": "Can dinner taste better under the stars?"
+    },
+    {
+      "find": "S4_IMAGE",
+      "replace": "https://templates.shotstack.io/elegant-dining-offer-event-template/d7431686-55b5-4c84-a4a0-e073688fe31b/source.jpg"
+    },
+    {
+      "find": "S5_Search",
+      "replace": "Can a simple dinner turn into something more?"
+    },
+    {
+      "find": "S5_IMAGE",
+      "replace": "https://templates.shotstack.io/elegant-dining-offer-event-template/0b37a703-623a-4c11-9568-c0b4284456f3/source.jpg"
+    },
+    {
+      "find": "S6_Search",
+      "replace": "where excellence meets your appetite"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "SHAPE_COLOR_1",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "SHAPE_COLOR_2",
+      "replace": "#8ed3f5"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/elegant-dining-offer-event-template/436cd7ea-66fe-42cc-ab77-e99c48724987/source.mp3"
+    }
+  ]
+}

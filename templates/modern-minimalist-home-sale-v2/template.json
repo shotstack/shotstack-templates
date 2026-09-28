@@ -1,0 +1,502 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/modern-minimalist-home-sale/f0edfe96-0a15-46e4-b50d-ba3848ebfe12/J7aRnpd8CGxBHpUutLY.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/modern-minimalist-home-sale/20ea05c7-c422-4f15-b93e-61dce1cd0b69/_Xmo-Hk0rD6DbUL4_vH8Zp5q5ig.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/modern-minimalist-home-sale/7c6e246f-bbec-48fa-b404-e4d27006bdb8/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup5.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/dancingscript/v29/If2RXTr6YS-zF4S-kcSWSVi_swLngOAliz4X.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/amiriquran/v19/_Xmo-Hk0rD6DbUL4_vH8Zq5t7Cycsu-2.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{PHONE}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 51,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "middle"
+              }
+            },
+            "start": 2.8,
+            "length": "end",
+            "offset": {
+              "x": 0.233,
+              "y": -0.44
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 408,
+            "height": 96
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{AMOUNT}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 51,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 2.4,
+            "length": "end",
+            "offset": {
+              "x": -0.242,
+              "y": -0.44
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 408,
+            "height": 96
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_CTA}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 40,
+                "weight": 800,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "middle"
+              }
+            },
+            "start": 2.4,
+            "length": "end",
+            "transition": {
+              "in": "slideUp"
+            },
+            "offset": {
+              "x": 0.279,
+              "y": -0.396
+            },
+            "position": "center",
+            "width": 300,
+            "height": 77
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_TITLE}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 40,
+                "weight": 800,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 2,
+            "length": "end",
+            "transition": {
+              "in": "slideUp"
+            },
+            "offset": {
+              "x": -0.252,
+              "y": -0.396
+            },
+            "position": "center",
+            "width": 387,
+            "height": 77
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 9.2,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0.8,
+            "transition": {
+              "in": "slideUp"
+            },
+            "scale": 1,
+            "transform": {
+              "rotate": {
+                "angle": 12
+              }
+            },
+            "offset": {
+              "x": 0.13688888888888884,
+              "y": 0.05565610097765833
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 453,
+            "height": 456
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 500 500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"500\" height=\"500\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.8,
+            "length": "end",
+            "transform": {
+              "rotate": {
+                "angle": 12
+              }
+            },
+            "offset": {
+              "x": 0.138,
+              "y": 0.056
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 500,
+            "height": 500
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 1.2,
+            "scale": 1,
+            "offset": {
+              "x": -0.1702223690789022,
+              "y": -0.127
+            },
+            "transform": {
+              "rotate": {
+                "angle": -4
+              }
+            },
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 453,
+            "height": 456
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 500 500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"500\" height=\"500\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 1.2,
+            "length": "end",
+            "transform": {
+              "rotate": {
+                "angle": -4
+              }
+            },
+            "offset": {
+              "x": -0.174,
+              "y": -0.127
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 500,
+            "height": 500
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 40,
+                "weight": 800,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 0
+              }
+            },
+            "start": 1.6,
+            "length": "end",
+            "transition": {
+              "in": "slideUp"
+            },
+            "offset": {
+              "x": 0.264,
+              "y": -0.34
+            },
+            "position": "center",
+            "width": 350,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION_2}}",
+              "font": {
+                "family": "Dancing Script",
+                "size": 115,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.253,
+              "y": 0.226
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 400,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TITLE}}",
+              "font": {
+                "family": "Amiri Quran",
+                "size": 140,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "top"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.063,
+              "y": 0.357
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 841,
+            "height": 301
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 10,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/modern-minimalist-home-sale/9f5e7933-271b-477f-a0cf-a757882362af/source.png"
+            },
+            "start": 0,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "contain"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "TITLE",
+      "replace": "MINIMALIST HOME"
+    },
+    {
+      "find": "DESCRIPTION_2",
+      "replace": "for sale"
+    },
+    {
+      "find": "CTA",
+      "replace": "ORDER NOW"
+    },
+    {
+      "find": "S1_TITLE",
+      "replace": "STARTING PRICE:"
+    },
+    {
+      "find": "AMOUNT",
+      "replace": "$2,000,000"
+    },
+    {
+      "find": "S1_CTA",
+      "replace": "CALL US"
+    },
+    {
+      "find": "PHONE",
+      "replace": "+123-456-7890"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#563939"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/modern-minimalist-home-sale/779d3bbe-11b3-4c4b-8899-3fdfbc519b43/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_2",
+      "replace": "https://templates.shotstack.io/modern-minimalist-home-sale/8c52bc20-2b5d-4469-ba16-57f996cedbd2/source.jpg"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#d2b99d"
+    }
+  ]
+}

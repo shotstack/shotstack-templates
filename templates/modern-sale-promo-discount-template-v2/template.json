@@ -1,0 +1,317 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 48,
+                "weight": 800,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "#6d739c",
+                "opacity": 1,
+                "borderRadius": 0
+              }
+            },
+            "start": 2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.365
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 365,
+            "height": 92
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_DESCRIPTION}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 290,
+                "weight": 600,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.5,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.108
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 700,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_DESCRIPTION}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 280,
+                "weight": 800,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.067
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 950,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_TITLE}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 64,
+                "weight": 800,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.183
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 700,
+            "height": 120
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{WEBSITE}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 40,
+                "weight": 600,
+                "color": "#000000",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.335
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 600,
+            "height": 120
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 10,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/modern-sale-promo-discount-template/30c2dbf1-5a95-4e38-895b-341eedaaca22/source.png"
+            },
+            "start": 0,
+            "position": "center",
+            "fit": "contain",
+            "width": 1080,
+            "height": 1350,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0,
+            "offset": {
+              "x": 0,
+              "y": -0.10592592592592598
+            },
+            "position": "center",
+            "opacity": 1,
+            "fit": "contain",
+            "width": 1080,
+            "height": 1636
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1350
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "WEBSITE",
+      "replace": "www.workshop.com"
+    },
+    {
+      "find": "S1_TITLE",
+      "replace": "DISCOUNT UP TO"
+    },
+    {
+      "find": "S1_DESCRIPTION",
+      "replace": "30%"
+    },
+    {
+      "find": "S2_DESCRIPTION",
+      "replace": "OFF"
+    },
+    {
+      "find": "CTA",
+      "replace": "SHOP NOW"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/modern-sale-promo-discount-template/d132b805-cfc5-4014-b348-fe19bad098c5/source.jpg"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/modern-sale-promo-discount-template/ec8537a2-3631-4920-872f-808c9155e458/source.mp3"
+    }
+  ]
+}

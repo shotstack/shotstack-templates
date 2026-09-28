@@ -1,0 +1,569 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/tropical-escape-seasonal-offer-travel-promo/c909789a-6a21-42c8-a600-49b9886ccdab/source.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/greatvibes/v21/RWmMoKWR9v4ksMfaWd_JN-XCg6UKDXlq.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "fit": "contain",
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/tropical-escape-seasonal-offer-travel-promo/pivlpf1xstbxow1w9aebi571/source_24affa42.webm"
+            },
+            "start": 12,
+            "scale": 1,
+            "offset": {
+              "x": 0.15833333333333333,
+              "y": 0.2970833333333333
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 57.21
+              }
+            },
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 150,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S4_Text}}",
+              "font": {
+                "family": "Great Vibes",
+                "size": 150,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 12,
+            "length": "end",
+            "offset": {
+              "x": -0.05,
+              "y": 0.245
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 346.21
+              }
+            },
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 600,
+            "height": 350
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "{{ S4_VIDEO }}",
+              "volume": 0
+            },
+            "start": 12,
+            "transition": {
+              "in": "fade"
+            },
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.95,
+            "fit": "contain",
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/tropical-escape-seasonal-offer-travel-promo/pivlpf1xstbxow1w9aebi571/source_24affa42.webm"
+            },
+            "start": 9.0093,
+            "scale": 1,
+            "offset": {
+              "x": 0.17092592592592593,
+              "y": 0.2690208333333333
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 52
+              }
+            },
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 150,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_Text_2}}",
+              "font": {
+                "family": "Great Vibes",
+                "size": 130,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 8.99,
+            "length": 3.03,
+            "offset": {
+              "x": -0.117,
+              "y": 0.176
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "fade"
+            },
+            "width": 800,
+            "height": 350
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_Text_1}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 110,
+                "weight": 800,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 8.79,
+            "length": 3.21,
+            "offset": {
+              "x": -0.13,
+              "y": 0.256
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "fade"
+            },
+            "width": 800,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.5,
+            "asset": {
+              "type": "video",
+              "src": "{{ S3_VIDEO }}",
+              "volume": 0
+            },
+            "start": 8.5,
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_Text}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 80,
+                "weight": 800,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "left",
+                "style": "word"
+              }
+            },
+            "start": 4.55,
+            "length": 3.92,
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideRight"
+            },
+            "width": 900,
+            "height": 400
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.35,
+            "asset": {
+              "type": "video",
+              "src": "{{ S2_VIDEO_3 }}",
+              "volume": 0,
+              "trim": 0.26
+            },
+            "start": 4.15,
+            "scale": 1,
+            "offset": {
+              "x": -0.006,
+              "y": -0.335
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft",
+              "out": "fade"
+            },
+            "fit": "contain",
+            "width": 1127,
+            "height": 641
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.76,
+            "asset": {
+              "type": "video",
+              "src": "{{ S2_VIDEO_2 }}",
+              "trim": 0.22,
+              "volume": 0
+            },
+            "start": 3.74,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": -0.0000505500794811967
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft",
+              "out": "fade"
+            },
+            "fit": "contain",
+            "width": 1171,
+            "height": 677
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "{{ S2_VIDEO_1 }}",
+              "volume": 0
+            },
+            "start": 3.5,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0.3347297095604413
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft",
+              "out": "fade"
+            },
+            "width": 1127,
+            "height": 641,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Title_1}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 150,
+                "weight": 800,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.52,
+            "length": 2.98,
+            "offset": {
+              "x": 0,
+              "y": -0.057
+            },
+            "position": "center",
+            "transition": {
+              "out": "carouselLeft",
+              "in": "slideRight"
+            },
+            "width": 800,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Title_2}}",
+              "font": {
+                "family": "Great Vibes",
+                "size": 150,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.14,
+            "length": 3.36,
+            "offset": {
+              "x": 0,
+              "y": 0.013
+            },
+            "position": "center",
+            "transition": {
+              "out": "carouselLeft",
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.5,
+            "asset": {
+              "type": "video",
+              "src": "{{ S1_VIDEO }}",
+              "volume": 0
+            },
+            "start": 0,
+            "transition": {
+              "out": "fade"
+            },
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "S1_Title_1",
+      "replace": "ESCAPE"
+    },
+    {
+      "find": "S1_Title_2",
+      "replace": "Beach"
+    },
+    {
+      "find": "S1_VIDEO",
+      "replace": "https://templates.shotstack.io/tropical-escape-seasonal-offer-travel-promo/1457e2f0-1259-461f-b93e-3d78da5b5854/source.mp4"
+    },
+    {
+      "find": "S2_Text",
+      "replace": "Enjoying the peaceful harmony of nature all around."
+    },
+    {
+      "find": "S2_VIDEO_1",
+      "replace": "https://templates.shotstack.io/tropical-escape-seasonal-offer-travel-promo/72958fdb-d34f-4d47-9709-714ea3b2c220/source.mp4"
+    },
+    {
+      "find": "S2_VIDEO_2",
+      "replace": "https://templates.shotstack.io/tropical-escape-seasonal-offer-travel-promo/26e3b1c6-c50a-42f4-ba0e-577d572d3f2b/source.mp4"
+    },
+    {
+      "find": "S2_VIDEO_3",
+      "replace": "https://templates.shotstack.io/tropical-escape-seasonal-offer-travel-promo/49cc3363-7315-43e7-90f1-79fd82bb0755/source.mp4"
+    },
+    {
+      "find": "S3_Text_2",
+      "replace": "stretching beyond sight"
+    },
+    {
+      "find": "S3_Text_1",
+      "replace": "Horizon"
+    },
+    {
+      "find": "S3_VIDEO",
+      "replace": "https://templates.shotstack.io/tropical-escape-seasonal-offer-travel-promo/654e63bb-35ef-4008-9dd5-bb3ed33148fe/source.mp4"
+    },
+    {
+      "find": "S4_Text",
+      "replace": "Let the ocean call"
+    },
+    {
+      "find": "S4_VIDEO",
+      "replace": "https://templates.shotstack.io/tropical-escape-seasonal-offer-travel-promo/45d86119-0a26-4e1e-a20d-0887d46889aa/source.mp4"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#29871f"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/tropical-escape-seasonal-offer-travel-promo/7c4e28b0-a19b-45ae-8229-f75d01311241/source.mp3"
+    }
+  ]
+}

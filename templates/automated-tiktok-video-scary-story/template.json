@@ -1,0 +1,339 @@
+{
+  "timeline": {
+    "background": "#000000",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ HEADLINE }}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 467,
+              "height": 229
+            },
+            "start": 0,
+            "length": "auto",
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0.317
+            },
+            "position": "center",
+            "transition": {
+              "in": "wipeLeft",
+              "out": "wipeLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "auto",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/automated-tiktok-video-scary-story/44e93eda-067e-43d4-8949-24ba3eeda33d.png"
+            },
+            "start": 0,
+            "scale": 0.2,
+            "offset": {
+              "x": 0,
+              "y": 0.317
+            },
+            "position": "center",
+            "transition": {
+              "out": "wipeLeft",
+              "in": "wipeLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "auto",
+            "asset": {
+              "voice": "Amy",
+              "text": "{{ VOICEOVER }}",
+              "type": "text-to-speech"
+            },
+            "start": 0,
+            "alias": "VOICEOVER"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "caption",
+              "src": "alias://VOICEOVER",
+              "background": {
+                "color": "#ffffff",
+                "padding": 20,
+                "borderRadius": 8
+              },
+              "font": {
+                "color": "#000000",
+                "size": "36",
+                "family": "Montserrat SemiBold"
+              }
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "fit": "none",
+            "scale": 1,
+            "length": 5,
+            "asset": {
+              "width": "768",
+              "height": "1280",
+              "type": "text-to-image",
+              "prompt": "{{ IMAGE_2_PROMPT }}"
+            },
+            "start": 4,
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "effect": "zoomOut"
+          },
+          {
+            "fit": "none",
+            "scale": 1,
+            "length": 5,
+            "asset": {
+              "width": "768",
+              "height": "1280",
+              "type": "text-to-image",
+              "prompt": "{{ IMAGE_4_PROMPT }}"
+            },
+            "start": 12,
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "effect": "slideRight"
+          },
+          {
+            "fit": "none",
+            "scale": 1,
+            "length": 5,
+            "asset": {
+              "width": "768",
+              "height": "1280",
+              "type": "text-to-image",
+              "prompt": "{{ IMAGE_6_PROMPT }}"
+            },
+            "start": 20,
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "effect": "slideDown"
+          },
+          {
+            "fit": "none",
+            "scale": 1,
+            "length": 5,
+            "asset": {
+              "width": "768",
+              "height": "1280",
+              "type": "text-to-image",
+              "prompt": "{{ IMAGE_8_PROMPT }}"
+            },
+            "start": 28,
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "effect": "zoomOut"
+          },
+          {
+            "fit": "none",
+            "scale": 1,
+            "length": "end",
+            "asset": {
+              "width": "768",
+              "height": "1280",
+              "type": "text-to-image",
+              "prompt": "{{ IMAGE_10_PROMPT }}"
+            },
+            "start": 36,
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "effect": "slideRight"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "width": "768",
+              "height": "1280",
+              "type": "text-to-image",
+              "prompt": "{{ IMAGE_1_PROMPT }}"
+            },
+            "start": 0,
+            "transition": {
+              "out": "fade"
+            },
+            "effect": "zoomIn",
+            "position": "center"
+          },
+          {
+            "fit": "none",
+            "scale": 1,
+            "length": 5,
+            "asset": {
+              "width": "768",
+              "height": "1280",
+              "type": "text-to-image",
+              "prompt": "{{ IMAGE_3_PROMPT }}"
+            },
+            "start": 8,
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "effect": "slideLeft",
+            "offset": {
+              "x": 0.021,
+              "y": 0
+            },
+            "position": "center"
+          },
+          {
+            "fit": "none",
+            "scale": 1,
+            "length": 5,
+            "asset": {
+              "width": "768",
+              "height": "1280",
+              "type": "text-to-image",
+              "prompt": "{{ IMAGE_5_PROMPT }}"
+            },
+            "start": 16,
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "effect": "slideUp"
+          },
+          {
+            "fit": "none",
+            "scale": 1,
+            "length": 5,
+            "asset": {
+              "width": "768",
+              "height": "1280",
+              "type": "text-to-image",
+              "prompt": "{{ IMAGE_7_PROMPT }}"
+            },
+            "start": 24,
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "effect": "zoomIn"
+          },
+          {
+            "fit": "none",
+            "scale": 1,
+            "length": 5,
+            "asset": {
+              "width": "768",
+              "height": "1280",
+              "type": "text-to-image",
+              "prompt": "{{ IMAGE_9_PROMPT }}"
+            },
+            "start": 32,
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "effect": "slideLeft"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 720,
+      "height": 1280
+    }
+  },
+  "merge": [
+    {
+      "find": "HEADLINE",
+      "replace": "Gripped by Darkness"
+    },
+    {
+      "find": "VOICEOVER",
+      "replace": "Late one stormy night, Mira heard a knock coming from the old cellar door, the one that had been locked for years. She crept down the stairs, her heart racing as the knocking grew louder. When she reached the door, her breath caught. The air felt cold and heavy. With shaking hands, she unlocked it, revealing a pitch-black void. A cold, clawed hand suddenly reached out, gripping her wrist tightly. She screamed, but before she could pull away, it yanked her into the darkness. The door slammed shut, and the house fell into eerie silence."
+    },
+    {
+      "find": "IMAGE_1_PROMPT",
+      "replace": "A black and white painting of a dark, old house interior at night. The walls are lined with decaying wallpaper, and shadows loom in every corner. A small, dusty staircase leads down to an old, weathered door in the cellar. The atmosphere is eerie, filled with silence and a sense of dread. Highly detailed dark art, an ominous fantasy illustration, beksinski and dan mumford, surreal dark art, dark art style, grimdark art, dark surrealism."
+    },
+    {
+      "find": "IMAGE_2_PROMPT",
+      "replace": "A black and white painting of a young woman, Mira, with long, dark hair and wide, fearful eyes. She is standing at the top of the stairs, looking nervously down toward the cellar door. Her hands are gripping the railing tightly, her face lit with dim light. Highly detailed dark art, an ominous fantasy illustration, beksinski and dan mumford, surreal dark art, dark illustration, dark fantasy illustration, grimdark art, dark surrealism."
+    },
+    {
+      "find": "IMAGE_3_PROMPT",
+      "replace": "A black and white painting of Mira slowly descending the stairs, each step creaking under her weight. The shadows seem to stretch unnaturally across the walls as she approaches the cellar door. Her face is filled with apprehension. The room is dimly lit, but the door itself is cloaked in shadow. Highly detailed dark art, an ominous fantasy illustration, beksinski and dan mumford, surreal dark art, dark illustration, dark fantasy art, dark surrealism."
+    },
+    {
+      "find": "IMAGE_4_PROMPT",
+      "replace": "A black and white painting of Mira standing directly in front of the old cellar door. Her hand is extended, trembling, as she reaches for the rusted key in the lock. The door looks ancient, with deep cracks running along its wooden surface. Shadows behind her swirl ominously. Highly detailed dark art, an ominous fantasy illustration, beksinski and dan mumford, dark surreal art, dark art style, dark fantasy illustration, grimdark art."
+    },
+    {
+      "find": "IMAGE_5_PROMPT",
+      "replace": "A black and white painting of the moment when Mira unlocks the door. As the door cracks open slightly, pure darkness spills out, and a cold, unnatural breeze escapes. The room behind her is almost swallowed by the thick shadows. Highly detailed dark art, an ominous fantasy illustration, beksinski and dan mumford, dark surreal art, dark fantasy illustration, grimdark art, dark surrealism."
+    },
+    {
+      "find": "IMAGE_6_PROMPT",
+      "replace": "A black and white painting of Mira standing frozen in terror as she peers into the pitch-black void beyond the door. There is nothing but endless darkness on the other side. The room around her is dimly lit by a single flickering light, casting eerie, long shadows. Highly detailed dark art, an ominous fantasy illustration, beksinski and dan mumford, dark art style, grimdark art, dark surrealism."
+    },
+    {
+      "find": "IMAGE_7_PROMPT",
+      "replace": "A black and white painting of a cold, shadowy hand emerging from the void, reaching out to grab Mira’s wrist. The hand is gaunt and unnaturally long, its fingers sharp and claw-like. Mira’s face is frozen in horror as she tries to pull away. Highly detailed dark art, an ominous fantasy illustration, beksinski and dan mumford, surreal dark art, dark art style, grimdark art, dark surrealism."
+    },
+    {
+      "find": "IMAGE_8_PROMPT",
+      "replace": "A black and white painting of Mira being pulled towards the dark void by the cold, shadowy hand. Her body is tilted backward as she resists, but the hand is too strong. The room around her warps and distorts as she’s dragged into the darkness. Highly detailed dark art, an ominous fantasy illustration, beksinski and dan mumford, dark surreal art, dark fantasy illustration, grimdark art, dark surrealism."
+    },
+    {
+      "find": "IMAGE_9_PROMPT",
+      "replace": "A black and white painting of Mira halfway into the dark void, her figure partially swallowed by the darkness. The shadowy hand grips her tightly as she is pulled further in. The cellar door hangs wide open, revealing nothing but pure darkness beyond. Highly detailed dark art, an ominous fantasy illustration, beksinski and dan mumford, dark surreal art, grimdark art, dark surrealism."
+    },
+    {
+      "find": "IMAGE_10_PROMPT",
+      "replace": "A black and white painting of the cellar door slamming shut with an ominous force. The room is now silent and empty, with only faint shadows lingering where Mira once stood. The house feels abandoned and eerie. Highly detailed dark art, an ominous fantasy illustration, beksinski and dan mumford, surreal dark art, dark art style, grimdark art, dark surrealism."
+    }
+  ]
+}

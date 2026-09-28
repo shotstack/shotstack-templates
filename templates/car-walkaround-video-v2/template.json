@@ -1,0 +1,582 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/car-walkaround-video/8993adf0-d8a3-449b-96d6-d63bc912c33d/Montserrat-SemiBold.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm45xW5rygbi49c.ttf"
+      }
+    ],
+    "background": "#000000",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "YEAR",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 18,
+                "weight": 500,
+                "color": "#f0c40f",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": 0.346,
+              "y": 0.428
+            },
+            "fit": "none",
+            "scale": 1,
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "start": 0.1,
+            "length": 12.9,
+            "width": 320,
+            "height": 32
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ YEAR }}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 28,
+                "weight": 500,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": 0.346,
+              "y": 0.38
+            },
+            "transition": {
+              "in": "slideLeft"
+            },
+            "fit": "none",
+            "scale": 1,
+            "position": "center",
+            "start": 0.1,
+            "length": 12.9,
+            "width": 320,
+            "height": 45
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "ODOMETER",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 18,
+                "weight": 500,
+                "color": "#f0c40f",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": 0.346,
+              "y": 0.327
+            },
+            "fit": "none",
+            "scale": 1,
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "start": 0.2,
+            "length": 12.8,
+            "width": 320,
+            "height": 33
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ ODOMETER }} kms",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 28,
+                "weight": 500,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": 0.346,
+              "y": 0.28
+            },
+            "transition": {
+              "in": "slideLeft"
+            },
+            "fit": "none",
+            "scale": 1,
+            "position": "center",
+            "start": 0.2,
+            "length": 12.8,
+            "width": 320,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "SPECS",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 18,
+                "weight": 500,
+                "color": "#f0c40f",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": 0.346,
+              "y": 0.22
+            },
+            "fit": "none",
+            "scale": 1,
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "start": 0.3,
+            "length": 12.7,
+            "width": 320,
+            "height": 46
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ SPECS }}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 28,
+                "weight": 500,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "offset": {
+              "x": 0.346,
+              "y": 0.145
+            },
+            "transition": {
+              "in": "slideLeft"
+            },
+            "fit": "none",
+            "scale": 1,
+            "position": "center",
+            "start": 0.3,
+            "length": 12.7,
+            "width": 320,
+            "height": 60
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "ENQUIRIES",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 18,
+                "weight": 500,
+                "color": "#f0c40f",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": 0.346,
+              "y": -0.354
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "start": 0.4,
+            "length": 12.6,
+            "width": 320,
+            "height": 46
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ CONTACT }}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 24,
+                "weight": 500,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": 0.346,
+              "y": -0.431
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "start": 0.4,
+            "length": 12.6,
+            "width": 320,
+            "height": 65
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ MAKE }} {{ MODEL }}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 100,
+                "weight": 700,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word",
+                "direction": "right"
+              }
+            },
+            "start": 0,
+            "offset": {
+              "x": -0.144,
+              "y": -0.004
+            },
+            "transition": {
+              "in": "slideRight",
+              "out": "fade"
+            },
+            "fit": "none",
+            "scale": 1,
+            "position": "center",
+            "length": 4,
+            "width": 806,
+            "height": 634
+          },
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ MAKE }} {{ MODEL }}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 42,
+                "weight": 700,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "offset": {
+              "x": -0.213,
+              "y": -0.18
+            },
+            "transition": {
+              "in": "slideRight"
+            },
+            "fit": "none",
+            "scale": 1,
+            "position": "center",
+            "start": 4,
+            "length": 9,
+            "width": 664,
+            "height": 358
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_1 }}",
+              "volume": 1
+            },
+            "start": 0,
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "position": "center",
+            "scale": 1,
+            "length": 5,
+            "fit": "contain",
+            "width": 1280,
+            "height": 720,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_2 }}",
+              "volume": 1
+            },
+            "start": 4,
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "position": "center",
+            "fit": "contain",
+            "scale": 1,
+            "length": 5,
+            "width": 1280,
+            "height": 720,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_3 }}",
+              "volume": 1
+            },
+            "start": 8,
+            "transition": {
+              "in": "fade"
+            },
+            "position": "center",
+            "length": 5,
+            "fit": "contain",
+            "width": 1280,
+            "height": 720,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "audio",
+              "src": "https://templates.shotstack.io/car-walkaround-video/fb4beae6-9d3c-4cda-9ffe-8478fa1735c1/source.mp3",
+              "volume": 1,
+              "effect": "fadeOut"
+            },
+            "start": 0,
+            "length": 13
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1280,
+      "height": 720
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "VIDEO_1",
+      "replace": "https://templates.shotstack.io/car-walkaround-video/4a3d3300-978e-4866-8731-b0d599750804/zzy8fyga-3vug-j70r-d9dq-1mcafm4ja3gw.mp4"
+    },
+    {
+      "find": "VIDEO_2",
+      "replace": "https://templates.shotstack.io/car-walkaround-video/82a75800-8e89-4af2-a69f-26508b987521/zzy8fyer-2ol4-r14y-l7mh-1zwhyh1oz99v.mp4"
+    },
+    {
+      "find": "VIDEO_3",
+      "replace": "https://templates.shotstack.io/car-walkaround-video/5ce03652-08cc-410d-a8d2-cf5ecf966ec3/zzy8fyca-45mv-6t3s-97kd-1lkwn54l381c.mp4"
+    },
+    {
+      "find": "MAKE",
+      "replace": "Lamborghini"
+    },
+    {
+      "find": "MODEL",
+      "replace": "Huracan EVO Auto AWD"
+    },
+    {
+      "find": "YEAR",
+      "replace": "2023"
+    },
+    {
+      "find": "SPECS",
+      "replace": "10CYL 5.2L PETROL"
+    },
+    {
+      "find": "ODOMETER",
+      "replace": "17,100"
+    },
+    {
+      "find": "CONTACT",
+      "replace": "DEAN @ 703-438-5736"
+    }
+  ]
+}

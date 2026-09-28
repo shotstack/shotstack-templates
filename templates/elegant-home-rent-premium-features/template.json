@@ -1,0 +1,1451 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{BRAND_NAME}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ S1_TEXT_FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 600,
+              "height": 60
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": -0.168,
+              "y": 0.375
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ WHITE_LOGO }}"
+            },
+            "start": 0.1,
+            "scale": 0.06,
+            "offset": {
+              "x": -0.387,
+              "y": 0.427
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-home-rent-premium-features/c74fa6d1-56ee-40f1-acc9-e860bd3ad400/source.png"
+            },
+            "start": 1.1,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 40,
+              "height": 40,
+              "background": {
+                "color": "{{ ELEMENT_COLOR }}"
+              }
+            },
+            "start": 1.1,
+            "length": "end",
+            "offset": {
+              "x": -0.423,
+              "y": -0.408
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-home-rent-premium-features/2dac5e66-5744-439d-9dc4-bf94711caa8e/source.png"
+            },
+            "start": 1.1,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 40,
+              "height": 40,
+              "background": {
+                "color": "{{ ELEMENT_COLOR }}"
+              }
+            },
+            "start": 1.1,
+            "length": "end",
+            "offset": {
+              "x": 0.125,
+              "y": -0.408
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-home-rent-premium-features/11a90576-4288-4c67-8ceb-bef0dc425870/source.png"
+            },
+            "start": 0.7,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 30,
+              "height": 30,
+              "background": {
+                "color": "{{ ELEMENT_COLOR }}"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": 0.172,
+              "y": -0.262
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-home-rent-premium-features/c8667a61-cf36-4b5e-b428-d63ffa1dd6c1/source.png"
+            },
+            "start": 0.8,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 30,
+              "height": 30,
+              "background": {
+                "color": "{{ ELEMENT_COLOR }}"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0.172,
+              "y": -0.288
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-home-rent-premium-features/835b8ee4-149a-42ff-999e-8bb703dafc1a/source.png"
+            },
+            "start": 0.9,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 30,
+              "height": 30,
+              "background": {
+                "color": "{{ ELEMENT_COLOR }}"
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": 0.172,
+              "y": -0.312
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-home-rent-premium-features/698cc253-c394-4014-b704-f09e7ff81d09/source.png"
+            },
+            "start": 0.9,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 30,
+              "height": 30,
+              "background": {
+                "color": "{{ ELEMENT_COLOR }}"
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": -0.142,
+              "y": -0.312
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-home-rent-premium-features/75dd793a-a792-47f2-931d-27ca9cf010e2/source.png"
+            },
+            "start": 0.8,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 30,
+              "height": 30,
+              "background": {
+                "color": "{{ ELEMENT_COLOR }}"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": -0.142,
+              "y": -0.288
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-home-rent-premium-features/e8527f6b-8fc4-4748-9ccb-579054b77b82/source.png"
+            },
+            "start": 0.7,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 30,
+              "height": 30,
+              "background": {
+                "color": "{{ ELEMENT_COLOR }}"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": -0.142,
+              "y": -0.262
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-home-rent-premium-features/fc0f0d73-840e-4415-9600-230c22d5a5a7/source.png"
+            },
+            "start": 0.9,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 30,
+              "height": 30,
+              "background": {
+                "color": "{{ ELEMENT_COLOR }}"
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": -0.432,
+              "y": -0.312
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-home-rent-premium-features/5a2b7867-21c1-49b6-b696-8bda22c232a2/source.png"
+            },
+            "start": 0.8,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 30,
+              "height": 30,
+              "background": {
+                "color": "{{ ELEMENT_COLOR }}"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": -0.432,
+              "y": -0.288
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-home-rent-premium-features/4329b1aa-c161-48b0-8bd1-3eb7e5283f01/source.png"
+            },
+            "start": 0.7,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 30,
+              "height": 30,
+              "background": {
+                "color": "{{ ELEMENT_COLOR }}"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": -0.432,
+              "y": -0.262
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-home-rent-premium-features/d734f3ed-421b-42cc-840d-3bf1f21a1f0f/source.png"
+            },
+            "start": 0.3,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 30,
+              "height": 30,
+              "background": {
+                "color": "#ffffff"
+              }
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": -0.431,
+              "y": 0.169
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{PHONE}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ S2_TEXT_FONT_COLOR_2 }}",
+                "family": "Didact Gothic",
+                "size": "33",
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 50
+            },
+            "start": 1.1,
+            "length": "end",
+            "offset": {
+              "x": -0.25,
+              "y": -0.408
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{WEBSITE}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ S2_TEXT_FONT_COLOR_2 }}",
+                "family": "Didact Gothic",
+                "size": "33",
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 50
+            },
+            "start": 1.1,
+            "length": "end",
+            "offset": {
+              "x": 0.297,
+              "y": -0.408
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{CTA}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": "33",
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 50
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.307,
+              "y": -0.377
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_DESCRIPTION_9}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ S2_TEXT_FONT_COLOR_2 }}",
+                "family": "Didact Gothic",
+                "size": "30",
+                "lineHeight": 1
+              },
+              "width": 220,
+              "height": 49
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": 0.303,
+              "y": -0.312
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_DESCRIPTION_6}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ S2_TEXT_FONT_COLOR_2 }}",
+                "family": "Didact Gothic",
+                "size": "30",
+                "lineHeight": 1
+              },
+              "width": 220,
+              "height": 49
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0.303,
+              "y": -0.288
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_DESCRIPTION_3}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ S2_TEXT_FONT_COLOR_2 }}",
+                "family": "Didact Gothic",
+                "size": "30",
+                "lineHeight": 1
+              },
+              "width": 220,
+              "height": 49
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": 0.303,
+              "y": -0.262
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_DESCRIPTION_8}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ S2_TEXT_FONT_COLOR_2 }}",
+                "family": "Didact Gothic",
+                "size": "30",
+                "lineHeight": 1
+              },
+              "width": 220,
+              "height": 49
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": -0.009,
+              "y": -0.312
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_DESCRIPTION_5}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ S2_TEXT_FONT_COLOR_2 }}",
+                "family": "Didact Gothic",
+                "size": "30",
+                "lineHeight": 1
+              },
+              "width": 220,
+              "height": 49
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": -0.009,
+              "y": -0.288
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_DESCRIPTION_2}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ S2_TEXT_FONT_COLOR_2 }}",
+                "family": "Didact Gothic",
+                "size": "30",
+                "lineHeight": 1
+              },
+              "width": 220,
+              "height": 49
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": -0.009,
+              "y": -0.262
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_DESCRIPTION_7}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ S2_TEXT_FONT_COLOR_2 }}",
+                "family": "Didact Gothic",
+                "size": "30",
+                "lineHeight": 1
+              },
+              "width": 220,
+              "height": 49
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": -0.302,
+              "y": -0.311
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_DESCRIPTION_4}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ S2_TEXT_FONT_COLOR_2 }}",
+                "family": "Didact Gothic",
+                "size": "30",
+                "lineHeight": 1
+              },
+              "width": 220,
+              "height": 49
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": -0.302,
+              "y": -0.286
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ S2_TEXT_FONT_COLOR_2 }}",
+                "family": "Didact Gothic",
+                "size": "30",
+                "lineHeight": 1
+              },
+              "width": 220,
+              "height": 49
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": -0.302,
+              "y": -0.262
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_TITLE}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ S2_TEXT_FONT_COLOR_2 }}",
+                "family": "Montserrat ExtraBold",
+                "size": "33",
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 50
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.314,
+              "y": -0.227
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ADDRESS}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ S1_TEXT_FONT_COLOR }}",
+                "family": "Didact Gothic",
+                "size": "32",
+                "lineHeight": 1
+              },
+              "width": 600,
+              "height": 80
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": -0.126,
+              "y": 0.169
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{TIME}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Montserrat SemiBold",
+                "size": "31",
+                "lineHeight": 1
+              },
+              "width": 220,
+              "height": 72
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.292,
+              "y": 0.045
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{AMOUNT}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Montserrat SemiBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 200,
+              "height": 100
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.293,
+              "y": 0.079
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 350,
+              "height": 150,
+              "background": {
+                "color": "{{ ELEMENT_COLOR }}"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.284,
+              "y": 0.065
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ S1_TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "43",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 75
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": -0.083,
+              "y": 0.206
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_3 }}"
+            },
+            "start": 0.5,
+            "scale": 0.16,
+            "offset": {
+              "x": -0.24,
+              "y": -0.1
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_4 }}"
+            },
+            "start": 0.5,
+            "scale": 0.16,
+            "offset": {
+              "x": 0.24,
+              "y": -0.1
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{TITLE}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ S1_TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "87",
+                "lineHeight": 1.2
+              },
+              "width": 927,
+              "height": 255
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.024,
+              "y": 0.283
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1076,
+              "background": {
+                "color": "#000000"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "y": 0.222
+            },
+            "transition": {
+              "in": "slideDown"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/elegant-home-rent-premium-features/085998e1-b830-47cb-8d15-db6b5ace785a/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ LONG_IMAGE_SRC_2 }}"
+            },
+            "start": 0,
+            "scale": 0.56,
+            "offset": {
+              "y": 0.221
+            },
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR_2 }}"
+              }
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "TITLE",
+      "replace": "EXPERIENCE MODERN LIVING"
+    },
+    {
+      "find": "DESCRIPTION",
+      "replace": "Luxurious House for Rent"
+    },
+    {
+      "find": "ADDRESS",
+      "replace": "123 AnywhereSt, Any City"
+    },
+    {
+      "find": "AMOUNT",
+      "replace": "$500"
+    },
+    {
+      "find": "TIME",
+      "replace": "/ per month"
+    },
+    {
+      "find": "S1_TITLE",
+      "replace": "Our Facilities"
+    },
+    {
+      "find": "S1_DESCRIPTION",
+      "replace": "3 Bathrooms"
+    },
+    {
+      "find": "S1_DESCRIPTION_2",
+      "replace": "Swimming Pool"
+    },
+    {
+      "find": "S1_DESCRIPTION_3",
+      "replace": "Internet"
+    },
+    {
+      "find": "S1_DESCRIPTION_4",
+      "replace": "3 Bedrooms"
+    },
+    {
+      "find": "S1_DESCRIPTION_5",
+      "replace": "Modern Kitchen"
+    },
+    {
+      "find": "S1_DESCRIPTION_6",
+      "replace": "Gym Center"
+    },
+    {
+      "find": "S1_DESCRIPTION_7",
+      "replace": "Living Room"
+    },
+    {
+      "find": "S1_DESCRIPTION_8",
+      "replace": "Garage"
+    },
+    {
+      "find": "S1_DESCRIPTION_9",
+      "replace": "Smart Home"
+    },
+    {
+      "find": "CTA",
+      "replace": "Contact Us:"
+    },
+    {
+      "find": "PHONE",
+      "replace": "+123-456-7890"
+    },
+    {
+      "find": "WEBSITE",
+      "replace": "www.realestate.com"
+    },
+    {
+      "find": "BRAND_NAME",
+      "replace": "REAL ESTATE"
+    },
+    {
+      "find": "WHITE_LOGO",
+      "replace": "https://templates.shotstack.io/elegant-home-rent-premium-features/ab06675b-9a04-4017-ad85-648d6554fc80/source.png"
+    },
+    {
+      "find": "LONG_IMAGE_SRC_2",
+      "replace": "https://templates.shotstack.io/elegant-home-rent-premium-features/e09abec0-fdb5-4eb3-93ab-e22ec79364e6/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_3",
+      "replace": "https://templates.shotstack.io/elegant-home-rent-premium-features/8f517b94-d96c-49c0-b7f3-6fb7944333bf/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_4",
+      "replace": "https://templates.shotstack.io/elegant-home-rent-premium-features/dc9ec43b-ac41-4340-b760-9627d931a2af/source.jpg"
+    },
+    {
+      "find": "S1_TEXT_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "S2_TEXT_FONT_COLOR_2",
+      "replace": "#000000"
+    },
+    {
+      "find": "ELEMENT_COLOR",
+      "replace": "#5900ff"
+    },
+    {
+      "find": "BACKGROUND_COLOR_2",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/elegant-home-rent-premium-features/7ff8bb22-f62f-49ff-93fd-73c9e81e209a/source.mp3"
+    }
+  ]
+}

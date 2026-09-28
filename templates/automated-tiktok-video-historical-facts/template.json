@@ -1,0 +1,224 @@
+{
+  "timeline": {
+    "background": "#000000",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ HEADLINE }}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": "60",
+                "lineHeight": 1
+              },
+              "width": 463,
+              "height": 200
+            },
+            "start": 0,
+            "length": "auto",
+            "offset": {
+              "x": 0,
+              "y": 0.309
+            },
+            "position": "center",
+            "fit": "none",
+            "scale": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "auto",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/automated-tiktok-video-historical-facts/9bdcce84-a00f-46e5-af9c-5b1e2163fdec.png"
+            },
+            "start": 0,
+            "scale": 0.2,
+            "offset": {
+              "x": 0,
+              "y": 0.308
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "caption",
+              "src": "alias://VOICEOVER",
+              "background": {
+                "color": "#0091ff",
+                "padding": 25,
+                "borderRadius": 9
+              },
+              "font": {
+                "size": "32"
+              }
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "fit": "none",
+            "scale": 1,
+            "length": 5,
+            "asset": {
+              "width": "768",
+              "height": "1280",
+              "type": "text-to-image",
+              "prompt": "{{ IMAGE_2_PROMPT }}"
+            },
+            "start": 4,
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "effect": "zoomOut"
+          },
+          {
+            "fit": "none",
+            "scale": 1,
+            "length": 5,
+            "asset": {
+              "width": "768",
+              "height": "1280",
+              "type": "text-to-image",
+              "prompt": "{{ IMAGE_4_PROMPT }}"
+            },
+            "start": 12,
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "effect": "slideRight"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "width": "768",
+              "height": "1280",
+              "type": "text-to-image",
+              "prompt": "{{ IMAGE_1_PROMPT }}"
+            },
+            "start": 0,
+            "transition": {
+              "out": "fade"
+            },
+            "effect": "zoomIn",
+            "position": "center"
+          },
+          {
+            "fit": "none",
+            "scale": 1,
+            "length": 5,
+            "asset": {
+              "width": "768",
+              "height": "1280",
+              "type": "text-to-image",
+              "prompt": "{{ IMAGE_3_PROMPT }}"
+            },
+            "start": 8,
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "effect": "slideLeft",
+            "offset": {
+              "x": 0.021,
+              "y": 0
+            },
+            "position": "center"
+          },
+          {
+            "fit": "none",
+            "scale": 1,
+            "length": 5,
+            "asset": {
+              "width": "768",
+              "height": "1280",
+              "type": "text-to-image",
+              "prompt": "{{ IMAGE_5_PROMPT }}"
+            },
+            "start": 16,
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "effect": "slideUp"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "auto",
+            "asset": {
+              "voice": "Amy",
+              "text": "{{VOICEOVER}}",
+              "type": "text-to-speech"
+            },
+            "start": 0,
+            "alias": "VOICEOVER"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 720,
+      "height": 1280
+    }
+  },
+  "merge": [
+    {
+      "find": "HEADLINE",
+      "replace": "Dancing Plague"
+    },
+    {
+      "find": "VOICEOVER",
+      "replace": "Did you know that in 1518, a bizarre 'dancing plague' broke out in Strasbourg? For days, people danced uncontrollably in the streets, with no known cause. Some even collapsed from exhaustion or died. Historians are still baffled by this strange event, which remains one of history's most mysterious epidemics."
+    },
+    {
+      "find": "IMAGE_1_PROMPT",
+      "replace": "Create a haunting yet realistic scene of a medieval street in Strasbourg, filled with townspeople dancing uncontrollably. The lighting should be dim and atmospheric, with shadows cast by the moonlight, highlighting the eerie and chaotic nature of the event. The background should include darkened medieval buildings and torches flickering in the distance."
+    },
+    {
+      "find": "IMAGE_2_PROMPT",
+      "replace": "Design a dramatic close-up of a group of individual dancers, exhausted but at ease, mid-movement. The focus should be on their intensity. The lighting should be soft, with subtle shadows creating depth."
+    },
+    {
+      "find": "IMAGE_3_PROMPT",
+      "replace": "Illustrate a medieval town square in Strasbourg, filled with a mix of dancing townspeople and concerned onlookers. The scene should feature warm torchlight contrasting with the cool moonlight, casting an ominous glow on the cobblestone streets. The architecture should be historically accurate, with wooden market stalls and stone buildings surrounding the square."
+    },
+    {
+      "find": "IMAGE_4_PROMPT",
+      "replace": "Generate an image of town officials and doctors standing on the edges of the scene, observing the chaos. They should look confused and distressed, holding scrolls or medieval medical instruments. The lighting should create a contrast between the torchlight and the dark, adding a sense of urgency to their expressions."
+    },
+    {
+      "find": "IMAGE_5_PROMPT",
+      "replace": "Create a surreal, almost dreamlike depiction of the dancers, with their movements becoming blurred and ghostly. The background should be dark, with dim torchlight casting long shadows, while the dancers' figures appear exaggerated and otherworldly, reflecting the mysterious nature of the event."
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/timeless-travel-offer-promotion-template/6dca91e4-a00c-474f-9462-050174702884/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/timeless-travel-offer-promotion-template/2aa4377e-a0c4-4ff4-a420-108e2ccbc655/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/timeless-travel-offer-promotion-template/16484fe9-33f2-4545-8436-f136a671a563/source.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/didactgothic/v21/ahcfv8qz1zt6hCC5G4F_P4ASpUySp0LlcyQ.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/leaguespartan/v15/kJEqBuEW6A0lliaV_m88ja5TwsZ3J5i1DJZg.ttf"
+      }
+    ],
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "audio",
+              "src": "https://templates.shotstack.io/timeless-travel-offer-promotion-template/35825cba-3bb6-4ece-987c-cc05881be419/source.mp3",
+              "volume": 1
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "www.travelsurvey.com",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 38,
+                "weight": 400,
+                "color": "#050505",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": -0.362
+            },
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "Reserve Your Spot",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 38,
+                "weight": 400,
+                "color": "#050505",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": -0.325
+            },
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "Craving a taste of tradition and discovery?....... Journey through Portugal’s timeless charm",
+              "font": {
+                "family": "League Spartan",
+                "size": 32,
+                "weight": 400,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 1.03,
+            "length": "end",
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": 0.296
+            },
+            "transition": {
+              "in": "fade"
+            },
+            "width": 900,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "Travel Survey Int.",
+              "font": {
+                "family": "League Spartan",
+                "size": 70,
+                "weight": 400,
+                "color": "#050505",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": 0.389
+            },
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 700,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "Portugal Tour With",
+              "font": {
+                "family": "League Spartan",
+                "size": 32,
+                "weight": 400,
+                "color": "#050505",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "position": "center",
+            "offset": {
+              "x": 0,
+              "y": 0.423
+            },
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 700,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/timeless-travel-offer-promotion-template/8af367c7-5c5d-49b1-be87-e494a2bdd097/source.mp4",
+              "volume": 0
+            },
+            "start": 0,
+            "length": 10.73,
+            "fit": "contain",
+            "offset": {
+              "x": -0.00010185185185175431,
+              "y": 0.0013479003906250306
+            },
+            "width": 1083,
+            "height": 1927
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "fps": 25,
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Title_1",
+      "replace": "Portugal Tour With"
+    },
+    {
+      "find": "Title_2",
+      "replace": "Travel Survey Int."
+    },
+    {
+      "find": "Body",
+      "replace": "Craving a taste of tradition and discovery?....... Journey through Portugal’s timeless charm"
+    },
+    {
+      "find": "Web",
+      "replace": "www.travelsurvey.com"
+    },
+    {
+      "find": "CTA",
+      "replace": "Reserve Your Spot"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#050505"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "VIDEO",
+      "replace": "https://templates.shotstack.io/timeless-travel-offer-promotion-template/59f3058e-afc1-4bf9-9051-ca0f94862af1/source.mp4"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/timeless-travel-offer-promotion-template/59383ee9-3d30-4d05-b3af-c706b592369b/source.mp3"
+    }
+  ]
+}

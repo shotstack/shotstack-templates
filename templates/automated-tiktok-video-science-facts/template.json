@@ -1,0 +1,222 @@
+{
+  "timeline": {
+    "background": "#000000",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "caption",
+              "src": "alias://VOICEOVER",
+              "background": {
+                "color": "#ee00ff",
+                "padding": 22,
+                "borderRadius": 6
+              },
+              "font": {
+                "size": "36"
+              }
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ HEADLINE }}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": "60",
+                "lineHeight": 1
+              },
+              "width": 454,
+              "height": 200
+            },
+            "start": 0,
+            "length": "auto",
+            "offset": {
+              "x": 0,
+              "y": 0.334
+            },
+            "position": "center",
+            "fit": "none",
+            "scale": 1,
+            "transition": {
+              "in": "wipeLeft",
+              "out": "wipeLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "auto",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/automated-tiktok-video-science-facts/6b79fc8d-198f-47cc-8c00-19e9343dc8ac.png"
+            },
+            "start": 0,
+            "scale": 0.2,
+            "offset": {
+              "x": 0,
+              "y": 0.334
+            },
+            "position": "center",
+            "transition": {
+              "out": "wipeLeft",
+              "in": "wipeLeft"
+            },
+            "alias": "VOICEOVER"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "auto",
+            "asset": {
+              "voice": "Amy",
+              "text": "{{ VOICEOVER }}",
+              "type": "text-to-speech"
+            },
+            "start": 0,
+            "alias": "VOICEOVER"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "width": "768",
+              "height": "1280",
+              "type": "text-to-image",
+              "prompt": "{{ IMAGE_1_PROMPT }}"
+            },
+            "start": "auto",
+            "fit": "cover",
+            "transition": {
+              "out": "fade"
+            },
+            "effect": "zoomInSlow"
+          },
+          {
+            "length": 5,
+            "asset": {
+              "width": "768",
+              "height": "1280",
+              "type": "text-to-image",
+              "prompt": "{{ IMAGE_3_PROMPT }}"
+            },
+            "start": 7.99,
+            "fit": "cover",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "effect": "slideRightSlow"
+          },
+          {
+            "length": "end",
+            "asset": {
+              "width": "768",
+              "height": "1280",
+              "type": "text-to-image",
+              "prompt": "{{ IMAGE_5_PROMPT }}"
+            },
+            "start": 16,
+            "fit": "cover",
+            "transition": {
+              "in": "fade"
+            },
+            "effect": "zoomInSlow"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "width": "768",
+              "height": "1280",
+              "type": "text-to-image",
+              "prompt": "{{ IMAGE_2_PROMPT }}"
+            },
+            "start": 4,
+            "fit": "cover",
+            "transition": {
+              "out": "fade"
+            },
+            "effect": "slideLeft"
+          },
+          {
+            "length": 5,
+            "asset": {
+              "width": "768",
+              "height": "1280",
+              "type": "text-to-image",
+              "prompt": "{{ IMAGE_4_PROMPT }}"
+            },
+            "start": 12,
+            "fit": "cover",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "effect": "zoomOutSlow"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 720,
+      "height": 1280
+    }
+  },
+  "merge": [
+    {
+      "find": "VOICEOVER",
+      "replace": "Did you know that bananas are slightly radioactive? They contain potassium-40, a naturally occurring isotope that emits a small amount of radiation. Don’t worry though, you’d have to eat over 10 million bananas at once to experience any harmful effects! This phenomenon is known as the ‘banana equivalent dose,’ and it’s a fun way to understand radiation in everyday life."
+    },
+    {
+      "find": "IMAGE_1_PROMPT",
+      "replace": "A perfectly peeled banana hovers gracefully above a sleek, reflective metal surface in a futuristic laboratory. Suspended just above the banana is a glowing radiation symbol, its black lines crisp and sharp against the radiant yellow center. The glossy surface of the table captures reflections of the warm orange gradient in the background, adding a sense of depth and energy to the scene. Soft, translucent bubbles float effortlessly around the banana, reflecting light and casting gentle highlights across the smooth lines of the scene. The retro-futuristic vibe, with its glossy finishes and clean, curved lines, evokes a sense of mid-century sci-fi, blending the playful imagery of the banana with the precise, scientific iconography of the radiation symbol."
+    },
+    {
+      "find": "IMAGE_2_PROMPT",
+      "replace": "A half-peeled banana floats above a shiny metal table in a laboratory setting, with a detailed potassium atom suspended within the fruit’s curved form. The shiny surface of the table reflects the vibrant orange background, while the banana’s yellow colors contrast against the glowing nucleus and orbiting electrons of the atom. Surrounding the banana, translucent bubbles float gently, reflecting light and adding depth to the scene. The smooth lines and retro-futuristic aesthetic, reminiscent of mid-century sci-fi illustrations, are complemented by the juxtaposition of the banana’s natural form and the scientifically precise atom within."
+    },
+    {
+      "find": "IMAGE_3_PROMPT",
+      "replace": "A small stack of perfectly ripe, peeled bananas rests on a sleek metal table inside a retro-futuristic laboratory. Beside the stack, a modern, digital radiation meter floats just above the surface, its glowing screen reflecting softly on the shiny table. The background features a warm orange gradient, complemented by softly floating translucent bubbles that reflect the surrounding light. Smooth lines and a glossy finish give the scene a mid-century sci-fi aesthetic, emphasizing the playful yet precise contrast between the bananas’ natural form and the scientific equipment around them."
+    },
+    {
+      "find": "IMAGE_4_PROMPT",
+      "replace": "A single, peeled banana stands upright in the center of a gleaming metal platform, floating slightly above the surface in a futuristic lab environment. Surrounding the banana, softly glowing translucent bubbles float, adding depth and reflecting the ambient light. The background is a vibrant orange gradient, seamlessly blending with the reflective surface of the platform. The scene has a retro-futuristic feel, with smooth lines and a sleek, glossy finish reminiscent of mid-century sci-fi artwork. The juxtaposition of the banana’s natural form with the scientific, futuristic setting creates a whimsical yet thought-provoking contrast."
+    },
+    {
+      "find": "IMAGE_5_PROMPT",
+      "replace": "A sleek laboratory scene features a perfectly peeled banana sliced down the middle, with one half revealing a detailed potassium atom inside, complete with orbiting electrons and a glowing nucleus. The banana hovers just above a shiny, reflective table, which mirrors the vibrant orange gradient of the background. Soft, translucent bubbles float through the air, reflecting light and adding a sense of depth to the composition. The artwork’s retro-futuristic aesthetic, inspired by mid-century sci-fi illustrations, emphasizes smooth lines and glossy finishes, creating a visually striking contrast between the organic banana and the scientific precision of the atom."
+    },
+    {
+      "find": "HEADLINE",
+      "replace": "Surprising Banana Fact"
+    }
+  ]
+}

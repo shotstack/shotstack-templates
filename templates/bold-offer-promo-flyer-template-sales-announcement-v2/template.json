@@ -1,0 +1,339 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/bold-offer-promo-flyer-template-sales-announcement/2219fe79-00d4-4742-9a82-5d663c1cc6b1/ga6XaxZG_G5OvCf_rt7FH3B6BHLMEdVOEoc.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/didactgothic/v21/ahcfv8qz1zt6hCC5G4F_P4ASpUySp0LlcyQ.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.8,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0.2,
+            "scale": 1,
+            "offset": {
+              "x": 0.3453703703703703,
+              "y": 0.2962962962962963
+            },
+            "position": "center",
+            "fit": "contain",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 217,
+            "height": 213
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA}}",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 38,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "right",
+                "style": "word"
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": 0.006,
+              "y": -0.339
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_DESCRIPTION}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 48,
+                "weight": 800,
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "right",
+                "style": "word"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": -0.046,
+              "y": -0.271
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 700,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 0.5,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "fit": "contain",
+            "width": 800,
+            "height": 800
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_TITLE}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 91,
+                "weight": 800,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "right",
+                "style": "word"
+              }
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.274
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 800,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 8\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"8\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 1.1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.399
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 800,
+            "height": 8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 8\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"8\" fill=\"{{ TEXT_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.025,
+              "y": 0.399
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 800,
+            "height": 8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 675\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"675\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.25
+            },
+            "position": "center",
+            "width": 1080,
+            "height": 675
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1350\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1350\" fill=\"{{ TEXT_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 5,
+            "width": 1080,
+            "height": 1350
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1350
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "S1_TITLE",
+      "replace": "Delight your senses!"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/bold-offer-promo-flyer-template-sales-announcement/3c939645-f5e8-4edd-ada7-d2a04889ae70/source.png"
+    },
+    {
+      "find": "IMAGE_SRC_2",
+      "replace": "https://templates.shotstack.io/bold-offer-promo-flyer-template-sales-announcement/115c9b9c-21a0-4e5f-9cdf-05849bbf2799/source.png"
+    },
+    {
+      "find": "S1_DESCRIPTION",
+      "replace": "WE DELIVER 24/7"
+    },
+    {
+      "find": "CTA",
+      "replace": "Place your order at Foodhomesite.com and we'll take care of the it."
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#fff2e0"
+    },
+    {
+      "find": "TEXT_FONT_COLOR_2",
+      "replace": "#000000"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#c33222"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/bold-offer-promo-flyer-template-sales-announcement/d000ec2b-6698-467a-af64-0aaab8a5cfb7/source.mp3"
+    }
+  ]
+}

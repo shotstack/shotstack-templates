@@ -1,0 +1,258 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/breaking-news-summary/a87b7ba9-8d67-4e0f-83ff-ac36d3f3fc5b/source.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPN-CoCTqluHfE.ttf"
+      }
+    ],
+    "soundtrack": {
+      "src": "https://templates.shotstack.io/breaking-news-summary/a423e433-932d-47b7-adb2-d7860eaec9ad/dreams.mp3",
+      "effect": "fadeOut"
+    },
+    "background": "#efefef",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ HEADLINE }}",
+              "font": {
+                "family": "Raleway",
+                "size": 60,
+                "weight": 400,
+                "color": "#303030",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "left",
+                "style": "word"
+              }
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.112,
+              "y": 0.35
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeftSlow"
+            },
+            "start": 1.3,
+            "length": 8.7,
+            "width": 1257,
+            "height": 90
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/breaking-news-summary/e546d9c1-227d-4f85-b5bc-ee12a86f0782/source.jpg"
+            },
+            "fit": "none",
+            "offset": {
+              "x": -0.292,
+              "y": 0.352
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight"
+            },
+            "start": 1.25,
+            "opacity": 0.3,
+            "length": 8.75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "NEWS",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 64,
+                "weight": 800,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": 0.345,
+              "y": 0.346
+            },
+            "position": "center",
+            "start": 1.25,
+            "transition": {
+              "in": "slideRightSlow"
+            },
+            "length": 8.75,
+            "width": 300,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/breaking-news-summary/r6e07ef5c928zvtbjqkpiqta/source_ffb98a77.webm"
+            },
+            "start": 0,
+            "offset": {
+              "x": 0.4654840461264691,
+              "y": 0.4089423229273835
+            },
+            "position": "center",
+            "scale": 1,
+            "length": 10,
+            "fit": "contain",
+            "width": 1101,
+            "height": 353
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "TODAY'S",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 80,
+                "weight": 800,
+                "color": "#eea91a",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": 0.358,
+              "y": 0.431
+            },
+            "position": "center",
+            "start": 1,
+            "length": 9,
+            "transition": {
+              "in": "slideRightSlow"
+            },
+            "width": 437,
+            "height": 92
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/breaking-news-summary/r6e07ef5c928zvtbjqkpiqta/source_87ee438e.webm"
+            },
+            "start": 0,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "position": "center",
+            "length": 10,
+            "scale": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "{{ B_ROLL_VIDEO }}",
+              "volume": 1
+            },
+            "scale": 1,
+            "offset": {
+              "x": -0.038,
+              "y": -0.10457887813868377
+            },
+            "transition": {
+              "in": "carouselDown"
+            },
+            "position": "center",
+            "length": 10,
+            "start": 0,
+            "width": 1900,
+            "height": 1049,
+            "fit": "contain"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "HEADLINE",
+      "replace": "Rate of unemployment has dropped"
+    },
+    {
+      "find": "B_ROLL_VIDEO",
+      "replace": "https://templates.shotstack.io/breaking-news-summary/85a22481-c670-4348-a26f-dd35acbbfa24/source.mp4"
+    }
+  ]
+}

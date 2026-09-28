@@ -1,0 +1,187 @@
+{
+  "timeline": {
+    "background": "#ffffff",
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/ai-avatar-news-summary/085b76c7-9348-43b5-b279-fe05ff24b0c8.ttf"
+      }
+    ],
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ CATEGORY }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 38,
+                "weight": 400,
+                "color": "#150f11",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "fit": "none",
+            "position": "center",
+            "offset": {
+              "x": -0.398,
+              "y": -0.289
+            },
+            "transition": {
+              "in": "fade"
+            },
+            "start": 1.1,
+            "length": "end",
+            "width": 347,
+            "height": 53
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ HEADLINE }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 50,
+                "weight": 400,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "style": "word",
+                "direction": "right"
+              }
+            },
+            "fit": "none",
+            "offset": {
+              "x": -0.019,
+              "y": -0.392
+            },
+            "transition": {
+              "in": "slideRight"
+            },
+            "start": 1,
+            "length": "end",
+            "width": 1544,
+            "height": 80
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/ai-avatar-news-summary/tibmnyi7jr31gxtpwwnwusq1/9f9e2768-f8bb-4f45-9eb1-5a185326ddcd_b21b4cf9.webm"
+            },
+            "offset": {
+              "x": 0,
+              "y": -0.3507877038043479
+            },
+            "fit": "none",
+            "position": "center",
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "{{ AVATAR }}",
+              "volume": 1
+            },
+            "offset": {
+              "x": -0.31358300915950443,
+              "y": -0.00007885287267078588
+            },
+            "fit": "contain",
+            "start": 0,
+            "length": "end",
+            "width": 1900,
+            "height": 1080
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE }}"
+            },
+            "offset": {
+              "x": 0.231,
+              "y": 0
+            },
+            "transition": {
+              "in": "fade"
+            },
+            "effect": "zoomIn",
+            "start": 0,
+            "length": 39
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "AVATAR",
+      "replace": "https://templates.shotstack.io/ai-avatar-news-summary/c8cd7aef-0830-45ad-9106-d592209b34d3.mp4"
+    },
+    {
+      "find": "CATEGORY",
+      "replace": "TECHNOLOGY"
+    },
+    {
+      "find": "HEADLINE",
+      "replace": "Apple announces special event for May 7: 'Let Loose'"
+    },
+    {
+      "find": "IMAGE",
+      "replace": "https://templates.shotstack.io/ai-avatar-news-summary/4f5f6ad1-d89a-4a98-a247-5808e0a45168.webp"
+    }
+  ]
+}

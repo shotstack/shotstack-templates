@@ -1,0 +1,2779 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/659fd918-70d5-4743-b131-2c829372f0cd/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/ca9eaef4-99ef-42d2-aab4-09fead2e8c0e/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/513f7948-2531-4868-ac84-1bf5a2d57537/source.otf"
+      },
+      {
+        "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/59d46e6c-5fc5-4baa-b214-2a5735190bd7/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/c39097b3-5ba8-4c3f-a73f-328ac224534f/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/76f0d442-87ce-4599-ac56-a523bfa14241/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/02e0dff1-2a4d-4a48-aedf-3efc61b4df1b/source.otf"
+      },
+      {
+        "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/ad85a22e-ddb5-4a2d-9b4d-cb1a51e610b3/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/d32d485a-3592-4745-99bd-55561363589b/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/c9bea485-ca61-4028-a854-e0d5ada9d404/source.otf"
+      },
+      {
+        "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/e44bcb4c-7eb2-43ca-8894-20df5df075d4/B50TF6xQr2TXJBnGOFME6u5OR83oRP5qkH7gOw.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/a5853b73-66cb-4bb4-b9dd-602b513a1839/nwpTtK2oNgBA3Or78gapdwuyyCg6.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/marckscript/v22/nwpTtK2oNgBA3Or78gapdwuCzyI-aMPF7Q.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{WEBSITE}}",
+              "font": {
+                "family": "Helvetica",
+                "size": 52,
+                "weight": 400,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ DarkPurple_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 50
+              }
+            },
+            "start": 13.85,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.197
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 700,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/17640ad1-c135-4e71-a93c-efb5ff344aa7/source.png"
+            },
+            "start": 13.75,
+            "length": 4.25
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 30 30\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"30\" height=\"30\" fill=\"{{ White_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 13.75,
+            "length": "end",
+            "offset": {
+              "x": 0.241,
+              "y": -0.258
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "transform": {
+              "rotate": {
+                "angle": 112.88
+              }
+            },
+            "width": 30,
+            "height": 30
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/8fc405f8-43bb-47d4-bc20-5080b32ea8ce/source.png"
+            },
+            "start": 13.7,
+            "length": 4.300000000000001
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 80 80\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"80\" height=\"80\" fill=\"{{ White_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 13.7,
+            "length": "end",
+            "offset": {
+              "x": 0.277,
+              "y": -0.185
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "transform": {
+              "rotate": {
+                "angle": 287.33
+              }
+            },
+            "width": 80,
+            "height": 80
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/681a4f70-1284-4e7f-adcc-26a4cf9974d2/source.png"
+            },
+            "start": 13.65,
+            "length": 4.35
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 30 30\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"30\" height=\"30\" fill=\"{{ White_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 13.65,
+            "length": "end",
+            "offset": {
+              "x": -0.314,
+              "y": 0.082
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 30,
+            "height": 30
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/9f32c423-36b4-4604-8cfb-943535f92f55/source.png"
+            },
+            "start": 13.6,
+            "length": 4.4
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 80 80\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"80\" height=\"80\" fill=\"{{ White_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 13.6,
+            "length": "end",
+            "offset": {
+              "x": -0.301,
+              "y": 0.201
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "transform": {
+              "rotate": {
+                "angle": 51.59
+              }
+            },
+            "width": 80,
+            "height": 80
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/a3c1f18c-d4bf-424d-bdaf-b60a6abcd8b3/source.png"
+            },
+            "start": 13.55,
+            "length": 4.449999999999999
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 50 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"50\" height=\"50\" fill=\"{{ White_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 13.55,
+            "length": "end",
+            "offset": {
+              "x": -0.238,
+              "y": 0.245
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 50,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ LOGO }}"
+            },
+            "start": 13.2,
+            "scale": 1,
+            "offset": {
+              "x": -0.04776041666666658,
+              "y": 0.22199999999999998
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 117,
+            "height": 118
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA}}",
+              "font": {
+                "family": "Marck Script",
+                "size": 166,
+                "weight": 400,
+                "color": "{{ White_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 13.1,
+            "length": "end",
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 1200,
+            "height": 400
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{BRAND_NAME}}",
+              "font": {
+                "family": "Helvetica Rounded",
+                "size": 60,
+                "weight": 400,
+                "color": "{{ White_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 13,
+            "length": "end",
+            "offset": {
+              "y": 0.222,
+              "x": 0.04
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 220,
+            "height": 180
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 2000 2000\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"2000\" height=\"2000\" fill=\"{{ White_FONT_COLOR }}\" fill-opacity=\"0.4\"/></svg>"
+            },
+            "start": 13.2,
+            "length": "end",
+            "offset": {
+              "x": -0.623,
+              "y": 0.746
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 2000,
+            "height": 2000
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/6d09132b-bb1b-4d41-8f74-35331b53c9a9/source.png"
+            },
+            "start": 13.2,
+            "length": 4.800000000000001
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/eef12d27-f4ea-4dcb-9bb9-7964347d470b/source.png"
+            },
+            "start": 13.85,
+            "length": 4.15
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 2500 2500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"2500\" height=\"2500\" fill=\"{{ White_FONT_COLOR }}\" fill-opacity=\"0.61\"/></svg>"
+            },
+            "start": 13.85,
+            "length": "end",
+            "offset": {
+              "x": 0.5972916666666668,
+              "y": -0.38888888888888873
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 1920,
+            "height": 1080
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{WEBSITE}}",
+              "font": {
+                "family": "Helvetica",
+                "size": 33,
+                "weight": 400,
+                "color": "{{ White_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ DarkPurple_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 27
+              }
+            },
+            "start": 9.55,
+            "length": 3.65,
+            "offset": {
+              "x": -0.181,
+              "y": -0.241
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 427,
+            "height": 60
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Social_Media}}",
+              "font": {
+                "family": "Helvetica",
+                "size": 36,
+                "weight": 400,
+                "color": "{{ Black_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 9.25,
+            "length": 3.95,
+            "offset": {
+              "x": 0.238,
+              "y": 0.403
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 500,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.95,
+            "asset": {
+              "type": "image",
+              "src": "{{ S3_IMAGE_SRC }}"
+            },
+            "start": 9.25,
+            "scale": 1,
+            "offset": {
+              "x": 0.25025,
+              "y": 0.0222222222222222
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "fit": "contain",
+            "width": 883,
+            "height": 871
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/6d24eac6-c719-42f4-b87e-e06b6aea1492/source.png"
+            },
+            "start": 9.25,
+            "length": 3.95
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.95,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/96836eca-ea6e-4696-b219-a2a88e39a78c/source.png"
+            },
+            "start": 9.25,
+            "scale": 1,
+            "offset": {
+              "x": 0.41177351453477196,
+              "y": -0.37128468998246156
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "fit": "contain",
+            "width": 73,
+            "height": 73
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.95,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/d7dee048-3405-478a-9bb6-0dab1d2243d0/source.png"
+            },
+            "start": 9.25,
+            "scale": 1,
+            "offset": {
+              "x": 0.16214770149475433,
+              "y": -0.375
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 100,
+            "height": 100,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.95,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/9c2e06c0-3c4a-4081-a41f-134bf1351b8d/source.png"
+            },
+            "start": 9.25,
+            "scale": 1,
+            "offset": {
+              "x": 0.09764583333333332,
+              "y": -0.375
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "fit": "contain",
+            "width": 100,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.95,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/1e9f2ef4-cd77-46be-9767-a002db8074f4/source.png"
+            },
+            "start": 9.25,
+            "scale": 1,
+            "offset": {
+              "x": 0.07160416666666669,
+              "y": 0.403
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "fit": "contain",
+            "width": 86,
+            "height": 86
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/d23b2fe7-bbee-4c14-8044-704e3e20cc47/source.png"
+            },
+            "start": 9.25,
+            "length": 3.95
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/8d3cc010-6a5e-49fe-a346-da712620e616/source.png"
+            },
+            "start": 9.45,
+            "length": 3.75
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 30 30\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"30\" height=\"30\" fill=\"{{ White_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 9.45,
+            "length": 3.75,
+            "offset": {
+              "x": -0.015,
+              "y": -0.239
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 30,
+            "height": 30
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/bd8a5b67-02d4-4a6c-9e49-bac4c9b10da6/source.png"
+            },
+            "start": 9.4,
+            "length": 3.8
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 40 40\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"40\" height=\"40\" fill=\"{{ White_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 9.4,
+            "length": 3.8,
+            "offset": {
+              "x": -0.045,
+              "y": -0.3
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 40,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/1a5ac817-519c-49a4-8fad-04c0333f1bc0/source.png"
+            },
+            "start": 9.35,
+            "length": 3.85
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 30 30\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"30\" height=\"30\" fill=\"{{ White_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 9.35,
+            "length": 3.85,
+            "offset": {
+              "x": -0.459,
+              "y": 0.043
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 30,
+            "height": 30
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/de2c1940-4f5c-4e01-a10a-e013d4375346/source.png"
+            },
+            "start": 9.3,
+            "length": 3.9
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 40 40\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"40\" height=\"40\" fill=\"{{ White_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 9.3,
+            "length": 3.9,
+            "offset": {
+              "x": -0.484,
+              "y": 0.062
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 40,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/6df022d7-8f51-4b3e-8724-22713a74a4a7/source.png"
+            },
+            "start": 9.25,
+            "length": 3.95
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 50 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"50\" height=\"50\" fill=\"{{ White_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 9.25,
+            "length": 3.95,
+            "offset": {
+              "x": -0.446,
+              "y": 0.116
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 50,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/dabcf0a5-030f-46ba-b0b3-b1fe13aa206a/source.png"
+            },
+            "start": 9.55,
+            "length": 3.65
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 2500 2500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"2500\" height=\"2500\" fill=\"{{ White_FONT_COLOR }}\" fill-opacity=\"0.61\"/></svg>"
+            },
+            "start": 9.55,
+            "length": 3.65,
+            "offset": {
+              "x": 0.5,
+              "y": 0.348
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 1920,
+            "height": 1080
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "3",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 65,
+                "weight": 800,
+                "color": "{{ Purple_BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ Pink_BACKGROUND_COLOR_2 }}",
+                "opacity": 1,
+                "borderRadius": 78
+              }
+            },
+            "start": 9.4,
+            "length": 3.8,
+            "offset": {
+              "x": -0.435,
+              "y": -0.076
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 150,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_DESCRIPTION}}",
+              "font": {
+                "family": "Helvetica",
+                "size": 27,
+                "weight": 400,
+                "color": "{{ Black_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 9.55,
+            "length": 3.65,
+            "offset": {
+              "x": -0.223,
+              "y": -0.145
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 600,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_TITLE}}",
+              "font": {
+                "family": "Helvetica Rounded",
+                "size": 70,
+                "weight": 400,
+                "color": "{{ Purple_BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 9.45,
+            "length": 3.75,
+            "offset": {
+              "x": -0.252,
+              "y": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 500,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/da616eaf-12a0-423c-81f9-5fcb8c06735c/source.png"
+            },
+            "start": 8.9,
+            "length": 4.3
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 2000 2000\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"2000\" height=\"2000\" fill=\"{{ White_FONT_COLOR }}\" fill-opacity=\"0.4\"/></svg>"
+            },
+            "start": 8.9,
+            "length": 4.3,
+            "offset": {
+              "x": -0.523,
+              "y": 0.747
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 2000,
+            "height": 2000
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 778 361\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"778\" height=\"361\" fill=\"{{ White_FONT_COLOR }}\" rx=\"52\" ry=\"52\"/></svg>"
+            },
+            "start": 9.3,
+            "length": 3.9,
+            "offset": {
+              "x": -0.237,
+              "y": -0.076
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 778,
+            "height": 361
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.3,
+            "asset": {
+              "type": "image",
+              "src": "{{ LOGO }}"
+            },
+            "start": 8.9,
+            "scale": 1,
+            "offset": {
+              "x": -0.2780416666666667,
+              "y": 0.35651851851851846
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "fit": "contain",
+            "width": 100,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TITLE}}",
+              "font": {
+                "family": "Helvetica Black Original",
+                "size": 85,
+                "weight": 400,
+                "color": "{{ White_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 8.8,
+            "length": 4.4,
+            "offset": {
+              "x": -0.237,
+              "y": 0.222
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 900,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{BRAND_NAME}}",
+              "font": {
+                "family": "Helvetica Rounded",
+                "size": 37,
+                "weight": 400,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 8.7,
+            "length": 4.5,
+            "offset": {
+              "y": 0.363,
+              "x": -0.194
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 200,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 871 987\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"871\" height=\"987\" fill=\"#ffffff\" rx=\"52\" ry=\"52\"/></svg>"
+            },
+            "start": 8.9,
+            "length": 4.3,
+            "offset": {
+              "x": 0.249
+            },
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 871,
+            "height": 987
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{WEBSITE}}",
+              "font": {
+                "family": "Helvetica",
+                "size": 33,
+                "weight": 400,
+                "color": "{{ White_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ DarkPurple_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 27
+              }
+            },
+            "start": 5.25,
+            "length": 3.65,
+            "offset": {
+              "x": 0.181,
+              "y": -0.241
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 427,
+            "height": 60
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Social_Media}}",
+              "font": {
+                "family": "Helvetica",
+                "size": 36,
+                "weight": 400,
+                "color": "{{ Black_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 4.95,
+            "length": 3.95,
+            "offset": {
+              "x": -0.25,
+              "y": 0.403
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 500,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.95,
+            "asset": {
+              "type": "image",
+              "src": "{{ S2_IMAGE_SRC }}"
+            },
+            "start": 4.95,
+            "scale": 1,
+            "offset": {
+              "x": -0.25,
+              "y": 0.027240740740740677
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "fit": "contain",
+            "width": 883,
+            "height": 871
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/8196be30-d27f-4f3a-9c8f-976842faf4be/source.png"
+            },
+            "start": 4.95,
+            "length": 3.95
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.95,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/6c168611-4f2e-4cd5-b166-e043e8e6784b/source.png"
+            },
+            "start": 4.95,
+            "scale": 1,
+            "offset": {
+              "x": -0.08315625000000004,
+              "y": -0.37128468998246156
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "fit": "contain",
+            "width": 73,
+            "height": 73
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.95,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/53e4b1a6-d2ab-46b9-999a-e8a4aafa84a4/source.png"
+            },
+            "start": 4.95,
+            "scale": 1,
+            "offset": {
+              "x": -0.3406826796190257,
+              "y": -0.37128468998246156
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 100,
+            "height": 100,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.95,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/809c251a-c9de-408f-b8cb-0541f879e75b/source.png"
+            },
+            "start": 4.95,
+            "scale": 1,
+            "offset": {
+              "x": -0.4089583333333333,
+              "y": -0.37128468998246156
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "fit": "contain",
+            "width": 100,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/fb0cf9c5-993c-4211-8425-5e8fa3cbc7c3/source.png"
+            },
+            "start": 4.95,
+            "length": 3.95
+          },
+          {
+            "length": 3.95,
+            "asset": {
+              "type": "image",
+              "src": "{{ PROFILE_PIC }}"
+            },
+            "start": 4.95,
+            "scale": 1,
+            "offset": {
+              "x": -0.41260416666666666,
+              "y": 0.403
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "fit": "contain",
+            "width": 86,
+            "height": 86
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/bcabbdfe-41fa-4b26-83e7-a064e8aa0457/source.png"
+            },
+            "start": 5.15,
+            "length": 3.75
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 30 30\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"30\" height=\"30\" fill=\"{{ White_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 5.15,
+            "length": 3.75,
+            "offset": {
+              "x": 0.015,
+              "y": -0.239
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 30,
+            "height": 30
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/65faa044-961a-4e7a-b650-311e2fc193ae/source.png"
+            },
+            "start": 5.1,
+            "length": 3.8
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 40 40\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"40\" height=\"40\" fill=\"{{ White_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 5.1,
+            "length": 3.8,
+            "offset": {
+              "x": 0.045,
+              "y": -0.3
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 40,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/275454a0-88b5-40aa-b348-47f2fe3543e6/source.png"
+            },
+            "start": 5.05,
+            "length": 3.85
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 30 30\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"30\" height=\"30\" fill=\"{{ White_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 5.05,
+            "length": 3.85,
+            "offset": {
+              "x": 0.459,
+              "y": 0.043
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 30,
+            "height": 30
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/63e52d39-da4f-4bef-85ae-d82ea4935166/source.png"
+            },
+            "start": 5,
+            "length": 3.9
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 40 40\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"40\" height=\"40\" fill=\"{{ White_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 5,
+            "length": 3.9,
+            "offset": {
+              "x": 0.484,
+              "y": 0.062
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 40,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/7a46592c-3af7-4666-97d8-cd169013e4a9/source.png"
+            },
+            "start": 4.95,
+            "length": 3.95
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 50 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"50\" height=\"50\" fill=\"{{ White_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 4.95,
+            "length": 3.95,
+            "offset": {
+              "x": 0.446,
+              "y": 0.116
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 50,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "2",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 65,
+                "weight": 800,
+                "color": "{{ Purple_BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ Pink_BACKGROUND_COLOR_2 }}",
+                "opacity": 1,
+                "borderRadius": 78
+              }
+            },
+            "start": 5.1,
+            "length": 3.8,
+            "offset": {
+              "x": 0.435,
+              "y": -0.076
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 150,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_DESCRIPTION}}",
+              "font": {
+                "family": "Helvetica",
+                "size": 27,
+                "weight": 400,
+                "color": "{{ Black_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 5.25,
+            "length": 3.65,
+            "offset": {
+              "x": 0.223,
+              "y": -0.145
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 600,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_TITLE}}",
+              "font": {
+                "family": "Helvetica Rounded",
+                "size": 70,
+                "weight": 400,
+                "color": "{{ Purple_BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 5.15,
+            "length": 3.75,
+            "offset": {
+              "x": 0.2,
+              "y": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 500,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 778 361\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"778\" height=\"361\" fill=\"{{ White_FONT_COLOR }}\" rx=\"52\" ry=\"52\"/></svg>"
+            },
+            "start": 5,
+            "length": 3.9,
+            "offset": {
+              "x": 0.237,
+              "y": -0.076
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 778,
+            "height": 361
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.3,
+            "asset": {
+              "type": "image",
+              "src": "{{ LOGO }}"
+            },
+            "start": 4.6,
+            "scale": 1,
+            "offset": {
+              "x": 0.19999999999999996,
+              "y": 0.367
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "fit": "contain",
+            "width": 100,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TITLE}}",
+              "font": {
+                "family": "Helvetica Black Original",
+                "size": 85,
+                "weight": 400,
+                "color": "{{ White_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 4.5,
+            "length": 4.4,
+            "offset": {
+              "x": 0.237,
+              "y": 0.222
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 900,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{BRAND_NAME}}",
+              "font": {
+                "family": "Helvetica Rounded",
+                "size": 37,
+                "weight": 400,
+                "color": "{{ White_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 4.4,
+            "length": 4.5,
+            "offset": {
+              "y": 0.367,
+              "x": 0.275
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 200,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 871 987\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"871\" height=\"987\" fill=\"#ffffff\" rx=\"52\" ry=\"52\"/></svg>"
+            },
+            "start": 4.6,
+            "length": 4.3,
+            "offset": {
+              "x": -0.249,
+              "y": 0
+            },
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "position": "center",
+            "width": 871,
+            "height": 987
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 2000 2000\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"2000\" height=\"2000\" fill=\"{{ White_FONT_COLOR }}\" fill-opacity=\"0.4\"/></svg>"
+            },
+            "start": 4.6,
+            "length": 4.3,
+            "offset": {
+              "x": -0.623,
+              "y": 0.746
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 2000,
+            "height": 2000
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/e69a646b-7ed7-4446-a309-393630d68a4d/source.png"
+            },
+            "start": 4.6,
+            "length": 4.3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/fe1c7234-73b4-4428-84ba-cd8e8b5ceb62/source.png"
+            },
+            "start": 5.25,
+            "length": 3.65
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 2500 2500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"2500\" height=\"2500\" fill=\"{{ White_FONT_COLOR }}\" fill-opacity=\"0.61\"/></svg>"
+            },
+            "start": 5.25,
+            "length": 3.65,
+            "offset": {
+              "x": 0.292,
+              "y": 0.357
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 1920,
+            "height": 1080
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{WEBSITE}}",
+              "font": {
+                "family": "Helvetica",
+                "size": 33,
+                "weight": 400,
+                "color": "{{ White_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ DarkPurple_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 27
+              }
+            },
+            "start": 0.65,
+            "length": 3.95,
+            "offset": {
+              "x": -0.181,
+              "y": -0.241
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 427,
+            "height": 60
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Social_Media}}",
+              "font": {
+                "family": "Helvetica",
+                "size": 36,
+                "weight": 400,
+                "color": "{{ Black_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.35,
+            "length": 4.25,
+            "offset": {
+              "x": 0.238,
+              "y": 0.403
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 500,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.25,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/27182608-cae1-4710-aad9-f93064d5b524/source.jpg"
+            },
+            "start": 0.35,
+            "scale": 1,
+            "offset": {
+              "x": 0.249,
+              "y": 0.03309259259259262
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "fit": "contain",
+            "width": 883,
+            "height": 871
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/717f0faa-8bba-424a-967b-044f1f03f981/source.png"
+            },
+            "start": 0.35,
+            "length": 4.25
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.25,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/feb13dd2-bc79-4333-a336-e39503dd8ac2/source.png"
+            },
+            "start": 0.35,
+            "scale": 1,
+            "offset": {
+              "x": 0.4107709822889688,
+              "y": -0.37310346060346067
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 73,
+            "height": 73,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.25,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/ca335077-b6e1-45c4-b9c9-26a4fefb4f00/source.png"
+            },
+            "start": 0.35,
+            "scale": 1,
+            "offset": {
+              "x": 0.1616211067141442,
+              "y": -0.3701481481481481
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 100,
+            "height": 100,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.25,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/b3597bc3-3f62-4aef-8745-8eae22931fc3/source.png"
+            },
+            "start": 0.35,
+            "scale": 1,
+            "offset": {
+              "x": 0.09764583333333332,
+              "y": -0.3701481481481481
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "fit": "contain",
+            "width": 100,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/ee3a8c2b-a61c-45d5-85ca-89278a45dd49/source.png"
+            },
+            "start": 0.35,
+            "length": 4.25
+          },
+          {
+            "length": 4.25,
+            "asset": {
+              "type": "image",
+              "src": "{{ PROFILE_PIC }}"
+            },
+            "start": 0.35,
+            "scale": 1,
+            "offset": {
+              "x": 0.07160416666666669,
+              "y": 0.40281481481481485
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "fit": "contain",
+            "width": 86,
+            "height": 86
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/47879820-cb57-4ef4-94af-0b3bb16c03c8/source.png"
+            },
+            "start": 0.55,
+            "length": 4.08
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 30 30\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"30\" height=\"30\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.55,
+            "length": 4.08,
+            "offset": {
+              "x": -0.015,
+              "y": -0.239
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 30,
+            "height": 30
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/a1ab39b0-adc0-4653-9538-a2c6d681c266/source.png"
+            },
+            "start": 0.5,
+            "length": 4.1
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 40 40\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"40\" height=\"40\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.5,
+            "length": 4.1,
+            "offset": {
+              "x": -0.045,
+              "y": -0.3
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 40,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/0ff4397b-aec3-496c-8dc7-2ec88314abd5/source.png"
+            },
+            "start": 0.45,
+            "length": 4.15
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 30 30\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"30\" height=\"30\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.45,
+            "length": 4.15,
+            "offset": {
+              "x": -0.459,
+              "y": 0.043
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 30,
+            "height": 30
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/ee95c612-aa72-460a-829c-1a912232ac87/source.png"
+            },
+            "start": 0.4,
+            "length": 4.2
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 40 40\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"40\" height=\"40\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.4,
+            "length": 4.2,
+            "offset": {
+              "x": -0.484,
+              "y": 0.062
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 40,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/31eb829e-ba64-441c-adfd-79b9ae96c539/source.png"
+            },
+            "start": 0.35,
+            "length": 4.25
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 50 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"50\" height=\"50\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.35,
+            "length": 4.25,
+            "offset": {
+              "x": -0.446,
+              "y": 0.116
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 50,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/fc1ea580-fee3-4d99-9041-08cf2d132587/source.png"
+            },
+            "start": 0.65,
+            "length": 3.95
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 2500 2500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"2500\" height=\"2500\" fill=\"{{ White_FONT_COLOR }}\" fill-opacity=\"0.61\"/></svg>"
+            },
+            "start": 0.65,
+            "length": 3.95,
+            "offset": {
+              "x": 0.256,
+              "y": 0.702
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 1920,
+            "height": 1080
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "1",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 65,
+                "weight": 800,
+                "color": "{{ Purple_BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ Pink_BACKGROUND_COLOR_2 }}",
+                "opacity": 1,
+                "borderRadius": 78
+              }
+            },
+            "start": 0.5,
+            "length": 4.1,
+            "offset": {
+              "x": -0.435,
+              "y": -0.076
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 150,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_DESCRIPTION}}",
+              "font": {
+                "family": "Helvetica",
+                "size": 27,
+                "weight": 400,
+                "color": "{{ Black_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.6,
+            "length": 4,
+            "offset": {
+              "x": -0.223,
+              "y": -0.145
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 600,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_TITLE}}",
+              "font": {
+                "family": "Helvetica Rounded",
+                "size": 70,
+                "weight": 400,
+                "color": "{{ Purple_BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.55,
+            "length": 4.05,
+            "offset": {
+              "x": -0.252,
+              "y": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 500,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 2000 2000\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"2000\" height=\"2000\" fill=\"{{ White_FONT_COLOR }}\" fill-opacity=\"0.4\"/></svg>"
+            },
+            "start": 0,
+            "length": 4.6,
+            "offset": {
+              "x": -0.601,
+              "y": 0.925
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 2000,
+            "height": 2000
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/666398d9-aac4-439d-b778-64fda044dac5/source.png"
+            },
+            "start": 0,
+            "length": 4.6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 778 361\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"778\" height=\"361\" fill=\"{{ White_FONT_COLOR }}\" rx=\"52\" ry=\"52\"/></svg>"
+            },
+            "start": 0.4,
+            "length": 4.2,
+            "offset": {
+              "x": -0.237,
+              "y": -0.076
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 778,
+            "height": 361
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.6,
+            "asset": {
+              "type": "image",
+              "src": "{{ LOGO }}"
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": -0.2780416666666667,
+              "y": 0.35755555555555557
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "fit": "contain",
+            "width": 100,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{TITLE}}",
+              "font": {
+                "family": "Helvetica Black Original",
+                "size": 85,
+                "weight": 400,
+                "color": "{{ White_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.2,
+            "length": 4.4,
+            "offset": {
+              "x": -0.237,
+              "y": 0.222
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 900,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{BRAND_NAME}}",
+              "font": {
+                "family": "Helvetica Rounded",
+                "size": 37,
+                "weight": 400,
+                "color": "{{ White_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.1,
+            "length": 4.5,
+            "offset": {
+              "y": 0.363,
+              "x": -0.194
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 200,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 871 987\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"871\" height=\"987\" fill=\"#ffffff\" rx=\"52\" ry=\"52\"/></svg>"
+            },
+            "start": 0.3,
+            "length": 4.3,
+            "offset": {
+              "x": 0.249
+            },
+            "transition": {
+              "in": "slideUp",
+              "out": "carouselUp"
+            },
+            "width": 871,
+            "height": 987
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1920 1080\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1920\" height=\"1080\" fill=\"{{ Purple_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 18,
+            "position": "center",
+            "width": 1920,
+            "height": 1080
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "BRAND_NAME",
+      "replace": "Luxury Time"
+    },
+    {
+      "find": "TITLE",
+      "replace": "Product Highlights"
+    },
+    {
+      "find": "LOGO",
+      "replace": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/cef9f3c4-6fbb-4099-92ed-2dc9d1f7efaf/source.png"
+    },
+    {
+      "find": "Social_Media",
+      "replace": "@luxurytime"
+    },
+    {
+      "find": "PROFILE_PIC",
+      "replace": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/1e9f2ef4-cd77-46be-9767-a002db8074f4/source.png"
+    },
+    {
+      "find": "S1_TITLE",
+      "replace": "Water Resistance"
+    },
+    {
+      "find": "S1_DESCRIPTION",
+      "replace": "Protects the watch from damage caused by water exposure, making it suitable for daily wear, swimming, or diving depending on its rating."
+    },
+    {
+      "find": "WEBSITE",
+      "replace": "www.luxurytime.com"
+    },
+    {
+      "find": "White_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "Purple_BACKGROUND_COLOR",
+      "replace": "#702bb6"
+    },
+    {
+      "find": "Pink_BACKGROUND_COLOR_2",
+      "replace": "#f2e5ff"
+    },
+    {
+      "find": "Black_FONT_COLOR_2",
+      "replace": "#000000"
+    },
+    {
+      "find": "S1_IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/27182608-cae1-4710-aad9-f93064d5b524/source.jpg"
+    },
+    {
+      "find": "S2_TITLE",
+      "replace": "Durable Build"
+    },
+    {
+      "find": "S2_DESCRIPTION",
+      "replace": "Built with high-quality materials to withstand daily wear and tear, shocks, and rough conditions — ensuring long-lasting performance whether you're at work, at the gym, or outdoors."
+    },
+    {
+      "find": "S2_IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/3dff9faf-9b5a-499b-8c66-fd320ac48413/shotstack-proxy.webp"
+    },
+    {
+      "find": "S3_TITLE",
+      "replace": "Luxurious Quality"
+    },
+    {
+      "find": "S3_DESCRIPTION",
+      "replace": "Crafted with premium materials and refined detailing, offering a sophisticated look and feel that elevates your style — perfect for formal occasions, business settings, or everyday elegance."
+    },
+    {
+      "find": "S3_IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/72863350-ecf5-4681-9f72-9016cfde7ab4/shotstack-proxy.webp"
+    },
+    {
+      "find": "DarkPurple_BACKGROUND_COLOR",
+      "replace": "#471f70"
+    },
+    {
+      "find": "CTA",
+      "replace": "Visit Our Store"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/bold-promo-highlight-social-media-template/8ea9c824-e6fe-4c28-82b0-b9fc5cb5e847/source.mp3"
+    }
+  ]
+}

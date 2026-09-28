@@ -1,0 +1,826 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/luxury-living-spacious-home-rental/3305bd18-4e69-4775-b6f1-3b215ed46219/source.png"
+            },
+            "start": 0.3,
+            "scale": 0.03,
+            "offset": {
+              "x": 0.116,
+              "y": -0.035
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "37",
+                "lineHeight": 1.17
+              },
+              "width": 483,
+              "height": 100
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": 0.242,
+              "y": -0.067
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{TITLE}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "53",
+                "lineHeight": 1.17
+              },
+              "width": 483,
+              "height": 200
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0.235,
+              "y": 0.039
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{TIME}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "35",
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 75
+            },
+            "start": 0.45,
+            "length": "end",
+            "offset": {
+              "x": 0.384,
+              "y": -0.16
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{AMOUNT}}",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "69",
+                "lineHeight": 1
+              },
+              "width": 253,
+              "height": 120
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.118,
+              "y": -0.147
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{WEBSITE}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "30",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 100
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": 0.245,
+              "y": -0.44
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{PHONE}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "30",
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 100
+            },
+            "start": 1.1,
+            "length": "end",
+            "offset": {
+              "x": -0.182,
+              "y": -0.443
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/luxury-living-spacious-home-rental/82e51815-697c-4b93-a8c4-45e96ee4e5c8/source.png"
+            },
+            "start": 1.2,
+            "scale": 0.03,
+            "offset": {
+              "x": 0,
+              "y": -0.44
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/luxury-living-spacious-home-rental/736fd89d-458f-447d-a9aa-38c0f8c1e8ee/source.png"
+            },
+            "start": 1.1,
+            "scale": 0.03,
+            "offset": {
+              "x": -0.369,
+              "y": -0.443
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{CONTACT}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Montserrat SemiBold",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 100
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.005,
+              "y": -0.389
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{FEATURE_4}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "top"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "20",
+                "lineHeight": 1.1
+              },
+              "width": 142,
+              "height": 100
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": 0.43,
+              "y": -0.294
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{FEATURE_3}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "top"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "20",
+                "lineHeight": 1.1
+              },
+              "width": 142,
+              "height": 100
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0.295,
+              "y": -0.294
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{FEATURE_2}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "top"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "20",
+                "lineHeight": 1.1
+              },
+              "width": 142,
+              "height": 100
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": 0.164,
+              "y": -0.294
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{FEATURE_1}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "top"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "20",
+                "lineHeight": 1.1
+              },
+              "width": 142,
+              "height": 100
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.04,
+              "y": -0.294
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ ICON_4 }}"
+            },
+            "start": 0.8,
+            "scale": 0.045,
+            "offset": {
+              "x": 0.435,
+              "y": -0.233
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ ICON_3 }}"
+            },
+            "start": 0.7,
+            "scale": 0.045,
+            "offset": {
+              "x": 0.296,
+              "y": -0.233
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ ICON_2 }}"
+            },
+            "start": 0.6,
+            "scale": 0.045,
+            "offset": {
+              "x": 0.164,
+              "y": -0.233
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ ICON_1 }}"
+            },
+            "start": 0.5,
+            "scale": 0.045,
+            "offset": {
+              "x": 0.04,
+              "y": -0.233
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_3 }}"
+            },
+            "start": 0.2,
+            "scale": 0.17,
+            "offset": {
+              "x": -0.254,
+              "y": -0.232
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 0.1,
+            "scale": 0.17,
+            "offset": {
+              "x": -0.254,
+              "y": -0.046
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 515,
+              "height": 150,
+              "background": {
+                "color": "{{ LINE_COLOR_3 }}"
+              }
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": 0.233,
+              "y": -0.144
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 515,
+              "height": 500,
+              "background": {
+                "color": "{{ SQUARE_COLOR_2 }}"
+              }
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": 0.233,
+              "y": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 10,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0,
+            "scale": 0.45,
+            "offset": {
+              "x": 0,
+              "y": 0.281
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/luxury-living-spacious-home-rental/7d9cc0ac-0dd5-4a18-9e19-9991e28be4aa/source.jpg"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1020,
+              "height": 1020,
+              "background": {
+                "color": "{{ SQUARE_COLOR_2 }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.187
+            },
+            "position": "center",
+            "transition": {
+              "in": "fadeSlow"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "position": "center",
+            "transition": {}
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "TITLE",
+      "replace": "WELCOME TO YOUR DREAM HOME"
+    },
+    {
+      "find": "DESCRIPTION",
+      "replace": "Modern House for Rent"
+    },
+    {
+      "find": "AMOUNT",
+      "replace": "$500"
+    },
+    {
+      "find": "TIME",
+      "replace": "/ per month"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/luxury-living-spacious-home-rental/af4b209c-ce7a-40e0-8e18-cdb1acb8c12a/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_2",
+      "replace": "https://templates.shotstack.io/luxury-living-spacious-home-rental/b65dc89b-4e65-4678-9294-5d599fb067bd/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_3",
+      "replace": "https://templates.shotstack.io/luxury-living-spacious-home-rental/96fa3fe7-c802-4cb3-bd82-7947aa9c8991/source.jpg"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "ICON_1",
+      "replace": "https://templates.shotstack.io/luxury-living-spacious-home-rental/b83746df-4a5a-4562-ad33-1df0d94698f3/source.png"
+    },
+    {
+      "find": "FEATURE_1",
+      "replace": "OUTDOOR BBQ"
+    },
+    {
+      "find": "ICON_2",
+      "replace": "https://templates.shotstack.io/luxury-living-spacious-home-rental/820f79b8-f6d4-4775-a2ea-f5dbf3a81920/source.png"
+    },
+    {
+      "find": "FEATURE_2",
+      "replace": "FULLY EQUIPPED KITCHEN"
+    },
+    {
+      "find": "ICON_3",
+      "replace": "https://templates.shotstack.io/luxury-living-spacious-home-rental/78132ed1-e91c-46c8-ab08-1b5e95e10a44/source.png"
+    },
+    {
+      "find": "FEATURE_3",
+      "replace": "HIGH-SPEED INTERNET"
+    },
+    {
+      "find": "ICON_4",
+      "replace": "https://templates.shotstack.io/luxury-living-spacious-home-rental/3ad86c42-125a-4061-9dd4-e98baf84c102/source.png"
+    },
+    {
+      "find": "FEATURE_4",
+      "replace": "PRIVATE POOL"
+    },
+    {
+      "find": "CONTACT",
+      "replace": "Contact Us:"
+    },
+    {
+      "find": "PHONE",
+      "replace": "+123-456-7890"
+    },
+    {
+      "find": "WEBSITE",
+      "replace": "www.reallygreatsite.com"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#343e50"
+    },
+    {
+      "find": "SQUARE_COLOR_2",
+      "replace": "#2f3050"
+    },
+    {
+      "find": "LINE_COLOR_3",
+      "replace": "#486670"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/luxury-living-spacious-home-rental/3b8cdece-501a-447a-8de2-2b5d2f0b11c6/source.mp3"
+    }
+  ]
+}

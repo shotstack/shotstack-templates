@@ -1,0 +1,274 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Web}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "55",
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 150,
+              "background": {
+                "color": "{{ Web_BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "y": -0.46
+            },
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 200
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.081,
+              "y": 0.417
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE }}"
+            },
+            "start": 0,
+            "scale": [
+              {
+                "start": 0,
+                "length": 1.15,
+                "from": 0,
+                "to": 0.95,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              },
+              {
+                "start": 1.15,
+                "length": 1.05,
+                "from": 0.95,
+                "to": 0.65,
+                "interpolation": "bezier",
+                "easing": "easeInOut"
+              }
+            ],
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 1.15,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 1.15,
+                  "length": 1.05,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 1.15,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 1.15,
+                  "length": 1.05,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 1.15,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 1.15,
+                "length": 1.05,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 1.15,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 1.15,
+                    "length": 1.05,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ Stand }}"
+            },
+            "start": 0,
+            "offset": {
+              "y": -0.28,
+              "x": 0.008
+            },
+            "position": "center",
+            "scale": 0.9
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": 5,
+            "position": "center"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "Title",
+      "replace": "HEYFLASK"
+    },
+    {
+      "find": "Web",
+      "replace": "www.heyflask.com"
+    },
+    {
+      "find": "IMAGE",
+      "replace": "https://templates.shotstack.io/modern-minimalist-sale-promotion-template/cce3ab9a-343c-49a4-8c10-62c304d455b5/source.png"
+    },
+    {
+      "find": "Stand",
+      "replace": "https://templates.shotstack.io/modern-minimalist-sale-promotion-template/cac94a78-7045-4c8f-a185-88a2e2dc618a/source.png"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "Web_BACKGROUND_COLOR",
+      "replace": "#bd807a"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#d0a39f"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/modern-minimalist-sale-promotion-template/a6be1ecf-c13c-458f-823c-54b60e51fc87/source.mp3"
+    }
+  ]
+}

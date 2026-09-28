@@ -1,0 +1,646 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/festive-season-sale-promo-template-fashion-offer/fcc18abc-1394-4e9f-903b-080b56a7642b/vm8vdRfvXFLG3OLnsO15WYS5DG74wNc.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/kaushanscript/v19/vm8vdRfvXFLG3OLnsO15WYS5DF7_ytN3M48a.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"200\" fill=\"{{ WHITE_COLOR }}\"/></svg>"
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": -0.376,
+              "y": -0.428
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 180
+              }
+            },
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 200,
+            "height": 200
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/festive-season-sale-promo-template-fashion-offer/5ed97e19-d0d3-49dc-849d-d09dffe29b96/source.png"
+            },
+            "start": 1.2,
+            "length": 8.8,
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 49,
+                "weight": 800,
+                "color": "{{ BLACK_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ PINK_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 47
+              }
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.423
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 400,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 41,
+                "weight": 800,
+                "color": "{{ WHITE_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.012,
+              "y": -0.341
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 193
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TITLE}}",
+              "font": {
+                "family": "Kaushan Script",
+                "size": 115,
+                "weight": 400,
+                "color": "{{ PINK_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.252
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"200\" fill=\"{{ WHITE_COLOR }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.383,
+              "y": -0.173
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 0.2
+              }
+            },
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 200,
+            "height": 200
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/festive-season-sale-promo-template-fashion-offer/3ec5b57a-defe-46af-986b-45b025d2d4ff/source.png"
+            },
+            "start": 0.6,
+            "length": 9.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{PROMO}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "weight": 800,
+                "color": "{{ WHITE_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ RED_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 0
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.337,
+              "y": 0.145
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 300,
+            "height": 300
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/festive-season-sale-promo-template-fashion-offer/bed8b9c7-08cd-4db0-8dde-3167c23c447a/source.png"
+            },
+            "start": 0.6,
+            "length": 9.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/festive-season-sale-promo-template-fashion-offer/7a2247b2-bdad-4061-8ecc-0eec47d78db6/source.png"
+            },
+            "start": 0.6,
+            "offset": {
+              "x": 0.337,
+              "y": 0.145
+            },
+            "scale": 1,
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "fit": "contain",
+            "width": 334,
+            "height": 373
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0.6,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0.029524228585630655
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "fit": "contain",
+            "width": 810,
+            "height": 802
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/festive-season-sale-promo-template-fashion-offer/18176fd5-19ab-433e-bdf9-9c0e07f19410/source.png"
+            },
+            "start": 0.6,
+            "length": 9.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/festive-season-sale-promo-template-fashion-offer/c804980e-8503-4c8b-9823-1f4f17272b0a/source.png"
+            },
+            "start": 0.6,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0.029524228585630655
+            },
+            "transition": {
+              "in": "slideRight"
+            },
+            "fit": "contain",
+            "width": 861,
+            "height": 888
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "FESTIVE SEASON",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 94,
+                "weight": 800,
+                "color": "{{ BLACK_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.012,
+              "y": 0.312
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 950,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"200\" fill=\"{{ WHITE_COLOR }}\"/></svg>"
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": 0.376,
+              "y": 0.428
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 200,
+            "height": 200
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/festive-season-sale-promo-template-fashion-offer/c420fabc-1826-4b56-9fcc-a69070be772e/source.png"
+            },
+            "start": 0.3,
+            "length": 9.7
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 9.8,
+            "asset": {
+              "type": "image",
+              "src": "{{ LOGO }}"
+            },
+            "start": 0.2,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0.40624777129519335
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 249,
+            "height": 205
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"200\" fill=\"{{ WHITE_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.335,
+              "y": 0.405
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 200,
+            "height": 200
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/festive-season-sale-promo-template-fashion-offer/cd16f42c-c0eb-46b9-b04f-7d1ba3e322d8/source.png"
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/festive-season-sale-promo-template-fashion-offer/fe7ce07a-030c-4b5b-855d-c0d321fc3711/source.png"
+            },
+            "start": 0.1,
+            "offset": {
+              "x": 0.34,
+              "y": -0.3
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -5
+              }
+            },
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1500 1280\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1500\" height=\"1280\" fill=\"{{ RED_COLOR }}\"/></svg>"
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "y": -0.333,
+              "x": 0.083
+            },
+            "transform": {
+              "rotate": {
+                "angle": -18.4
+              }
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 1500,
+            "height": 1280
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1500 1300\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1500\" height=\"1300\" fill=\"{{ WHITE_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.083,
+              "y": -0.333
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -18.4
+              }
+            },
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 1500,
+            "height": 1300
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"#f36d9c\"/></svg>"
+            },
+            "start": 0,
+            "length": 10,
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "LOGO",
+      "replace": "https://templates.shotstack.io/festive-season-sale-promo-template-fashion-offer/ec3f1212-2892-44dc-bdad-1441495bae06/source.png"
+    },
+    {
+      "find": "WHITE_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/festive-season-sale-promo-template-fashion-offer/b6f55737-4a47-4d1f-9a3d-5d79fca4844b/source.jpg"
+    },
+    {
+      "find": "RED_COLOR",
+      "replace": "#b81414"
+    },
+    {
+      "find": "PROMO",
+      "replace": "40% OFF"
+    },
+    {
+      "find": "TITLE",
+      "replace": "Special Sale"
+    },
+    {
+      "find": "PINK_COLOR",
+      "replace": "#f36d9c"
+    },
+    {
+      "find": "DESCRIPTION",
+      "replace": "Looking for great deals on quality products? Check out our special sale products! "
+    },
+    {
+      "find": "CTA",
+      "replace": "SHOP NOW"
+    },
+    {
+      "find": "BLACK_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/festive-season-sale-promo-template-fashion-offer/c536bb55-9194-43aa-a5d9-da87b5a3b4f7/source.mp3"
+    }
+  ]
+}

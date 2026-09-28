@@ -1,0 +1,416 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/travel-deal-promo-template-tour-offer/66d3afd8-3ea1-48be-a9ae-00ae0fdb2ec9/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/travel-deal-promo-template-tour-offer/609c1f89-e07a-4ab0-909c-7545ec74b066/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 660,
+              "height": 660,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.22,
+              "y": 0.245
+            },
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-deal-promo-template-tour-offer/4f6f4299-dc69-426e-8e68-855f404cc0ae/source.mp4"
+            },
+            "start": 0,
+            "length": 8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Address}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "family": "Poppins",
+                "size": "45",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 150
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": -0.181,
+              "y": -0.45
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Phone}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "family": "Poppins",
+                "size": "45",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 100
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": -0.242,
+              "y": -0.389
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Info}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "family": "League Spartan Black",
+                "size": "50",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 72
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.258,
+              "y": -0.344
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Subtitle}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Poppins",
+                "size": "45",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 100
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": 0.219,
+              "y": 0.194
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title}}",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "League Spartan Black",
+                "size": "130",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 450
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0.198,
+              "y": 0.311
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 110,
+              "height": 110,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0.05,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.468
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselDown"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-deal-promo-template-tour-offer/f30a521d-3745-4078-9937-cbf15086ed62/source.png"
+            },
+            "start": 0,
+            "length": 8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1080,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.45
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-deal-promo-template-tour-offer/beec3951-5b63-41af-8993-6f64756453d9/source.mp4"
+            },
+            "start": 0,
+            "length": 8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 280,
+              "height": 280,
+              "background": {
+                "color": "{{ TEXT_FONT_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.498
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselDown"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-deal-promo-template-tour-offer/a21e9356-f83e-4646-bf3a-7d46bf8389d3/source.png"
+            },
+            "start": 0,
+            "length": 8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 8,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO }}",
+              "volume": 0
+            },
+            "start": 0
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "Title",
+      "replace": "TAKE A TOUR"
+    },
+    {
+      "find": "Subtitle",
+      "replace": "TO BEIJING"
+    },
+    {
+      "find": "Info",
+      "replace": "For More Info:"
+    },
+    {
+      "find": "Phone",
+      "replace": "(234)-567-8900"
+    },
+    {
+      "find": "Address",
+      "replace": "24 Road at Street, Any City, Country"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "TEXT_FONT_COLOR_2",
+      "replace": "#000000"
+    },
+    {
+      "find": "VIDEO",
+      "replace": "https://templates.shotstack.io/travel-deal-promo-template-tour-offer/8c08abcf-3a16-4668-8af8-c858b9f75d8d/source.m4v"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/travel-deal-promo-template-tour-offer/dc3c6010-6931-40f0-bfb2-a7d61740146e/source.mp3"
+    }
+  ]
+}

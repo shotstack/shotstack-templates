@@ -1,0 +1,534 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/hotel-review-slideshow/b2a6856b-a209-4918-9ae6-e94116c46c07/Montserrat-ExtraBold.ttf"
+      }
+    ],
+    "background": "#000000",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ HOTEL_NAME }}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "color": "#ffffff",
+                "size": 60
+              },
+              "width": 1200,
+              "height": 600
+            },
+            "start": 0,
+            "length": 4,
+            "effect": "zoomIn",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ HOTEL_IMAGE_MAIN }}"
+            },
+            "start": 0,
+            "length": 5,
+            "effect": "zoomIn",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "position": "center",
+            "scale": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ TESTIMONIAL_1 }}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "color": "#ffffff",
+                "size": 60
+              },
+              "width": 1400,
+              "height": 216
+            },
+            "start": 5,
+            "length": 3,
+            "effect": "zoomIn",
+            "transition": {
+              "in": "slideDown",
+              "out": "slideUp"
+            },
+            "fit": "none",
+            "scale": 1,
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ TESTIMONIAL_1_AUTHOR }}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "color": "#ffffff",
+                "size": 36
+              },
+              "width": 1400,
+              "height": 102
+            },
+            "length": 3,
+            "effect": "zoomIn",
+            "transition": {
+              "in": "slideDown",
+              "out": "slideUp"
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": -0.155
+            },
+            "position": "center",
+            "start": 5.1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ HOTEL_IMAGE_1 }}"
+            },
+            "start": 4,
+            "length": 5,
+            "effect": "zoomIn",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "position": "center",
+            "fit": "crop",
+            "scale": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ HOTEL_IMAGE_2 }}"
+            },
+            "start": 8,
+            "length": 3,
+            "effect": "zoomIn",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "position": "center",
+            "fit": "crop",
+            "scale": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ TESTIMONIAL_2 }}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "color": "#ffffff",
+                "size": 60
+              },
+              "width": 1400,
+              "height": 216
+            },
+            "start": 11,
+            "length": 3,
+            "effect": "zoomIn",
+            "transition": {
+              "in": "slideDown",
+              "out": "slideUp"
+            },
+            "fit": "none",
+            "scale": 1,
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ TESTIMONIAL_2_AUTHOR }}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "color": "#ffffff",
+                "size": 36
+              },
+              "width": 1400,
+              "height": 102
+            },
+            "length": 3,
+            "effect": "zoomIn",
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideRight"
+            },
+            "start": 11.1,
+            "offset": {
+              "x": 0,
+              "y": -0.148
+            },
+            "fit": "none",
+            "scale": 1,
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ HOTEL_IMAGE_3 }}"
+            },
+            "start": 10,
+            "length": 6,
+            "effect": "zoomIn",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ HOTEL_IMAGE_4 }}"
+            },
+            "effect": "zoomIn",
+            "start": 15,
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "length": 3,
+            "position": "center",
+            "scale": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ TESTIMONIAL_4 }}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "color": "#ffffff",
+                "size": 60
+              },
+              "width": 1400,
+              "height": 216
+            },
+            "length": 3,
+            "effect": "zoomIn",
+            "transition": {
+              "in": "slideDown",
+              "out": "slideUp"
+            },
+            "start": 17,
+            "fit": "none",
+            "scale": 1,
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ TESTIMONIAL_4_AUTHOR }}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "color": "#ffffff",
+                "size": 36
+              },
+              "width": 1400,
+              "height": 102
+            },
+            "length": 3,
+            "effect": "zoomIn",
+            "transition": {
+              "in": "slideDown",
+              "out": "slideUp"
+            },
+            "start": 17.1,
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.004,
+              "y": -0.155
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ HOTEL_IMAGE_5 }}"
+            },
+            "effect": "zoomIn",
+            "start": 17,
+            "length": 5,
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "position": "center",
+            "scale": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ HOTEL_IMAGE_6 }}"
+            },
+            "effect": "zoomIn",
+            "start": 21,
+            "length": 2,
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "position": "center",
+            "scale": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ TESTIMONIAL_5 }}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "color": "#ffffff",
+                "size": 60
+              },
+              "width": 1400,
+              "height": 216
+            },
+            "start": 23,
+            "length": 3,
+            "effect": "zoomIn",
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideUp"
+            },
+            "fit": "none",
+            "scale": 1,
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ TESTIMONIAL_5_AUTHOR }}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "color": "#ffffff",
+                "size": 36
+              },
+              "width": 1400,
+              "height": 102
+            },
+            "length": 3,
+            "effect": "zoomIn",
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideUp"
+            },
+            "start": 23.1,
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": -0.148
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "{{ HOTEL_IMAGE_7 }}"
+            },
+            "start": 22,
+            "length": 5,
+            "effect": "zoomIn",
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "Book Now",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "color": "#ffffff",
+                "size": 72
+              },
+              "width": 800,
+              "height": 200
+            },
+            "start": 25.8,
+            "length": 4.2,
+            "effect": "zoomIn",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "audio",
+              "src": "https://templates.shotstack.io/hotel-review-slideshow/5c08515f-51bc-4d48-8bde-3157b82f41c5/source.mp3",
+              "volume": 1,
+              "effect": "fadeOut"
+            },
+            "start": 0,
+            "length": 30
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "poster": {
+      "capture": 6
+    }
+  },
+  "merge": [
+    {
+      "find": "HOTEL_IMAGE_MAIN",
+      "replace": "https://templates.shotstack.io/hotel-review-slideshow/b99368b8-1e49-423a-bd2a-a807560d8da6/source.jpg"
+    },
+    {
+      "find": "HOTEL_IMAGE_1",
+      "replace": "https://templates.shotstack.io/hotel-review-slideshow/8f05d8ae-b13c-4038-be46-b06c3e59f6ac/source.jpg"
+    },
+    {
+      "find": "HOTEL_IMAGE_2",
+      "replace": "https://templates.shotstack.io/hotel-review-slideshow/c5b4b3a0-650f-4d57-bbee-8fbb7c98628e/source.jpg"
+    },
+    {
+      "find": "HOTEL_IMAGE_3",
+      "replace": "https://templates.shotstack.io/hotel-review-slideshow/7610f4f9-30fe-4779-94eb-077e89c62d66/source.jpg"
+    },
+    {
+      "find": "HOTEL_IMAGE_4",
+      "replace": "https://templates.shotstack.io/hotel-review-slideshow/4356ceb1-7ad2-4588-a061-5b667f35c18f/source.jpg"
+    },
+    {
+      "find": "HOTEL_IMAGE_5",
+      "replace": "https://templates.shotstack.io/hotel-review-slideshow/b12530ac-b32f-4f19-b0e1-c8e721b77228/source.webp"
+    },
+    {
+      "find": "HOTEL_IMAGE_6",
+      "replace": "https://templates.shotstack.io/hotel-review-slideshow/58abe79a-f11b-400a-bdb3-ddf56bf68cee/source.jpg"
+    },
+    {
+      "find": "HOTEL_IMAGE_7",
+      "replace": "https://templates.shotstack.io/hotel-review-slideshow/898cdb79-a38c-4e9a-b0c5-d5a921995a42/source.jpg"
+    },
+    {
+      "find": "HOTEL_NAME",
+      "replace": "Grand Pacific Hotel"
+    },
+    {
+      "find": "TESTIMONIAL_1",
+      "replace": "The room was clean and the breakfast is good"
+    },
+    {
+      "find": "TESTIMONIAL_1_AUTHOR",
+      "replace": "Kim, Thailand"
+    },
+    {
+      "find": "TESTIMONIAL_2",
+      "replace": "Staff were very accommodating"
+    },
+    {
+      "find": "TESTIMONIAL_2_AUTHOR",
+      "replace": "Charles, Australia"
+    },
+    {
+      "find": "TESTIMONIAL_4",
+      "replace": "Highly recommended. I would definitely stay here again!"
+    },
+    {
+      "find": "TESTIMONIAL_4_AUTHOR",
+      "replace": "Gabe, United Kingdom"
+    },
+    {
+      "find": "TESTIMONIAL_5",
+      "replace": "Great experience. Strongly recommended"
+    },
+    {
+      "find": "TESTIMONIAL_5_AUTHOR",
+      "replace": "Peter, United States"
+    }
+  ]
+}

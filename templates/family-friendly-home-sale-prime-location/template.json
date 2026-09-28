@@ -1,0 +1,726 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/family-friendly-home-sale-prime-location/dddb0e9c-f1d7-4cca-95bb-518e08932e84/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup5.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/family-friendly-home-sale-prime-location/f54c9d82-a3a8-46d8-a1de-78a588d6b212/OD5puN2I2mekHmyoU1Kj2AXOd5_7v7gIDlX8quj7viQ_N1HixEApeL3Y.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/family-friendly-home-sale-prime-location/7a87fed4-2474-4d83-bf5a-d64808e48a3b/OD5puN2I2mekHmyoU1Kj2AXOd5_7v7gIDlX8quj7viQ_N1HixEApeL3Y.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/family-friendly-home-sale-prime-location/e14408c6-739e-4732-a487-df9c8c5e60cf/OD5puN2I2mekHmyoU1Kj2AXOd5_7v7gIDlX8quj7viQ_N1HixEApeL3Y.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 360,
+              "height": 33,
+              "background": {
+                "color": "{{ RED_BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.355,
+              "y": 0.348
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/family-friendly-home-sale-prime-location/f9a53c21-4306-435d-af7c-1cf4cc3484ef/source.png"
+            },
+            "start": 0,
+            "length": 11.7
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ADDRESS}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "family": "Hedvig Letters Serif",
+                "size": "28",
+                "lineHeight": 1
+              },
+              "width": 463,
+              "height": 50
+            },
+            "start": 1.1,
+            "length": "end",
+            "offset": {
+              "x": -0.243,
+              "y": 0.184
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_DESCRIPTION_3}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "family": "Hedvig Letters Serif",
+                "size": "28",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 50
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.263,
+              "y": 0.22
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_DESCRIPTION_2}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "family": "Hedvig Letters Serif",
+                "size": "28",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 50
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": -0.263,
+              "y": 0.244
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_DESCRIPTION_1}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "family": "Hedvig Letters Serif",
+                "size": "28",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 50
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": -0.263,
+              "y": 0.269
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{DESCRIPTION_2}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Hedvig Letters Serif",
+                "size": "38",
+                "lineHeight": 1
+              },
+              "width": 583,
+              "height": 81,
+              "background": {
+                "color": "{{ BROWN_BACKGROUND_COLOR_2 }}",
+                "borderRadius": 39
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.341
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_TITLE}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "family": "Hedvig Letters Serif",
+                "size": "45",
+                "lineHeight": 1
+              },
+              "width": 302,
+              "height": 75
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.295,
+              "y": 0.308
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{WEBSITE}}",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "top"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "family": "Didact Gothic",
+                "size": "38",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 75
+            },
+            "start": 2.1,
+            "length": "end",
+            "offset": {
+              "y": -0.461,
+              "x": 0.239
+            },
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{EMAIL}}",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "top"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "family": "Didact Gothic",
+                "size": "38",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 75
+            },
+            "start": 1.9,
+            "length": "end",
+            "offset": {
+              "y": -0.435,
+              "x": 0.239
+            },
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{PHONE}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "family": "Didact Gothic",
+                "size": "47",
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 72
+            },
+            "start": 2,
+            "length": "end",
+            "offset": {
+              "x": -0.336,
+              "y": -0.46
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{CTA}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "family": "Didact Gothic",
+                "size": "47",
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 72
+            },
+            "start": 1.8,
+            "length": "end",
+            "offset": {
+              "x": -0.336,
+              "y": -0.428
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_4 }}"
+            },
+            "start": 1.3,
+            "scale": 0.37,
+            "offset": {
+              "x": 0.244,
+              "y": -0.216
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 1.2,
+            "scale": 0.35,
+            "offset": {
+              "x": 0.244,
+              "y": 0.164
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_3 }}"
+            },
+            "start": 1.4,
+            "scale": 0.175,
+            "offset": {
+              "x": -0.245,
+              "y": -0.313
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 350,
+              "background": {
+                "color": "{{ RED_BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.248,
+              "y": 0.248
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 10,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 1.3,
+            "scale": 0.35,
+            "offset": {
+              "x": -0.247,
+              "y": -0.057
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "top"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Hedvig Letters Serif",
+                "size": "71",
+                "lineHeight": 1
+              },
+              "width": 825,
+              "height": 100
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.4
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{TITLE}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Dancing Script",
+                "size": "78",
+                "lineHeight": 1
+              },
+              "width": 600,
+              "height": 99
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.454
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#a24444",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1500,
+              "height": 1120,
+              "background": {
+                "color": "{{ RED_BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 1.7,
+            "length": 10,
+            "offset": {
+              "x": 0.07,
+              "y": -0.425
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -20
+              }
+            },
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ BROWN_BACKGROUND_COLOR_2 }}"
+              }
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "DESCRIPTION_2",
+      "replace": "PERFECT FOR FAMILY LIFE"
+    },
+    {
+      "find": "TITLE",
+      "replace": "Minimalist"
+    },
+    {
+      "find": "DESCRIPTION",
+      "replace": "HOUSE FOR SALE"
+    },
+    {
+      "find": "S2_TITLE",
+      "replace": "Features:"
+    },
+    {
+      "find": "S2_DESCRIPTION_1",
+      "replace": ". Tranquil Residential Haven"
+    },
+    {
+      "find": "S2_DESCRIPTION_2",
+      "replace": ". Thriving Commercial Hub"
+    },
+    {
+      "find": "S2_DESCRIPTION_3",
+      "replace": ". Investment Gem"
+    },
+    {
+      "find": "ADDRESS",
+      "replace": "123 Anywhere St, Any City, ST 12345"
+    },
+    {
+      "find": "CTA",
+      "replace": "Contact Us:"
+    },
+    {
+      "find": "PHONE",
+      "replace": "+123-456-7890"
+    },
+    {
+      "find": "EMAIL",
+      "replace": "Hello@realestate.com"
+    },
+    {
+      "find": "WEBSITE",
+      "replace": "www.realestate.com"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "TEXT_FONT_COLOR_2",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/family-friendly-home-sale-prime-location/773040a9-c7c9-4041-ae1b-79faa3d12677/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_2",
+      "replace": "https://templates.shotstack.io/family-friendly-home-sale-prime-location/83cc5477-4bc2-4d6f-8c09-b4eaa486dc18/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_3",
+      "replace": "https://templates.shotstack.io/family-friendly-home-sale-prime-location/618b9301-3909-4090-b805-51bc99bc4cd6/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_4",
+      "replace": "https://templates.shotstack.io/family-friendly-home-sale-prime-location/1ecc6f52-41b2-481a-ac20-feb0665d3ccd/source.jpg"
+    },
+    {
+      "find": "RED_BACKGROUND_COLOR",
+      "replace": "#a22020"
+    },
+    {
+      "find": "BROWN_BACKGROUND_COLOR_2",
+      "replace": "#fff9f0"
+    }
+  ]
+}

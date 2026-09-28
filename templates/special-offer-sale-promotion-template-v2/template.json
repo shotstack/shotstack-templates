@@ -1,0 +1,385 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/Special-offer-sale-promotion-template/f91dc335-0a2d-48fb-8d02-471a1e949569/wlpvgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXeIqv.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/Special-offer-sale-promotion-template/878831de-a431-4235-9512-45a47fdbdc00/j8_16_LD37rqfuwxyIuaZhE6cRXOLtm2gfT2hq-J.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/Special-offer-sale-promotion-template/d1da9a40-7ed7-4dbe-a980-4985d1668236/wEOhEADFm8hSaQTFG18FErVhsC9x-tarUfbtqA.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/Special-offer-sale-promotion-template/3d8ffd93-1df2-43da-91f9-c5c922f456ca/ypvBbXGRglhokR7dcC3d1-R6zmxitm71.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/Special-offer-sale-promotion-template/42148e1e-2fd6-41f4-a739-bc98dad82a99/5DCPAKrpzy_H98IV2ISnZBbGrVNfOuPh.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/Special-offer-sale-promotion-template/8deba954-ee4e-4a26-a31e-724d6aafaa39/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup5.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/firasanscondensed/v11/wEOhEADFm8hSaQTFG18FErVhsC9x-tarYfHnrMtVbx8.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/dancingscript/v29/If2RXTr6YS-zF4S-kcSWSVi_swLngOAliz4X.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "fit": "contain",
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/special-offer-sale-promotion-template/ak7amxaddg39iky0bul5h474/source_a95fd221.webm"
+            },
+            "start": 0,
+            "offset": {
+              "x": 0.052,
+              "y": 0.158
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0.5,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": -0.2000253597603816
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "fit": "contain",
+            "width": 827,
+            "height": 858
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_TITLE_3}}",
+              "font": {
+                "family": "Fira Sans Condensed",
+                "size": 110,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": -0.12,
+              "y": 0.228
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 400,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_TITLE_2}}",
+              "font": {
+                "family": "Dancing Script",
+                "size": 209,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.17,
+              "y": 0.333
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 600,
+            "height": 300
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_TITLE}}",
+              "font": {
+                "family": "Fira Sans Condensed",
+                "size": 72,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.189,
+              "y": 0.384
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 350,
+            "height": 110
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 88,
+                "weight": 800,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "#ff0000",
+                "opacity": 1,
+                "borderRadius": 0
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.207,
+              "y": 0.047
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 300,
+            "height": 300
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Special-offer-sale-promotion-template/064ae418-84de-4acc-b8a9-5cb3aa2492ad/source.png"
+            },
+            "start": 0.4,
+            "length": 9.6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1350\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1350\" fill=\"{{ TEXT_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "width": 1080,
+            "height": 1350
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Special-offer-sale-promotion-template/fa3bfc24-0b9a-4834-83ff-2afbd3dec95b/source.mp4"
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1350\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1350\" fill=\"#000000\" fill-opacity=\"0.41\"/></svg>"
+            },
+            "start": 0,
+            "length": 10,
+            "width": 1080,
+            "height": 1350
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_SRC }}",
+              "volume": 0
+            },
+            "start": 0,
+            "scale": 1,
+            "width": 1080,
+            "height": 1350,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "crop"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1350
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "S1_TITLE",
+      "replace": "TODAY'S"
+    },
+    {
+      "find": "S1_TITLE_2",
+      "replace": "Special"
+    },
+    {
+      "find": "S1_TITLE_3",
+      "replace": "MENU"
+    },
+    {
+      "find": "CTA",
+      "replace": "50% OFF"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "TEXT_FONT_COLOR_2",
+      "replace": "#feb310"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/Special-offer-sale-promotion-template/1b936502-09bb-4a2e-8181-a71c25b3554a/source.png"
+    },
+    {
+      "find": "VIDEO_SRC",
+      "replace": "https://templates.shotstack.io/Special-offer-sale-promotion-template/f9e4c720-52e6-4775-b970-64f458a8d565/source.mp4"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/Special-offer-sale-promotion-template/ff3316c4-542f-44e3-962f-93d8b3c5e0f0/source.mp3"
+    }
+  ]
+}

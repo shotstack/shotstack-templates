@@ -1,0 +1,1113 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/travel-deal-flyer-template-sale-promotion-offer/6e1f3e02-f3df-4d99-ab3d-3c6ed6fb863a/source.png"
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": -0.2910555555555556,
+              "y": 0.3907291666666667
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "fit": "contain",
+            "width": 97,
+            "height": 94
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Company_name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 20,
+                "weight": 600,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.404
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 500,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Duty}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 20,
+                "weight": 600,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.385
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 500,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 77,
+                "weight": 800,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.294
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 800,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Tagline}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 31,
+                "weight": 600,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.238
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 800,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 40 40\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"40\" height=\"40\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0.65,
+            "length": "end",
+            "offset": {
+              "x": -0.336,
+              "y": 0.151
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 40,
+            "height": 40
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-deal-flyer-template-sale-promotion-offer/5c589c73-d849-4aaf-b657-7d64c25cbb1e/source.png"
+            },
+            "start": 0.65,
+            "length": 4.35
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 40 40\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"40\" height=\"40\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0.75,
+            "length": "end",
+            "offset": {
+              "x": -0.336,
+              "y": 0.113
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 40,
+            "height": 40
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-deal-flyer-template-sale-promotion-offer/88f03890-9227-407f-859e-53b967960fb5/source.png"
+            },
+            "start": 0.75,
+            "length": 4.25
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 40 40\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"40\" height=\"40\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0.85,
+            "length": "end",
+            "offset": {
+              "x": -0.336,
+              "y": 0.076
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 40,
+            "height": 40
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-deal-flyer-template-sale-promotion-offer/79bc82ef-942c-4067-9000-c5513a8667a0/source.png"
+            },
+            "start": 0.85,
+            "length": 4.15
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 40 40\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"40\" height=\"40\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0.95,
+            "length": "end",
+            "offset": {
+              "x": -0.336,
+              "y": 0.041
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 40,
+            "height": 40
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-deal-flyer-template-sale-promotion-offer/4ef5433f-937b-431a-b73b-fd2888796c05/source.png"
+            },
+            "start": 0.95,
+            "length": 4.05
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 50 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"50\" height=\"50\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.65,
+            "length": "end",
+            "offset": {
+              "x": -0.336,
+              "y": 0.151
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 50,
+            "height": 50
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-deal-flyer-template-sale-promotion-offer/aa72800e-cb69-4de6-aea7-961b32ff1f81/source.png"
+            },
+            "start": 0.65,
+            "length": 4.35
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 50 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"50\" height=\"50\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.75,
+            "length": "end",
+            "offset": {
+              "x": -0.336,
+              "y": 0.113
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 50,
+            "height": 50
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-deal-flyer-template-sale-promotion-offer/96b1921c-43de-435c-8645-03e023015a0d/source.png"
+            },
+            "start": 0.75,
+            "length": 4.25
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 50 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"50\" height=\"50\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.85,
+            "length": "end",
+            "offset": {
+              "x": -0.336,
+              "y": 0.076
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 50,
+            "height": 50
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-deal-flyer-template-sale-promotion-offer/f730202c-d9da-4454-8e43-dfae1800d2a5/source.png"
+            },
+            "start": 0.85,
+            "length": 4.15
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 50 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"50\" height=\"50\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.95,
+            "length": "end",
+            "offset": {
+              "x": -0.336,
+              "y": 0.041
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 50,
+            "height": 50
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-deal-flyer-template-sale-promotion-offer/21bcd5f9-569f-43bf-b1b8-7a534dc76679/source.png"
+            },
+            "start": 0.95,
+            "length": 4.05
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Subtitle}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 37,
+                "weight": 800,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.195
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 600,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{List_1}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 27,
+                "weight": 600,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.151
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 600,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{List_2}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 27,
+                "weight": 600,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.113
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 600,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{List_3}}",
+              "font": {
+                "family": "{{ FONT_COLOR_2 }}",
+                "size": 27,
+                "weight": 400,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.076
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 600,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{List_4}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 27,
+                "weight": 600,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.041
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 600,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Discount}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 56,
+                "weight": 800,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.05,
+            "length": "end",
+            "offset": {
+              "x": -0.272,
+              "y": -0.096
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 13
+              }
+            },
+            "transition": {
+              "in": "fade"
+            },
+            "width": 200,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 350 350\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"350\" height=\"350\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.261,
+              "y": -0.096
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 350,
+            "height": 350
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-deal-flyer-template-sale-promotion-offer/e19b0a5d-b59f-46d7-8fc3-eb36bf6408af/source.png"
+            },
+            "start": 1,
+            "length": 4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA_1}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "weight": 600,
+                "color": "#000000",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.114,
+              "y": -0.428
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Web}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 26,
+                "weight": 600,
+                "color": "#000000",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.1,
+            "length": "end",
+            "offset": {
+              "x": -0.114,
+              "y": -0.447
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA_2}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 29,
+                "weight": 800,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 33
+              }
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": 0.28,
+              "y": -0.447
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 262,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1000 1000\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1000\" height=\"1000\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.65,
+            "length": "end",
+            "offset": {
+              "x": 0.127,
+              "y": -0.203
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 1000,
+            "height": 1000
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-deal-flyer-template-sale-promotion-offer/549c9543-879a-44fe-b2ce-b5c300705c61/source.png"
+            },
+            "start": 0.65,
+            "length": 4.35
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1880 1880\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1880\" height=\"1880\" fill=\"{{ FONT_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.058,
+              "y": -0.203
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 1880,
+            "height": 1880
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-deal-flyer-template-sale-promotion-offer/29c685cb-0bee-4b33-b40b-9dee4ff0d050/source.png"
+            },
+            "start": 0.6,
+            "length": 4.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 50 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"50\" height=\"50\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "y": -0.441,
+              "x": -0.365
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 50,
+            "height": 50
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-deal-flyer-template-sale-promotion-offer/8fdf98b8-3e6b-433b-84ec-f267f7527dd6/source.png"
+            },
+            "start": 0.9,
+            "length": 4.1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 90 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"90\" height=\"90\" fill=\"{{ BACKGROUND_COLOR }}\" rx=\"50\" ry=\"50\"/></svg>"
+            },
+            "start": 0.85,
+            "length": "end",
+            "offset": {
+              "y": -0.441,
+              "x": -0.365
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 90,
+            "height": 90
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1100 250\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1100\" height=\"250\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.441
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 1100,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO }}",
+              "volume": 1
+            },
+            "start": 0.7,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": -0.25950685235631393
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 1080,
+            "height": 637
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 5,
+            "position": "center",
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Company_name",
+      "replace": "Airfly ZONE"
+    },
+    {
+      "find": "Duty",
+      "replace": "Travel Agent"
+    },
+    {
+      "find": "Title",
+      "replace": "LET’S TRAVEL THE GLOBE TOGETHER"
+    },
+    {
+      "find": "Tagline",
+      "replace": "We Make your Travel Experience Unforgettable"
+    },
+    {
+      "find": "Subtitle",
+      "replace": "We Offer:"
+    },
+    {
+      "find": "List_1",
+      "replace": "Luxury Vacation Planning"
+    },
+    {
+      "find": "List_2",
+      "replace": "Exclusive Guided Tours"
+    },
+    {
+      "find": "List_3",
+      "replace": "VIP Airport Services"
+    },
+    {
+      "find": "List_4",
+      "replace": "24/7 Travel Concierge"
+    },
+    {
+      "find": "Discount",
+      "replace": "40% OFF"
+    },
+    {
+      "find": "CTA_1",
+      "replace": "Book Now"
+    },
+    {
+      "find": "Web",
+      "replace": "www.airflyzone.com"
+    },
+    {
+      "find": "CTA_2",
+      "replace": "VISIT US"
+    },
+    {
+      "find": "VIDEO",
+      "replace": "https://templates.shotstack.io/travel-deal-flyer-template-sale-promotion-offer/d656734b-e668-4fcb-bdcd-25b76d1c00a2/source.mp4"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#e1b504"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#005f64"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/travel-deal-flyer-template-sale-promotion-offer/0651298a-ff0c-45f9-949a-5d567a571bbc/source.mp3"
+    }
+  ]
+}

@@ -1,0 +1,1230 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/c785dfef-d6fd-478e-bb13-8b57b8eeb831/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_4 }}"
+            },
+            "start": 0.4,
+            "scale": 0.125,
+            "offset": {
+              "x": 0.292,
+              "y": 0.133
+            },
+            "transition": {
+              "in": "carouselLeft"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/b38ded08-7ec5-425f-8ad3-9656dc25e209/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_3 }}"
+            },
+            "start": 0.3,
+            "scale": 0.125,
+            "offset": {
+              "y": 0.133
+            },
+            "transition": {
+              "in": "carouselLeft"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/a9598b83-9902-44ab-a8b2-5b0b97bb6d5b/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_2 }}"
+            },
+            "start": 0.2,
+            "scale": 0.125,
+            "offset": {
+              "x": -0.292,
+              "y": 0.133
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/c3edfeee-49f6-4fd5-9058-0eec8bdf1f60/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Web}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_3 }}",
+                "family": "Montserrat SemiBold",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 114
+            },
+            "start": 1.15,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.395
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 800,
+              "background": {
+                "color": "{{ FONT_COLOR_2 }}"
+              }
+            },
+            "start": 1.1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.395
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/edbaf84e-2383-4034-aafa-bb22d9d2596e/source.png"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ ROPE_RIGHT }}"
+            },
+            "start": 1,
+            "scale": 0.25,
+            "offset": {
+              "x": 0.36,
+              "y": -0.449
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ ROPE_LEFT }}"
+            },
+            "start": 1,
+            "scale": 0.25,
+            "offset": {
+              "x": -0.352,
+              "y": -0.449
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 50,
+              "height": 50,
+              "background": {
+                "color": "{{ FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0.95,
+            "length": "end",
+            "offset": {
+              "x": 0.031,
+              "y": -0.297
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/5bb464d6-6e7e-4c43-a553-8450bff68377/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 50,
+              "height": 50,
+              "background": {
+                "color": "{{ FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0.95,
+            "length": "end",
+            "offset": {
+              "x": -0.394,
+              "y": -0.297
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/c4116fef-ee94-4f09-a636-d1c26108af65/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 50,
+              "height": 50,
+              "background": {
+                "color": "{{ FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0.85,
+            "length": "end",
+            "offset": {
+              "x": 0.031,
+              "y": -0.259
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/22f48691-e230-4170-966a-989252fd8295/source.png"
+            },
+            "start": 0,
+            "length": "auto"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 50,
+              "height": 50,
+              "background": {
+                "color": "{{ FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0.85,
+            "length": "end",
+            "offset": {
+              "x": -0.397,
+              "y": -0.259
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/e5181a45-4456-4b87-b635-7afe979cda02/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 50,
+              "height": 50,
+              "background": {
+                "color": "{{ FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0.75,
+            "length": "end",
+            "offset": {
+              "x": 0.031,
+              "y": -0.216
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/f7e40143-ead7-45d2-8655-4eb4fc7b80c5/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 50,
+              "height": 50,
+              "background": {
+                "color": "{{ FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0.75,
+            "length": "end",
+            "offset": {
+              "x": -0.397,
+              "y": -0.216
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/06754306-757e-4b09-9a50-69b6c06e7735/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/3daeb3b1-f5aa-437c-9db1-f0e0258ace90/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 50,
+              "height": 50,
+              "background": {
+                "color": "{{ FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0.65,
+            "length": "end",
+            "offset": {
+              "x": 0.025,
+              "y": -0.171
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 50,
+              "height": 50,
+              "background": {
+                "color": "{{ FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0.65,
+            "length": "end",
+            "offset": {
+              "x": -0.397,
+              "y": -0.171
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/be65452f-6a2c-4533-bdb2-af5eaa5a3132/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{List_8}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "Montserrat SemiBold",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 450,
+              "height": 114
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": 0.273,
+              "y": -0.297
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{List_7}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "Montserrat SemiBold",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 450,
+              "height": 114
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.144,
+              "y": -0.297
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{List_6}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "Montserrat SemiBold",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 450,
+              "height": 114
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": 0.273,
+              "y": -0.259
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": " {{List_5}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "Montserrat SemiBold",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 450,
+              "height": 114
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": -0.144,
+              "y": -0.259
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{List_4}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "Montserrat SemiBold",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 450,
+              "height": 114
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0.273,
+              "y": -0.216
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{List_3}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "Montserrat SemiBold",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 450,
+              "height": 114
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": -0.144,
+              "y": -0.216
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{List_2}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "Montserrat SemiBold",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 450,
+              "height": 114
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": 0.273,
+              "y": -0.171
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{List_1}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "Montserrat SemiBold",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 450,
+              "height": 114
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": -0.144,
+              "y": -0.171
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Subtitle}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "Montserrat SemiBold",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 72
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.101
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Titl_2}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_2 }}",
+                "family": "Montserrat ExtraBold",
+                "size": "100",
+                "lineHeight": 1
+              },
+              "width": 1000,
+              "height": 200
+            },
+            "start": 0.55,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.04
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title_1}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "holiday",
+                "size": "120",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 200
+            },
+            "start": 0.5,
+            "length": "end",
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 270,
+              "height": 270,
+              "background": {
+                "color": "{{ FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.292,
+              "y": 0.133
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/fc143ceb-4ee4-4c7e-a37d-5494e8371fe4/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 270,
+              "height": 270,
+              "background": {
+                "color": "{{ FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.133
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/d439a78a-00c5-4daf-a5d8-8f04b614711d/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 270,
+              "height": 270,
+              "background": {
+                "color": "{{ FONT_COLOR_2 }}"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.292,
+              "y": 0.133
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/6c34cc4a-98a2-4a52-9477-8ad38598cb56/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 400,
+              "background": {
+                "color": "{{ SHAPE_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.13
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/bedbf848-ea9d-4d09-b4e2-bb5b92c7d177/source.png"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_1 }}"
+            },
+            "start": 0,
+            "scale": 0.57,
+            "offset": {
+              "y": 0.402,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ BACKGROUND }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "Title_1",
+      "replace": "Premium Service"
+    },
+    {
+      "find": "Titl_2",
+      "replace": "TRAVEL SPECIALS"
+    },
+    {
+      "find": "Subtitle",
+      "replace": "Exciting holidays await . affordable, fun, unforgettable!"
+    },
+    {
+      "find": "List_1",
+      "replace": "Butler Service"
+    },
+    {
+      "find": "List_2",
+      "replace": "Exclusive Excursions"
+    },
+    {
+      "find": "List_3",
+      "replace": "Fine Dining"
+    },
+    {
+      "find": "List_4",
+      "replace": "VIP Lounge Access"
+    },
+    {
+      "find": "List_5",
+      "replace": "Private Suites"
+    },
+    {
+      "find": "List_6",
+      "replace": "Concierge Service"
+    },
+    {
+      "find": "List_7",
+      "replace": "Spa & Wellness"
+    },
+    {
+      "find": "List_8",
+      "replace": "Helipad Access"
+    },
+    {
+      "find": "Web",
+      "replace": "www.travellingsurvey.com"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#000000"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#275811"
+    },
+    {
+      "find": "SHAPE_COLOR",
+      "replace": "#e6e6e6"
+    },
+    {
+      "find": "FONT_COLOR_3",
+      "replace": "#fcfcfc"
+    },
+    {
+      "find": "ROPE_LEFT",
+      "replace": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/2e4df9bd-1dde-4830-ac2c-6c1766f67238/source.png"
+    },
+    {
+      "find": "ROPE_RIGHT",
+      "replace": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/5c8cad15-d38d-4ceb-ba13-6bca9c3a5aac/source.png"
+    },
+    {
+      "find": "IMAGE_1",
+      "replace": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/c24c8982-230c-413f-b9ff-e92f46203715/source.png"
+    },
+    {
+      "find": "IMAGE_2",
+      "replace": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/41765e1b-784d-4b93-9d3e-c6d1a3a01ed5/source.png"
+    },
+    {
+      "find": "IMAGE_3",
+      "replace": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/49d11937-f8ba-4336-9769-2fd75001130b/source.png"
+    },
+    {
+      "find": "IMAGE_4",
+      "replace": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/e5e42c0c-07b5-4bc7-a352-ba1195adf3fc/source.png"
+    },
+    {
+      "find": "BACKGROUND",
+      "replace": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/499fe7ef-ae6c-4e1f-be89-11239531daec/source.mp4"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/premium-offer-travel-special-promotion-template-for-holidays/b2f380a1-4405-44e3-9512-fdfbb8c996f2/source.mp3"
+    }
+  ]
+}

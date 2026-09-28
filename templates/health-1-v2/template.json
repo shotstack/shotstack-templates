@@ -1,0 +1,182 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/health-1/909beaae-cf8b-4331-80ad-f9a05111ca12/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/health-1/4b17a5da-d386-40b2-ba97-f07f7fcca79e/source.ttf"
+      }
+    ],
+    "background": "#ffffff",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "TAKE A MOMENT TO MEDITATE",
+              "font": {
+                "family": "Lato Light",
+                "size": 45,
+                "weight": 300,
+                "color": "#d2e6ec",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": 0.26,
+              "y": -0.324
+            },
+            "position": "center",
+            "start": 0.8,
+            "length": 9.2,
+            "transition": {
+              "in": "slideRightSlow"
+            },
+            "width": 780,
+            "height": 143
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "Wellness Co.",
+              "font": {
+                "family": "Lato Black",
+                "size": 90,
+                "weight": 900,
+                "color": "#ece6d7",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": 0.26,
+              "y": -0.168
+            },
+            "position": "center",
+            "start": 0.7,
+            "length": 9.3,
+            "transition": {
+              "in": "slideLeftSlow"
+            },
+            "width": 780,
+            "height": 199
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/health-1/qxpijjmb1rlo96a4mxun03zm/source_5201c9c7.webm"
+            },
+            "start": 0,
+            "length": 10,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO }}",
+              "volume": 1
+            },
+            "offset": {
+              "x": -0.0010000000000000009,
+              "y": 0.07100000000000001
+            },
+            "position": "center",
+            "scale": 1,
+            "start": 0.6,
+            "length": 9.4,
+            "transition": {
+              "in": "fadeFast"
+            },
+            "fit": "contain",
+            "width": 1920,
+            "height": 1080
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "audio",
+              "src": "https://templates.shotstack.io/health-1/eb1d9073-d12f-4eed-a371-8fa2eb3b4ffd/open-minded.mp3",
+              "effect": "fadeOut",
+              "volume": 1
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "VIDEO",
+      "replace": "https://templates.shotstack.io/health-1/2f0eb4be-8210-4bb8-a721-21ec131e60ef/source.mp4"
+    }
+  ]
+}

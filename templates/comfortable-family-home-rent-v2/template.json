@@ -1,0 +1,734 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{BRAND_NAME}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 56,
+                "weight": 500,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.445
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 800,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ LOGO }}"
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": 0.30407407407407405,
+              "y": -0.10999999999999999
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "fit": "contain",
+            "width": 316,
+            "height": 158
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S4_DESCRIPTION}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 46,
+                "weight": 500,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0.256,
+              "y": -0.45
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 400,
+            "height": 75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S4_TITLE}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 45,
+                "weight": 500,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": 0.22,
+              "y": -0.418
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 324,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_DESCRIPTION}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 46,
+                "weight": 500,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": 0.209,
+              "y": -0.372
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 300,
+            "height": 75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_TITLE}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 45,
+                "weight": 500,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.22,
+              "y": -0.339
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 324,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "- {{S2_DESCRIPTION_5}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 35,
+                "weight": 500,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": -0.26,
+              "y": -0.456
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 350,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "- {{S2_DESCRIPTION_4}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 35,
+                "weight": 500,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": -0.26,
+              "y": -0.434
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 350,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "- {{S2_DESCRIPTION_3}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 35,
+                "weight": 500,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": -0.26,
+              "y": -0.411
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 350,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "- {{S2_DESCRIPTION_2}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 35,
+                "weight": 500,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.26,
+              "y": -0.387
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 350,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "- {{S2_DESCRIPTION_1}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 35,
+                "weight": 500,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": -0.26,
+              "y": -0.362
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 350,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_TITLE}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 32,
+                "weight": 700,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.282,
+              "y": -0.334
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 300,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/comfortable-family-home-rent/335ef3c0-923a-42ce-921e-57f2ce80be67/source.png"
+            },
+            "start": 0.2,
+            "length": 9.8
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1500\" fill=\"{{ TEXT_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.13,
+              "y": -0.274
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 1080,
+            "height": 1500
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ADDRESS}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 29,
+                "weight": 500,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.12,
+              "y": -0.274
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 600,
+            "height": 60
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TITLE}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 132,
+                "weight": 700,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "right",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.095,
+              "y": -0.16
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 800,
+            "height": 350
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/comfortable-family-home-rent/7a0a63cd-c5ff-40fe-8a6f-ff7e462c6044/source.png"
+            },
+            "start": 0,
+            "length": 10
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"#000000\" fill-opacity=\"0.53\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "position": "center",
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 10,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_SRC }}",
+              "volume": 0
+            },
+            "start": 0,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "contain"
+          }
+        ]
+      }
+    ],
+    "fonts": [
+      {
+        "src": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm45xW5rygbi49c.ttf"
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "TITLE",
+      "replace": "HOUSE FOR RENT"
+    },
+    {
+      "find": "ADDRESS",
+      "replace": "123 ANYPLACE ST. ANY CITY"
+    },
+    {
+      "find": "S2_TITLE",
+      "replace": "FEATURES :"
+    },
+    {
+      "find": "S2_DESCRIPTION_1",
+      "replace": "2 BEDROOM"
+    },
+    {
+      "find": "S2_DESCRIPTION_2",
+      "replace": "3 BATHROOM"
+    },
+    {
+      "find": "S2_DESCRIPTION_3",
+      "replace": "LIVINGROOM"
+    },
+    {
+      "find": "S2_DESCRIPTION_4",
+      "replace": "KITCHEN"
+    },
+    {
+      "find": "S2_DESCRIPTION_5",
+      "replace": "GARAGE"
+    },
+    {
+      "find": "S3_TITLE",
+      "replace": "START FROM"
+    },
+    {
+      "find": "S3_DESCRIPTION",
+      "replace": "$50,000"
+    },
+    {
+      "find": "S4_TITLE",
+      "replace": "CONTACT US"
+    },
+    {
+      "find": "S4_DESCRIPTION",
+      "replace": "+123-456-7890"
+    },
+    {
+      "find": "LOGO",
+      "replace": "https://templates.shotstack.io/comfortable-family-home-rent/2cecf447-cd16-400a-a16e-41b75c087507/source.png"
+    },
+    {
+      "find": "VIDEO_SRC",
+      "replace": "https://templates.shotstack.io/comfortable-family-home-rent/8d8c1343-1fd2-41d8-8de3-7cfe9b77c932/source.mp4"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BRAND_NAME",
+      "replace": "JACKSON REAL ESTATE"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/comfortable-family-home-rent/6ef6948e-133e-4ff4-8a42-01b02cf400c4/source.mp3"
+    }
+  ]
+}

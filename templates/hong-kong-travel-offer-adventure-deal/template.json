@@ -1,0 +1,494 @@
+{
+  "merge": [
+    {
+      "replace": "ON YOUR WAY TO HONG KONG",
+      "find": "S1_Title"
+    },
+    {
+      "replace": "Amazing adventure awaits you, do not miss out.",
+      "find": "S1_Subtitle"
+    },
+    {
+      "replace": "https://templates.shotstack.io/hong-kong-travel-offer-adventure-deal/e38e89a3-1c0c-4d2a-b28b-4e52ae62271d/source.m4v",
+      "find": "S1_VIDEO_1"
+    },
+    {
+      "replace": "https://templates.shotstack.io/hong-kong-travel-offer-adventure-deal/8aac9804-4f22-4ee9-ba63-867e4ee7679c/source.m4v",
+      "find": "S1_VIDEO_2"
+    },
+    {
+      "replace": "https://templates.shotstack.io/hong-kong-travel-offer-adventure-deal/cf090151-5484-4c92-b59e-8461524f291a/source.mp4",
+      "find": "S1_VIDEO_3"
+    },
+    {
+      "replace": "FEEL THE BEAUTY OF HOM KONG",
+      "find": "S2_Title"
+    },
+    {
+      "replace": "https://templates.shotstack.io/hong-kong-travel-offer-adventure-deal/17bd3c2c-aa6d-4b2e-9c78-3552556d19fb/source.mp4",
+      "find": "S2_VIDEO_1"
+    },
+    {
+      "replace": "https://templates.shotstack.io/hong-kong-travel-offer-adventure-deal/85993fd4-2082-4e7f-8d26-bf776e3072a3/source.mp4",
+      "find": "S2_VIDEO_2"
+    },
+    {
+      "replace": "https://templates.shotstack.io/hong-kong-travel-offer-adventure-deal/ea6f2d3b-f439-4b81-9596-c0e918f0f643/source.mp4",
+      "find": "S2_VIDEO_3"
+    },
+    {
+      "replace": "https://templates.shotstack.io/hong-kong-travel-offer-adventure-deal/d01b2a0e-3422-40e5-b0e5-7cba9fbc8897/source.mp4",
+      "find": "S2_VIDEO_4"
+    },
+    {
+      "replace": "https://templates.shotstack.io/hong-kong-travel-offer-adventure-deal/728bdbb5-2772-4445-ab3c-846c18377d11/source.mp4",
+      "find": "S2_VIDEO_5"
+    },
+    {
+      "replace": "#ffffff",
+      "find": "TEXT_FONT_COLOR"
+    },
+    {
+      "replace": "#9e0000",
+      "find": "TEXT_BACKGROUND_COLOR"
+    },
+    {
+      "replace": "https://templates.shotstack.io/hong-kong-travel-offer-adventure-deal/b8bcf445-0ee1-4485-bccb-432e3eaab296/source.mp3",
+      "find": "AUDIO"
+    }
+  ],
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/hong-kong-travel-offer-adventure-deal/fa6df157-8174-45f6-b31a-76f5ef459f1c/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "volume": 1,
+              "src": "https://templates.shotstack.io/hong-kong-travel-offer-adventure-deal/4a4155a5-a4f9-454a-bbe7-ecb289b810e2/source.mp3"
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "start": 5.2,
+            "length": "end",
+            "position": "center",
+            "asset": {
+              "width": 900,
+              "text": "FEEL THE BEAUTY OF HOM KONG",
+              "type": "text",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "lineHeight": 1,
+                "color": "#ffffff",
+                "family": "Arapey",
+                "size": 130
+              },
+              "height": 500
+            },
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "offset": {
+              "x": 0,
+              "y": -0.4
+            },
+            "length": "end",
+            "start": 5,
+            "scale": 0.2,
+            "position": "center",
+            "asset": {
+              "type": "video",
+              "volume": 1,
+              "src": "https://templates.shotstack.io/hong-kong-travel-offer-adventure-deal/ff35a63d-711a-4ee5-896b-be79034a5551/source.mp4"
+            },
+            "transition": {
+              "in": "carouselRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "start": 4.6,
+            "scale": 0.2,
+            "asset": {
+              "type": "video",
+              "volume": 1,
+              "src": "https://templates.shotstack.io/hong-kong-travel-offer-adventure-deal/3c1d2f26-c2d8-4150-b950-a5de820c9993/source.mp4"
+            },
+            "offset": {
+              "y": -0.2
+            },
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "start": 4.4,
+            "scale": 0.2,
+            "asset": {
+              "type": "video",
+              "volume": 1,
+              "src": "https://templates.shotstack.io/hong-kong-travel-offer-adventure-deal/5d4222e9-4061-4509-a836-730361ff4ef6/source.mp4"
+            },
+            "transition": {
+              "in": "carouselRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "offset": {
+              "x": 0,
+              "y": 0.2
+            },
+            "length": "end",
+            "start": 4.2,
+            "scale": 0.2,
+            "position": "center",
+            "asset": {
+              "type": "video",
+              "volume": 1,
+              "src": "https://templates.shotstack.io/hong-kong-travel-offer-adventure-deal/f5ad82fa-1c17-4391-81f3-af13c64a2e2a/source.mp4"
+            },
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "offset": {
+              "x": 0,
+              "y": 0.4
+            },
+            "length": "end",
+            "start": 4,
+            "scale": 0.2,
+            "position": "center",
+            "asset": {
+              "type": "video",
+              "volume": 1,
+              "src": "https://templates.shotstack.io/hong-kong-travel-offer-adventure-deal/282b1b52-b706-4fe9-9fb4-9bb5ffe34f1e/source.mp4"
+            },
+            "transition": {
+              "in": "carouselRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "start": 0.3,
+            "length": 4.7,
+            "position": "center",
+            "asset": {
+              "width": 600,
+              "text": "Amazing adventure awaits you, do not miss out.",
+              "type": "text",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "lineHeight": 1,
+                "color": "#ffffff",
+                "family": "Clear Sans",
+                "size": 40
+              },
+              "height": 200
+            },
+            "offset": {
+              "x": 0,
+              "y": -0.013
+            },
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/hong-kong-travel-offer-adventure-deal/ef8f2451-d791-47a1-b457-55f18352be4b/source.mp4"
+            },
+            "start": 0.13,
+            "length": 4.7
+          },
+          {
+            "start": 0.4,
+            "length": 4.3,
+            "position": "center",
+            "asset": {
+              "background": {
+                "color": "#ffffff"
+              },
+              "width": 180,
+              "text": "",
+              "type": "text",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "lineHeight": 1,
+                "color": "#ffffff",
+                "family": "Arapey",
+                "size": 180
+              },
+              "height": 180
+            },
+            "offset": {
+              "x": 0,
+              "y": -0.096
+            },
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "start": 0.2,
+            "length": 4.55,
+            "position": "center",
+            "asset": {
+              "width": 750,
+              "text": "ON YOUR WAY TO HONG KONG",
+              "type": "text",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "lineHeight": 1,
+                "color": "#ffffff",
+                "family": "Arapey",
+                "size": 149
+              },
+              "height": 900
+            },
+            "offset": {
+              "x": 0,
+              "y": 0.169
+            },
+            "transition": {
+              "in": "slideDown",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "start": 0,
+            "length": 4.7,
+            "position": "center",
+            "asset": {
+              "background": {
+                "color": "#9e0000"
+              },
+              "width": 630,
+              "text": "",
+              "type": "text",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "lineHeight": 1,
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24
+              },
+              "height": 630
+            },
+            "offset": {
+              "x": 0.036,
+              "y": 0.244
+            },
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/hong-kong-travel-offer-adventure-deal/e30e9c4c-4cf6-43de-94e6-2417b55d3bae/source.png"
+            },
+            "start": 0,
+            "length": 4.7
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "transform": {
+              "rotate": {
+                "angle": 7
+              }
+            },
+            "offset": {
+              "x": 0.316,
+              "y": -0.368
+            },
+            "length": 3.94,
+            "start": 0.8,
+            "scale": 0.35,
+            "position": "center",
+            "asset": {
+              "type": "video",
+              "volume": 0,
+              "src": "https://templates.shotstack.io/hong-kong-travel-offer-adventure-deal/c394748f-e8ea-440c-8094-f75597875626/source.mp4"
+            },
+            "transition": {
+              "in": "carouselUp",
+              "out": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "offset": {
+              "x": -0.015,
+              "y": -0.368
+            },
+            "length": 3.74,
+            "start": 1,
+            "scale": 0.35,
+            "position": "center",
+            "asset": {
+              "type": "video",
+              "volume": 0,
+              "src": "https://templates.shotstack.io/hong-kong-travel-offer-adventure-deal/d4797ea4-135a-4681-a57b-6c71bfb02405/source.m4v"
+            },
+            "transition": {
+              "in": "carouselUp",
+              "out": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "transform": {
+              "rotate": {
+                "angle": -8
+              }
+            },
+            "offset": {
+              "x": -0.342,
+              "y": -0.368
+            },
+            "length": 4.12,
+            "start": 0.6,
+            "scale": 0.35,
+            "position": "center",
+            "asset": {
+              "type": "video",
+              "volume": 0,
+              "src": "https://templates.shotstack.io/hong-kong-travel-offer-adventure-deal/e1de6f24-4b16-4d77-9fa2-70a81667effb/source.m4v"
+            },
+            "transition": {
+              "in": "carouselUp",
+              "out": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.7,
+            "start": 0,
+            "asset": {
+              "type": "video",
+              "volume": 0,
+              "src": "https://templates.shotstack.io/hong-kong-travel-offer-adventure-deal/01b7e86a-3188-41b7-acf0-4bc645d607c1/source.m4v"
+            },
+            "transition": {
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "width": 1082,
+              "text": "",
+              "type": "text",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "lineHeight": 1,
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24
+              },
+              "height": 1920
+            },
+            "start": 0,
+            "length": 11
+          }
+        ]
+      }
+    ]
+  }
+}

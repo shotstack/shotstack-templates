@@ -1,0 +1,587 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/travel-offer-vacation-promo-template/705e891e-b038-4095-b89e-daea4bfa1444/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/travel-offer-vacation-promo-template/61ffe263-b348-420b-b1de-8c589d255485/source.otf"
+      },
+      {
+        "src": "https://templates.shotstack.io/travel-offer-vacation-promo-template/aa6eb9cb-2e9d-4431-92f0-1e688f1097cc/source.otf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA}}",
+              "font": {
+                "family": "Glacial Indifference",
+                "size": 39,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1,
+                "borderRadius": 16
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 1.1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.347
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 300,
+            "height": 90
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title_1}}",
+              "font": {
+                "family": "Themysion",
+                "size": 143,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.091
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 400,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Subtitle}}",
+              "font": {
+                "family": "Glacial Indifference",
+                "size": 34,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.253
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 700,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title_2}}",
+              "font": {
+                "family": "Glacial Indifference",
+                "size": 121,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.15
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 700,
+            "height": 300
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_3 }}"
+            },
+            "start": 0.4,
+            "scale": 1,
+            "offset": {
+              "x": 0.288,
+              "y": 0.153
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 335,
+            "height": 336
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 372 432\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"372\" height=\"432\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.288,
+              "y": 0.14
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 372,
+            "height": 432
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.5,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_1 }}"
+            },
+            "start": 0.5,
+            "scale": 1,
+            "offset": {
+              "x": -0.2705351653424245,
+              "y": 0.1219196302777269
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 335,
+            "height": 336
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 372 432\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"372\" height=\"432\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": -0.271,
+              "y": 0.108
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 372,
+            "height": 432
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.7,
+            "asset": {
+              "type": "image",
+              "src": "{{IMAGE_2}}"
+            },
+            "start": 0.3,
+            "scale": 1,
+            "offset": {
+              "x": 0.001628371511580018,
+              "y": 0.246951886943158
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 414,
+            "height": 414
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 464 538\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"464\" height=\"538\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "y": 0.232
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 464,
+            "height": 538
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-offer-vacation-promo-template/64f0e841-e42c-4c50-bf16-dd8dfe4f9dd9/source.png"
+            },
+            "start": 1.2,
+            "length": 3.8
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1300 1300\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1300\" height=\"1300\" fill=\"{{ FONT_COLOR_2 }}\"/></svg>"
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": 0.614,
+              "y": -0.555
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 180
+              }
+            },
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 1300,
+            "height": 1300
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-offer-vacation-promo-template/d71b5e7a-c0e5-4038-a932-21a2b6078b78/source.png"
+            },
+            "start": 0.2,
+            "length": 4.8
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1300 1300\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1300\" height=\"1300\" fill=\"{{ FONT_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.626,
+              "y": 0.559
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 1300,
+            "height": 1300
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-offer-vacation-promo-template/d59fcace-1a7e-4086-8b76-1adc940ec549/source.png"
+            },
+            "start": 1.15,
+            "length": 3.85
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1300 1299\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1300\" height=\"1299\" fill=\"#de5912\"/></svg>"
+            },
+            "start": 1.15,
+            "length": "end",
+            "offset": {
+              "x": -0.72,
+              "y": -0.581
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 1300,
+            "height": 1299
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1300 1300\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1300\" height=\"1300\" fill=\"{{ FONT_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.718,
+              "y": 0.518
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 1300,
+            "height": 1300
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-offer-vacation-promo-template/b3d4e056-a599-4a16-8d3a-3aa5e489fe63/source.png"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-offer-vacation-promo-template/85266ff4-7476-42e5-8b57-00e431182156/source.png"
+            },
+            "start": 0.6,
+            "length": 4.4
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 3000 3000\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"3000\" height=\"3000\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.01,
+              "y": -0.308
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "image",
+              "src": "{{ BACKGROUND_IMAGE }}"
+            },
+            "start": 0,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 1302,
+            "height": 1943
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Title_1",
+      "replace": "Take a"
+    },
+    {
+      "find": "Title_2",
+      "replace": " TOUR IN PARIS"
+    },
+    {
+      "find": "Subtitle",
+      "replace": "Enjoy Seamless Paris Travel with Packages from Just $499 Per Person"
+    },
+    {
+      "find": "CTA",
+      "replace": "PLAN TRIP"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#000000"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#de5912"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "IMAGE_1",
+      "replace": "https://templates.shotstack.io/travel-offer-vacation-promo-template/449ddc72-ea5a-440a-a579-b403d9b3d5ce/source.png"
+    },
+    {
+      "find": "IMAGE_2",
+      "replace": "https://templates.shotstack.io/travel-offer-vacation-promo-template/43bd0363-5119-4820-8551-bfb831b3b7b7/source.png"
+    },
+    {
+      "find": "IMAGE_3",
+      "replace": "https://templates.shotstack.io/travel-offer-vacation-promo-template/d7360561-13da-4585-89fc-1f92ef8893d5/source.png"
+    },
+    {
+      "find": "BACKGROUND_IMAGE",
+      "replace": "https://templates.shotstack.io/travel-offer-vacation-promo-template/f2d242f0-fe6e-403a-a090-65fea2d487b9/source.jpg"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/travel-offer-vacation-promo-template/25f540b1-7e81-4b91-b692-e43961828788/source.mp3"
+    }
+  ]
+}

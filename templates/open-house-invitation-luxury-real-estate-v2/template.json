@@ -1,0 +1,661 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/open-house-invitation-luxury-real-estate/73a0a5c0-62f4-4549-8a59-144e22ed08f0/5aUz9_-1phKLFgshYDvh6Vwt7VptuA.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/open-house-invitation-luxury-real-estate/a8b18b81-0103-4a83-9326-ea6ba4e257c4/AYCSpXb_Z9EORv1M5QTjEzMEteaAxIc.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/open-house-invitation-luxury-real-estate/4a3a0a29-79a4-440a-a42f-539384bba6ba/c4m_1mF4GcnstG_Jh1QH6ac4hNLeNyeYUpolKQM.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/open-house-invitation-luxury-real-estate/ba7d1e92-9194-49b8-b9a1-4011653a7fb6/c4m_1mF4GcnstG_Jh1QH6ac4hNLeNyeYUpolKQM.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/encodesansexpanded/v12/c4m_1mF4GcnstG_Jh1QH6ac4hNLeNyeYUqoiIwdAd5Ab.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TITLE}}",
+              "font": {
+                "family": "Encode Sans Expanded",
+                "size": 125,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "style": "word",
+                "direction": "right"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.024,
+              "y": 0.25
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 800,
+            "height": 400
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{BRAND_NAME}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 38,
+                "weight": 800,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "background": {
+                "opacity": 1,
+                "borderRadius": 0
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.223,
+              "y": 0.404
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 300,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"200\" fill=\"{{ TEXT_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.527
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 1080,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{EMAIL}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 34,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.021,
+              "y": -0.434
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{WEBSITE}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 34,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": -0.021,
+              "y": -0.392
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{PHONE}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 47,
+                "weight": 800,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0.138,
+              "y": -0.313
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 450,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 54,
+                "weight": 800,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": -0.246,
+              "y": -0.314
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 300,
+            "height": 102
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ADDRESS}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 32,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": -0.024,
+              "y": -0.214
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DATE}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 46,
+                "weight": 800,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.027,
+              "y": -0.173
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 83
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{BRAND_TAG}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 32,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "background": {
+                "opacity": 1,
+                "borderRadius": 0
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.179,
+              "y": 0.378
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 400,
+            "height": 75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 5\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"5\" fill=\"#000000\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.269,
+              "y": 0.377
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 800,
+            "height": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"200\" fill=\"{{ TEXT_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.206,
+              "y": 0.527
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 400,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 650 242\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"650\" height=\"242\" fill=\"#000000\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.179,
+              "y": 0.392
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 650,
+            "height": 242
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/open-house-invitation-luxury-real-estate/55f44fa4-d425-451c-903e-82b43999e613/source.png"
+            },
+            "start": 0,
+            "length": 6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_SRC }}",
+              "volume": 0
+            },
+            "start": 0.5,
+            "scale": 1,
+            "offset": {
+              "x": 0.10262962962962952,
+              "y": 0.005906249999999946
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 1080,
+            "height": 604
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"#000000\"/></svg>"
+            },
+            "start": 0.5,
+            "length": "end",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/open-house-invitation-luxury-real-estate/3c1c2c7a-24bb-4c78-82c3-f94b6dbe088d/source.mp4"
+            },
+            "start": 0.5,
+            "length": 5.5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 6,
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "BRAND_NAME",
+      "replace": "REAL ESTATE"
+    },
+    {
+      "find": "BRAND_TAG",
+      "replace": "PORPERTIES"
+    },
+    {
+      "find": "TITLE",
+      "replace": "OPEN HOUSE"
+    },
+    {
+      "find": "DATE",
+      "replace": "SUNDAY, 04 OCTOBER, 2025"
+    },
+    {
+      "find": "ADDRESS",
+      "replace": "123 ANYWHERE ST., ANY CITY"
+    },
+    {
+      "find": "CTA",
+      "replace": "JOIN US!"
+    },
+    {
+      "find": "PHONE",
+      "replace": "+123-456-7890"
+    },
+    {
+      "find": "WEBSITE",
+      "replace": "WWW.REALESTATE.COM"
+    },
+    {
+      "find": "EMAIL",
+      "replace": "@REALESTATE"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/open-house-invitation-luxury-real-estate/e63326dc-2be4-43d0-b61d-dca62a53a463/source.mp3"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "VIDEO_SRC",
+      "replace": "https://templates.shotstack.io/open-house-invitation-luxury-real-estate/884fbf79-dff2-4e33-8e0f-d3634c68a053/source.mp4"
+    }
+  ]
+}

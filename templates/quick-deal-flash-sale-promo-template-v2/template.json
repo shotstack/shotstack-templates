@@ -1,0 +1,589 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/quick-deal-flash-sale-promo-template/a84e2735-671a-437c-ac38-dd3707550ca5/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aX8.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{S1_Title}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 95,
+                "weight": 800,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.38
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 1000,
+            "height": 145
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{S1_Sub_Title}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 35,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "y": 0.326,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_SRC }}"
+            },
+            "start": 0.5,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0.04514814814814816
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "fit": "contain",
+            "width": 750,
+            "height": 739
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_warranty}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 31,
+                "weight": 800,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "y": -0.231,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 700,
+            "height": 103
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{S1_discount}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 91,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.85,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.313
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{CTA}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 28,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.95,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.388
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{Web}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 30,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.461
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 1000,
+            "height": 90
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/quick-deal-flash-sale-promo-template/b9953394-ba79-4ec3-93c4-0023edc1aa0d/source.png"
+            },
+            "start": 0.01,
+            "length": 5.94
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1200 1200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1200\" height=\"1200\" fill=\"{{ Shape_color }}\"/></svg>"
+            },
+            "start": 0.01,
+            "length": "end",
+            "offset": {
+              "x": -0.681,
+              "y": 0.451
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 1200,
+            "height": 1200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 550 550\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"550\" height=\"550\" fill=\"{{ Shape_color }}\" fill-opacity=\"0.65\"/></svg>"
+            },
+            "start": 1.05,
+            "length": "end",
+            "offset": {
+              "x": -0.426,
+              "y": -0.494
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 550,
+            "height": 550
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/quick-deal-flash-sale-promo-template/d45af30e-eb27-4b81-b456-e55c7031e636/source.png"
+            },
+            "start": 1.05,
+            "length": 4.9
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/quick-deal-flash-sale-promo-template/f8d92fec-73ed-484b-815c-5c6a26fd796e/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/quick-deal-flash-sale-promo-template/f0533c50-0315-487c-9d68-7e2d1e29a3ba/source.png"
+            },
+            "start": 0.4,
+            "length": 5.55
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 600 600\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"600\" height=\"600\" fill=\"{{ Shape_color }}\" fill-opacity=\"0.66\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.095,
+              "y": 0.085
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "transform": {
+              "rotate": {
+                "angle": 90
+              }
+            },
+            "width": 600,
+            "height": 600
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/quick-deal-flash-sale-promo-template/1a6ce26f-2fb9-40b2-88dc-fef12a05b0c0/source.png"
+            },
+            "start": 0.6,
+            "length": 5.3500000000000005
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1200 1200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1200\" height=\"1200\" fill=\"{{ Shape_color }}\" fill-opacity=\"0.71\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.492,
+              "y": -0.428
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 1200,
+            "height": 1200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 400\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"400\" fill=\"{{ Shape_color }}\" fill-opacity=\"0.65\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.389,
+              "y": 0.467
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 400
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/quick-deal-flash-sale-promo-template/64826c5c-60d6-4ea9-bbfb-e455ebbcc187/source.png"
+            },
+            "start": 0,
+            "length": 5.95
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 220 55\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"220\" height=\"55\" fill=\"{{ Shape_color }}\" rx=\"20\" ry=\"20\"/></svg>"
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.388
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 220,
+            "height": 55
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 300 130\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"300\" height=\"130\" fill=\"{{ Shape_color }}\" rx=\"61\" ry=\"61\"/></svg>"
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.313
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 300,
+            "height": 130
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1350\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1350\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 5.95,
+            "width": 1080,
+            "height": 1350
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1350
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "S1_Title",
+      "replace": "QUICK DEAL"
+    },
+    {
+      "find": "S1_Sub_Title",
+      "replace": "QUICK DEAL"
+    },
+    {
+      "find": "S1_IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/quick-deal-flash-sale-promo-template/1dc48499-b706-4eee-9a62-752d467a5c28/source.png"
+    },
+    {
+      "find": "S1_warranty",
+      "replace": "2 MONTHS WARRANTY"
+    },
+    {
+      "find": "S1_discount",
+      "replace": "50%"
+    },
+    {
+      "find": "CTA",
+      "replace": "BUY TODAY"
+    },
+    {
+      "find": "Web",
+      "replace": "www.quickdealstore.com"
+    },
+    {
+      "find": "Shape_color",
+      "replace": "#5b17ae"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#6718dc"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/quick-deal-flash-sale-promo-template/30eea5d8-919b-448d-9056-a1a311fc448b/source.mp3"
+    }
+  ]
+}

@@ -1,0 +1,977 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/family-spring-holiday-promotion-template/2b48b6da-11e4-493f-8c2b-38db2889e830/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/family-spring-holiday-promotion-template/84d917cc-ceda-424f-888d-c2b62dbc93c7/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S3_Subtitle}}",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Huile de Jacinthe",
+                "size": "120",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 200
+            },
+            "start": 7,
+            "length": "end",
+            "offset": {
+              "x": -0.03,
+              "y": 0.381
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 352.5
+              }
+            },
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ S3_IMAGE_2 }}"
+            },
+            "start": 7.6,
+            "scale": 0.51,
+            "offset": {
+              "x": -0.014,
+              "y": -0.232
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -3.3
+              }
+            },
+            "transition": {
+              "in": "slideDown"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/family-spring-holiday-promotion-template/c60ebb6a-1feb-4414-9c57-14c3e5084d48/source.mp4"
+            },
+            "start": 7,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/family-spring-holiday-promotion-template/a4ff905f-e7cb-487e-bc1d-0f0e16138ee7/source.png"
+            },
+            "start": 7.005228571428572,
+            "scale": 0.13,
+            "offset": {
+              "x": -0.027,
+              "y": -0.175
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ S3_VIDEO }}",
+              "trim": 0.23
+            },
+            "start": 7.28,
+            "scale": 0.5,
+            "offset": {
+              "x": -0.01,
+              "y": -0.009
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 4
+              }
+            },
+            "transition": {
+              "in": "slideLeft"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/family-spring-holiday-promotion-template/a5012a87-c810-45df-b585-e5c79ca31ab7/source.mp4"
+            },
+            "start": 7,
+            "length": 3.5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/family-spring-holiday-promotion-template/18ff101d-4a5d-4a0d-8a9b-455d301344c8/source.png"
+            },
+            "start": 7.005228571428572,
+            "scale": 0.13,
+            "offset": {
+              "x": -0.01,
+              "y": 0.043
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ S3_IMAGE_1 }}"
+            },
+            "start": 7.1,
+            "scale": 0.43,
+            "offset": {
+              "x": 0,
+              "y": 0.124
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 2
+              }
+            },
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/family-spring-holiday-promotion-template/7d90d38c-fa8c-4795-908a-e9cdd3b5b90a/source.png"
+            },
+            "start": 7.005228571428572,
+            "scale": 0.65,
+            "offset": {
+              "x": -0.014,
+              "y": -0.071
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/family-spring-holiday-promotion-template/4b09c450-a846-4aae-9e0c-7987ef6f8729/source.png"
+            },
+            "start": 6.990942857142858,
+            "scale": 0.2,
+            "offset": {
+              "x": -0.031,
+              "y": 0.509
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 600,
+              "height": 600,
+              "background": {
+                "color": "#000000"
+              }
+            },
+            "start": 7,
+            "length": "end",
+            "offset": {
+              "x": 0.222,
+              "y": -0.467
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 21.59
+              }
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/family-spring-holiday-promotion-template/3e96eecf-a3cb-4ac1-8557-c23643f4115f/source.png"
+            },
+            "start": 7,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": " {{S2_Subtitle}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Huile de Jacinthe",
+                "size": "120",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 200
+            },
+            "start": 3.5,
+            "length": 3.5,
+            "offset": {
+              "x": -0.017,
+              "y": 0.385
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 352.5
+              }
+            },
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.97,
+            "asset": {
+              "type": "image",
+              "src": "{{ S2_IMAGE_2 }}"
+            },
+            "start": 4.03,
+            "scale": 0.3,
+            "offset": {
+              "x": 0.076,
+              "y": -0.322
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 4
+              }
+            },
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 650,
+              "height": 666,
+              "background": {
+                "color": "{{ SHAPE_COLOR }}"
+              }
+            },
+            "start": 3.5016,
+            "length": 3.5,
+            "transform": {
+              "rotate": {
+                "angle": 4
+              }
+            },
+            "offset": {
+              "x": 0.076,
+              "y": -0.326
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.19,
+            "asset": {
+              "type": "image",
+              "src": "{{ S2_IMAGE_1 }}"
+            },
+            "start": 3.81,
+            "scale": 0.23,
+            "offset": {
+              "x": 0.247,
+              "y": 0.182
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 4
+              }
+            },
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 538,
+              "background": {
+                "color": "{{ SHAPE_COLOR }}"
+              }
+            },
+            "start": 3.5,
+            "length": 3.5,
+            "transform": {
+              "rotate": {
+                "angle": 4
+              }
+            },
+            "offset": {
+              "x": 0.247,
+              "y": 0.174
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.43,
+            "asset": {
+              "type": "video",
+              "src": "{{ S2_VIDEO }}",
+              "trim": 0.06
+            },
+            "start": 3.57,
+            "scale": 0.45,
+            "transform": {
+              "rotate": {
+                "angle": -6
+              }
+            },
+            "offset": {
+              "x": 0.008,
+              "y": -0.051
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 920,
+              "height": 977,
+              "background": {
+                "color": "{{ SHAPE_COLOR }}"
+              }
+            },
+            "start": 3.5,
+            "length": 3.5,
+            "transform": {
+              "rotate": {
+                "angle": -6
+              }
+            },
+            "offset": {
+              "x": 0.008,
+              "y": -0.068
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 800,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 3.5,
+            "length": 3.5,
+            "offset": {
+              "x": -0.16,
+              "y": 0.194
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 53.66
+              }
+            },
+            "transition": {
+              "in": "fade"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/family-spring-holiday-promotion-template/46183d21-2842-4b6d-943c-7bdb34186d96/source.png"
+            },
+            "start": 3.5,
+            "length": 3.5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.5,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/family-spring-holiday-promotion-template/935d8654-2831-48a2-b157-f8a44da38e4e/source.png"
+            },
+            "start": 3.5,
+            "scale": 0.2,
+            "offset": {
+              "x": -0.069,
+              "y": 0.497
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.5,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/family-spring-holiday-promotion-template/b52be88b-4af1-4633-bad3-bd4220707634/source.png"
+            },
+            "start": 3.5,
+            "scale": 0.65,
+            "offset": {
+              "x": 0.03,
+              "y": -0.098
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_title}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Huile de Jacinthe",
+                "size": "120",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 200
+            },
+            "start": 0,
+            "length": 3.5,
+            "offset": {
+              "x": -0.017,
+              "y": 0.354
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 352.5
+              }
+            },
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.5,
+            "asset": {
+              "type": "video",
+              "src": "{{ S1_VIDEO }}",
+              "volume": 1
+            },
+            "start": 0,
+            "scale": 0.5,
+            "offset": {
+              "x": -0.187,
+              "y": -0.389
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/family-spring-holiday-promotion-template/8b8573ea-2481-4b37-bff7-32aa76cb260a/source.png"
+            },
+            "start": 0,
+            "length": 3.5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1000,
+              "height": 1000,
+              "background": {
+                "color": "{{ SHAPE_COLOR }}",
+                "borderRadius": 0
+              }
+            },
+            "start": 0,
+            "length": 3.5,
+            "offset": {
+              "x": -0.187,
+              "y": -0.389
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/family-spring-holiday-promotion-template/76f22647-0b84-4479-bb3d-82518c503103/source.png"
+            },
+            "start": 0,
+            "length": 3.5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_1 }}"
+            },
+            "start": 0.5,
+            "scale": 0.24,
+            "transform": {
+              "rotate": {
+                "angle": 4
+              }
+            },
+            "offset": {
+              "x": 0.25,
+              "y": 0.207
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 527,
+              "background": {
+                "color": "{{ SHAPE_COLOR }}"
+              }
+            },
+            "start": 0.54,
+            "length": 2.96,
+            "transform": {
+              "rotate": {
+                "angle": 4
+              }
+            },
+            "offset": {
+              "x": 0.25,
+              "y": 0.202
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.18,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_2 }}"
+            },
+            "start": 0.32,
+            "scale": 0.45,
+            "offset": {
+              "x": 0.008,
+              "y": -0.053
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -4
+              }
+            },
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 920,
+              "height": 954,
+              "background": {
+                "color": "{{ SHAPE_COLOR }}"
+              }
+            },
+            "start": 0.27,
+            "length": 3.23,
+            "transform": {
+              "rotate": {
+                "angle": -4
+              }
+            },
+            "offset": {
+              "x": 0.008,
+              "y": -0.062
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.5,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/family-spring-holiday-promotion-template/e21032cd-6d2a-4402-b618-ee9cc623fca5/source.png"
+            },
+            "start": 0,
+            "scale": 0.65,
+            "offset": {
+              "x": 0.02,
+              "y": -0.053
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.5,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/family-spring-holiday-promotion-template/5185702b-f64a-4237-8f81-4b46c3ca3f70/source.png"
+            },
+            "start": 0,
+            "scale": 0.2,
+            "offset": {
+              "x": 0.025,
+              "y": 0.492
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR_2 }}"
+              }
+            },
+            "start": 0,
+            "length": 10.51
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "S1_title",
+      "replace": "Spring Holiday With Family"
+    },
+    {
+      "find": "S1_IMAGE_1",
+      "replace": "https://templates.shotstack.io/family-spring-holiday-promotion-template/8a86c71d-a369-4929-a887-0db594b0850c/source.jpg"
+    },
+    {
+      "find": "S1_IMAGE_2",
+      "replace": "https://templates.shotstack.io/family-spring-holiday-promotion-template/187cb650-35a8-4e2d-9efe-e6e70e587869/source.jpg"
+    },
+    {
+      "find": "S1_VIDEO",
+      "replace": "https://templates.shotstack.io/family-spring-holiday-promotion-template/19bf62a8-92d9-47b8-bc0f-1556426402e2/source.mp4"
+    },
+    {
+      "find": "S2_Subtitle",
+      "replace": "Quality time with Dad & Kids"
+    },
+    {
+      "find": "S2_IMAGE_1",
+      "replace": "https://templates.shotstack.io/family-spring-holiday-promotion-template/b853c495-2d52-4aba-84c7-a89493f61ecb/source.jpg"
+    },
+    {
+      "find": "S2_IMAGE_2",
+      "replace": "https://templates.shotstack.io/family-spring-holiday-promotion-template/6d5f143a-bb5f-4a08-8ada-c55fe71e1dd6/source.jpg"
+    },
+    {
+      "find": "S2_VIDEO",
+      "replace": "https://templates.shotstack.io/family-spring-holiday-promotion-template/d8524e00-af82-4204-a440-0472369b229d/source.mp4"
+    },
+    {
+      "find": "S3_Subtitle",
+      "replace": "Bonding with loved ones"
+    },
+    {
+      "find": "S3_IMAGE_1",
+      "replace": "https://templates.shotstack.io/family-spring-holiday-promotion-template/b7ace763-0315-4485-a32d-4ed2c05afe59/source.jpg"
+    },
+    {
+      "find": "S3_IMAGE_2",
+      "replace": "https://templates.shotstack.io/family-spring-holiday-promotion-template/76e7bdb0-7394-4da3-81fa-391819bab4c3/source.jpg"
+    },
+    {
+      "find": "S3_VIDEO",
+      "replace": "https://templates.shotstack.io/family-spring-holiday-promotion-template/48b688e0-1308-4eba-bedc-b5657ff991fc/source.mp4"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "SHAPE_COLOR",
+      "replace": "#ecece6"
+    },
+    {
+      "find": "BACKGROUND_COLOR_2",
+      "replace": "#50f1fa"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/family-spring-holiday-promotion-template/222b5b73-38d1-4464-95b1-249b04577dad/source.mp3"
+    }
+  ]
+}

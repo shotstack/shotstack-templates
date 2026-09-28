@@ -1,0 +1,550 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Subheading_2}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "100",
+                "lineHeight": 1
+              },
+              "width": 1000,
+              "height": 150
+            },
+            "start": 12.8,
+            "length": "end",
+            "offset": {
+              "x": -0.219,
+              "y": -0.33
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Subheading_1}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "100",
+                "lineHeight": 1
+              },
+              "width": 1000,
+              "height": 150
+            },
+            "start": 12.6,
+            "length": "end",
+            "offset": {
+              "x": -0.222,
+              "y": -0.237
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Heading}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 72
+            },
+            "start": 12.4,
+            "length": "end",
+            "offset": {
+              "x": -0.214,
+              "y": -0.106
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/forest-fire-news-alert-template-urgent-breaking-news/6190abc0-93aa-4ad0-9ce9-481e4a327fa4/source.mp4"
+            },
+            "start": 11.30071068638393,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 100,
+              "height": 100,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 12.2,
+            "length": "end",
+            "offset": {
+              "x": -0.453,
+              "y": -0.106
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1288,
+              "height": 800,
+              "background": {
+                "color": "{{ SHAPE_COLOR }}"
+              }
+            },
+            "start": 11.8,
+            "length": "end",
+            "offset": {
+              "x": -0.245,
+              "y": -0.317
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/forest-fire-news-alert-template-urgent-breaking-news/acb1336d-474e-4b98-b533-c80d2bfdcad2/source.png"
+            },
+            "start": 11.3,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_5 }}"
+            },
+            "start": 11.3,
+            "transition": {
+              "in": "carouselRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/forest-fire-news-alert-template-urgent-breaking-news/48278d95-c4f4-4370-90e9-6f55fcf5defd/source.png"
+            },
+            "start": 11.3,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 100,
+              "height": 100,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 9,
+            "length": 3,
+            "offset": {
+              "x": 0.143,
+              "y": -0.198
+            },
+            "position": "center",
+            "transition": {
+              "out": "carouselRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/forest-fire-news-alert-template-urgent-breaking-news/deff6316-540f-45ae-b190-fe0166bc1e85/source.mp4"
+            },
+            "start": 9,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 100,
+              "height": 100,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 4.5,
+            "length": 5,
+            "offset": {
+              "x": 0.143,
+              "y": -0.198
+            },
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/forest-fire-news-alert-template-urgent-breaking-news/9aef778e-6767-4e4b-83f0-f10416ba3e72/source.mp4"
+            },
+            "start": 4.5,
+            "length": "auto"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 100,
+              "height": 100,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": 5,
+            "offset": {
+              "x": 0.143,
+              "y": -0.198
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/forest-fire-news-alert-template-urgent-breaking-news/1d32d632-0ba6-43fe-abd4-144c013ef297/source.mp4"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Heading}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 300
+            },
+            "start": 0,
+            "length": 12,
+            "offset": {
+              "x": 0.316,
+              "y": -0.252
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselUp",
+              "out": "carouselRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 750,
+              "height": 450,
+              "background": {
+                "color": "{{ SHAPE_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": 12,
+            "offset": {
+              "x": 0.282,
+              "y": -0.268
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselUp",
+              "out": "carouselRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/forest-fire-news-alert-template-urgent-breaking-news/2410b275-5f33-487f-8e1f-1f29cf3e04d7/source.png"
+            },
+            "start": 0,
+            "length": 12
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_1 }}",
+              "volume": 1
+            },
+            "start": 0,
+            "transition": {
+              "in": "carouselDown"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/forest-fire-news-alert-template-urgent-breaking-news/b872a0dc-6a0c-49ac-921b-d327ef9382e0/source.png"
+            },
+            "start": 0,
+            "length": 12
+          },
+          {
+            "length": 3,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_2 }}",
+              "volume": 1
+            },
+            "start": 3
+          },
+          {
+            "length": 3,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_3 }}",
+              "volume": 1
+            },
+            "start": 6
+          },
+          {
+            "length": 3,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_4 }}",
+              "volume": 1
+            },
+            "start": 9,
+            "transition": {
+              "out": "carouselRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1920,
+              "height": 1080,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR_2 }}"
+              }
+            },
+            "start": 0,
+            "length": 16
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "merge": [
+    {
+      "find": "Heading",
+      "replace": "MASSIVE FOREST FIRE ERUPTS"
+    },
+    {
+      "find": "VIDEO_1",
+      "replace": "https://templates.shotstack.io/forest-fire-news-alert-template-urgent-breaking-news/69997a1f-c6d0-4ba9-ba94-94a24b6068e7/source.mp4"
+    },
+    {
+      "find": "VIDEO_2",
+      "replace": "https://templates.shotstack.io/forest-fire-news-alert-template-urgent-breaking-news/d5e390f6-7bf6-4bdb-8218-43aceb84f5a2/source.mp4"
+    },
+    {
+      "find": "VIDEO_3",
+      "replace": "https://templates.shotstack.io/forest-fire-news-alert-template-urgent-breaking-news/f7a56798-c68b-4dff-9037-0af3083058b2/source.mp4"
+    },
+    {
+      "find": "VIDEO_4",
+      "replace": "https://templates.shotstack.io/forest-fire-news-alert-template-urgent-breaking-news/0b9f0aa2-e6af-4aad-a983-746383c938ce/source.mp4"
+    },
+    {
+      "find": "Subheading_1",
+      "replace": "Homes destroyed"
+    },
+    {
+      "find": "VIDEO_5",
+      "replace": "https://templates.shotstack.io/forest-fire-news-alert-template-urgent-breaking-news/6799872c-e5ea-4722-b1b1-d32b5a7f7476/source.mp4"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#000091"
+    },
+    {
+      "find": "SHAPE_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BACKGROUND_COLOR_2",
+      "replace": "#000091"
+    },
+    {
+      "find": "Subheading_2",
+      "replace": "in disaster"
+    }
+  ]
+}

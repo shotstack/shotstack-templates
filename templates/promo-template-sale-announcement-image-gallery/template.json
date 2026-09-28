@@ -1,0 +1,810 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_5 }}"
+            },
+            "start": 3.9461,
+            "scale": 0.55,
+            "offset": {
+              "y": 0.169,
+              "x": -0.092
+            },
+            "transition": {
+              "in": "fadeFast"
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1.2,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_4 }}"
+            },
+            "start": 2.9289,
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            },
+            "scale": 0.55,
+            "offset": {
+              "y": 0.169,
+              "x": -0.092
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1.41,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_3 }}"
+            },
+            "start": 1.93,
+            "scale": 0.55,
+            "offset": {
+              "y": 0.169,
+              "x": -0.092
+            },
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1.51,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_2 }}"
+            },
+            "start": 0.8211,
+            "scale": 0.55,
+            "offset": {
+              "y": 0.169,
+              "x": -0.092
+            },
+            "transition": {
+              "in": "fadeFast",
+              "out": "fadeFast"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1.2,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_1 }}"
+            },
+            "start": 0,
+            "offset": {
+              "y": 0.169,
+              "x": -0.092
+            },
+            "scale": 0.55,
+            "position": "center",
+            "transition": {
+              "out": "fadeFast"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 430,
+              "height": 400,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.86,
+                  "from": 0.348,
+                  "to": 0.348,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.86,
+                  "length": 0.24,
+                  "from": 0.348,
+                  "to": 0.348,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 1.1,
+                  "length": 0.78,
+                  "from": 0.348,
+                  "to": 0.348,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 1.88,
+                  "length": 0.26,
+                  "from": 0.348,
+                  "to": 0.348,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 2.14,
+                  "length": 0.75,
+                  "from": 0.348,
+                  "to": 0.348,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 2.89,
+                  "length": 0.28,
+                  "from": 0.348,
+                  "to": 0.348,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 3.17,
+                  "length": 0.79,
+                  "from": 0.348,
+                  "to": 0.348,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 3.96,
+                  "length": 0.29,
+                  "from": 0.348,
+                  "to": 0.348,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 4.25,
+                  "length": 0.75,
+                  "from": 0.348,
+                  "to": 0.348,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.86,
+                  "from": 0.367,
+                  "to": 0.362,
+                  "interpolation": "bezier",
+                  "easing": "ease"
+                },
+                {
+                  "start": 0.86,
+                  "length": 0.24,
+                  "from": 0.362,
+                  "to": 0.181,
+                  "interpolation": "bezier",
+                  "easing": "ease"
+                },
+                {
+                  "start": 1.1,
+                  "length": 0.78,
+                  "from": 0.181,
+                  "to": 0.181,
+                  "interpolation": "bezier",
+                  "easing": "ease"
+                },
+                {
+                  "start": 1.88,
+                  "length": 0.26,
+                  "from": 0.181,
+                  "to": -0.005,
+                  "interpolation": "bezier",
+                  "easing": "ease"
+                },
+                {
+                  "start": 2.14,
+                  "length": 0.75,
+                  "from": -0.005,
+                  "to": 0,
+                  "interpolation": "bezier",
+                  "easing": "ease"
+                },
+                {
+                  "start": 2.89,
+                  "length": 0.28,
+                  "from": 0,
+                  "to": -0.187,
+                  "interpolation": "bezier",
+                  "easing": "ease"
+                },
+                {
+                  "start": 3.17,
+                  "length": 0.79,
+                  "from": -0.187,
+                  "to": -0.19,
+                  "interpolation": "bezier",
+                  "easing": "ease"
+                },
+                {
+                  "start": 3.96,
+                  "length": 0.29,
+                  "from": -0.19,
+                  "to": -0.37,
+                  "interpolation": "bezier",
+                  "easing": "ease"
+                },
+                {
+                  "start": 4.25,
+                  "length": 0.75,
+                  "from": -0.37,
+                  "to": -0.37,
+                  "interpolation": "bezier",
+                  "easing": "ease"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.86,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.86,
+                "length": 0.24,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 1.1,
+                "length": 0.78,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 1.88,
+                "length": 0.26,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 2.14,
+                "length": 0.75,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 2.89,
+                "length": 0.28,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 3.17,
+                "length": 0.79,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 3.96,
+                "length": 0.29,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 4.25,
+                "length": 0.75,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.86,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.86,
+                "length": 0.24,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 1.1,
+                "length": 0.78,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 1.88,
+                "length": 0.26,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 2.14,
+                "length": 0.75,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 2.89,
+                "length": 0.28,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 3.17,
+                "length": 0.79,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 3.96,
+                "length": 0.29,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 4.25,
+                "length": 0.75,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.86,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.86,
+                    "length": 0.24,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 1.1,
+                    "length": 0.78,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 1.88,
+                    "length": 0.26,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 2.14,
+                    "length": 0.75,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 2.89,
+                    "length": 0.28,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 3.17,
+                    "length": 0.79,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 3.96,
+                    "length": 0.29,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 4.25,
+                    "length": 0.75,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/promo-template-sale-announcement-image-gallery/6d00907d-820c-4f9c-a834-d4d07b67cc25/source.png"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Web}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "35",
+                "lineHeight": 1
+              },
+              "width": 600,
+              "height": 72
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.117,
+              "y": -0.426
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{CTA}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ BACKGROUND_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "50",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 100,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.162,
+              "y": -0.353
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Discount}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "35",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 72
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.162,
+              "y": -0.264
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Tittle}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "120",
+                "lineHeight": 1
+              },
+              "width": 650,
+              "height": 300
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.093,
+              "y": -0.19
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_5 }}"
+            },
+            "start": 0,
+            "scale": 0.16,
+            "offset": {
+              "x": 0.348,
+              "y": -0.365
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_4 }}"
+            },
+            "start": 0,
+            "scale": 0.16,
+            "offset": {
+              "x": 0.348,
+              "y": -0.186
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_3 }}"
+            },
+            "start": 0,
+            "scale": 0.16,
+            "offset": {
+              "x": 0.348,
+              "y": -0.005
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_2 }}"
+            },
+            "start": 0,
+            "scale": 0.16,
+            "offset": {
+              "x": 0.348,
+              "y": 0.179
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_1 }}"
+            },
+            "start": 0,
+            "offset": {
+              "y": 0.364,
+              "x": 0.348
+            },
+            "scale": 0.16,
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1
+              }
+            },
+            "start": 0,
+            "length": 5,
+            "position": "center"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "Tittle",
+      "replace": "SMART CHOICE"
+    },
+    {
+      "find": "Discount",
+      "replace": "SAVE BIG – UP TO 50% OFF"
+    },
+    {
+      "find": "CTA",
+      "replace": "ORDER NOW"
+    },
+    {
+      "find": "Web",
+      "replace": "WWW.HOMETOOLCHEF.COM"
+    },
+    {
+      "find": "IMAGE_1",
+      "replace": "https://templates.shotstack.io/promo-template-sale-announcement-image-gallery/4614c2b5-cac0-4670-a262-12e00922fa97/source.png"
+    },
+    {
+      "find": "IMAGE_2",
+      "replace": "https://templates.shotstack.io/promo-template-sale-announcement-image-gallery/98104216-a6db-4238-b909-084956f8cb28/source.png"
+    },
+    {
+      "find": "IMAGE_3",
+      "replace": "https://templates.shotstack.io/promo-template-sale-announcement-image-gallery/77fc4a5f-0887-4d83-bb51-d6b55f3ebb8a/source.png"
+    },
+    {
+      "find": "IMAGE_4",
+      "replace": "https://templates.shotstack.io/promo-template-sale-announcement-image-gallery/ccd125de-d1c0-4ea3-b6e7-e02abb3a332a/source.png"
+    },
+    {
+      "find": "IMAGE_5",
+      "replace": "https://templates.shotstack.io/promo-template-sale-announcement-image-gallery/5ded70c2-13a4-460c-8f0e-4a81618ff00c/source.png"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#474343"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/promo-template-sale-announcement-image-gallery/8054862d-e1b6-4e81-b1d7-79d45b3aebea/source.mp3"
+    }
+  ]
+}

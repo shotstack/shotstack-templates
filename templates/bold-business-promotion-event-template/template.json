@@ -1,0 +1,637 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{WEBSITE}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 31,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1,
+                "weight": 400,
+                "style": "normal",
+                "lineHeight": 1
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 2,
+            "length": "end",
+            "offset": {
+              "x": -0.239,
+              "y": -0.411
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 300,
+            "height": 60
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-business-promotion-event-template/b671dd40-9b98-4dca-ac2c-9c3ba1d3b031/source.png"
+            },
+            "start": 2,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 40 40\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"40\" height=\"40\" fill=\"{{ ELEMENT_COLOR }}\"/></svg>",
+              "opacity": 1
+            },
+            "start": 2,
+            "length": "end",
+            "offset": {
+              "x": -0.412,
+              "y": -0.412
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 40,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-business-promotion-event-template/ef7eddca-7336-4bd8-a952-fb28a67a1de3/source.png"
+            },
+            "start": 1.8,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 40 40\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"40\" height=\"40\" fill=\"{{ ELEMENT_COLOR }}\"/></svg>",
+              "opacity": 1
+            },
+            "start": 1.8,
+            "length": "end",
+            "offset": {
+              "x": -0.412,
+              "y": -0.338
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 40,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{PHONE}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 30,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1,
+                "weight": 400,
+                "style": "normal",
+                "lineHeight": 1
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.8,
+            "length": "end",
+            "offset": {
+              "x": -0.239,
+              "y": -0.338
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 300,
+            "height": 60
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 29,
+                "color": "{{ ELEMENT_COLOR }}",
+                "opacity": 1,
+                "weight": 400,
+                "style": "normal",
+                "lineHeight": 1
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.6,
+            "length": "end",
+            "offset": {
+              "x": -0.205,
+              "y": -0.261
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 300,
+            "height": 75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-business-promotion-event-template/e602fcef-3a57-4462-88ec-cfad19735884/source.png"
+            },
+            "start": 1.4,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 65 65\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"65\" height=\"65\" fill=\"{{ TEXT_FONT_COLOR }}\"/></svg>",
+              "opacity": 1
+            },
+            "start": 1.4,
+            "length": "end",
+            "offset": {
+              "x": -0.396,
+              "y": -0.261
+            },
+            "position": "center",
+            "opacity": 1,
+            "transition": {
+              "in": "fade"
+            },
+            "width": 65,
+            "height": 65
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_DESCRIPTION}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 28,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1,
+                "weight": 400,
+                "style": "normal",
+                "lineHeight": 1.21
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "top"
+              }
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": -0.221,
+              "y": -0.175
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 453,
+            "height": 110
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DATE}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 25,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1,
+                "weight": 400,
+                "style": "normal",
+                "lineHeight": 1
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.1,
+            "length": "end",
+            "offset": {
+              "x": -0.221,
+              "y": -0.049
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 250,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"20\" height=\"20\" fill=\"#ff9500\" rx=\"9\" ry=\"9\"/></svg>",
+              "opacity": 1
+            },
+            "start": 1.1,
+            "length": "end",
+            "offset": {
+              "x": -0.366,
+              "y": -0.049
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 20,
+            "height": 20
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_TITLE_3}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 85,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1,
+                "weight": 400,
+                "style": "normal",
+                "lineHeight": 1
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": -0.214,
+              "y": 0.088
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 475,
+            "height": 120
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_TITLE_2}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 85,
+                "color": "{{ ELEMENT_COLOR }}",
+                "opacity": 1,
+                "weight": 400,
+                "style": "normal",
+                "lineHeight": 1
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": -0.211,
+              "y": 0.199
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 475,
+            "height": 120
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_TITLE}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 85,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1,
+                "weight": 400,
+                "style": "normal",
+                "lineHeight": 1
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": -0.245,
+              "y": 0.303
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 120
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 30 30\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"30\" height=\"30\" fill=\"{{ ELEMENT_COLOR }}\" rx=\"19\" ry=\"19\"/></svg>",
+              "opacity": 1
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.41,
+              "y": 0.404
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 30,
+            "height": 30
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{COMPANY}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 35,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1,
+                "weight": 400,
+                "style": "normal",
+                "lineHeight": 1
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.245,
+              "y": 0.404
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 295,
+            "height": 120
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-business-promotion-event-template/3bb5c363-65a7-4489-b643-b593a1562ccb/source.png"
+            },
+            "start": 1,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 750 750\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"750\" height=\"750\" fill=\"{{ TEXT_FONT_COLOR }}\"/></svg>",
+              "opacity": 1
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.249,
+              "y": -0.049
+            },
+            "position": "center",
+            "width": 750,
+            "height": 750
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 1,
+            "offset": {
+              "x": 0.309,
+              "y": -0.056
+            },
+            "position": "center",
+            "scale": 0.93,
+            "transition": {
+              "in": "slideLeftSlow"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-business-promotion-event-template/2b1b01ac-6a06-4cce-a85f-f3671bf5d8dd/source.png"
+            },
+            "start": 0.5,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 600 600\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"600\" height=\"600\" fill=\"{{ ELEMENT_COLOR }}\"/></svg>",
+              "opacity": 1
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": 0.222,
+              "y": 0.222
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 600,
+            "height": 600
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1080\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1080\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>",
+              "opacity": 1
+            },
+            "start": 0,
+            "length": 10,
+            "position": "center",
+            "width": 1080,
+            "height": 1080
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1080
+    }
+  },
+  "merge": [
+    {
+      "find": "COMPANY",
+      "replace": "name Company"
+    },
+    {
+      "find": "S1_TITLE",
+      "replace": "DIGITAL"
+    },
+    {
+      "find": "S1_TITLE_2",
+      "replace": "BUSINESS"
+    },
+    {
+      "find": "S1_TITLE_3",
+      "replace": "WEBINAR"
+    },
+    {
+      "find": "DATE",
+      "replace": "20 JUNE 2025"
+    },
+    {
+      "find": "S1_DESCRIPTION",
+      "replace": "Mastering digital strategies for greater success"
+    },
+    {
+      "find": "CTA",
+      "replace": "REGISTER NOW"
+    },
+    {
+      "find": "PHONE",
+      "replace": "123-456-7890"
+    },
+    {
+      "find": "WEBSITE",
+      "replace": "workshop.com"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/bold-business-promotion-event-template/60ba1ba7-20e1-46b8-a096-75a997bcb81a/source.png"
+    },
+    {
+      "find": "ELEMENT_COLOR",
+      "replace": "#ff9500"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#4320a2"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/bold-business-promotion-event-template/423bdd44-7848-4b60-97af-d1edf33b8e85/source.mp3"
+    }
+  ]
+}

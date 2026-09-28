@@ -1,0 +1,366 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/new-year-celebration-sale-offer-template/41a89185-401c-48c5-9a46-dded7df96b5a/source.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/roboto/v50/KFOmCnqEu92Fr1Me5WZLCzYlKw.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TEXT_VAR_089}}",
+              "font": {
+                "family": "Roboto",
+                "size": 32,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 10.9,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.371
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title_3}}",
+              "font": {
+                "family": "Roboto",
+                "size": 250,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "top"
+              }
+            },
+            "start": 10.3,
+            "length": "end",
+            "offset": {
+              "x": -0.187,
+              "y": 0.062
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 350,
+            "height": 1130
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_3 }}"
+            },
+            "start": 10.7,
+            "scale": 1,
+            "offset": {
+              "x": 0.222,
+              "y": -0.134
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "fit": "contain",
+            "width": 385,
+            "height": 384
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title_2}}",
+              "font": {
+                "family": "Roboto",
+                "size": 150,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "top"
+              }
+            },
+            "start": 9.1,
+            "length": "end",
+            "offset": {
+              "x": -0.377,
+              "y": 0.179
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 150,
+            "height": 600
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title_1}}",
+              "font": {
+                "family": "Roboto",
+                "size": 80,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 9.7,
+            "length": "end",
+            "offset": {
+              "x": -0.308,
+              "y": 0.375
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 400,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_2 }}"
+            },
+            "start": 10.3,
+            "scale": 1,
+            "offset": {
+              "x": 0.22237511424421186,
+              "y": 0.07826794498675826
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "fit": "contain",
+            "width": 385,
+            "height": 384
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_1 }}"
+            },
+            "start": 9.9,
+            "scale": 1,
+            "offset": {
+              "x": 0.222,
+              "y": 0.291
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "fit": "contain",
+            "width": 385,
+            "height": 384
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 9.5,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_1 }}",
+              "volume": 0
+            },
+            "start": 0,
+            "transition": {
+              "out": "fade"
+            },
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 10,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_2 }}",
+              "volume": 0
+            },
+            "start": 8,
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Title_1",
+      "replace": "HAPPY"
+    },
+    {
+      "find": "Title_2",
+      "replace": "N E W"
+    },
+    {
+      "find": "Title_3",
+      "replace": "Y E A R"
+    },
+    {
+      "find": "VIDEO_1",
+      "replace": "https://templates.shotstack.io/new-year-celebration-sale-offer-template/d3baed76-6a6d-43b4-a3f8-6b6212a9f983/source.mp4"
+    },
+    {
+      "find": "VIDEO_2",
+      "replace": "https://templates.shotstack.io/new-year-celebration-sale-offer-template/0ed3e85a-a834-47b5-80ed-398c1564dc5f/source.mp4"
+    },
+    {
+      "find": "IMAGE_1",
+      "replace": "https://templates.shotstack.io/new-year-celebration-sale-offer-template/0c58c486-1dfc-4a93-b1e6-9f7fb3fb59aa/source.png"
+    },
+    {
+      "find": "IMAGE_2",
+      "replace": "https://templates.shotstack.io/new-year-celebration-sale-offer-template/e0e7f38d-c9a2-41b6-af90-79a18f754741/source.png"
+    },
+    {
+      "find": "TEXT_VAR_089",
+      "replace": "BRIGHT HORIZONS, EXCITING PATHS, AND TREASURED BONDS TO CARRY THROUGH. WISHING A YEAR FILLED WITH SMILES AND TIMELESS MOMENTS."
+    },
+    {
+      "find": "IMAGE_3",
+      "replace": "https://templates.shotstack.io/new-year-celebration-sale-offer-template/28f7ff22-7fb4-464c-94d6-d37e5bd831a3/source.png"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/new-year-celebration-sale-offer-template/b844d0de-d1b8-4b7a-bb6e-9ba07a584297/source.mp3"
+    }
+  ]
+}

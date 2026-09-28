@@ -1,0 +1,212 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/special-offer-event-template-discover-journey/c1174b56-3efd-4b75-9173-1dc4ac616ecd/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/special-offer-event-template-discover-journey/06dc5279-493d-47c5-9e41-76f677ac6862/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"300\" height=\"300\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 4.13,
+            "length": "end",
+            "position": "center",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/special-offer-event-template-discover-journey/163d2c2c-0a41-4d4d-8377-3777d2a53074/source.mp4"
+            },
+            "start": 4.13,
+            "length": 5.88
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title}}",
+              "font": {
+                "family": "Amsterdam Four_ttf",
+                "size": 130,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 3.39,
+            "length": "end",
+            "transform": {
+              "rotate": {
+                "angle": -10
+              }
+            },
+            "offset": {
+              "x": 0.005,
+              "y": 0.169
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 850,
+            "height": 350
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/special-offer-event-template-discover-journey/70caf86c-eba5-447c-a76f-2d2b2e1715a2/source.png"
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": -0.33869258000464464
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 984,
+            "height": 234
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/special-offer-event-template-discover-journey/e9360dda-7f50-42f2-a07a-dc7bd8746014/source.png"
+            },
+            "start": 0,
+            "width": 1079,
+            "height": 1920,
+            "offset": {
+              "x": -0.0006071645415907504,
+              "y": -0.00013874658469947103
+            },
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 10.01,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/special-offer-event-template-discover-journey/96a9402f-394d-4f93-8076-dd38f4015bfd/source.png"
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": 0.000092552188897972,
+              "y": -0.46877134562841527
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 1114,
+            "height": 130
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 10,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO }}",
+              "volume": 0
+            },
+            "start": 0.01,
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Title",
+      "replace": "Ready to discover the unknown!"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/special-offer-event-template-discover-journey/2ef1db71-41c8-433d-b003-91c972489aef/source.mp3"
+    },
+    {
+      "find": "VIDEO",
+      "replace": "https://templates.shotstack.io/special-offer-event-template-discover-journey/d3817223-c203-4f78-9b13-56f614237387/source.m4v"
+    }
+  ]
+}

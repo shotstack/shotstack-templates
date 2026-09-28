@@ -1,0 +1,887 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/autumn-holiday-memories-photo-story-template/d504aa34-ff85-43fc-93c7-81cc78d53880/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/autumn-holiday-memories-photo-story-template/d1687c48-63dc-48b6-b081-cb1f5f80aa39/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/autumn-holiday-memories-photo-story-template/0fe068cd-1eba-4be4-948d-e2b3211cf887/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Body_1}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Frutiger",
+                "size": "32",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 200
+            },
+            "start": 6,
+            "length": 4,
+            "offset": {
+              "x": 0,
+              "y": -0.372
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideUp",
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Body_2}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Frutiger",
+                "size": "32",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 200
+            },
+            "start": 10.8,
+            "length": 4.2,
+            "offset": {
+              "x": 0,
+              "y": -0.372
+            },
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Body_3}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Frutiger",
+                "size": "32",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 200
+            },
+            "start": 15.8,
+            "length": 4.2,
+            "offset": {
+              "x": 0,
+              "y": -0.322
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Body_4}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Frutiger",
+                "size": "32",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 200
+            },
+            "start": 20.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.372
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Subtitle_1}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "family": "Frutiger",
+                "size": "48",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 150
+            },
+            "start": 5.6,
+            "length": 4.4,
+            "offset": {
+              "x": 0,
+              "y": -0.29
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Subtitle_2}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "family": "Frutiger",
+                "size": "48",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 150
+            },
+            "start": 10.4,
+            "length": 4.6,
+            "offset": {
+              "x": 0,
+              "y": -0.291
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Subtitle_3}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "family": "Frutiger",
+                "size": "48",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 150
+            },
+            "start": 15.4,
+            "length": 4.6,
+            "offset": {
+              "x": 0,
+              "y": -0.256
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideUp",
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Subtitle_4}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_2 }}",
+                "family": "Frutiger",
+                "size": "48",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 150
+            },
+            "start": 20.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.29
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideUp",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ Flower }}"
+            },
+            "start": 5.4,
+            "scale": 0.1,
+            "offset": {
+              "y": 0.358,
+              "x": 0.338
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.57,
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/autumn-holiday-memories-photo-story-template/3784fb52-d564-46cd-95f8-ad35c894eb26/source.mp4",
+              "trim": 0.22,
+              "volume": 1
+            },
+            "start": 5.4,
+            "scale": 0.45,
+            "offset": {
+              "x": 0,
+              "y": 0.123
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideUp",
+              "in": "slideUp"
+            }
+          },
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/autumn-holiday-memories-photo-story-template/cb35cb38-dbc2-40cc-a50d-4531beec48d0/source.mp4",
+              "volume": 1
+            },
+            "start": 10,
+            "scale": 0.45,
+            "offset": {
+              "x": -0.008,
+              "y": 0.122
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideUp"
+            }
+          },
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/autumn-holiday-memories-photo-story-template/7db271c0-3de5-482d-94c5-2429d5fea4a2/source.mp4",
+              "volume": 1
+            },
+            "start": 15,
+            "scale": 0.45,
+            "offset": {
+              "x": 0,
+              "y": 0.122
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideUp",
+              "in": "slideUp"
+            }
+          },
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/autumn-holiday-memories-photo-story-template/26015317-db9d-4278-be5a-fe8ad2bea393/source.mp4",
+              "volume": 1
+            },
+            "start": 20,
+            "transition": {
+              "in": "slideUp"
+            },
+            "scale": 0.45,
+            "offset": {
+              "x": 0,
+              "y": 0.104
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title_2}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR_3 }}",
+                "family": "Autumn in November",
+                "size": "60",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 200
+            },
+            "start": 5.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.155
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 1138,
+              "background": {
+                "color": "#e9e8e2"
+              }
+            },
+            "start": 5,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.075
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title_1}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Autumn in November",
+                "size": "120",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 400
+            },
+            "start": 1,
+            "length": 4,
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.2,
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/autumn-holiday-memories-photo-story-template/2e56d868-4b4a-4847-82d2-2537c8cde732/source.mp4",
+              "volume": 1
+            },
+            "start": 0.8,
+            "scale": 0.27,
+            "offset": {
+              "x": 0.273,
+              "y": -0.302
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 17
+              }
+            },
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 476,
+              "height": 666,
+              "background": {
+                "color": "#e9e8e2"
+              }
+            },
+            "start": 0.8,
+            "length": 4.2,
+            "offset": {
+              "x": 0.266,
+              "y": -0.327
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 17
+              }
+            },
+            "transition": {
+              "out": "slideRight",
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.4,
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/autumn-holiday-memories-photo-story-template/065faf07-49f9-4b14-ae61-3b8fb248be2a/source.mp4",
+              "volume": 1
+            },
+            "start": 0.6,
+            "scale": 0.27,
+            "offset": {
+              "x": -0.225,
+              "y": -0.279
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -12
+              }
+            },
+            "transition": {
+              "in": "slideRight",
+              "out": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 476,
+              "height": 666,
+              "background": {
+                "color": "#e9e8e2"
+              }
+            },
+            "start": 0.6,
+            "length": 4.4,
+            "offset": {
+              "x": -0.22,
+              "y": -0.299
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -12
+              }
+            },
+            "transition": {
+              "out": "slideLeft",
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.8,
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/autumn-holiday-memories-photo-story-template/0ae34e89-15f1-4e55-aedd-82755380a2b7/source.mp4",
+              "volume": 1
+            },
+            "start": 0.2,
+            "scale": 0.27,
+            "offset": {
+              "x": -0.276,
+              "y": 0.322
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 15
+              }
+            },
+            "transition": {
+              "in": "slideRight",
+              "out": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 476,
+              "height": 666,
+              "background": {
+                "color": "#e9e8e2"
+              }
+            },
+            "start": 0.2,
+            "length": 4.8,
+            "offset": {
+              "x": -0.284,
+              "y": 0.302
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 15
+              }
+            },
+            "transition": {
+              "in": "slideRight",
+              "out": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.6,
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/autumn-holiday-memories-photo-story-template/a0f86eb2-ea26-426d-b3ed-3f03372b7c79/source.mp4",
+              "volume": 1
+            },
+            "start": 0.4,
+            "scale": 0.27,
+            "offset": {
+              "x": 0.241,
+              "y": 0.309
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -25
+              }
+            },
+            "transition": {
+              "out": "slideRight",
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 476,
+              "height": 666,
+              "background": {
+                "color": "#e9e8e2"
+              }
+            },
+            "start": 0.4,
+            "length": 4.6,
+            "offset": {
+              "x": 0.264,
+              "y": 0.284
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -25
+              }
+            },
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "#633901",
+                "opacity": 0.22
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/autumn-holiday-memories-photo-story-template/9c73179b-cf9e-4b23-9d1f-c058080cedb0/source.mp4",
+              "volume": 1
+            },
+            "start": 0
+          },
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/autumn-holiday-memories-photo-story-template/abfd525a-9879-4a3d-8b16-e05aac97c63e/source.mp4",
+              "volume": 1
+            },
+            "start": 5
+          },
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/autumn-holiday-memories-photo-story-template/1fe23204-c5a6-43c7-bfde-fe8afbb1280f/source.mp4",
+              "volume": 1
+            },
+            "start": 10
+          },
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/autumn-holiday-memories-photo-story-template/208e01e0-b671-4d6d-b079-c66a99af51a6/source.mp4",
+              "volume": 1
+            },
+            "start": 15
+          },
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/autumn-holiday-memories-photo-story-template/c6ae284b-adcb-4e3e-99ef-072bd8f45d5c/source.mp4",
+              "volume": 1
+            },
+            "start": 20
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "Title_1",
+      "replace": "Autumn in November"
+    },
+    {
+      "find": "Title_2",
+      "replace": "#Autumn Break 2025"
+    },
+    {
+      "find": "Subtitle_1",
+      "replace": "KAYAKING ON AUTUMN LAKES"
+    },
+    {
+      "find": "Body_1",
+      "replace": "Glide across calm waters reflecting fiery treetops, the stillness broken only by the dip of your paddle, surrounded by nature’s quiet, colorful spectacle."
+    },
+    {
+      "find": "Subtitle_2",
+      "replace": "MOUNTAIN HIKES WITH FOLIAGE"
+    },
+    {
+      "find": "Body_2",
+      "replace": "Trek along rugged trails where crisp mountain air meets sweeping vistas of valleys and forests bursting with vibrant autumn color."
+    },
+    {
+      "find": "Subtitle_3",
+      "replace": "LEAF-PEEPING HIKES IN FORESTS"
+    },
+    {
+      "find": "Body_3",
+      "replace": "Stroll through woodlands painted in shades of crimson, amber, and gold, where every step crunches with fallen leaves, and the air is filled with the earthy scent of autumn."
+    },
+    {
+      "find": "Subtitle_4",
+      "replace": "NATURE PHOTOGRAPHY IN AUTUMN"
+    },
+    {
+      "find": "Body_4",
+      "replace": "Capture magical landscapes kissed by golden sunlight, misty mornings rolling across valleys, and forests transforming into a vivid palette of red, orange, and yellow."
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "TEXT_FONT_COLOR_2",
+      "replace": "#e97d07"
+    },
+    {
+      "find": "TEXT_FONT_COLOR_3",
+      "replace": "#000000"
+    },
+    {
+      "find": "Flower",
+      "replace": "https://templates.shotstack.io/autumn-holiday-memories-photo-story-template/dbbcd2c2-9722-420e-aeff-ae1f274dc1fa/source.png"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/autumn-holiday-memories-photo-story-template/e21776f0-3fb5-4e47-a7c5-6d6d2899610c/source.mp3"
+    }
+  ]
+}

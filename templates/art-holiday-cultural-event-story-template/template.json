@@ -1,0 +1,429 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/art-holiday-cultural-event-story-template/8c5b564d-a2bf-472f-a28d-545e0d107aa2/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Social_Handle}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "30",
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 72
+            },
+            "start": 1,
+            "length": "end",
+            "transition": {
+              "in": "slideUp"
+            },
+            "offset": {
+              "y": -0.467
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 800,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.056
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/art-holiday-cultural-event-story-template/a348aea8-175e-4cbf-9537-3a8aaab328f9/source.png"
+            },
+            "start": 0,
+            "length": 14
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Pacifico",
+                "size": "78",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 200
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.455
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 800,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.005,
+              "y": 0.447
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/art-holiday-cultural-event-story-template/2458c5fc-2b04-484f-b8ab-f9c9df508670/source.png"
+            },
+            "start": 0,
+            "length": 14
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Body}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": 46,
+                "lineHeight": 1
+              },
+              "width": 750,
+              "height": 150
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.414
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Subtitle}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Pacifico",
+                "size": "75",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 250
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.16
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1280,
+              "height": 2120,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.016
+            },
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/art-holiday-cultural-event-story-template/5b977323-137e-4d91-9495-ad7eed5c9ef0/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1280,
+              "height": 2120,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": 14,
+            "offset": {
+              "y": -0.024
+            },
+            "position": "center"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/art-holiday-cultural-event-story-template/aa78f04e-00ee-4a2a-b4e5-e48b039c98dc/source.png"
+            },
+            "start": 0,
+            "length": 14
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 248,
+              "background": {
+                "color": "#d3b91f",
+                "opacity": 0.34
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.445
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 6.5,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_1 }}",
+              "volume": 0
+            },
+            "start": 0,
+            "scale": 0.81,
+            "offset": {
+              "x": 0,
+              "y": -0.12
+            },
+            "position": "center"
+          },
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_2 }}",
+              "volume": 0
+            },
+            "start": 6.5,
+            "offset": {
+              "y": -0.067
+            },
+            "position": "center",
+            "scale": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "Title",
+      "replace": "Artistry Holiday"
+    },
+    {
+      "find": "Body",
+      "replace": "A holiday filled with culture & inspiration"
+    },
+    {
+      "find": "Subtitle",
+      "replace": "Walking Inside Creativity"
+    },
+    {
+      "find": "VIDEO_1",
+      "replace": "https://templates.shotstack.io/art-holiday-cultural-event-story-template/0f7b70d4-e2c9-4cf1-a58c-042835667b45/source.mp4"
+    },
+    {
+      "find": "VIDEO_2",
+      "replace": "https://templates.shotstack.io/art-holiday-cultural-event-story-template/6c0ee0f9-5fec-4079-864e-757c7e688b33/source.mp4"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#d3b91f"
+    },
+    {
+      "find": "Social_Handle",
+      "replace": "@vacationsurvey"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/art-holiday-cultural-event-story-template/7e8221bd-ba34-4fc1-a29c-2a88ff266f32/source.mp3"
+    }
+  ]
+}

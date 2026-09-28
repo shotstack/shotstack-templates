@@ -1,0 +1,521 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Discount}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 106,
+                "weight": 700,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": -0.303,
+              "y": 0.073
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 400,
+            "height": 230
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Web}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 50,
+                "weight": 500,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "character"
+              }
+            },
+            "start": 1.1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.417
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 90
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 58,
+                "weight": 700,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1,
+                "borderRadius": 43
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "y": -0.372
+            },
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 500,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "image",
+              "src": "{{ Product_3 }}"
+            },
+            "start": 0.81,
+            "scale": 1,
+            "offset": {
+              "x": -0.14699999999999996,
+              "y": -0.10639364093697168
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "fit": "contain",
+            "width": 687,
+            "height": 874
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5.11,
+            "asset": {
+              "type": "image",
+              "src": "{{ Product_2 }}"
+            },
+            "start": 0.7,
+            "scale": 1,
+            "offset": {
+              "x": 0.17105555555555552,
+              "y": 0.017708333333333326
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "fit": "contain",
+            "width": 855,
+            "height": 913
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5.210000000000001,
+            "asset": {
+              "type": "image",
+              "src": "{{ Product_1 }}"
+            },
+            "start": 0.6,
+            "scale": 1,
+            "offset": {
+              "x": 0.05277777777777792,
+              "y": 0.10015122924395498
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "fit": "contain",
+            "width": 573,
+            "height": 596
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ Stand_1 }}"
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": -0.14699999999999996,
+              "y": -0.3140968111569886
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 1075,
+            "height": 1147
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5.8100000000000005,
+            "asset": {
+              "type": "image",
+              "src": "{{ Stand_2 }}"
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": 0.20370370370370372,
+              "y": -0.254400919596354
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 1140,
+            "height": 1202
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ Stand_3 }}"
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": 0.06859644373163536,
+              "y": -0.18292168742271162
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 1073,
+            "height": 1045
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Sub_tittle_2}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 64,
+                "weight": 500,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "y": 0.286,
+              "x": 0
+            },
+            "transition": {
+              "in": "slideDown"
+            },
+            "position": "center",
+            "width": 800,
+            "height": 95
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Sub_title_1}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 70,
+                "weight": 700,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "y": 0.34,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 700,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 231,
+                "weight": 700,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "down",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": 4.99,
+            "offset": {
+              "x": 0,
+              "y": 0.417
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 798,
+            "height": 300
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 5.8100000000000005,
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ],
+    "fonts": [
+      {
+        "src": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm45xW5rygbi49c.ttf"
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Title",
+      "replace": "MEGA"
+    },
+    {
+      "find": "Sub_title_1",
+      "replace": "SALES DAY"
+    },
+    {
+      "find": "Sub_tittle_2",
+      "replace": "NOW OR NEVER"
+    },
+    {
+      "find": "CTA",
+      "replace": "ORDER NOW"
+    },
+    {
+      "find": "Product_1",
+      "replace": "https://templates.shotstack.io/mega-sale-promo-template-event-ad-offer/ad189949-f898-4971-89b7-31dee1faa841/source.png"
+    },
+    {
+      "find": "Product_2",
+      "replace": "https://templates.shotstack.io/mega-sale-promo-template-event-ad-offer/9f13d92f-31fd-44ca-b374-7c7c671d361f/source.png"
+    },
+    {
+      "find": "Product_3",
+      "replace": "https://templates.shotstack.io/mega-sale-promo-template-event-ad-offer/ccf7da58-c77e-45d1-9d0e-9a96c3465bdf/source.png"
+    },
+    {
+      "find": "Web",
+      "replace": "www.fittinngbags.com"
+    },
+    {
+      "find": "Discount",
+      "replace": "50% OFF"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#ff0000"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#4d4c4c"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/mega-sale-promo-template-event-ad-offer/1d113200-af53-4576-b74f-cb8770b12f36/source.mp3"
+    },
+    {
+      "find": "Stand_1",
+      "replace": "https://templates.shotstack.io/mega-sale-promo-template-event-ad-offer/6a661db9-b600-4916-848f-26ab57e3f661/source.png"
+    },
+    {
+      "find": "Stand_2",
+      "replace": "https://templates.shotstack.io/mega-sale-promo-template-event-ad-offer/5039b6dd-bc9f-4887-84af-083020ab1a7b/source.png"
+    },
+    {
+      "find": "Stand_3",
+      "replace": "https://templates.shotstack.io/mega-sale-promo-template-event-ad-offer/5bed6128-9a35-46da-9c97-b05018c1181a/source.png"
+    }
+  ]
+}

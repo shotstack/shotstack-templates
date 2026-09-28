@@ -1,0 +1,597 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/news-update-template-broadcast-breaking-news-live/f0cebf8e-e638-4c62-899e-f8e9a60ab491/source.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm45xW5rygbi49c.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/oswald/v57/TK3iWkUHHAIjg75GHjUHte5fKg.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{HEADLINE}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 40,
+                "weight": 700,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.035,
+              "y": -0.321
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 950,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TIME}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 24,
+                "weight": 700,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.345,
+              "y": -0.272
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{NEWS_SLUG}}",
+              "font": {
+                "family": "TK3iWkUHHAIjg75GHjUHte5fKg",
+                "size": 46,
+                "weight": 700,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.353,
+              "y": -0.211
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{PRESENTER}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 30,
+                "weight": 500,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.26,
+              "y": -0.114
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 500 60\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"500\" height=\"60\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": -0.273,
+              "y": -0.114
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 500,
+            "height": 60
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/news-update-template-broadcast-breaking-news-live/9d050b7e-aa43-4eb9-86f0-1bac4a75127c/source.png"
+            },
+            "start": 0.3,
+            "length": 29.7
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 30 30\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"30\" height=\"30\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": -0.465,
+              "y": -0.266
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 30,
+            "height": 30
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/news-update-template-broadcast-breaking-news-live/b27b960d-bd4d-4df4-afdb-26c416cdf65b/source.png"
+            },
+            "start": 0.5,
+            "length": 29.5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 29.8,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_PRESENTER }}",
+              "volume": 1
+            },
+            "start": 0.2,
+            "scale": 1,
+            "offset": {
+              "x": -0.3082192982456142,
+              "y": 0.09384862281843934
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "fit": "contain",
+            "width": 455,
+            "height": 459
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 500 500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"500\" height=\"500\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.308,
+              "y": 0.097
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 500,
+            "height": 500
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 29.6,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_STORY }}",
+              "volume": 1
+            },
+            "start": 0.4,
+            "scale": 1,
+            "offset": {
+              "x": 0.15126901700203887,
+              "y": 0.1501208576998051
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 1042,
+            "height": 589,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1079 621\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1079\" height=\"621\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.152,
+              "y": 0.15
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 1079,
+            "height": 621
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 500 60\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"500\" height=\"60\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.358,
+              "y": -0.272
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 500,
+            "height": 60
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/news-update-template-broadcast-breaking-news-live/4ef3d12f-a70e-4fa8-9fb2-cca45b24f44b/source.png"
+            },
+            "start": 0.4,
+            "length": 29.6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 500 72\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"500\" height=\"72\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.343,
+              "y": -0.211
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 500,
+            "height": 72
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/news-update-template-broadcast-breaking-news-live/998e5fb6-63d8-41fd-911f-ac03e50e068a/source.png"
+            },
+            "start": 0.2,
+            "length": 29.8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1800 250\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1800\" height=\"250\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.321
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 1800,
+            "height": 250
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/news-update-template-broadcast-breaking-news-live/d8b37f36-b9fa-4583-9b99-28f4cf5b2f9f/source.png"
+            },
+            "start": 0.6,
+            "length": 29.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{STATUS}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 36,
+                "weight": 500,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.397,
+              "y": 0.417
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 150,
+            "height": 58
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"20\" height=\"20\" fill=\"#ffffff\" rx=\"12\" ry=\"12\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.462,
+              "y": 0.417
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 20,
+            "height": 20
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 300 60\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"300\" height=\"60\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.4,
+              "y": 0.416
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 300,
+            "height": 60
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/news-update-template-broadcast-breaking-news-live/9b283770-57b2-4760-a71a-3080cb03afc8/source.png"
+            },
+            "start": 0,
+            "length": 30
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 30,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_BACKGROUND }}",
+              "volume": 1
+            },
+            "start": 0,
+            "fit": "crop",
+            "width": 1920,
+            "height": 1080,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "HEADLINE",
+      "replace": "Massive Traffic Congestion Brings City Roads to a Standstill, Disrupting Daily Life and Frustrating Commuters Everywhere"
+    },
+    {
+      "find": "NEWS_SLUG",
+      "replace": "NEWS UPDATE"
+    },
+    {
+      "find": "PRESENTER",
+      "replace": "MARIAM JOHN"
+    },
+    {
+      "find": "STATUS",
+      "replace": "LIVE"
+    },
+    {
+      "find": "TIME",
+      "replace": "SINCE YESTERDAY"
+    },
+    {
+      "find": "VIDEO_PRESENTER",
+      "replace": "https://templates.shotstack.io/news-update-template-broadcast-breaking-news-live/2a735e41-3669-4462-8ccb-7bade42e075c/source.mp4"
+    },
+    {
+      "find": "VIDEO_STORY",
+      "replace": "https://templates.shotstack.io/news-update-template-broadcast-breaking-news-live/dba5dd05-88c5-4039-b8f4-c4c8bfaa0adb/source.mp4"
+    },
+    {
+      "find": "VIDEO_BACKGROUND",
+      "replace": "https://templates.shotstack.io/news-update-template-broadcast-breaking-news-live/0a85481a-c0f6-4ea8-a8d0-e1ed6c7de01d/source.mp4"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#000000"
+    },
+    {
+      "find": "SHAPE_COLOR",
+      "replace": "#d20000"
+    }
+  ]
+}

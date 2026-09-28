@@ -1,0 +1,923 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4,
+            "asset": {
+              "type": "image",
+              "src": "{{ LOGO }}"
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": -0.2732354703642473,
+              "y": 0.33206813598245344
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 322,
+            "height": 335
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ADDRESS}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 43,
+                "weight": 500,
+                "color": "{{ DARK_BROWN_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "top"
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "character"
+              }
+            },
+            "start": 4.6,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.41
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 700,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{EMAIL}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 43,
+                "weight": 500,
+                "color": "{{ DARK_BROWN_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "character"
+              }
+            },
+            "start": 4.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.3460833333333333
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 700,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 4 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"4\" height=\"50\" fill=\"#6a3910\"/></svg>"
+            },
+            "start": 4.2,
+            "length": "end",
+            "offset": {
+              "y": -0.294,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 4,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{WEBSITE}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 43,
+                "weight": 500,
+                "color": "{{ DARK_BROWN_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "character"
+              }
+            },
+            "start": 4.2,
+            "length": "end",
+            "offset": {
+              "x": 0.212,
+              "y": -0.294
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 400,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{PHONE}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 43,
+                "weight": 500,
+                "color": "{{ DARK_BROWN_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "character"
+              }
+            },
+            "start": 4.2,
+            "length": "end",
+            "offset": {
+              "x": -0.212,
+              "y": -0.294
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 400,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{AGENT_NAME}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 72,
+                "weight": 700,
+                "color": "{{ DARK_BROWN_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.225
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/ready-to-move-in-modern-living/a116f247-0dc2-4ad5-a459-b8923f2a7646/source.png"
+            },
+            "start": 0,
+            "length": 4
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 80 80\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"80\" height=\"80\" fill=\"{{ DARK_BROWN_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 4,
+            "offset": {
+              "x": 0.315,
+              "y": -0.086
+            },
+            "position": "center",
+            "width": 80,
+            "height": 80
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/ready-to-move-in-modern-living/1ae843ba-636d-4ecf-9dfe-b8c9ba0bfc78/source.png"
+            },
+            "start": 0,
+            "length": 4
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 80 80\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"80\" height=\"80\" fill=\"{{ DARK_BROWN_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 4,
+            "offset": {
+              "x": 0.315,
+              "y": 0.174
+            },
+            "position": "center",
+            "width": 80,
+            "height": 80
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/ready-to-move-in-modern-living/9a8af4a9-5712-4789-83ca-747f7d2be892/source.png"
+            },
+            "start": 0,
+            "length": 4
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 80 80\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"80\" height=\"80\" fill=\"{{ DARK_BROWN_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 4,
+            "offset": {
+              "x": 0.315,
+              "y": 0.037
+            },
+            "position": "center",
+            "width": 80,
+            "height": 80
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/ready-to-move-in-modern-living/b17ccaed-4693-4d3b-b1c3-44a83a91ade5/source.png"
+            },
+            "start": 0,
+            "length": 4
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 150 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"150\" height=\"150\" fill=\"{{ LIGHT_BROWN_COLOR_3 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 4,
+            "offset": {
+              "x": 0.315,
+              "y": 0.174
+            },
+            "position": "center",
+            "width": 150,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 150 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"150\" height=\"150\" fill=\"{{ LIGHT_BROWN_COLOR_3 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 4,
+            "offset": {
+              "x": 0.315,
+              "y": 0.037
+            },
+            "position": "center",
+            "width": 150,
+            "height": 150
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/ready-to-move-in-modern-living/6fcc0409-b1c7-4703-b177-7b7a80b9a6ad/source.png"
+            },
+            "start": 0,
+            "length": 4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/ready-to-move-in-modern-living/70071e6e-c32b-4f22-b59b-516b4fa1733f/source.png"
+            },
+            "start": 0,
+            "length": 4
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 150 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"150\" height=\"150\" fill=\"{{ LIGHT_BROWN_COLOR_3 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 4,
+            "offset": {
+              "x": 0.315,
+              "y": -0.086
+            },
+            "position": "center",
+            "width": 150,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 300 800\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"300\" height=\"800\" fill=\"{{ BROWN_COLOR }}\" rx=\"42\" ry=\"42\"/></svg>"
+            },
+            "start": 0,
+            "length": 4,
+            "offset": {
+              "x": 0.439,
+              "y": 0.047
+            },
+            "position": "center",
+            "width": 300,
+            "height": 800
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{TITLE}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 49,
+                "weight": 700,
+                "color": "{{ DARK_BROWN_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ BROWN_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 47
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": 4,
+            "offset": {
+              "x": 0,
+              "y": -0.385
+            },
+            "position": "center",
+            "width": 800,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 4,
+            "scale": 1,
+            "offset": {
+              "x": -0.0020047845958259813,
+              "y": 0.344436141426824
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 526,
+            "height": 527
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/ready-to-move-in-modern-living/086188e6-8d6b-4486-bd5c-782a4472bbd5/source.png"
+            },
+            "start": 4,
+            "length": 6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 507 507\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"507\" height=\"507\" fill=\"{{ WHITE_COLOR }}\" rx=\"33\" ry=\"33\"/></svg>"
+            },
+            "start": 4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.345
+            },
+            "position": "center",
+            "width": 507,
+            "height": 507
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_3 }}"
+            },
+            "start": 4,
+            "scale": 1,
+            "offset": {
+              "y": 0.345,
+              "x": 0.403
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 340,
+            "height": 340
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/ready-to-move-in-modern-living/9bdceed7-3b63-473f-ac81-b491779db483/source.png"
+            },
+            "start": 4,
+            "length": 6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 320 320\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"320\" height=\"320\" fill=\"{{ WHITE_COLOR }}\" rx=\"12\" ry=\"12\"/></svg>"
+            },
+            "start": 4,
+            "length": "end",
+            "offset": {
+              "x": 0.403,
+              "y": 0.345
+            },
+            "position": "center",
+            "width": 320,
+            "height": 320
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 4,
+            "scale": 1,
+            "offset": {
+              "x": -0.4067681548702119,
+              "y": 0.34406982597824387
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 340,
+            "height": 340
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/ready-to-move-in-modern-living/faa03969-571e-4c5a-a881-dc2f3ab9c665/source.png"
+            },
+            "start": 4,
+            "length": 6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 320 320\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"320\" height=\"320\" fill=\"{{ WHITE_COLOR }}\" rx=\"12\" ry=\"12\"/></svg>"
+            },
+            "start": 4,
+            "length": "end",
+            "offset": {
+              "x": -0.403,
+              "y": 0.345
+            },
+            "position": "center",
+            "width": 320,
+            "height": 320
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 6,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/ready-to-move-in-modern-living/7f1a0914-4e7f-4c36-aff8-483041d3267f/source.jpg"
+            },
+            "start": 4,
+            "scale": 1,
+            "offset": {
+              "x": -0.2726196662478158,
+              "y": -0.07874099641037037
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 313,
+            "height": 311
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/ready-to-move-in-modern-living/bcdf7521-c36f-4453-b9c3-84fc68c1bd8f/source.png"
+            },
+            "start": 4,
+            "length": 6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"300\" height=\"300\" fill=\"{{ WHITE_COLOR }}\" rx=\"12\" ry=\"12\"/></svg>"
+            },
+            "start": 4,
+            "length": "end",
+            "offset": {
+              "x": -0.272,
+              "y": -0.079
+            },
+            "position": "center",
+            "width": 300,
+            "height": 300
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 960\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"960\" fill=\"{{ BROWN_COLOR }}\" fill-opacity=\"0.55\"/></svg>"
+            },
+            "start": 4,
+            "length": "end",
+            "offset": {
+              "y": -0.312,
+              "x": 0
+            },
+            "position": "center",
+            "width": 1080,
+            "height": 960
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_5 }}"
+            },
+            "start": 4,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": -0.34749774562545693
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 1080,
+            "height": 1086
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"500\" fill=\"{{ DARK_BROWN_COLOR }}\"/></svg>"
+            },
+            "start": 4,
+            "length": "end",
+            "offset": {
+              "y": -0.179
+            },
+            "width": 1080,
+            "height": 500
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_4 }}"
+            },
+            "start": 4,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": -0.023797256083051527
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 1080,
+            "height": 732
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"500\" fill=\"{{ WHITE_COLOR }}\"/></svg>"
+            },
+            "start": 4,
+            "length": "end",
+            "offset": {
+              "y": 0.054
+            },
+            "width": 1080,
+            "height": 500
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ DARK_BROWN_COLOR }}\"/></svg>"
+            },
+            "start": 4,
+            "length": "end",
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 10,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_SRC }}",
+              "volume": 0
+            },
+            "start": 0,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "crop"
+          }
+        ]
+      }
+    ],
+    "fonts": [
+      {
+        "src": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm45xW5rygbi49c.ttf"
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "TITLE",
+      "replace": "READY FOR OCCUPANCY"
+    },
+    {
+      "find": "AGENT_NAME",
+      "replace": "Anna Gleane"
+    },
+    {
+      "find": "PHONE",
+      "replace": "+123-456-7890"
+    },
+    {
+      "find": "WEBSITE",
+      "replace": "realestate.com"
+    },
+    {
+      "find": "EMAIL",
+      "replace": "Hello@realestate.com"
+    },
+    {
+      "find": "ADDRESS",
+      "replace": "123 Anywhere St., Any City"
+    },
+    {
+      "find": "DARK_BROWN_COLOR",
+      "replace": "#6a3910"
+    },
+    {
+      "find": "BROWN_COLOR",
+      "replace": "#eaceae"
+    },
+    {
+      "find": "LIGHT_BROWN_COLOR_3",
+      "replace": "#fff5eb"
+    },
+    {
+      "find": "WHITE_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "LOGO",
+      "replace": "https://templates.shotstack.io/ready-to-move-in-modern-living/4b31140f-bb8e-4ee5-962b-82641551d8fa/shotstack-proxy.webp"
+    },
+    {
+      "find": "VIDEO_SRC",
+      "replace": "https://templates.shotstack.io/ready-to-move-in-modern-living/5d92fbdb-0412-45ad-bdeb-4691a6ddc744/source.mp4"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/ready-to-move-in-modern-living/ae985798-ada1-4e84-802a-b5de30412a9b/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_2",
+      "replace": "https://templates.shotstack.io/ready-to-move-in-modern-living/93e6e055-9be8-47b6-b8fd-65485aef0285/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_3",
+      "replace": "https://templates.shotstack.io/ready-to-move-in-modern-living/cbac5533-ccd7-4d4d-a409-9e2f04929768/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_4",
+      "replace": "https://templates.shotstack.io/ready-to-move-in-modern-living/7d6b9192-c961-43b7-8fc2-5c19eecf22e8/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_5",
+      "replace": "https://templates.shotstack.io/ready-to-move-in-modern-living/5e2afefa-e19f-4650-8bf3-6f8fcab6ce47/source.jpg"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/ready-to-move-in-modern-living/135ac99e-3402-4912-a361-66cbe12bd83a/source.mp3"
+    }
+  ]
+}

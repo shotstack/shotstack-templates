@@ -1,0 +1,649 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/egypt-travel-deal-cultural-tour-offer/f512561f-37a0-434e-987c-57ceeda33e36/source.otf"
+      },
+      {
+        "src": "https://templates.shotstack.io/egypt-travel-deal-cultural-tour-offer/9ca19f57-77c6-4862-94f0-5dbd7536e02d/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_2 }}"
+            },
+            "start": 1.2,
+            "scale": 0.09,
+            "offset": {
+              "x": 0.2,
+              "y": 0.063
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/egypt-travel-deal-cultural-tour-offer/eeaa6866-7439-4611-ba6e-f2116dcc4f61/source.png"
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_3 }}"
+            },
+            "start": 1.4,
+            "scale": 0.09,
+            "offset": {
+              "x": 0.201,
+              "y": -0.043
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/egypt-travel-deal-cultural-tour-offer/7a5ca858-54af-4dc2-8c30-3a5f906e8541/source.png"
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_4 }}"
+            },
+            "start": 1.6,
+            "scale": 0.18,
+            "offset": {
+              "y": -0.193,
+              "x": 0.201
+            },
+            "transition": {
+              "in": "carouselLeft"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/egypt-travel-deal-cultural-tour-offer/06ed9c6f-52cf-4208-82bd-32cd3ed1354c/source.png"
+            },
+            "start": 0,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_1 }}"
+            },
+            "start": 1,
+            "scale": 0.36,
+            "offset": {
+              "x": -0.217,
+              "y": -0.086
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/egypt-travel-deal-cultural-tour-offer/3fef414f-926b-4c62-832e-64aaab85008f/source.png"
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 80,
+              "height": 80,
+              "background": {
+                "borderRadius": 32,
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.368,
+              "y": 0.192
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/egypt-travel-deal-cultural-tour-offer/89157fb1-ca84-4cbd-b012-886cfd39356e/source.png"
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 418,
+              "height": 180,
+              "background": {
+                "color": "{{ FONT_COLOR }}",
+                "borderRadius": 30
+              }
+            },
+            "start": 1.4,
+            "length": "end",
+            "offset": {
+              "x": 0.201,
+              "y": -0.043
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 419,
+              "height": 183,
+              "background": {
+                "color": "{{ FONT_COLOR }}",
+                "borderRadius": 30
+              }
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": 0.2,
+              "y": 0.063
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 432,
+              "height": 354,
+              "background": {
+                "color": "{{ FONT_COLOR }}",
+                "borderRadius": 30
+              }
+            },
+            "start": 1.6,
+            "length": "end",
+            "offset": {
+              "x": 0.201,
+              "y": -0.193
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 398,
+              "height": 752,
+              "background": {
+                "color": "{{ FONT_COLOR }}",
+                "borderRadius": 29
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.217,
+              "y": -0.086
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Offers}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Poppins Medium",
+                "size": "32",
+                "lineHeight": 1
+              },
+              "width": 866,
+              "height": 110,
+              "background": {
+                "color": "{{ TEXT_BACKGROUND_COLOR }}",
+                "borderRadius": 30
+              }
+            },
+            "start": 2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.352
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 128,
+              "height": 112,
+              "background": {
+                "borderRadius": 32,
+                "color": "#494646"
+              }
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": 0.368,
+              "y": 0.192
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Search}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ BACKGROUND_COLOR }}",
+                "family": "Poppins Medium",
+                "size": "32",
+                "lineHeight": 1
+              },
+              "width": 758,
+              "height": 112,
+              "background": {
+                "color": "{{ FONT_COLOR }}",
+                "borderRadius": 32
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.08,
+              "y": 0.192
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Company_Name}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Poppins Medium",
+                "size": "32",
+                "lineHeight": 1
+              },
+              "width": 348,
+              "height": 84,
+              "background": {
+                "color": "{{ TEXT_BACKGROUND_COLOR }}",
+                "borderRadius": 18
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.427
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Web}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ BACKGROUND_COLOR }}",
+                "family": "Poppins Medium",
+                "size": "34",
+                "lineHeight": 1
+              },
+              "width": 1100,
+              "height": 88,
+              "background": {
+                "color": "{{ FONT_COLOR }}"
+              }
+            },
+            "start": 2.2,
+            "length": "end",
+            "offset": {
+              "y": -0.44,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Norwester",
+                "size": "88",
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 300
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.316
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 0.43
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 10,
+            "asset": {
+              "type": "image",
+              "src": "{{ Background_IMAGE }}"
+            },
+            "start": 0
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "Company_Name",
+      "replace": "TRAVEL SURVEY"
+    },
+    {
+      "find": "Title",
+      "replace": "EXPERIENCE THE RICH CULTURE OF EGYPT "
+    },
+    {
+      "find": "Search",
+      "replace": "Best Tour Guide and Their Service"
+    },
+    {
+      "find": "Offers",
+      "replace": "Fine Dining | Camel Trek | Private Guide"
+    },
+    {
+      "find": "Web",
+      "replace": "www.travelsurvey.come"
+    },
+    {
+      "find": "IMAGE_1",
+      "replace": "https://templates.shotstack.io/egypt-travel-deal-cultural-tour-offer/cbb3fe18-5edc-422f-be7f-a87c9abd3193/source.png"
+    },
+    {
+      "find": "IMAGE_2",
+      "replace": "https://templates.shotstack.io/egypt-travel-deal-cultural-tour-offer/bc1c678a-bef2-4403-b669-19506360a37d/source.png"
+    },
+    {
+      "find": "IMAGE_3",
+      "replace": "https://templates.shotstack.io/egypt-travel-deal-cultural-tour-offer/349ff175-e6c5-4430-9d9f-98d9859225a7/source.png"
+    },
+    {
+      "find": "IMAGE_4",
+      "replace": "https://templates.shotstack.io/egypt-travel-deal-cultural-tour-offer/20e90aff-713b-435f-a8e7-6342e1bc8ffb/source.png"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#935a10"
+    },
+    {
+      "find": "TEXT_BACKGROUND_COLOR",
+      "replace": "#d38d34"
+    },
+    {
+      "find": "Background_IMAGE",
+      "replace": "https://templates.shotstack.io/egypt-travel-deal-cultural-tour-offer/2f38178d-02ff-4d69-9332-c505d45f46fa/source.png"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/egypt-travel-deal-cultural-tour-offer/8a197742-ce8c-4850-95bd-3448fa4a5dfa/source.mp3"
+    }
+  ]
+}

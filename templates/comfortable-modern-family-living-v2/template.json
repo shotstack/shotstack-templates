@@ -1,0 +1,1304 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/comfortable-modern-family-living/f447ee51-bd58-41d5-ab18-6a5268f19401/2sDaZGBRhpXa2Jjz5w5LAFW7I70.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/comfortable-modern-family-living/a9ba70a8-ffdd-4dc0-ad5f-b93968618499/jizzRFVKsm4Bt9PrbSzC4KLlQUF5lRJg5j-l5PvyhfTdd4TcYMNf.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/comfortable-modern-family-living/f1863347-14e3-4517-be62-2ab1296ad509/2sDaZGBRhpXa2Jjz5w5LAFW7I70.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/comfortable-modern-family-living/f1902954-551f-4718-9aba-d489c19bf6d6/0FlQVPqanlaJrtr8AnJ0ERcm2fk.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/comfortable-modern-family-living/0ca72d6f-fc61-47cf-81d2-6c472062bd6c/mFTpWb0X2bLb_cx6To2B8GpKoD5qlPxX.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/comfortable-modern-family-living/c1ff063e-7ef3-4d3f-ac23-5cdc5c227406/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup5.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/didactgothic/v21/ahcfv8qz1zt6hCC5G4F_P4ASpUySp0LlcyQ.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/dancingscript/v29/If2RXTr6YS-zF4S-kcSWSVi_swLngOAliz4X.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/arapey/v17/-W__XJn-UDDA2RC6Z9AcZkIzeg.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ LOGO }}"
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": 0.28800000000000003,
+              "y": 0.45389583333333333
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "fit": "contain",
+            "width": 163,
+            "height": 130
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{BRAND_NAME}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 27,
+                "weight": 800,
+                "color": "#1a3013",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.288,
+              "y": 0.394
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 200,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/comfortable-modern-family-living/dd1e5cf7-c339-4ce9-b31b-7b9583a36571/source.png"
+            },
+            "start": 0.8,
+            "length": 9.2
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 35 35\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"35\" height=\"35\" fill=\"{{ GREEN_FONT_COLOR_3 }}\"/></svg>"
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": -0.433,
+              "y": -0.198
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 35,
+            "height": 35
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/comfortable-modern-family-living/7b9753d3-e17f-48fa-9043-25bca8738c84/source.png"
+            },
+            "start": 0.75,
+            "length": 9.25
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 35 35\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"35\" height=\"35\" fill=\"{{ GREEN_FONT_COLOR_3 }}\"/></svg>"
+            },
+            "start": 0.75,
+            "length": "end",
+            "offset": {
+              "x": -0.433,
+              "y": -0.168
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 35,
+            "height": 35
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 35 35\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"35\" height=\"35\" fill=\"{{ GREEN_FONT_COLOR_3 }}\"/></svg>"
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": -0.433,
+              "y": -0.135
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 35,
+            "height": 35
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/comfortable-modern-family-living/3ba9b1c9-0918-42f1-9983-4fee58a30b03/source.png"
+            },
+            "start": 0.7,
+            "length": 9.3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/comfortable-modern-family-living/9921a0da-8427-4766-8c2f-cda3551d4cab/source.png"
+            },
+            "start": 0.65,
+            "length": 9.35
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 35 35\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"35\" height=\"35\" fill=\"{{ GREEN_FONT_COLOR_3 }}\"/></svg>"
+            },
+            "start": 0.65,
+            "length": "end",
+            "offset": {
+              "x": -0.433,
+              "y": -0.103
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 35,
+            "height": 35
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{FEATURE_4}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 35,
+                "weight": 600,
+                "color": "{{ BLACK_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": -0.24,
+              "y": -0.199
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 350,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{FEATURE_3}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 35,
+                "weight": 600,
+                "color": "{{ BLACK_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.75,
+            "length": "end",
+            "offset": {
+              "x": -0.24,
+              "y": -0.168
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 350,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{FEATURE_2}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 35,
+                "weight": 600,
+                "color": "{{ BLACK_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": -0.24,
+              "y": -0.136
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 350,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{FEATURE_1}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 35,
+                "weight": 600,
+                "color": "{{ BLACK_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.65,
+            "length": "end",
+            "offset": {
+              "x": -0.24,
+              "y": -0.103
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 350,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "Living room",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 29,
+                "weight": 400,
+                "color": "{{ WHITE_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ GREEN_FONT_COLOR_3 }}",
+                "opacity": 1,
+                "borderRadius": 0
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.29,
+              "y": -0.134
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 190,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "3 Bedroom",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 29,
+                "weight": 400,
+                "color": "{{ WHITE_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ GREEN_FONT_COLOR_3 }}",
+                "opacity": 1,
+                "borderRadius": 0
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0.29,
+              "y": -0.343
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 190,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ADDRESS}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 31,
+                "weight": 600,
+                "color": "{{ BLACK_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "top"
+              }
+            },
+            "start": 1.4,
+            "length": "end",
+            "offset": {
+              "x": 0.172,
+              "y": -0.467
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 470,
+            "height": 90
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CONTACT}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 46,
+                "weight": 600,
+                "color": "{{ GREEN_FONT_COLOR_3 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": 0.205,
+              "y": -0.422
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 400,
+            "height": 80
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S4_TITLE}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 31,
+                "weight": 600,
+                "color": "{{ BLACK_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "middle"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": 0.205,
+              "y": -0.388
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 400,
+            "height": 60
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{WEBSITE}}",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 28,
+                "weight": 400,
+                "color": "{{ WHITE_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ GREEN_FONT_COLOR_3 }}",
+                "opacity": 1,
+                "borderRadius": 0
+              }
+            },
+            "start": 1.6,
+            "length": "end",
+            "offset": {
+              "x": -0.248,
+              "y": -0.417
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 400,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 50,
+                "weight": 800,
+                "color": "{{ BLACK_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.4,
+            "length": "end",
+            "offset": {
+              "x": -0.249,
+              "y": -0.362
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 400,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{AMOUNT}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 70,
+                "weight": 600,
+                "color": "{{ GREEN_FONT_COLOR_3 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": -0.249,
+              "y": -0.304
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 400,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_TITLE}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 38,
+                "weight": 800,
+                "color": "{{ BLACK_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.249,
+              "y": -0.269
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 400,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 9.2,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_3 }}"
+            },
+            "start": 0.8,
+            "scale": 1,
+            "offset": {
+              "x": 0.22768374996771631,
+              "y": -0.2712072588102785
+            },
+            "transition": {
+              "in": "fade"
+            },
+            "fit": "contain",
+            "width": 326,
+            "height": 327
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 9.4,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 0.6,
+            "scale": 1,
+            "offset": {
+              "x": 0.228281389564848,
+              "y": -0.06299999999999994
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "fit": "contain",
+            "width": 326,
+            "height": 327
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_TITLE}}",
+              "font": {
+                "family": "Dancing Script",
+                "size": 100,
+                "weight": 400,
+                "color": "{{ GREEN_FONT_COLOR_3 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.264,
+              "y": -0.057
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 400,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 350 350\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"350\" height=\"350\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0.228,
+              "y": -0.272
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 350,
+            "height": 350
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 230 500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"230\" height=\"500\" fill=\"{{ BROWN_BACKGROUND_COLOR }}\" rx=\"100\" ry=\"100\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.288,
+              "y": 0.479
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 230,
+            "height": 500
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 300 5\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"300\" height=\"5\" fill=\"{{ WHITE_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.291,
+              "y": 0.163
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 300,
+            "height": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION}}",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 62,
+                "weight": 400,
+                "color": "{{ WHITE_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.202,
+              "y": 0.113
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 500,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TITLE}}",
+              "font": {
+                "family": "Arapey",
+                "size": 115,
+                "weight": 400,
+                "color": "{{ WHITE_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.156,
+              "y": 0.317
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 600,
+            "height": 550
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/comfortable-modern-family-living/0212ef82-1503-4753-942f-b823d858d1ce/source.png"
+            },
+            "start": 0.4,
+            "length": 9.6
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" fill=\"{{ BROWN_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.344,
+              "y": 0.1
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 100,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 350 350\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"350\" height=\"350\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.228,
+              "y": -0.063
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 350,
+            "height": 350
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/comfortable-modern-family-living/c542b9b0-8d04-4129-87df-c5c864592d23/source.png"
+            },
+            "start": 0.2,
+            "length": 9.8
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"300\" height=\"300\" fill=\"{{ BROWN_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0.288,
+              "y": 0.239
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 300,
+            "height": 300
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/comfortable-modern-family-living/03d55b62-61a2-4692-b28d-641f6b06fdc2/source.png"
+            },
+            "start": 1.8,
+            "length": 8.2
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 600 600\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"600\" height=\"600\" fill=\"{{ GREEN_FONT_COLOR_3 }}\"/></svg>"
+            },
+            "start": 1.8,
+            "length": "end",
+            "offset": {
+              "x": -0.359,
+              "y": -0.425
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 600,
+            "height": 600
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 960\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"960\" fill=\"{{ BROWN_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "y": -0.251,
+              "x": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 1080,
+            "height": 960
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ GREEN_FONT_COLOR_3 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "position": "center",
+            "opacity": 0.6,
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": -0.002314814814814825,
+              "y": 0.22190625000000003
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 1075,
+            "height": 1071,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0,
+            "length": 10,
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "TITLE",
+      "replace": "Experience the Comfort of Modern Living"
+    },
+    {
+      "find": "DESCRIPTION",
+      "replace": "Perfect home for your family"
+    },
+    {
+      "find": "BRAND_NAME",
+      "replace": "Realestate company"
+    },
+    {
+      "find": "S2_TITLE",
+      "replace": "Features"
+    },
+    {
+      "find": "FEATURE_1",
+      "replace": "2 Bathrooms"
+    },
+    {
+      "find": "FEATURE_2",
+      "replace": "2 Bedrooms"
+    },
+    {
+      "find": "FEATURE_3",
+      "replace": "1 Car Garage"
+    },
+    {
+      "find": "FEATURE_4",
+      "replace": "1 Living Room"
+    },
+    {
+      "find": "S3_TITLE",
+      "replace": "PRICE STARTS AT"
+    },
+    {
+      "find": "AMOUNT",
+      "replace": "$1.899.000"
+    },
+    {
+      "find": "CTA",
+      "replace": "BOOK NOW!"
+    },
+    {
+      "find": "WEBSITE",
+      "replace": "www.realestatecompany.com"
+    },
+    {
+      "find": "S4_TITLE",
+      "replace": "More Information"
+    },
+    {
+      "find": "CONTACT",
+      "replace": "+123-456-7890"
+    },
+    {
+      "find": "ADDRESS",
+      "replace": "123 Anywhere St., Any City"
+    },
+    {
+      "find": "WHITE_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BLACK_FONT_COLOR_2",
+      "replace": "#000000"
+    },
+    {
+      "find": "GREEN_FONT_COLOR_3",
+      "replace": "#1a3013"
+    },
+    {
+      "find": "BROWN_BACKGROUND_COLOR",
+      "replace": "#fdf9ed"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/comfortable-modern-family-living/44d73adf-097e-4fe7-a93f-7dcb66b44d9e/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_2",
+      "replace": "https://templates.shotstack.io/comfortable-modern-family-living/e4b2451d-fc38-4b22-8534-2b0fb399bb2a/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_3",
+      "replace": "https://templates.shotstack.io/comfortable-modern-family-living/9ac7e8dc-95e3-4b07-95dd-0b0731c7f20b/source.jpg"
+    },
+    {
+      "find": "LOGO",
+      "replace": "https://templates.shotstack.io/comfortable-modern-family-living/29838698-d644-47c1-85d2-f87ad3379be4/source.png"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/comfortable-modern-family-living/ca30248e-65da-4997-b8af-af35b241b4f4/source.mp3"
+    }
+  ]
+}

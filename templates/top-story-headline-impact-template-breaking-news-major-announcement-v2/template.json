@@ -1,0 +1,377 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{STATUS}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 31,
+                "weight": 600,
+                "color": "{{ SHAPE_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0.21,
+              "y": 0.221
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 100,
+            "height": 60
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"20\" height=\"20\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0.184,
+              "y": 0.221
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 20,
+            "height": 20
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/top-story-headline-impact-template-breaking-news-major-announcement-critical-update/3c12be39-240c-4061-a84f-ceaffdf24040/source.png"
+            },
+            "start": 0.2,
+            "length": 19.8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{HEADLINE}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 50,
+                "weight": 800,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.084,
+              "y": -0.357
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 1500,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{NEWS_SLUG}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 40,
+                "weight": 800,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.346,
+              "y": -0.194
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 450,
+            "height": 70
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_PRESENTER }}"
+            },
+            "start": 0.2,
+            "scale": 1,
+            "offset": {
+              "x": 0.2962690170020388,
+              "y": 0.015299562509994119
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "fit": "contain",
+            "width": 519,
+            "height": 521
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 568 570\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"568\" height=\"570\" fill=\"{{ FONT_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0.296,
+              "y": 0.015
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 568,
+            "height": 570
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 600 400\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"600\" height=\"400\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.353,
+              "y": -0.194
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 600,
+            "height": 400
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/top-story-headline-impact-template-breaking-news-major-announcement-critical-update/43608213-7189-4c48-8522-f4970111a4bc/source.mp4"
+            },
+            "start": 0.2,
+            "length": 19.8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1000 600\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1000\" height=\"600\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.26,
+              "y": -0.527
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 1000,
+            "height": 600
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/top-story-headline-impact-template-breaking-news-major-announcement-critical-update/decc5bd0-5f43-4a6b-8b81-75ea093d7da6/source.mp4"
+            },
+            "start": 0.6,
+            "length": 19.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1580 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1580\" height=\"190\" fill=\"#0000c1\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.089,
+              "y": -0.352
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 1580,
+            "height": 190
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 2000 300\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"2000\" height=\"300\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.361
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 2000,
+            "height": 300
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 20,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO }}"
+            },
+            "start": 0,
+            "fit": "contain",
+            "width": 1920,
+            "height": 1108,
+            "offset": {
+              "x": 0,
+              "y": 0.012995461506685574
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "HEADLINE",
+      "replace": "ECONOMY ADJUSTS AS NEW DOLLAR RATE SHIFTS, IMPACTING TRADE, PRICES, AND MARKET STABILITY"
+    },
+    {
+      "find": "NEWS_SLUG",
+      "replace": "TOP STORY"
+    },
+    {
+      "find": "STATUS",
+      "replace": "LIVE"
+    },
+    {
+      "find": "VIDEO_PRESENTER",
+      "replace": "https://templates.shotstack.io/top-story-headline-impact-template-breaking-news-major-announcement-critical-update/246a7e79-4bed-48d3-a63e-2138b30f2da4/source.mp4"
+    },
+    {
+      "find": "VIDEO",
+      "replace": "https://templates.shotstack.io/top-story-headline-impact-template-breaking-news-major-announcement-critical-update/45924650-4fda-4f83-a05c-6ece1f53b88e/source.mp4"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#000000"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "SHAPE_COLOR",
+      "replace": "#c40202"
+    }
+  ]
+}

@@ -1,0 +1,660 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "fit": "contain",
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/christmas-special-offer-template-for-holiday-sales/ne3se9kmqrhk3fvlnfdlmdx3/source_64085641.webm"
+            },
+            "start": 0,
+            "scale": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "auto",
+            "fit": "contain",
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/christmas-special-offer-template-for-holiday-sales/ne3se9kmqrhk3fvlnfdlmdx3/source_8516a0dc.webm"
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{CTA}}",
+              "font": {
+                "family": "Sue Ellen Francisco ",
+                "size": 100,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 8.65,
+            "length": "end",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 800,
+            "height": 170
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_LINE_2}}",
+              "font": {
+                "family": "Sue Ellen Francisco ",
+                "size": 72,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 5.56,
+            "length": 2.49,
+            "offset": {
+              "x": 0,
+              "y": -0.023
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 800,
+            "height": 170
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{S2_LINE_1}}",
+              "font": {
+                "family": "Sue Ellen Francisco ",
+                "size": 72,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 5.25,
+            "length": 2.78,
+            "offset": {
+              "x": 0,
+              "y": 0.038
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_DESCRIPTION_2}}",
+              "font": {
+                "family": "Sue Ellen Francisco ",
+                "size": 72,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.6,
+            "length": 3.41,
+            "offset": {
+              "x": 0,
+              "y": -0.275
+            },
+            "position": "center",
+            "transition": {
+              "in": "zoom"
+            },
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_DESCRIPTION}}",
+              "font": {
+                "family": "Sue Ellen Francisco ",
+                "size": 97,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 0.43,
+            "length": 3.57,
+            "offset": {
+              "x": 0,
+              "y": -0.22
+            },
+            "position": "center",
+            "transition": {
+              "in": "zoom"
+            },
+            "width": 800,
+            "height": 130
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_TITLE}}",
+              "font": {
+                "family": "Sue Ellen Francisco ",
+                "size": 67,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "character"
+              }
+            },
+            "start": 0,
+            "length": 4,
+            "offset": {
+              "x": 0.028,
+              "y": 0.247
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ SIDE_DESIGN }}"
+            },
+            "start": 0,
+            "scale": [
+              {
+                "start": 0,
+                "length": 9.93,
+                "from": 0.3,
+                "to": 0.3,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 9.93,
+                  "from": 0.487,
+                  "to": 0.487,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 9.93,
+                  "from": 0.493,
+                  "to": 0.493,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 9.93,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 9.93,
+                    "from": 0,
+                    "to": 180,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ SIDE_DESIGN }}"
+            },
+            "start": 0,
+            "scale": [
+              {
+                "start": 0,
+                "length": 9.93,
+                "from": 0.3,
+                "to": 0.3,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 9.93,
+                  "from": -0.453,
+                  "to": -0.453,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 9.93,
+                  "from": -0.444,
+                  "to": -0.444,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 9.93,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 9.93,
+                    "from": 0,
+                    "to": 180,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4,
+            "asset": {
+              "type": "image",
+              "src": "{{ Logo }}"
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0.3003276708307717
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "fit": "contain",
+            "width": 570,
+            "height": 161
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ FRAME_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/christmas-special-offer-template-for-holiday-sales/85fef304-07db-4123-8bc9-d0b3421137a6/source.mp4"
+            },
+            "start": 0,
+            "length": 8.05
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ SHADOW_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/christmas-special-offer-template-for-holiday-sales/fa60a06c-f242-4569-b1f1-49123d11e0fd/source.mp4"
+            },
+            "start": 0,
+            "length": 8.05
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/christmas-special-offer-template-for-holiday-sales/e38500f3-d6e8-41f4-bc38-f2c71bcaea6b/source.mp4"
+            },
+            "start": 0,
+            "length": 8.05
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ S2_IMAGE_SRC }}"
+            },
+            "start": 4.75,
+            "offset": {
+              "x": 0.129,
+              "y": -0.262
+            },
+            "position": "center",
+            "scale": 0.5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ S2_IMAGE_SRC_2 }}"
+            },
+            "start": 4.77,
+            "offset": {
+              "x": -0.167,
+              "y": 0.25
+            },
+            "position": "center",
+            "scale": 0.5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.37,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_SRC }}"
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": 0.03272060739829939,
+              "y": 0.0679830124923153
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 804,
+            "height": 977
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Logo",
+      "replace": "https://templates.shotstack.io/christmas-special-offer-template-for-holiday-sales/f4410886-ff1a-42fa-9b02-289ecad69b86/source.png"
+    },
+    {
+      "find": "S1_TITLE",
+      "replace": "GIVES YOU"
+    },
+    {
+      "find": "S1_DESCRIPTION",
+      "replace": "CHRISTMAS"
+    },
+    {
+      "find": "S1_DESCRIPTION_2",
+      "replace": "SPECIAL OFFERS"
+    },
+    {
+      "find": "S1_IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/christmas-special-offer-template-for-holiday-sales/9485ad02-1ddc-4682-8c47-ff8edf04fdce/shotstack-proxy.webp"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#f50000"
+    },
+    {
+      "find": "SHADOW_COLOR",
+      "replace": "#a21616"
+    },
+    {
+      "find": "FRAME_COLOR",
+      "replace": "#ff8d0a"
+    },
+    {
+      "find": "S2_LINE_1",
+      "replace": "ENJOY THIS"
+    },
+    {
+      "find": "S2_LINE_2",
+      "replace": "SEASON WITH US, JOHN"
+    },
+    {
+      "find": "S2_IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/christmas-special-offer-template-for-holiday-sales/c8415244-0c19-46c1-9d70-6208df7728ae/shotstack-proxy.webp"
+    },
+    {
+      "find": "S2_IMAGE_SRC_2",
+      "replace": "https://templates.shotstack.io/christmas-special-offer-template-for-holiday-sales/2aed57e1-a202-40bc-b19c-bae8de8118bd/shotstack-proxy.webp"
+    },
+    {
+      "find": "SIDE_DESIGN",
+      "replace": "https://templates.shotstack.io/christmas-special-offer-template-for-holiday-sales/361f7973-cc30-465b-9552-60bfaf396f00/shotstack-proxy.webp"
+    },
+    {
+      "find": "CTA",
+      "replace": "THANK YOU!"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#ffda1f"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/christmas-special-offer-template-for-holiday-sales/8872d4c4-84e9-46e8-b58b-cfe0b6ff037c/source.mp3"
+    }
+  ]
+}

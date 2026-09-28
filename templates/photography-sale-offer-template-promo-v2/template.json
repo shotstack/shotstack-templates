@@ -1,0 +1,308 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/photography-sale-offer-template-promo/ea7489c3-0969-46d5-9ab4-a6ed8b0da9a3/source.otf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title_2}}",
+              "font": {
+                "family": "Changeling Neo",
+                "size": 30,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "transform": {
+              "rotate": {
+                "angle": -90
+              }
+            },
+            "offset": {
+              "x": -0.015,
+              "y": 0.272
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 300,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title_1}}",
+              "font": {
+                "family": "Changeling Neo",
+                "size": 30,
+                "weight": 400,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "transform": {
+              "rotate": {
+                "angle": -90
+              }
+            },
+            "offset": {
+              "x": -0.054,
+              "y": 0.272
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 300,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO }}",
+              "volume": 1
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": 0.27249999999999996,
+              "y": 0.272
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 450,
+            "height": 450
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/photography-sale-offer-template-promo/41186b4e-e983-4229-b879-f28704e3c7a7/source.png"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 311 310\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"311\" height=\"310\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.095,
+              "y": 0.272
+            },
+            "position": "center",
+            "width": 311,
+            "height": 310
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_2 }}"
+            },
+            "start": 0.4,
+            "scale": 1,
+            "offset": {
+              "x": -0.29411882269581907,
+              "y": -0.2607499999999999
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 268,
+            "height": 338,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_3 }}"
+            },
+            "start": 0.6,
+            "scale": 1,
+            "offset": {
+              "x": 0.1825,
+              "y": -0.21762499999999985
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "fit": "contain",
+            "width": 451,
+            "height": 407
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/photography-sale-offer-template-promo/7fe06e67-45c8-4029-9a1f-04cb45b4d5de/source.jpg"
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": -0.2955000000000001,
+              "y": 0.21575000000000005
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 272,
+            "height": 400,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 800\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"800\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 5,
+            "position": "center",
+            "width": 800,
+            "height": 800
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 800,
+      "height": 800
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "IMAGE_1",
+      "replace": "https://templates.shotstack.io/photography-sale-offer-template-promo/7fe06e67-45c8-4029-9a1f-04cb45b4d5de/source.jpg"
+    },
+    {
+      "find": "IMAGE_2",
+      "replace": "https://templates.shotstack.io/photography-sale-offer-template-promo/a4d1f225-f717-48a3-a657-985559a97b90/source.png"
+    },
+    {
+      "find": "IMAGE_3",
+      "replace": "https://templates.shotstack.io/photography-sale-offer-template-promo/76ae9c22-454d-4415-a9e0-8060747d3aa9/source.png"
+    },
+    {
+      "find": "VIDEO",
+      "replace": "https://templates.shotstack.io/photography-sale-offer-template-promo/dd193fe2-94ba-4dcc-92f1-7a1e50a1e93d/source.mp4"
+    },
+    {
+      "find": "Title_1",
+      "replace": "PHOTOGRAPHY"
+    },
+    {
+      "find": "Title_2",
+      "replace": "PHOTOGRAPHY"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#1f1f1f"
+    },
+    {
+      "find": "SHAPE_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/photography-sale-offer-template-promo/76224f45-a17c-41cf-9a3c-42edb9950fab/source.mp3"
+    }
+  ]
+}

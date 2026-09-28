@@ -1,0 +1,694 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/live-smart-beautiful-modern-home/5ef3401c-8a55-4b45-b00a-412ffc11b3f9/_LOImzDK7erRjhunIspaMgxg7oE.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/live-smart-beautiful-modern-home/8c24c2aa-c569-4874-8f6f-cfad23a94f4f/B50TF6xQr2TXJBnGOFME6u5OR83oRP5qkH7gOw.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/live-smart-beautiful-modern-home/3c8cb953-e64d-4458-9e72-bc4dd79d3a74/jizzRFVKsm4Bt9PrbSzC4KLlQUF5lRJg5j-l5PvyhfTdd4TcYMNf.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/live-smart-beautiful-modern-home/6c1f82ce-80c6-451e-a1f8-eb6d5df7a960/mtGh4-RGJqfMvt7P8FUr0Q1j-Hf1Bkll8g.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/live-smart-beautiful-modern-home/775e5f25-e174-4624-bf0b-5c4e5c335ef0/ZgNNjOFFPq_AUJD1umyS30W-Xub8zD1ObheDZb9M.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/live-smart-beautiful-modern-home/40c43564-0e29-4141-ac9f-959d6083709c/ga6XaxZG_G5OvCf_rt7FH3B6BHLMEdVOEoc.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/live-smart-beautiful-modern-home/f9a2a832-42e5-4476-8a84-b59ebbffddf5/ga6XaxZG_G5OvCf_rt7FH3B6BHLMEdVOEoc.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/live-smart-beautiful-modern-home/4a025b1b-4f96-49e3-943f-2a0871e89750/CHy_V_PfGVjobSBkihHWDT98RVp37w8jcJpH2Q.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/live-smart-beautiful-modern-home/6f5126d4-3c9a-4fa9-9bc7-a73d72851094/mtGh4-RGJqfMvt7P8FUr0Q1j-Hf1Bkll8g.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/didactgothic/v21/ahcfv8qz1zt6hCC5G4F_P4ASpUySp0LlcyQ.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/alegreyasanssc/v24/mtGh4-RGJqfMvt7P8FUr0Q1j-Hf1Nk5v9ixALYs.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/live-smart-beautiful-modern-home/54c81fb1-4951-43c2-8489-4a2600ee1b9e/source.png"
+            },
+            "start": 0.2,
+            "length": 9.8
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 400\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"400\" fill=\"{{ S1_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.565,
+              "y": 0.417
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 90
+              }
+            },
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 800,
+            "height": 400
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{BATHROOMS}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 72,
+                "weight": 600,
+                "color": "{{ S1_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": 0.245,
+              "y": -0.32
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 100,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{BEDROOMS}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 72,
+                "weight": 600,
+                "color": "{{ S1_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.245,
+              "y": -0.268
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 100,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/live-smart-beautiful-modern-home/cde8edd0-6ad2-44b1-8446-254d25bb1ed5/source.png"
+            },
+            "start": 0.4,
+            "length": 9.6
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 90 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"90\" height=\"90\" fill=\"{{ S1_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.349,
+              "y": -0.268
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 90,
+            "height": 90
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/live-smart-beautiful-modern-home/9c330fbd-cbd0-409b-b710-339993987e53/source.png"
+            },
+            "start": 0.5,
+            "length": 9.5
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 80 80\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"80\" height=\"80\" fill=\"{{ S1_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": 0.349,
+              "y": -0.325
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 80,
+            "height": 80
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ADDRESS}}",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 72,
+                "weight": 400,
+                "color": "{{ S1_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "word",
+                "direction": "right"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.185,
+              "y": -0.315
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 500,
+            "height": 261
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{SIZE}}",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 72,
+                "weight": 400,
+                "color": "{{ S1_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": 0.255,
+              "y": -0.196
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 400,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{AMOUNT}}",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 113,
+                "weight": 400,
+                "color": "{{ S2_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": -0.245,
+              "y": -0.209
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 136
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_TITLE}}",
+              "font": {
+                "family": "Didact Gothic",
+                "size": 44,
+                "weight": 400,
+                "color": "{{ S2_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.284,
+              "y": -0.164
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 300,
+            "height": 60
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{BRAND_NAME}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 54,
+                "weight": 600,
+                "color": "{{ S1_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "left",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.139,
+              "y": 0.386
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 650,
+            "height": 135
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"300\" height=\"300\" fill=\"{{ ELEMENT_COLOR_3 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.334,
+              "y": 0.535
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 300,
+            "height": 300
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/live-smart-beautiful-modern-home/81386b31-622b-42e6-8d5c-91ea7e906caa/source.png"
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_SRC }}",
+              "volume": 0
+            },
+            "start": 0.2,
+            "scale": 1,
+            "offset": {
+              "x": 0.16658663719000477,
+              "y": 0.07859908040364588
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "fit": "contain",
+            "width": 1165,
+            "height": 662
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{TITLE}}",
+              "font": {
+                "family": "Alegreya Sans SC",
+                "size": 121,
+                "weight": 400,
+                "color": "{{ S1_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "style": "word",
+                "direction": "left"
+              }
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.326
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 950,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 600 175\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"600\" height=\"175\" fill=\"{{ S1_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": -0.231,
+              "y": -0.196
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 600,
+            "height": 175
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/live-smart-beautiful-modern-home/c51b9bd3-2f4d-406a-a6e8-3f26edfdcddb/source.png"
+            },
+            "start": 0.6,
+            "length": 9.4
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 922 535\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"922\" height=\"535\" fill=\"{{ S1_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.222,
+              "y": -0.5
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 922,
+            "height": 535
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/live-smart-beautiful-modern-home/114ae53f-c4f3-4547-832a-71252293c3a4/source.png"
+            },
+            "start": 0.1,
+            "length": 9.9
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"300\" height=\"300\" fill=\"{{ ELEMENT_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": -0.324,
+              "y": 0.36
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 300,
+            "height": 300
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 10,
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "BRAND_NAME",
+      "replace": "Newyork Real Estate"
+    },
+    {
+      "find": "TITLE",
+      "replace": "House for Sale"
+    },
+    {
+      "find": "S1_TITLE",
+      "replace": "Start from"
+    },
+    {
+      "find": "AMOUNT",
+      "replace": "$15,000"
+    },
+    {
+      "find": "ADDRESS",
+      "replace": "123 Anywhere ST., Any City, ST 12345"
+    },
+    {
+      "find": "SIZE",
+      "replace": "2,500 Sqft"
+    },
+    {
+      "find": "BEDROOMS",
+      "replace": "3"
+    },
+    {
+      "find": "BATHROOMS",
+      "replace": "2"
+    },
+    {
+      "find": "VIDEO_SRC",
+      "replace": "https://templates.shotstack.io/live-smart-beautiful-modern-home/42159a49-70d4-4f8a-acbe-9f49d547ab2d/source.mp4"
+    },
+    {
+      "find": "S1_FONT_COLOR",
+      "replace": "#124b5e"
+    },
+    {
+      "find": "S2_FONT_COLOR_2",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#e5fffd"
+    },
+    {
+      "find": "ELEMENT_COLOR_2",
+      "replace": "#4c809a"
+    },
+    {
+      "find": "ELEMENT_COLOR_3",
+      "replace": "#c7e8f0"
+    }
+  ]
+}

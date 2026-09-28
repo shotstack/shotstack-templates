@@ -1,0 +1,249 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{WEBSITE}}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 40,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "style": "character"
+              }
+            },
+            "start": 1.5,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.427
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 600,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 9.173333740234376,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/skincare-beauty-promotion-ad-template/92af56d8-e6f6-40c0-90b6-22dc0ab648ba/source.png"
+            },
+            "start": 1.2,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": -0.35551851851851857
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "fit": "contain",
+            "width": 441,
+            "height": 279
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 9.873333740234376,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/skincare-beauty-promotion-ad-template/455d2601-8d66-4d8e-a800-f1fa3f8c0274/source.png"
+            },
+            "start": 0.5,
+            "scale": 1,
+            "transform": {
+              "rotate": {
+                "angle": 15
+              }
+            },
+            "offset": {
+              "x": 0.08520133035224854,
+              "y": -0.022423656679268242
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 911,
+            "height": 837
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 9.873333740234376,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/skincare-beauty-promotion-ad-template/455d2601-8d66-4d8e-a800-f1fa3f8c0274/source.png"
+            },
+            "start": 0.5,
+            "scale": 1,
+            "transform": {
+              "rotate": {
+                "angle": -15
+              }
+            },
+            "offset": {
+              "x": -0.0670696761640886,
+              "y": 0.002764358081817353
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 623,
+            "height": 621
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_TITLE}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 100,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "opacity": 1,
+                "borderRadius": 0
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "down",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.019,
+              "y": 0.385
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 10,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/skincare-beauty-promotion-ad-template/a268694e-6be3-43af-9352-db3ce5157c89/source.png"
+            },
+            "start": 0,
+            "width": 1080,
+            "height": 1350,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "crop"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1350
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "S1_TITLE",
+      "replace": "ELEVATE YOUR SKIN"
+    },
+    {
+      "find": "WEBSITE",
+      "replace": "BRANDWEBSITE.COM"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#383838"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/skincare-beauty-promotion-ad-template/455d2601-8d66-4d8e-a800-f1fa3f8c0274/source.png"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/skincare-beauty-promotion-ad-template/8504278c-6576-452b-8a94-e56058802067/source.mp3"
+    }
+  ]
+}

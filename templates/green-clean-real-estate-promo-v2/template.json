@@ -1,0 +1,584 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{WEBSITE}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 29,
+                "weight": 500,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ SHAPE_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 0
+              }
+            },
+            "start": 2,
+            "length": "end",
+            "offset": {
+              "x": 0.189,
+              "y": -0.447
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 500,
+            "height": 75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 1.8,
+            "length": "end",
+            "offset": {
+              "x": 0.369,
+              "y": -0.386
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 100,
+            "height": 100
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Green-Clean-Real-Estate-Ad/baa22110-08b9-49db-aa5c-965fa085891f/source.png"
+            },
+            "start": 1.8,
+            "length": 8.2
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TITLE_2}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 42,
+                "weight": 500,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ SHAPE_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 0
+              }
+            },
+            "start": 1.6,
+            "length": "end",
+            "offset": {
+              "x": -0.313,
+              "y": 0.178
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 252,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 1.6,
+            "scale": 1,
+            "offset": {
+              "x": 2.1151451169015845e-7,
+              "y": -0.217700444926063
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "fit": "contain",
+            "width": 1100,
+            "height": 1107
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Green-Clean-Real-Estate-Ad/ad7609c4-a899-497b-96e1-703f0e28e7ee/source.png"
+            },
+            "start": 1.6,
+            "length": 8.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "· {{FEATURES_1}}\n. {{FEATURES_2}}\n. {{FEATURES_3}}",
+              "font": {
+                "family": "ahcfv8qz1zt6hCC5G4F_P4ASpUySp0LlcyQ",
+                "size": 45,
+                "weight": 400,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "right",
+                "style": "word"
+              }
+            },
+            "start": 1.4,
+            "length": "end",
+            "offset": {
+              "x": 0.138,
+              "y": 0.162
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 600,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 300 20\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"300\" height=\"20\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 1.1,
+            "length": "end",
+            "offset": {
+              "x": 0.114,
+              "y": 0.236
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 300,
+            "height": 20
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TITLE}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 72,
+                "weight": 700,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.22,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "background": {
+                "opacity": 1,
+                "borderRadius": 0
+              },
+              "animation": {
+                "preset": "slideIn",
+                "style": "word",
+                "direction": "right"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.088,
+              "y": 0.317
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 737,
+            "height": 300
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{BRAND_NAME}}",
+              "font": {
+                "family": "KFOmCnqEu92Fr1Me5WZLCzYlKw",
+                "size": 40,
+                "weight": 900,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.43,
+            "length": "end",
+            "offset": {
+              "x": -0.174,
+              "y": 0.442
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 300,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{ADDRESS}}",
+              "font": {
+                "family": "ahcfv8qz1zt6hCC5G4F_P4ASpUySp0LlcyQ",
+                "size": 36,
+                "weight": 400,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "top"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0.216,
+              "y": 0.44
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 371,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 400\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"400\" fill=\"#465336\"/></svg>"
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": 0.323,
+              "y": 0.086
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 400
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Green-Clean-Real-Estate-Ad/72665ed3-886c-44b6-9f18-29415c20150e/source.png"
+            },
+            "start": 1.2,
+            "length": 8.8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 400\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"400\" fill=\"{{ TEXT_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0.323,
+              "y": 0.293
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 400
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Green-Clean-Real-Estate-Ad/e7189b70-5ac0-4f9a-bed8-4b44e24d94f2/source.png"
+            },
+            "start": 0.8,
+            "length": 9.2
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.376,
+              "y": 0.436
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 100,
+            "height": 100
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Green-Clean-Real-Estate-Ad/9bbc8e32-6511-4c8b-bc12-ca475b33d7c8/source.png"
+            },
+            "start": 0.6,
+            "length": 9.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Green-Clean-Real-Estate-Ad/c8229f3f-3964-4455-b2b3-4d4e342c5bb3/source.png"
+            },
+            "start": 0,
+            "length": 10
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 400\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"400\" fill=\"#465336\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.323,
+              "y": 0.501
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 400
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 10,
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ],
+    "fonts": [
+      {
+        "src": "https://fonts.gstatic.com/s/didactgothic/v21/ahcfv8qz1zt6hCC5G4F_P4ASpUySp0LlcyQ.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/roboto/v50/KFOmCnqEu92Fr1Me5WZLCzYlKw.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm45xW5rygbi49c.ttf"
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "ADDRESS",
+      "replace": "123 Anywhere St, Any City, ST 12345"
+    },
+    {
+      "find": "BRAND_NAME",
+      "replace": "BORCELLE PROPERTY"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "SHAPE_COLOR",
+      "replace": "#ff9500"
+    },
+    {
+      "find": "TITLE",
+      "replace": "4 Acres of Residential Land with Home for Sale"
+    },
+    {
+      "find": "FEATURES_1",
+      "replace": "Peaceful Residential Plot"
+    },
+    {
+      "find": "FEATURES_2",
+      "replace": "Investment Potential"
+    },
+    {
+      "find": "FEATURES_3",
+      "replace": "Recreational Getaway "
+    },
+    {
+      "find": "TITLE_2",
+      "replace": "PROPERTY FEATURES"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/Green-Clean-Real-Estate-Ad/d6382748-f72a-40a5-9e31-b9db66656470/source.jpg"
+    },
+    {
+      "find": "WEBSITE",
+      "replace": "WWW.REALLYGREATSITE.COM"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#51603e"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/Green-Clean-Real-Estate-Ad/e7221425-24cf-4096-bb5f-3832f4f7c0e1/source.mp3"
+    },
+    {
+      "find": "TEXT_BACKGROUND_COLOR",
+      "replace": "#465336"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "timeline": {
+    "background": "#000000",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/video-watermark/e2d224fc-ece4-4e70-8209-dfc98965df71/logo.png"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.371,
+              "y": 0.404
+            },
+            "position": "center",
+            "fit": "none",
+            "opacity": 0.75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO }}"
+            },
+            "start": 0,
+            "length": "auto",
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "position": "center"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "size": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "merge": [
+    {
+      "find": "VIDEO",
+      "replace": "https://templates.shotstack.io/video-watermark/f74212dc-4679-4350-8c63-881747ac6202/source.mp4"
+    }
+  ]
+}

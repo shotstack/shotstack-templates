@@ -1,0 +1,789 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Subtitle}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 30,
+                "weight": 700,
+                "color": "{{ BACKGROUND_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.274
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 500,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{Place_4}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 24,
+                "weight": 700,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.65,
+            "length": "end",
+            "offset": {
+              "x": 0.125,
+              "y": -0.232
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 10
+              }
+            },
+            "transition": {
+              "in": "fade"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Place_3}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 24,
+                "weight": 700,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.55,
+            "length": "end",
+            "offset": {
+              "x": -0.231,
+              "y": -0.165
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -12
+              }
+            },
+            "transition": {
+              "in": "fade"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Place_3}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 24,
+                "weight": 700,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.45,
+            "length": "end",
+            "offset": {
+              "x": 0.204,
+              "y": 0.033
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 8
+              }
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{Place_1}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 24,
+                "weight": 700,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.35,
+            "length": "end",
+            "offset": {
+              "x": -0.213,
+              "y": 0.038
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -4
+              }
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-diary-adventure-promo-template/e5e2b1cf-31fe-4939-b15d-cd2a3a14d41f/source.png"
+            },
+            "start": 0.7,
+            "length": 4.3
+          },
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ Flag }}"
+            },
+            "start": 0.7,
+            "scale": 1,
+            "offset": {
+              "x": -0.27194457453914656,
+              "y": -0.26591798586570115
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "fit": "contain",
+            "width": 375,
+            "height": 387
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.4,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_4 }}",
+              "volume": 1
+            },
+            "start": 0.6,
+            "scale": 1,
+            "transform": {
+              "rotate": {
+                "angle": 10
+              }
+            },
+            "offset": {
+              "x": 0.15459410501223214,
+              "y": -0.14224401963015632
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeft"
+            },
+            "fit": "contain",
+            "width": 398,
+            "height": 301
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 442 370\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"442\" height=\"370\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.151,
+              "y": -0.15
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 10
+              }
+            },
+            "transition": {
+              "in": "carouselLeft"
+            },
+            "width": 442,
+            "height": 370
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.5,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_3 }}",
+              "volume": 1
+            },
+            "start": 0.5,
+            "scale": 1,
+            "transform": {
+              "rotate": {
+                "angle": -12
+              }
+            },
+            "offset": {
+              "x": -0.26024018970646334,
+              "y": -0.07596889532286033
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRight"
+            },
+            "fit": "contain",
+            "width": 406,
+            "height": 308
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 442 370\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"442\" height=\"370\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": -0.258,
+              "y": -0.082
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -12
+              }
+            },
+            "transition": {
+              "in": "carouselRight"
+            },
+            "width": 442,
+            "height": 370
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.6,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_2 }}",
+              "volume": 1
+            },
+            "start": 0.4,
+            "scale": 1,
+            "offset": {
+              "x": 0.2407407407407407,
+              "y": 0.125
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 8
+              }
+            },
+            "fit": "contain",
+            "width": 399,
+            "height": 302
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 442 370\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"442\" height=\"370\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.24,
+              "y": 0.116
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 8
+              }
+            },
+            "width": 442,
+            "height": 370
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.7,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_1 }}",
+              "volume": 1
+            },
+            "start": 0.3,
+            "scale": 1,
+            "offset": {
+              "x": -0.21558200496682434,
+              "y": 0.132714287228193
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -4
+              }
+            },
+            "transition": {
+              "in": "carouselRight"
+            },
+            "fit": "contain",
+            "width": 403,
+            "height": 306
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 442 370\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"442\" height=\"370\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": -0.215,
+              "y": 0.125
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -4
+              }
+            },
+            "transition": {
+              "in": "carouselRight"
+            },
+            "width": 442,
+            "height": 370
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title}}",
+              "font": {
+                "family": "Blow",
+                "size": 150,
+                "weight": 700,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.397
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 1000,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-diary-adventure-promo-template/46ccca18-393f-4874-87d8-8ff1004141e7/source.png"
+            },
+            "start": 0.8,
+            "length": 4.2
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 441 500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"441\" height=\"500\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.372
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselUp"
+            },
+            "width": 441,
+            "height": 500
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{CTA}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 44,
+                "weight": 700,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ SHAPE_COLOR_2 }}",
+                "opacity": 1,
+                "borderRadius": 11
+              },
+              "padding": 15
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.372
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselUp"
+            },
+            "width": 426,
+            "height": 93
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-diary-adventure-promo-template/b0137277-f535-4ceb-9585-df01befbb0eb/source.png"
+            },
+            "start": 0.1,
+            "length": 4.9
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 903 822\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"903\" height=\"822\" fill=\"{{ SHAPE_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.142
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 903,
+            "height": 822
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-diary-adventure-promo-template/96909f13-d321-4a3f-a6e3-97b572707688/source.png"
+            },
+            "start": 0.1,
+            "length": 4.9
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 903 822\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"903\" height=\"822\" fill=\"{{ SHAPE_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.148
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 903,
+            "height": 822
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 5,
+            "position": "center",
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/travel-diary-adventure-promo-template/a217f66b-f911-4c04-9029-429cabf52e5c/source.mp4"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      }
+    ],
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/travel-diary-adventure-promo-template/9efa4eb2-8a20-4f90-a73e-dd81ac2c180e/source.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm45xW5rygbi49c.ttf"
+      },
+      {
+        "src": "https://shotstack-ingest-api-v1-sources.s3.ap-southeast-2.amazonaws.com/pt6xyh69yj/zzz01kyj-9dh0q-zjj5t-jg0f3-keyms8/source.ttf"
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Title",
+      "replace": "TRAVEL DIARY"
+    },
+    {
+      "find": "Subtitle",
+      "replace": "SHOW ONE: A TOUR IN NEW ZEALAND"
+    },
+    {
+      "find": "Place_1",
+      "replace": "Auckland"
+    },
+    {
+      "find": "Place_2",
+      "replace": "Queenstown"
+    },
+    {
+      "find": "Place_3",
+      "replace": "Rotorua"
+    },
+    {
+      "find": "Place_4",
+      "replace": "Christchurch"
+    },
+    {
+      "find": "CTA",
+      "replace": "VIEW TODAY"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#006fe6"
+    },
+    {
+      "find": "SHAPE_COLOR_1",
+      "replace": "#dedede"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#000000"
+    },
+    {
+      "find": "SHAPE_COLOR_2",
+      "replace": "#ffea00"
+    },
+    {
+      "find": "VIDEO_1",
+      "replace": "https://templates.shotstack.io/travel-diary-adventure-promo-template/dafc188a-fdcc-414e-8a1f-ab89489086d6/source.mp4"
+    },
+    {
+      "find": "VIDEO_2",
+      "replace": "https://templates.shotstack.io/travel-diary-adventure-promo-template/2979b869-898e-4a1c-a1f7-2f7e89e76738/source.mp4"
+    },
+    {
+      "find": "VIDEO_3",
+      "replace": "https://templates.shotstack.io/travel-diary-adventure-promo-template/62f9acf9-b056-45e7-b78b-644c6a4c99a1/source.mp4"
+    },
+    {
+      "find": "VIDEO_4",
+      "replace": "https://templates.shotstack.io/travel-diary-adventure-promo-template/34735019-0650-4124-8a2d-6c6028c994df/source.mp4"
+    },
+    {
+      "find": "Flag",
+      "replace": "https://templates.shotstack.io/travel-diary-adventure-promo-template/077eae67-1433-4f8f-96ff-5d7ab35353fc/source.png"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/travel-diary-adventure-promo-template/6bd8a808-151c-4e43-8262-64215cb9391c/source.mp3"
+    }
+  ]
+}

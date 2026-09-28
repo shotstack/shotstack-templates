@@ -1,0 +1,355 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/thanksgiving-feast-blessings-promo-template/7671330a-8d7f-4c28-9fe4-71785e705f17/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 8.8,
+            "asset": {
+              "type": "image",
+              "src": "{{ Element_4 }}"
+            },
+            "start": 1.2,
+            "scale": 1,
+            "offset": {
+              "x": 0.4323747276688453,
+              "y": -0.17700000000000005
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeftSlow"
+            },
+            "fit": "contain",
+            "width": 262,
+            "height": 262
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ Element_3 }}"
+            },
+            "start": 1.2,
+            "scale": 1,
+            "offset": {
+              "x": -0.44,
+              "y": -0.177
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRightSlow"
+            },
+            "fit": "contain",
+            "width": 262,
+            "height": 262
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 9,
+            "asset": {
+              "type": "image",
+              "src": "{{Element_1}}"
+            },
+            "start": 1,
+            "scale": 1,
+            "offset": {
+              "x": -0.47148148148148156,
+              "y": 0.20654166666666668
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselRightSlow"
+            },
+            "fit": "contain",
+            "width": 202,
+            "height": 202
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 9,
+            "asset": {
+              "type": "image",
+              "src": "{{Element_2}}"
+            },
+            "start": 1,
+            "scale": 1,
+            "offset": {
+              "x": 0.4712962962962963,
+              "y": 0.2049791666666667
+            },
+            "position": "center",
+            "transition": {
+              "in": "carouselLeftSlow"
+            },
+            "fit": "contain",
+            "width": 202,
+            "height": 202
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Subtitle}}",
+              "font": {
+                "family": "Taken by Vultures Demo",
+                "size": 80,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.189
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUpSlow"
+            },
+            "width": 800,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title}}",
+              "font": {
+                "family": "Taken by Vultures Demo",
+                "size": 74,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.193
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUpSlow"
+            },
+            "width": 800,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_3 }}"
+            },
+            "start": 0.6,
+            "scale": 1,
+            "offset": {
+              "x": 0.001766851941245151,
+              "y": -0.3751979166666667
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 1152,
+            "height": 565
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_2 }}"
+            },
+            "start": 0.4,
+            "scale": 1,
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 1152,
+            "height": 565
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_1 }}",
+              "volume": 0
+            },
+            "start": 0.2,
+            "scale": 1,
+            "offset": {
+              "x": 0.0017668519412451476,
+              "y": 0.37401851696303134
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 1152,
+            "height": 565
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 10,
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Title",
+      "replace": "Thanksgiving Blessings"
+    },
+    {
+      "find": "Subtitle",
+      "replace": "Wishing your family peace and joy"
+    },
+    {
+      "find": "VIDEO_1",
+      "replace": "https://templates.shotstack.io/thanksgiving-feast-blessings-promo-template/66dd8e68-16f6-4fad-84c7-9558eb97e684/source.mp4"
+    },
+    {
+      "find": "VIDEO_2",
+      "replace": "https://templates.shotstack.io/thanksgiving-feast-blessings-promo-template/f42840bb-84a6-45ef-8d73-765c3beac1a5/source.mp4"
+    },
+    {
+      "find": "VIDEO_3",
+      "replace": "https://templates.shotstack.io/thanksgiving-feast-blessings-promo-template/f8c8a729-0047-46d0-a413-34c397f049a9/source.mp4"
+    },
+    {
+      "find": "Element_1",
+      "replace": "https://templates.shotstack.io/thanksgiving-feast-blessings-promo-template/2d0d1ebd-dea7-40e9-89cc-57437eb1dd6b/source.png"
+    },
+    {
+      "find": "Element_2",
+      "replace": "https://templates.shotstack.io/thanksgiving-feast-blessings-promo-template/dd8ae2b7-63c5-466a-bce0-9a61e278c126/source.png"
+    },
+    {
+      "find": "Element_3",
+      "replace": "https://templates.shotstack.io/thanksgiving-feast-blessings-promo-template/13a55fca-6923-418e-8be9-b0b7bea128c8/source.png"
+    },
+    {
+      "find": "Element_4",
+      "replace": "https://templates.shotstack.io/thanksgiving-feast-blessings-promo-template/a7e42408-615b-44f9-9aaa-076839e5d777/source.png"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#e4e4e0"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/thanksgiving-feast-blessings-promo-template/658b8189-5a97-4aa5-ae79-71a43b4e497d/source.mp3"
+    }
+  ]
+}

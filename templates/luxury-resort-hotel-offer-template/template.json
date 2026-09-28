@@ -1,0 +1,461 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/luxury-resort-hotel-offer-template/8d1aca9e-af66-4b04-b11a-6ed167827eef/source.otf"
+      },
+      {
+        "src": "https://templates.shotstack.io/luxury-resort-hotel-offer-template/21fe9786-daa4-4bae-a6e5-036d27e6f82f/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_4 }}"
+            },
+            "start": 0.75,
+            "scale": 0.17,
+            "offset": {
+              "x": 0.285,
+              "y": -0.273
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_3 }}"
+            },
+            "start": 0.65,
+            "offset": {
+              "x": 0.285,
+              "y": -0.091
+            },
+            "scale": 0.17,
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_2 }}"
+            },
+            "start": 0.55,
+            "scale": 0.17,
+            "offset": {
+              "x": 0.285,
+              "y": 0.087
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_1 }}"
+            },
+            "start": 0.45,
+            "scale": 0.17,
+            "offset": {
+              "x": 0.285,
+              "y": 0.268
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "HolidayFree",
+                "size": "125",
+                "lineHeight": 1
+              },
+              "width": 750,
+              "height": 400
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": -0.163,
+              "y": -0.263
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Social_Handle}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_2 }}",
+                "family": "Montserrat SemiBold",
+                "size": "50",
+                "lineHeight": 1
+              },
+              "width": 550,
+              "height": 80
+            },
+            "start": 0.85,
+            "length": "end",
+            "offset": {
+              "x": -0.209,
+              "y": -0.409
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{CTA}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_2 }}",
+                "family": "HandyCasualCondensed-Regular",
+                "size": "70",
+                "lineHeight": 1
+              },
+              "width": 342,
+              "height": 146,
+              "background": {
+                "color": "{{ TEXT_BACKGROUND_COLOR }}",
+                "borderRadius": 40
+              }
+            },
+            "start": 0.85,
+            "length": "end",
+            "offset": {
+              "x": 0.278,
+              "y": -0.415
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 400,
+              "height": 400,
+              "background": {
+                "color": "{{ FONT_COLOR_1 }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.329,
+              "y": 0.418
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/luxury-resort-hotel-offer-template/5eadcf1c-9e94-4c8b-9441-cf856f62d7af/source.mp4"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 350,
+              "height": 500,
+              "background": {
+                "color": "{{ FONT_COLOR_1 }}"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.265,
+              "y": 0.425
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/luxury-resort-hotel-offer-template/a37a9139-84fe-492b-9b70-38b1b8a550f3/source.png"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{TEXT_Body}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "HandyCasualCondensed-Regular",
+                "size": "65",
+                "lineHeight": 1
+              },
+              "width": 650,
+              "height": 180
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.163,
+              "y": 0.3
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Discount}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "HandyCasualCondensed-Regular",
+                "size": "145",
+                "lineHeight": 1
+              },
+              "width": 642,
+              "height": 296,
+              "background": {
+                "color": "{{ TEXT_BACKGROUND_COLOR }}",
+                "borderRadius": 58
+              }
+            },
+            "start": 0.65,
+            "length": "end",
+            "offset": {
+              "x": -0.227,
+              "y": 0.182
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 305,
+              "height": 1410,
+              "background": {
+                "color": "{{ FONT_COLOR_1 }}"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.283,
+              "y": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "image",
+              "src": "{{ BACKGROUND_IMAGE }}"
+            },
+            "start": 0
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "TEXT_Body",
+      "replace": "Escape to elegance, your five-star holiday begins here."
+    },
+    {
+      "find": "Title",
+      "replace": "Step into Relaxation"
+    },
+    {
+      "find": "Discount",
+      "replace": "BIG DEAL 40% OFF"
+    },
+    {
+      "find": "Social_Handle",
+      "replace": "@Homeluxeresort"
+    },
+    {
+      "find": "CTA",
+      "replace": "Reserve Now"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#fcfcfc"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#e4d3cb"
+    },
+    {
+      "find": "TEXT_BACKGROUND_COLOR",
+      "replace": "#b66235"
+    },
+    {
+      "find": "IMAGE_1",
+      "replace": "https://templates.shotstack.io/luxury-resort-hotel-offer-template/40073f74-3253-4bde-aa50-8b7f2d27d906/source.png"
+    },
+    {
+      "find": "IMAGE_2",
+      "replace": "https://templates.shotstack.io/luxury-resort-hotel-offer-template/83dfc6a3-a41a-46cd-853c-c766ca1cc2db/source.png"
+    },
+    {
+      "find": "IMAGE_3",
+      "replace": "https://templates.shotstack.io/luxury-resort-hotel-offer-template/e10a0304-e274-465c-9b82-285afa90e6dd/source.png"
+    },
+    {
+      "find": "IMAGE_4",
+      "replace": "https://templates.shotstack.io/luxury-resort-hotel-offer-template/20ad92d7-7898-4db2-862e-1cb07facbd69/source.png"
+    },
+    {
+      "find": "BACKGROUND_IMAGE",
+      "replace": "https://templates.shotstack.io/luxury-resort-hotel-offer-template/bfd0548c-b243-43d9-a19c-1d201da13ece/source.png"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/luxury-resort-hotel-offer-template/5372e924-8801-4f87-ae26-39dac994b2d5/source.mp3"
+    }
+  ]
+}

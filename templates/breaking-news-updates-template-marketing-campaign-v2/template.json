@@ -1,0 +1,383 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/breaking-news-updates-template-marketing-campaign/b55cce78-79eb-48f0-b6c8-295cb02e4c47/source.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/oswald/v57/TK3iWkUHHAIjg75GHjUHte5fKg.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 500 1500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"500\" height=\"1500\" fill=\"{{ SHAPE_COLOR_2 }}\" fill-opacity=\"0.32\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "transform": {
+              "rotate": {
+                "angle": 15
+              }
+            },
+            "offset": {
+              "x": -0.565,
+              "y": 0.408
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 500,
+            "height": 1500
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 500 1500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"500\" height=\"1500\" fill=\"{{ SHAPE_COLOR_2 }}\" fill-opacity=\"0.32\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "transform": {
+              "rotate": {
+                "angle": 15
+              }
+            },
+            "offset": {
+              "x": -0.603,
+              "y": 0.408
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 500,
+            "height": 1500
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 500 1500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"500\" height=\"1500\" fill=\"{{ SHAPE_COLOR_2 }}\" fill-opacity=\"0.3\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "transform": {
+              "rotate": {
+                "angle": 15
+              }
+            },
+            "offset": {
+              "x": 0.624,
+              "y": -0.067
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 500,
+            "height": 1500
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 500 1500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"500\" height=\"1500\" fill=\"{{ SHAPE_COLOR_2 }}\" fill-opacity=\"0.32\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "transform": {
+              "rotate": {
+                "angle": 15
+              }
+            },
+            "offset": {
+              "x": 0.551,
+              "y": -0.054
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 500,
+            "height": 1500
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{STATUS}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 43,
+                "weight": 800,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0.413,
+              "y": 0.429
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 150,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 200 300\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"300\" fill=\"{{ SHAPE_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": 0.408,
+              "y": 0.427
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 200,
+            "height": 300
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/breaking-news-updates-template-marketing-campaign/7614e5d8-9b92-4caa-b590-5e2289f89c33/source.png"
+            },
+            "start": 0.1,
+            "length": 14.9
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{WEB}}",
+              "font": {
+                "family": "Oswald",
+                "size": 40,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": -0.035,
+              "y": -0.42
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 1500,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{NEWS_SLUG}}",
+              "font": {
+                "family": "Oswald",
+                "size": 150,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.035,
+              "y": -0.235
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 1500,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 2000 250\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"2000\" height=\"250\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.235
+            },
+            "position": "center",
+            "transition": {},
+            "width": 2000,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 15,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO }}"
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": 0.0005063779270552496,
+              "y": 0.1911631991239892
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 1920,
+            "height": 1080
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1920 1080\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1920\" height=\"1080\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 15,
+            "position": "center",
+            "width": 1920,
+            "height": 1080
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "NEWS_SLUG",
+      "replace": "NEWS UPDATE"
+    },
+    {
+      "find": "WEB",
+      "replace": "NEWSSURVEY.COM"
+    },
+    {
+      "find": "VIDEO",
+      "replace": "https://templates.shotstack.io/breaking-news-updates-template-marketing-campaign/38ec4431-b93d-4b98-86c8-131407f39197/source.mp4"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#000000"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "STATUS",
+      "replace": "LIVE"
+    },
+    {
+      "find": "SHAPE_COLOR",
+      "replace": "#c10000"
+    },
+    {
+      "find": "SHAPE_COLOR_2",
+      "replace": "#e4e4e4"
+    }
+  ]
+}

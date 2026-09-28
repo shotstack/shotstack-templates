@@ -1,0 +1,1310 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/83829363-e247-4b5d-ac46-791947957282/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/caea1d43-7153-4c92-a667-5b0971f384db/source.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/notoserifdisplay/v29/buErppa9f8_vkXaZLAgP0G5Wi6QmA1QAcqRNOlqMKg.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Social_Handle}}",
+              "font": {
+                "family": "Helvetica World",
+                "size": 32,
+                "weight": 400,
+                "color": "#f0f0ee",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 10.0129,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.372
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S8_Subtitle}}",
+              "font": {
+                "family": "Noto Serif Display",
+                "size": 100,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 9,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.385
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 900,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S8_body}}",
+              "font": {
+                "family": "Helvetica World",
+                "size": 32,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 9.62,
+            "length": "end",
+            "offset": {
+              "x": 0.011,
+              "y": -0.226
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 700,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/8fd25822-76ff-4769-9ce5-f7b253e92c3a/source.mp4"
+            },
+            "start": 9.57,
+            "length": 2.4299999999999997
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 330 330\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"330\" height=\"330\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 9.57,
+            "length": "end",
+            "offset": {
+              "x": 0.3,
+              "y": 0.24
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 330,
+            "height": 330
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/8933f9f0-a015-4e6d-b0a7-ae9bf6bc9370/source.png"
+            },
+            "start": 9.54,
+            "length": 2.460000000000001
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 360 360\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"360\" height=\"360\" fill=\"{{ FONT_COLOR_2 }}\"/></svg>"
+            },
+            "start": 9.54,
+            "length": "end",
+            "offset": {
+              "x": 0.3,
+              "y": 0.24
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 360,
+            "height": 360
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/39da98c2-cadc-4deb-84fa-ae5c24b0c065/source.png"
+            },
+            "start": 9.39,
+            "length": 2.61
+          },
+          {
+            "length": 2.61,
+            "asset": {
+              "type": "image",
+              "src": "{{ S8_IMAGE }}"
+            },
+            "start": 9.39,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0.04941163964467511
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "fit": "contain",
+            "width": 725,
+            "height": 886
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 828 1176\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"828\" height=\"1176\" fill=\"{{ BACKGROUND_COLOR }}\" rx=\"20\" ry=\"20\"/></svg>"
+            },
+            "start": 9.16,
+            "length": "end",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 828,
+            "height": 1176
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3,
+            "asset": {
+              "type": "video",
+              "src": "{{ S8_VIDEO }}",
+              "volume": 0
+            },
+            "start": 9,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S7_Subtitle}}",
+              "font": {
+                "family": "Noto Serif Display",
+                "size": 54,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 8,
+            "length": 1,
+            "offset": {
+              "x": 0.011,
+              "y": -0.265
+            },
+            "position": "center",
+            "width": 700,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ S7_IMAGE_1 }}"
+            },
+            "start": 8,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0.054
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 725,
+            "height": 1058
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/252e2308-7f1f-4c6e-936e-6078df511abf/source.png"
+            },
+            "start": 8,
+            "length": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 829 1425\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"829\" height=\"1425\" fill=\"#ffffff\" rx=\"20\" ry=\"20\"/></svg>"
+            },
+            "start": 8,
+            "length": 1,
+            "position": "center",
+            "width": 829,
+            "height": 1425
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ S7_IMAGE_2 }}"
+            },
+            "start": 8,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S6_Subtitle}}",
+              "font": {
+                "family": "Noto Serif Display",
+                "size": 54,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 7,
+            "length": 1,
+            "offset": {
+              "x": 0.011,
+              "y": -0.265
+            },
+            "position": "center",
+            "width": 700,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ S6_IMAGE_1 }}"
+            },
+            "start": 7,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0.054
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 725,
+            "height": 1058
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/ea2c824d-fcf6-49c1-a9b9-d0eb50ed47c6/source.png"
+            },
+            "start": 7,
+            "length": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 829 1425\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"829\" height=\"1425\" fill=\"{{ BACKGROUND_COLOR }}\" rx=\"20\" ry=\"20\"/></svg>"
+            },
+            "start": 7,
+            "length": 1,
+            "width": 829,
+            "height": 1425
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ S6_IMAGE_2 }}"
+            },
+            "start": 7,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{S5_Subtitle}}",
+              "font": {
+                "family": "Noto Serif Display",
+                "size": 54,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 6,
+            "length": 1,
+            "offset": {
+              "x": 0.011,
+              "y": -0.265
+            },
+            "position": "center",
+            "width": 700,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ S5_IMAGE_1 }}"
+            },
+            "start": 6,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0.054
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 725,
+            "height": 1058
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/e541ff6b-022f-4279-acfd-49acbea2412a/source.png"
+            },
+            "start": 6,
+            "length": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 829 1425\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"829\" height=\"1425\" fill=\"{{ BACKGROUND_COLOR }}\" rx=\"20\" ry=\"20\"/></svg>"
+            },
+            "start": 6,
+            "length": 1,
+            "width": 829,
+            "height": 1425
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ S5_IMAGE_2 }}"
+            },
+            "start": 6,
+            "scale": 1,
+            "width": 1090,
+            "height": 1982,
+            "fit": "crop",
+            "offset": {
+              "x": -0.00462962962962965,
+              "y": 0
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/c3543d70-76bf-4957-823a-86dbfe965084/source.png"
+            },
+            "start": 6,
+            "length": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S4_Subtitle}}",
+              "font": {
+                "family": "Noto Serif Display",
+                "size": 54,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 5,
+            "length": 1,
+            "offset": {
+              "x": 0.011,
+              "y": -0.265
+            },
+            "position": "center",
+            "width": 700,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ S4_IMAGE_1 }}"
+            },
+            "start": 5,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0.061
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 725,
+            "height": 1058
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/75161dde-9dea-48f5-86ad-ead4694c7008/source.png"
+            },
+            "start": 5,
+            "length": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 829 1425\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"829\" height=\"1425\" fill=\"{{ BACKGROUND_COLOR }}\" rx=\"20\" ry=\"20\"/></svg>"
+            },
+            "start": 5,
+            "length": 1,
+            "width": 829,
+            "height": 1425
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ S5_IMAGE_2 }}"
+            },
+            "start": 5,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_Subtitle}}",
+              "font": {
+                "family": "Noto Serif Display",
+                "size": 54,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 4,
+            "length": 1,
+            "offset": {
+              "x": 0.011,
+              "y": -0.265
+            },
+            "position": "center",
+            "width": 700,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ S3_IMAGE_1 }}"
+            },
+            "start": 4,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0.056
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 725,
+            "height": 1058
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/35d41d30-dcb7-45be-a8c3-435d0434272e/source.png"
+            },
+            "start": 4,
+            "length": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 829 1425\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"829\" height=\"1425\" fill=\"{{ BACKGROUND_COLOR }}\" rx=\"20\" ry=\"20\"/></svg>"
+            },
+            "start": 4,
+            "length": 1,
+            "width": 829,
+            "height": 1425
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ S3_IMAGE_2 }}"
+            },
+            "start": 4,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_Subtitle}}",
+              "font": {
+                "family": "Noto Serif Display",
+                "size": 54,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 3,
+            "length": 1,
+            "offset": {
+              "x": 0.011,
+              "y": -0.265
+            },
+            "position": "center",
+            "width": 700,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ S2_IMAGE_2 }}"
+            },
+            "start": 3,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0.06011620752669815
+            },
+            "position": "center",
+            "fit": "contain",
+            "width": 725,
+            "height": 1058
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/cc2e0100-a0fe-4035-bdfd-34d0ca07d2cb/source.png"
+            },
+            "start": 3,
+            "length": 1
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 829 1425\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"829\" height=\"1425\" fill=\"#ffffff\" rx=\"20\" ry=\"20\"/></svg>"
+            },
+            "start": 3,
+            "length": 1,
+            "width": 829,
+            "height": 1425
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ S2_IMAGE_1 }}"
+            },
+            "start": 3,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Social_Handle}}",
+              "font": {
+                "family": "Helvetica World",
+                "size": 32,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 1.07,
+            "length": 1.93,
+            "offset": {
+              "x": 0,
+              "y": -0.402
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Subtitle}}",
+              "font": {
+                "family": "Noto Serif Display",
+                "size": 46,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.82,
+            "length": 2.18,
+            "offset": {
+              "x": 0,
+              "y": -0.226
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 700,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Title}}",
+              "font": {
+                "family": "Noto Serif Display",
+                "size": 100,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": 3,
+            "offset": {
+              "x": 0,
+              "y": 0.385
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 900,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/ccc32512-1dd2-4426-bdc3-24f4f9fc9eeb/source.mp4"
+            },
+            "start": 0.62,
+            "length": 2.38
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 330 330\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"330\" height=\"330\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.62,
+            "length": 2.38,
+            "offset": {
+              "x": 0.3,
+              "y": 0.235
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 330,
+            "height": 330
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/6f1f7298-4132-426c-9414-079cdd5bcf1b/source.png"
+            },
+            "start": 0.59,
+            "length": 2.41
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 360 360\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"360\" height=\"360\" fill=\"{{ FONT_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0.59,
+            "length": 2.41,
+            "offset": {
+              "x": 0.3,
+              "y": 0.235
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 360,
+            "height": 360
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/2680f921-a0f1-48b7-95f3-f485b635d4e5/source.png"
+            },
+            "start": 0.39,
+            "length": 2.61
+          },
+          {
+            "length": 2.61,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_1 }}"
+            },
+            "start": 0.39,
+            "scale": 1,
+            "offset": {
+              "x": -0.0023102672528154955,
+              "y": 0.050723787439264596
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "opacity": 1,
+            "fit": "contain",
+            "width": 725,
+            "height": 909
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 828 1176\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"828\" height=\"1176\" fill=\"{{ BACKGROUND_COLOR }}\" rx=\"20\" ry=\"20\"/></svg>"
+            },
+            "start": 0.18,
+            "length": 2.82,
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 828,
+            "height": 1176
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3,
+            "asset": {
+              "type": "video",
+              "src": "{{ S1_VIDEO }}",
+              "volume": 0
+            },
+            "start": 0,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "crop"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "S1_Title",
+      "replace": "COUPLES VACATION DEAL"
+    },
+    {
+      "find": "S1_Subtitle",
+      "replace": "FUN MOMENT, LOVE & EXPLORATION"
+    },
+    {
+      "find": "Social_Handle",
+      "replace": "@travelsurvey"
+    },
+    {
+      "find": "S1_IMAGE_1",
+      "replace": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/65a6deff-b424-453a-93b7-fae018e7d117/source.png"
+    },
+    {
+      "find": "S1_VIDEO",
+      "replace": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/2018a41e-435e-435a-aaa2-92244d7e3f22/source.m4v"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#f0f0ee"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#3e9578"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "S2_Subtitle",
+      "replace": "CAMPING"
+    },
+    {
+      "find": "S2_IMAGE_1",
+      "replace": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/d11357af-3447-46dc-945f-a2f4b246f61f/source.png"
+    },
+    {
+      "find": "S2_IMAGE_2",
+      "replace": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/8f184896-b567-438a-8fd8-d4c4eac108fd/source.png"
+    },
+    {
+      "find": "S3_Subtitle",
+      "replace": "BEACHFRONT"
+    },
+    {
+      "find": "S3_IMAGE_1",
+      "replace": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/2abf46d0-6882-41b8-8bcb-a7d69a5cd16e/source.png"
+    },
+    {
+      "find": "S3_IMAGE_2",
+      "replace": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/3440db57-1a41-4f0d-ace3-944a8b2675c2/source.png"
+    },
+    {
+      "find": "S4_Subtitle",
+      "replace": "COCKTAILS FOR TWO"
+    },
+    {
+      "find": "S4_IMAGE_1",
+      "replace": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/dd6e4d28-51e8-4c4d-9428-e52e61fbea38/source.png"
+    },
+    {
+      "find": "S5_IMAGE_2",
+      "replace": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/98de0f24-f318-41ce-ba23-db8c7940f396/source.png"
+    },
+    {
+      "find": "S5_Subtitle",
+      "replace": "LUXURY MOUNTAIN ESCAPE"
+    },
+    {
+      "find": "S5_IMAGE_1",
+      "replace": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/4a3aab71-7d78-4e1d-a5cc-cb6ba7b7bfda/source.png"
+    },
+    {
+      "find": "S6_Subtitle",
+      "replace": "ROMANTIC POOLSIDE BRUNCH"
+    },
+    {
+      "find": "S6_IMAGE_1",
+      "replace": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/68564e66-4c01-4293-9dda-52689ba05aab/source.png"
+    },
+    {
+      "find": "S6_IMAGE_2",
+      "replace": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/6ade76db-1541-4b01-9784-53653aa218bd/source.png"
+    },
+    {
+      "find": "S7_Subtitle",
+      "replace": "ROMANTIC DINNER ON THE WATER"
+    },
+    {
+      "find": "S7_IMAGE_1",
+      "replace": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/a5b9deb4-ca13-42c0-8897-c35e55d89c00/source.png"
+    },
+    {
+      "find": "S7_IMAGE_2",
+      "replace": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/57a90ae9-f1f0-4d2d-9433-50947098ddff/source.png"
+    },
+    {
+      "find": "S8_Subtitle",
+      "replace": "LIVE THE BEST IN PAIRS"
+    },
+    {
+      "find": "S8_body",
+      "replace": "Leave the everyday behind and step into a story of your own"
+    },
+    {
+      "find": "S8_IMAGE",
+      "replace": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/e378c375-68d7-4159-a81d-40acaef03b08/source.png"
+    },
+    {
+      "find": "S8_VIDEO",
+      "replace": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/8b6c36d5-4709-46be-af26-e3b0eec9185c/source.m4v"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/couples-vacation-deal-romantic-getaway-template/a3b3e680-392f-42f7-bb3a-975678674075/source.mp3"
+    }
+  ]
+}

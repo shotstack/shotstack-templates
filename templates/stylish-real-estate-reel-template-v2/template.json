@@ -1,0 +1,1230 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "https://templates.shotstack.io/Stylish-Real-Estate-Reel/988f55c3-33dd-4bb8-94f6-7239c430b782/source.mp3",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{BRAND_NAME}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 30,
+                "weight": 600,
+                "color": "#ffd500",
+                "opacity": 1,
+                "stroke": {
+                  "width": 3,
+                  "color": "#000000",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ ALL_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 50
+              }
+            },
+            "start": 9.7,
+            "length": "end",
+            "offset": {
+              "x": 0.188,
+              "y": 0.437
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 394,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{S4_DESCRIPTION}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 34,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 9.47,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.439
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 800,
+            "height": 62
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S4_TITLE}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 109,
+                "weight": 800,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 0.89,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 9.12,
+            "length": "end",
+            "offset": {
+              "x": -0.097,
+              "y": -0.28
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 590,
+            "height": 465
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3,
+            "asset": {
+              "type": "image",
+              "src": "{{ S4_IMAGE_SRC }}"
+            },
+            "start": 9,
+            "transition": {
+              "in": "slideDown"
+            },
+            "offset": {
+              "x": 0,
+              "y": -0.002083333333333326
+            },
+            "fit": "contain",
+            "width": 1306,
+            "height": 1928,
+            "transform": {
+              "rotate": {
+                "angle": 0
+              }
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Stylish-Real-Estate-Reel/53a1bff8-9388-4c3f-86f1-bc9a41d83bb7/source.png"
+            },
+            "start": 9,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{DURATION}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 34,
+                "weight": 600,
+                "color": "{{ S3_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "middle"
+              }
+            },
+            "start": 7.5,
+            "length": 1.5,
+            "offset": {
+              "x": 0.215,
+              "y": -0.404
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 293,
+            "height": 85
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{AMOUNT}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 56,
+                "weight": 800,
+                "color": "{{ S3_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "right",
+                "vertical": "middle"
+              }
+            },
+            "start": 7.2,
+            "length": 1.8,
+            "offset": {
+              "x": 0.209,
+              "y": -0.365
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 307,
+            "height": 63
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_DESCRIPTION_4}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 34,
+                "weight": 600,
+                "color": "{{ S3_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 6.8,
+            "length": 2.2,
+            "offset": {
+              "x": -0.146,
+              "y": -0.401
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 293,
+            "height": 85
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 75 75\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"75\" height=\"75\" fill=\"#000000\"/></svg>"
+            },
+            "start": 6.8,
+            "length": 2.2,
+            "offset": {
+              "x": -0.347,
+              "y": -0.404
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 75,
+            "height": 75
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Stylish-Real-Estate-Reel/94c415f2-2b22-4d89-84cc-76d371d815d2/source.png"
+            },
+            "start": 6.8,
+            "length": 2.2
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_DESCRIPTION_3}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 34,
+                "weight": 600,
+                "color": "{{ S3_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 6.6,
+            "length": 2.4,
+            "offset": {
+              "x": -0.146,
+              "y": -0.348
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 293,
+            "height": 85
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 75 75\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"75\" height=\"75\" fill=\"#000000\"/></svg>"
+            },
+            "start": 6.6,
+            "length": 2.4,
+            "offset": {
+              "x": -0.347,
+              "y": -0.348
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 75,
+            "height": 75
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Stylish-Real-Estate-Reel/cd42fdda-5554-45ac-bf1e-89206eb6d1fd/source.png"
+            },
+            "start": 6.6,
+            "length": 2.4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_DESCRIPTION_2}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 34,
+                "weight": 600,
+                "color": "{{ S3_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 6.5,
+            "length": 2.5,
+            "offset": {
+              "x": -0.146,
+              "y": -0.302
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 293,
+            "height": 85
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Stylish-Real-Estate-Reel/0d550857-1e6a-4ae1-80b3-3d01a6419bbb/source.png"
+            },
+            "start": 6.5,
+            "length": 2.5
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 75 75\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"75\" height=\"75\" fill=\"#000000\"/></svg>"
+            },
+            "start": 6.5,
+            "length": 2.5,
+            "offset": {
+              "x": -0.347,
+              "y": -0.297
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 75,
+            "height": 75
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_DESCRIPTION_1}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 34,
+                "weight": 600,
+                "color": "{{ S3_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              }
+            },
+            "start": 6.4,
+            "length": 2.6,
+            "offset": {
+              "x": -0.146,
+              "y": -0.249
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 293,
+            "height": 85
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 75 75\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"75\" height=\"75\" fill=\"#000000\"/></svg>"
+            },
+            "start": 6.4,
+            "length": 2.6,
+            "offset": {
+              "x": -0.347,
+              "y": -0.249
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            },
+            "width": 75,
+            "height": 75
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Stylish-Real-Estate-Reel/d0938b04-b66e-4fa1-9827-ec268ffbe1b2/source.png"
+            },
+            "start": 6.4,
+            "length": 2.6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_TITLE}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 56,
+                "weight": 600,
+                "color": "{{ S3_TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 6.2,
+            "length": 2.8,
+            "offset": {
+              "x": -0.196,
+              "y": -0.187
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 400,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 5 500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"5\" height=\"500\" fill=\"#000000\"/></svg>"
+            },
+            "start": 6,
+            "length": 3,
+            "offset": {
+              "x": 0,
+              "y": -0.305
+            },
+            "position": "center",
+            "width": 5,
+            "height": 500
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{BRAND_NAME}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 30,
+                "weight": 600,
+                "color": "#ffd500",
+                "opacity": 1,
+                "stroke": {
+                  "width": 3,
+                  "color": "#000000",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ ALL_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 50
+              }
+            },
+            "start": 6.4,
+            "length": 2.6,
+            "offset": {
+              "x": 0.188,
+              "y": 0.437
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideLeft"
+            },
+            "width": 394,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 879 650\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"879\" height=\"650\" fill=\"{{ S3_BACKGROUND_COLOR }}\" rx=\"62\" ry=\"62\"/></svg>"
+            },
+            "start": 6,
+            "length": "auto",
+            "offset": {
+              "x": 0,
+              "y": -0.312
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 879,
+            "height": 650
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "auto",
+            "asset": {
+              "type": "image",
+              "src": "{{ S3_IMAGE_SRC }}"
+            },
+            "start": 6,
+            "scale": 1,
+            "offset": {
+              "x": -0.0023103730100714343,
+              "y": 0.1855990804036459
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 925,
+            "height": 1232
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Stylish-Real-Estate-Reel/2f5667bf-896e-4c52-95b5-fe1987c4b3bf/source.png"
+            },
+            "start": 6,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{BRAND_NAME}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 30,
+                "weight": 600,
+                "color": "#ffd500",
+                "opacity": 1,
+                "stroke": {
+                  "width": 3,
+                  "color": "#000000",
+                  "opacity": 1
+                }
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ ALL_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 50
+              }
+            },
+            "start": 3.5,
+            "length": 2.5,
+            "offset": {
+              "x": 0.188,
+              "y": 0.437
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideLeft"
+            },
+            "width": 394,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_TITLE}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 98,
+                "weight": 800,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 0.87,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 3.2,
+            "length": 2.8,
+            "offset": {
+              "x": 0.008,
+              "y": -0.245
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 811,
+            "height": 246
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_DESCRIPTION}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 34,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.32,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 3.4,
+            "length": 2.6,
+            "offset": {
+              "x": 0.003,
+              "y": -0.375
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 800,
+            "height": 225
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "auto",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_3 }}"
+            },
+            "start": 3,
+            "scale": 1,
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 1320,
+            "height": 1880,
+            "offset": {
+              "x": 0.004620640262887235,
+              "y": 1.4872114206809783e-8
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Stylish-Real-Estate-Reel/eb33792b-416b-49cd-9bb6-1a1fa5eb0470/source.png"
+            },
+            "start": 3,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{BRAND_NAME}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 30,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.7,
+            "length": 2.3,
+            "offset": {
+              "x": 0.188,
+              "y": 0.437
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideLeft"
+            },
+            "width": 394,
+            "height": 90
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 394 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"394\" height=\"100\" fill=\"{{ ALL_BACKGROUND_COLOR }}\" rx=\"50\" ry=\"50\" stroke=\"#000000\" stroke-width=\"3\"/></svg>"
+            },
+            "start": 0.6,
+            "length": 2.4,
+            "offset": {
+              "x": 0.188,
+              "y": 0.437
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft",
+              "out": "slideLeft"
+            },
+            "width": 394,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{DESCRIPTION}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 34,
+                "weight": 600,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.4,
+            "length": 2.6,
+            "offset": {
+              "x": 0,
+              "y": -0.439
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 800,
+            "height": 62
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TITLE}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 120,
+                "weight": 800,
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 0.98,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word",
+                "direction": "down"
+              }
+            },
+            "start": 0.15,
+            "length": 2.85,
+            "offset": {
+              "x": 0.012,
+              "y": -0.23
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 798,
+            "height": 609
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.5,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_SRC_2 }}"
+            },
+            "start": 0.5,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": -0.23720272904483433
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "fit": "contain",
+            "width": 970,
+            "height": 982
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Stylish-Real-Estate-Reel/e8683e48-7316-4c90-a2f1-2347b1abca28/source.png"
+            },
+            "start": 0.5,
+            "length": 2.5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "auto",
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_SRC }}"
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0.2547421264648438
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 950,
+            "height": 907
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/Stylish-Real-Estate-Reel/07e3094d-a3dd-4cae-a96c-ce5a54ec54b0/source.png"
+            },
+            "start": 0,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ ALL_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "position": "center",
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "TITLE",
+      "replace": "New Modern Living Space!"
+    },
+    {
+      "find": "DESCRIPTION",
+      "replace": "LET'S HAVE A SHORT TOUR WITH US!"
+    },
+    {
+      "find": "BRAND_NAME",
+      "replace": "THYNK UNLIMITED"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#ffd500"
+    },
+    {
+      "find": "S1_IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/Stylish-Real-Estate-Reel/2b7ee2f8-f204-448e-bc32-5b5633d2130f/source.jpg"
+    },
+    {
+      "find": "S1_IMAGE_SRC_2",
+      "replace": "https://templates.shotstack.io/Stylish-Real-Estate-Reel/2cb83980-aad5-4f27-9ffb-516ed76bcc32/source.jpg"
+    },
+    {
+      "find": "S2_TITLE",
+      "replace": "Sustainable living space"
+    },
+    {
+      "find": "S2_DESCRIPTION",
+      "replace": "We build efficient houses using high-quality materials and sustainable practices, with energy-efficient features for eco-friendly living. ."
+    },
+    {
+      "find": "TEXT_VAR_372",
+      "replace": "THYNK UNLIMITED"
+    },
+    {
+      "find": "IMAGE_SRC_3",
+      "replace": "https://templates.shotstack.io/Stylish-Real-Estate-Reel/669a77a0-f4a9-4366-91b0-2de6d462c289/source.jpg"
+    },
+    {
+      "find": "S3_TITLE",
+      "replace": "FEATURES"
+    },
+    {
+      "find": "S3_DESCRIPTION_1",
+      "replace": "3 BEDROOMS"
+    },
+    {
+      "find": "S3_DESCRIPTION_2",
+      "replace": "BATHROOM"
+    },
+    {
+      "find": "S3_DESCRIPTION_3",
+      "replace": "CAR GARAGE"
+    },
+    {
+      "find": "S3_DESCRIPTION_4",
+      "replace": "800 SQ. FT."
+    },
+    {
+      "find": "S3_TEXT_FONT_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "AMOUNT",
+      "replace": "$1700"
+    },
+    {
+      "find": "DURATION",
+      "replace": "PER MONTH"
+    },
+    {
+      "find": "S3_BACKGROUND_COLOR",
+      "replace": "#f5e9db"
+    },
+    {
+      "find": "S3_IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/Stylish-Real-Estate-Reel/9f713542-8007-48da-858f-58530d9989ef/source.jpg"
+    },
+    {
+      "find": "S4_TITLE",
+      "replace": "Contact us for more info!"
+    },
+    {
+      "find": "S4_DESCRIPTION",
+      "replace": "HELLO@REALLYGREATSITE.COM"
+    },
+    {
+      "find": "S4_IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/Stylish-Real-Estate-Reel/572973cb-10be-44b1-998c-0297c7d8134f/shotstack-proxy.webp"
+    },
+    {
+      "find": "ALL_BACKGROUND_COLOR",
+      "replace": "#342e28"
+    }
+  ]
+}

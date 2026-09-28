@@ -1,0 +1,996 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{BRAND_NAME}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ BACKGROUND_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "28",
+                "lineHeight": 1
+              },
+              "width": 200,
+              "height": 100
+            },
+            "start": 0.15,
+            "length": "end",
+            "offset": {
+              "x": -0.289,
+              "y": 0.408
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/contemporary-elegance-stylish-homes-for-sale/d8860124-710f-4b9f-866f-72bdd93ff3c3/source.png"
+            },
+            "start": 0.2,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 45,
+              "height": 45,
+              "stroke": {
+                "color": "#ffffff"
+              },
+              "background": {
+                "color": "{{ YELLOW_ELEMENT_COLOR }}"
+              }
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": 0.386,
+              "y": 0.457
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ LOGO }}"
+            },
+            "start": 0.1,
+            "scale": 0.06,
+            "offset": {
+              "x": -0.289,
+              "y": 0.46
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/contemporary-elegance-stylish-homes-for-sale/b40395f1-356e-435c-8570-cc938459afec/source.png"
+            },
+            "start": 0.2,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 50,
+              "height": 50,
+              "background": {
+                "color": "{{ YELLOW_ELEMENT_COLOR }}"
+              }
+            },
+            "start": 0.15,
+            "length": "end",
+            "offset": {
+              "x": 0.388,
+              "y": 0.41
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{ADDRESS}}",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "29",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 110
+            },
+            "start": 0.15,
+            "length": "end",
+            "offset": {
+              "x": 0.1,
+              "y": 0.41
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{PHONE}}",
+              "alignment": {
+                "horizontal": "right",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "33",
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 50
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": 0.204,
+              "y": 0.458
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_DESCRIPTION_3}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat ExtraBold",
+                "size": "33",
+                "lineHeight": 1
+              },
+              "width": 230,
+              "height": 50
+            },
+            "start": 2.2,
+            "length": "end",
+            "offset": {
+              "x": 0.337,
+              "y": -0.434
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_DESCRIPTION_2}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "33",
+                "lineHeight": 1
+              },
+              "width": 230,
+              "height": 50
+            },
+            "start": 2,
+            "length": "end",
+            "offset": {
+              "x": 0.052,
+              "y": -0.434
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S2_DESCRIPTION_1}}",
+              "alignment": {
+                "horizontal": "left",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Montserrat SemiBold",
+                "size": "33",
+                "lineHeight": 1
+              },
+              "width": 230,
+              "height": 50
+            },
+            "start": 1.8,
+            "length": "end",
+            "offset": {
+              "x": -0.236,
+              "y": -0.434
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 45,
+              "height": 45,
+              "background": {
+                "color": "{{ YELLOW_ELEMENT_COLOR }}"
+              }
+            },
+            "start": 2.2,
+            "length": "end",
+            "offset": {
+              "x": 0.191,
+              "y": -0.434
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/contemporary-elegance-stylish-homes-for-sale/3e0f44fc-977e-435b-8ece-dd1e506bd972/source.png"
+            },
+            "start": 2.2,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/contemporary-elegance-stylish-homes-for-sale/3421c51a-c80e-4971-964e-e8dd5206c673/source.png"
+            },
+            "start": 2,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 45,
+              "height": 45,
+              "background": {
+                "color": "{{ YELLOW_ELEMENT_COLOR }}"
+              }
+            },
+            "start": 2,
+            "length": "end",
+            "offset": {
+              "x": -0.085,
+              "y": -0.434
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 2,
+              "background": {
+                "color": "{{ YELLOW_ELEMENT_COLOR }}"
+              }
+            },
+            "start": 2.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.468
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 2,
+              "background": {
+                "color": "{{ YELLOW_ELEMENT_COLOR }}"
+              }
+            },
+            "start": 1.6,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.397
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 45,
+              "height": 45,
+              "background": {
+                "color": "{{ YELLOW_ELEMENT_COLOR }}"
+              }
+            },
+            "start": 1.8,
+            "length": "end",
+            "offset": {
+              "x": -0.37,
+              "y": -0.434
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/contemporary-elegance-stylish-homes-for-sale/a0b81152-52d9-4a4a-a887-dfd276767898/source.png"
+            },
+            "start": 1.8,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{AMOUNT}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#ffffff",
+                "family": "Montserrat SemiBold",
+                "size": "45",
+                "lineHeight": 1
+              },
+              "width": 300,
+              "height": 100,
+              "background": {
+                "color": "{{ YELLOW_ELEMENT_COLOR }}",
+                "borderRadius": 22
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.256,
+              "y": 0.072
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 250,
+              "height": 300,
+              "background": {
+                "color": "#ffffff",
+                "borderRadius": 41
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.289,
+              "y": 0.455
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{DESCRIPTION}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ YELLOW_ELEMENT_COLOR }}",
+                "family": "Arapey",
+                "size": "196",
+                "lineHeight": 1
+              },
+              "width": 888,
+              "height": 165
+            },
+            "start": 1.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.341
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{TITLE}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ TEXT_FONT_COLOR }}",
+                "family": "Arapey",
+                "size": "131",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 150
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": 0.012,
+              "y": -0.269
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_3 }}"
+            },
+            "start": 0.8,
+            "scale": 0.22,
+            "offset": {
+              "x": 0.204,
+              "y": -0.113
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/contemporary-elegance-stylish-homes-for-sale/686c36e9-0297-488b-a2ee-5a2e8b4575b3/source.png"
+            },
+            "start": 1,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 0.8,
+            "scale": 0.22,
+            "offset": {
+              "x": -0.204,
+              "y": -0.113
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/contemporary-elegance-stylish-homes-for-sale/9f3647ec-d667-456e-ab75-67fc208acfd4/source.png"
+            },
+            "start": 1,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/contemporary-elegance-stylish-homes-for-sale/2c34f39e-8f30-4deb-ac88-0db1711b767e/source.png"
+            },
+            "start": 0.5,
+            "length": "end"
+          },
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0.5,
+            "scale": 0.3,
+            "offset": {
+              "x": 0,
+              "y": 0.154
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 450,
+              "height": 450,
+              "background": {
+                "color": "{{ YELLOW_ELEMENT_COLOR }}"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0.204,
+              "y": -0.113
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/contemporary-elegance-stylish-homes-for-sale/84d2b921-5ade-4645-a5e7-fd34b7f44daa/source.png"
+            },
+            "start": 0.8,
+            "length": "end"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/contemporary-elegance-stylish-homes-for-sale/b3c11019-7207-49ec-841e-81577154bddc/source.png"
+            },
+            "start": 0.8,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 450,
+              "height": 450,
+              "background": {
+                "color": "{{ YELLOW_ELEMENT_COLOR }}"
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": -0.204,
+              "y": -0.113
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 200,
+              "background": {
+                "color": "{{ YELLOW_ELEMENT_COLOR }}"
+              }
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "y": -0.113
+            },
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/contemporary-elegance-stylish-homes-for-sale/4dca5704-84b9-4968-a553-2f85aa4d64d0/source.png"
+            },
+            "start": 0.5,
+            "length": "end"
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 890,
+              "height": 600,
+              "background": {
+                "color": "{{ YELLOW_ELEMENT_COLOR }}",
+                "borderRadius": 0
+              }
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.154
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat ExtraBold",
+                "size": 72,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": 10,
+            "position": "center"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "BRAND_NAME",
+      "replace": "realestate company"
+    },
+    {
+      "find": "PHONE",
+      "replace": "+123-456-7890"
+    },
+    {
+      "find": "ADDRESS",
+      "replace": "123 Anywhere St., Any City. ST 12345"
+    },
+    {
+      "find": "AMOUNT",
+      "replace": "$1,500"
+    },
+    {
+      "find": "TITLE",
+      "replace": "Modern Home"
+    },
+    {
+      "find": "DESCRIPTION",
+      "replace": "FOR SALE"
+    },
+    {
+      "find": "S2_DESCRIPTION_1",
+      "replace": "2 Bedroom"
+    },
+    {
+      "find": "S2_DESCRIPTION_2",
+      "replace": "1 Bathroom"
+    },
+    {
+      "find": "S2_DESCRIPTION_3",
+      "replace": "Car Garage"
+    },
+    {
+      "find": "TEXT_FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "YELLOW_ELEMENT_COLOR",
+      "replace": "#ffc107"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#17255e"
+    },
+    {
+      "find": "LOGO",
+      "replace": "https://templates.shotstack.io/contemporary-elegance-stylish-homes-for-sale/7c88fcf2-12f7-434e-861d-aa6016f800a8/source.png"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/contemporary-elegance-stylish-homes-for-sale/8feeb08e-8e93-40c9-9154-4f71bba80d69/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_2",
+      "replace": "https://templates.shotstack.io/contemporary-elegance-stylish-homes-for-sale/140fd1ba-a856-41f4-a777-dac3ffdd9c75/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_3",
+      "replace": "https://templates.shotstack.io/contemporary-elegance-stylish-homes-for-sale/2b5d5a35-e288-478f-a67c-a8665a4412a6/source.jpg"
+    }
+  ]
+}

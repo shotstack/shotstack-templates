@@ -1,0 +1,388 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/festive-family-seasons-greetings-card-template/50517c89-faa9-4c7c-bb24-314d94e9d41a/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/festive-family-seasons-greetings-card-template/1df69277-3ada-4927-a00c-16fbf09f24dd/source.otf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Noto Serif Display",
+                "size": "150",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 380
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.352
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Body}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Gotham Book",
+                "size": "40",
+                "lineHeight": 1
+              },
+              "width": 700,
+              "height": 250
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.314
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ Tree }}"
+            },
+            "start": 0.9,
+            "scale": 0.35,
+            "offset": {
+              "x": 0.5,
+              "y": -0.35
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ Tree }}"
+            },
+            "start": 0.8,
+            "scale": 0.35,
+            "offset": {
+              "x": -0.551,
+              "y": -0.35
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ Light_1 }}"
+            },
+            "start": 0.2,
+            "scale": 0.15,
+            "offset": {
+              "x": -0.254,
+              "y": 0.43
+            },
+            "position": "center",
+            "opacity": 1,
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ Light_2 }}"
+            },
+            "start": 0.2,
+            "scale": 0.15,
+            "offset": {
+              "x": 0.282,
+              "y": 0.43
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ Ball_2 }}"
+            },
+            "start": 0.4,
+            "scale": 0.25,
+            "offset": {
+              "x": 0.444,
+              "y": 0.385
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ Ball_1 }}"
+            },
+            "start": 0.4,
+            "scale": 0.25,
+            "offset": {
+              "x": -0.442,
+              "y": 0.38
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/festive-family-seasons-greetings-card-template/bf4f96ae-0c63-4d2b-bcda-23db2c15b1a3/source.png"
+            },
+            "start": 0,
+            "length": 8
+          },
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_1 }}"
+            },
+            "start": 0.5,
+            "scale": 0.45,
+            "offset": {
+              "x": 0,
+              "y": 0.024
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ BACKGROUND_SNOW }}"
+            },
+            "start": 0.4,
+            "scale": 0.55,
+            "offset": {
+              "x": -0.022,
+              "y": 0.216
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 90
+              }
+            },
+            "opacity": 0.6,
+            "transition": {
+              "in": "fadeSlow"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ BACKGROUND_SNOW }}"
+            },
+            "start": 0.5,
+            "scale": 0.6,
+            "offset": {
+              "x": -0.022,
+              "y": -0.265
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 90
+              }
+            },
+            "opacity": 0.67,
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0,
+            "length": 8,
+            "position": "center"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "Title",
+      "replace": "Season's Greetings"
+    },
+    {
+      "find": "Body",
+      "replace": "Sending heartfelt wishes for a season of harmony, laughter, and treasured moments surrounded by those you hold dear."
+    },
+    {
+      "find": "IMAGE_1",
+      "replace": "https://templates.shotstack.io/festive-family-seasons-greetings-card-template/8287e046-841b-4ce0-b534-144863f7f663/source.png"
+    },
+    {
+      "find": "Light_1",
+      "replace": "https://templates.shotstack.io/festive-family-seasons-greetings-card-template/ba94ca67-bab9-439e-85db-bcf304217d30/source.png"
+    },
+    {
+      "find": "Light_2",
+      "replace": "https://templates.shotstack.io/festive-family-seasons-greetings-card-template/1de08935-ec26-435d-bd0d-104e85df9f3e/source.png"
+    },
+    {
+      "find": "Ball_1",
+      "replace": "https://templates.shotstack.io/festive-family-seasons-greetings-card-template/ae98c809-2ed3-4941-924c-b4d8cfba79eb/source.png"
+    },
+    {
+      "find": "Ball_2",
+      "replace": "https://templates.shotstack.io/festive-family-seasons-greetings-card-template/bd02f7dd-44b3-4ae4-bd28-1c4ecd92494f/source.png"
+    },
+    {
+      "find": "Tree",
+      "replace": "https://templates.shotstack.io/festive-family-seasons-greetings-card-template/c9178293-e291-456f-845e-93872b942792/source.png"
+    },
+    {
+      "find": "BACKGROUND_SNOW",
+      "replace": "https://templates.shotstack.io/festive-family-seasons-greetings-card-template/0d3512c6-44d5-421b-b8d0-c21ba7158953/source.png"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#f1f0e2"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#0c4a09"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/festive-family-seasons-greetings-card-template/1aee82d1-ab85-4345-976a-b48a7ac248d6/source.mp3"
+    }
+  ]
+}

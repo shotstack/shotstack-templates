@@ -1,0 +1,1670 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/fcd59e6e-472d-4348-881d-3d6defaa4e1d/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/0a8425b4-ce95-42fd-8ca4-3b86e514b2c8/source.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/opensans/v44/mem8YaGs126MiZpBA-U1UpcaXcl0Aw.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrFJDUc1NECPY.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 15.4,
+            "length": "end",
+            "offset": {
+              "x": 0.299,
+              "y": -0.081
+            },
+            "position": "center",
+            "width": 100,
+            "height": 100
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/61e72690-516b-4588-9e81-fa9398a6b5b2/source.mp4"
+            },
+            "start": 15.4,
+            "length": 2.5999999999999996
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 15.4,
+            "length": "end",
+            "offset": {
+              "x": -0.315,
+              "y": -0.075
+            },
+            "position": "center",
+            "width": 100,
+            "height": 100
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/2bc12ca6-6acd-4464-a4e9-32b2d986aa54/source.mp4"
+            },
+            "start": 15.4,
+            "length": 2.5999999999999996
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Web}}",
+              "font": {
+                "family": "Open Sans",
+                "size": 33,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 15.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.347
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S6_Tagline}}",
+              "font": {
+                "family": "Open Sans",
+                "size": 33,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 15.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.171
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 400\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"400\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 15.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.205
+            },
+            "position": "center",
+            "width": 400,
+            "height": 400
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/366cb5f2-f617-47f3-9aec-8563da5b785e/source.mp4"
+            },
+            "start": 15.4,
+            "length": 2.5999999999999996
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S6_CTA}}",
+              "font": {
+                "family": "Poppins",
+                "size": 130,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 15.4,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.042
+            },
+            "position": "center",
+            "width": 800,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Company_Name}}",
+              "font": {
+                "family": "Open Sans",
+                "size": 37,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn"
+              }
+            },
+            "start": 15.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.341
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 536,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 536 536\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"536\" height=\"536\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 15.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.344
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 536,
+            "height": 536
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/2c03d2a6-1582-4166-95d6-1a5ca9db5505/source.mp4"
+            },
+            "start": 15.2,
+            "length": 2.8000000000000007
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3,
+            "asset": {
+              "type": "video",
+              "src": "{{ S6_VIDEO }}",
+              "volume": 0
+            },
+            "start": 15,
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 12.4,
+            "length": 3,
+            "offset": {
+              "x": 0.324,
+              "y": -0.217
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade"
+            },
+            "width": 100,
+            "height": 100
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/689b30e7-7213-4b86-88af-e5b702aedc35/source.mp4"
+            },
+            "start": 12.4,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 12.4,
+            "length": 3,
+            "offset": {
+              "x": -0.352,
+              "y": -0.214
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade"
+            },
+            "width": 100,
+            "height": 100
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/ddebf937-5a1e-4777-ac60-86bba9886067/source.mp4"
+            },
+            "start": 12.4,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{S5_Body}}",
+              "font": {
+                "family": "Open Sans",
+                "size": 33,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 12.6,
+            "length": 3,
+            "offset": {
+              "x": 0,
+              "y": -0.287
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S5_Title}}",
+              "font": {
+                "family": "Poppins",
+                "size": 120,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 12.4,
+            "length": 3,
+            "offset": {
+              "x": -0.011,
+              "y": -0.217
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideDown"
+            },
+            "width": 800,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 170 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"170\" height=\"170\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 12.6,
+            "length": 3,
+            "offset": {
+              "x": 0,
+              "y": -0.326
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade"
+            },
+            "width": 170,
+            "height": 170
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/9cce2cbe-360a-4bbb-8679-cf34821fd19b/source.mp4"
+            },
+            "start": 12.6,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/c340a5ba-3a4d-43e0-a47e-21a85e8d25dd/source.png"
+            },
+            "start": 12.2,
+            "length": 3
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1120 1166\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1120\" height=\"1166\" fill=\"{{ S5_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 12.2,
+            "length": 3,
+            "offset": {
+              "x": 0,
+              "y": -0.217
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            },
+            "width": 1120,
+            "height": 1166
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.8,
+            "asset": {
+              "type": "video",
+              "src": "{{ S5_VIDEO }}",
+              "volume": 0
+            },
+            "start": 12,
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 9.4,
+            "length": 3,
+            "offset": {
+              "x": 0.313,
+              "y": -0.217
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade"
+            },
+            "width": 100,
+            "height": 100
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/9b6503fb-a8ff-4e4f-b591-840b6c39a567/source.mp4"
+            },
+            "start": 9.4,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 9.4,
+            "length": 3,
+            "offset": {
+              "x": -0.324,
+              "y": -0.214
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade"
+            },
+            "width": 100,
+            "height": 100
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/daa703da-c03c-47c8-a979-a619195799d0/source.mp4"
+            },
+            "start": 9.4,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S4_Body}}",
+              "font": {
+                "family": "Open Sans",
+                "size": 33,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 9.6,
+            "length": 3,
+            "offset": {
+              "x": 0,
+              "y": -0.287
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideDown"
+            },
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S4_Title}}",
+              "font": {
+                "family": "Poppins",
+                "size": 120,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 9.4,
+            "length": 3,
+            "offset": {
+              "x": -0.011,
+              "y": -0.217
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/14ce158b-8792-48bb-b44a-bcf8fc58c31c/source.mp4"
+            },
+            "start": 9.6,
+            "length": 3
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 170 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"170\" height=\"170\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 9.6,
+            "length": 3,
+            "offset": {
+              "x": 0,
+              "y": -0.326
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade"
+            },
+            "width": 170,
+            "height": 170
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1120 1166\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1120\" height=\"1166\" fill=\"{{ S4_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 9.2,
+            "length": 3,
+            "offset": {
+              "x": 0,
+              "y": -0.217
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideDown"
+            },
+            "width": 1120,
+            "height": 1166
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/1bd38b1f-541d-47a6-8533-ee9ba9bbd94c/source.png"
+            },
+            "start": 9.2,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.8,
+            "asset": {
+              "type": "video",
+              "src": "{{ S4_VIDEO }}",
+              "volume": 0
+            },
+            "start": 9,
+            "fit": "contain",
+            "width": 1080,
+            "height": 1923,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 6.4,
+            "length": 3,
+            "offset": {
+              "x": 0.37,
+              "y": -0.217
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade"
+            },
+            "width": 100,
+            "height": 100
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/04921663-5618-43c8-9831-5330811f279e/source.mp4"
+            },
+            "start": 6.4,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 6.4,
+            "length": 3,
+            "offset": {
+              "x": -0.417,
+              "y": -0.214
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade"
+            },
+            "width": 100,
+            "height": 100
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/1de3b1d4-b2c3-44e1-a6c9-c4662634def6/source.mp4"
+            },
+            "start": 6.4,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_Body}}",
+              "font": {
+                "family": "Open Sans",
+                "size": 33,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 6.6,
+            "length": 3,
+            "offset": {
+              "x": 0,
+              "y": -0.287
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideDown"
+            },
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S3_Title}}",
+              "font": {
+                "family": "Poppins",
+                "size": 120,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 6.4,
+            "length": 3,
+            "offset": {
+              "x": -0.011,
+              "y": -0.217
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 170 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"170\" height=\"170\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 6.6,
+            "length": 3,
+            "offset": {
+              "x": 0,
+              "y": -0.331
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade"
+            },
+            "width": 170,
+            "height": 170
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/3379109c-8157-4bed-a32b-5ca96c9c2c9f/source.mp4"
+            },
+            "start": 6.6,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/25efd49d-e2b0-4af0-85ac-e7034fca4f7e/source.png"
+            },
+            "start": 6.2,
+            "length": 3
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1120 1166\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1120\" height=\"1166\" fill=\"{{ S3_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 6.2,
+            "length": 3,
+            "offset": {
+              "x": 0,
+              "y": -0.217
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            },
+            "width": 1120,
+            "height": 1166
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.8,
+            "asset": {
+              "type": "video",
+              "src": "{{ S3_VIDEO }}",
+              "volume": 0
+            },
+            "start": 6,
+            "scale": 1,
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "fit": "contain",
+            "width": 1280,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 3.4,
+            "length": 3,
+            "offset": {
+              "x": 0.313,
+              "y": -0.209
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade"
+            },
+            "width": 100,
+            "height": 100
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/a3680ac9-5016-416a-89ac-030db892ba44/source.mp4"
+            },
+            "start": 3.4,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 3.4,
+            "length": 3,
+            "offset": {
+              "x": -0.335,
+              "y": -0.217
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade"
+            },
+            "width": 100,
+            "height": 100
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/b4d0d0cb-e615-4d79-b3ce-110fa87ff2df/source.mp4"
+            },
+            "start": 3.4,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_Body}}",
+              "font": {
+                "family": "Open Sans",
+                "size": 33,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 3.6,
+            "length": 3,
+            "offset": {
+              "x": 0,
+              "y": -0.287
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "slideDown"
+            },
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_Title}}",
+              "font": {
+                "family": "Poppins",
+                "size": 120,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 3.4,
+            "length": 3,
+            "offset": {
+              "x": -0.011,
+              "y": -0.217
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 170 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"170\" height=\"170\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 3.6,
+            "length": 3,
+            "offset": {
+              "x": 0,
+              "y": -0.32
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade"
+            },
+            "width": 170,
+            "height": 170
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/284a3f58-8e21-49a9-ae2a-8088e6aba487/source.mp4"
+            },
+            "start": 3.6,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1120 1166\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1120\" height=\"1166\" fill=\"{{ S2_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 3.2,
+            "length": 3,
+            "offset": {
+              "x": 0,
+              "y": -0.217
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideDown",
+              "in": "slideUp"
+            },
+            "width": 1120,
+            "height": 1166
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/eb094b0e-0e02-49e3-bdeb-6aa86d3ce360/source.png"
+            },
+            "start": 3.2,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.8,
+            "asset": {
+              "type": "video",
+              "src": "{{ S2_VIDEO }}",
+              "volume": 0
+            },
+            "start": 3,
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "fit": "contain",
+            "width": 1290,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.2,
+            "length": 3,
+            "offset": {
+              "x": 0.294,
+              "y": -0.209
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade"
+            },
+            "width": 100,
+            "height": 100
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/a1bd42a6-d25b-41b5-8aa0-2dec99cca8d8/source.mp4"
+            },
+            "start": 0.2,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/09f1cd5b-09e5-422d-90f2-37079c528d81/source.mp4"
+            },
+            "start": 0.2,
+            "length": 3
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.2,
+            "length": 3,
+            "offset": {
+              "x": -0.294,
+              "y": -0.209
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade"
+            },
+            "width": 100,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Web}}",
+              "font": {
+                "family": "Open Sans",
+                "size": 33,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.6,
+            "length": 3,
+            "offset": {
+              "x": 0,
+              "y": -0.395
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Subtitle}}",
+              "font": {
+                "family": "Open Sans",
+                "size": 33,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.4,
+            "length": 3,
+            "offset": {
+              "x": 0,
+              "y": -0.267
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            },
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 400\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"400\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0.4,
+            "length": 3,
+            "offset": {
+              "x": 0,
+              "y": -0.335
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade"
+            },
+            "width": 400,
+            "height": 400
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/141997b8-db3c-472e-86d0-54ebe9c84439/source.mp4"
+            },
+            "start": 0.4,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Title}}",
+              "font": {
+                "family": "Poppins",
+                "size": 120,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.2,
+            "length": 3,
+            "offset": {
+              "x": 0,
+              "y": -0.179
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "width": 800,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Company_Name}}",
+              "font": {
+                "family": "Open Sans",
+                "size": 37,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0,
+            "length": 3,
+            "offset": {
+              "x": 0,
+              "y": 0.397
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            },
+            "width": 536,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 536 536\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"536\" height=\"536\" fill=\"{{ FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 3,
+            "offset": {
+              "x": 0,
+              "y": 0.397
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            },
+            "width": 536,
+            "height": 536
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/3aa1f041-c9fc-4e35-92c2-b45b5017006c/source.mp4"
+            },
+            "start": 0,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.8,
+            "asset": {
+              "type": "video",
+              "src": "{{ S1_VIDEO }}",
+              "volume": 0
+            },
+            "start": 0,
+            "transition": {
+              "out": "fade"
+            },
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "S1_Company_Name",
+      "replace": "TRAVEL SURVEY"
+    },
+    {
+      "find": "S1_Title",
+      "replace": "VIVA ESPAÑA"
+    },
+    {
+      "find": "S1_Subtitle",
+      "replace": "EXPLORE DEEPLY, GROW ENDLESSLY"
+    },
+    {
+      "find": "Web",
+      "replace": "WWW.TRAVELSURVEY.COM"
+    },
+    {
+      "find": "S1_VIDEO",
+      "replace": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/bc3e65a4-02c8-40cc-aab6-2c416fb782c6/source.mp4"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "S2_Title",
+      "replace": "MADRID"
+    },
+    {
+      "find": "S2_Body",
+      "replace": "THE CAPITAL, KNOWN FOR THE PRADO MUSEUM, ROYAL PALACE, AND VIBRANT NIGHTLIFE."
+    },
+    {
+      "find": "S2_VIDEO",
+      "replace": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/79e4ddde-611f-4032-9ee8-50ffd95b9bb7/source.m4v"
+    },
+    {
+      "find": "S2_BACKGROUND_COLOR",
+      "replace": "#f89f27"
+    },
+    {
+      "find": "S3_Title",
+      "replace": "BARCELONA"
+    },
+    {
+      "find": "S3_Body",
+      "replace": "FAMOUS FOR GAUDÍ’S SAGRADA FAMÍLIA, PARK GÜELL, AND BEACH VIBES."
+    },
+    {
+      "find": "S3_BACKGROUND_COLOR",
+      "replace": "#07a9de"
+    },
+    {
+      "find": "S3_VIDEO",
+      "replace": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/513c41ce-25a4-4da8-a5cf-a6615e532a19/source.m4v"
+    },
+    {
+      "find": "S4_Title",
+      "replace": "SEVILLE"
+    },
+    {
+      "find": "S4_Body",
+      "replace": "HEART OF ANDALUSIAN CULTURE WITH FLAMENCO, ALCÁZAR, AND THE GRAND CATHEDRAL."
+    },
+    {
+      "find": "S4_BACKGROUND_COLOR",
+      "replace": "#305787"
+    },
+    {
+      "find": "S4_VIDEO",
+      "replace": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/eac739e8-31b3-4281-91c2-ba307f41338b/source.mp4"
+    },
+    {
+      "find": "S5_Title",
+      "replace": "VALENCIA"
+    },
+    {
+      "find": "S5_Body",
+      "replace": "HEART OF ANDALUSIAN CULTURE WITH FLAMENCO, ALCÁZAR, AND THE GRAND CATHEDRAL."
+    },
+    {
+      "find": "S5_BACKGROUND_COLOR",
+      "replace": "#3d7436"
+    },
+    {
+      "find": "S5_VIDEO",
+      "replace": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/2e6b3fee-1d78-4b45-8c31-43e6bd6773f9/source.mp4"
+    },
+    {
+      "find": "S6_CTA",
+      "replace": "STAY TUNED"
+    },
+    {
+      "find": "S6_Tagline",
+      "replace": "SPAIN AWAITS YOUR VISIT"
+    },
+    {
+      "find": "S6_VIDEO",
+      "replace": "https://templates.shotstack.io/viva-espana-travel-promotion-sales-template/98bfcb97-bd79-44a7-b490-49058f3ac9ce/source.m4v"
+    }
+  ]
+}

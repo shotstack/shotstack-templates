@@ -1,0 +1,3483 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/2edb78be-5d8f-4e95-977b-802029d29a53/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCTx8cP.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/336be44a-80da-4f5d-b536-5ac7ecebc0c4/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCTx8cP.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/fb1fe612-bab1-4394-ae4b-4e4220d4fe8c/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCTx8cP.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/560d7b52-79d5-413f-a285-17901f8ec1ec/wlp_gwjKBV1pqhv43IQ.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/45668f4f-b4cc-488b-ab19-4ef18cacf7c1/wlp_gwjKBV1pqhv43IQ.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/5b33bd46-6791-4b8e-9387-4e457f58df1d/wlp_gwjKBV1pqhv43IQ.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/6df73ba8-8511-41bd-89b0-cd2f25a43ee8/wlp_gwjKBV1pqhv43IQ.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/cardo/v21/wlp_gwjKBV1pqiv_1oAZ2H5O.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{WEBSITE}}",
+              "font": {
+                "family": "Cardo",
+                "size": 58,
+                "weight": 400,
+                "color": "{{ Black_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.409
+            },
+            "position": "center",
+            "width": 779,
+            "height": 130
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{CTA}}",
+              "font": {
+                "family": "Cardo",
+                "size": 44,
+                "weight": 400,
+                "color": "{{ Black_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ White_BACKGROUND_COLOR }}",
+                "opacity": 1,
+                "borderRadius": 0
+              },
+              "animation": {
+                "preset": "fadeIn"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.012,
+              "y": -0.365
+            },
+            "position": "center",
+            "width": 400,
+            "height": 80
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{S1_DESCRIPTION}}",
+              "font": {
+                "family": "Cardo",
+                "size": 99,
+                "weight": 400,
+                "color": "{{ Black_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.299
+            },
+            "position": "center",
+            "width": 800,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{S1_TITLE}}",
+              "font": {
+                "family": "Cardo",
+                "size": 99,
+                "weight": 400,
+                "color": "{{ Black_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.236
+            },
+            "position": "center",
+            "width": 800,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 270 270\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"270\" height=\"270\" fill=\"{{ White_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.052
+            },
+            "position": "center",
+            "width": 270,
+            "height": 270
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/aaaad1d0-ec75-423c-9f7a-58beb63e0627/source.png"
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/ba6bafd8-36b2-4de4-ac6d-2b9ac2a1d23e/source.jpg"
+            },
+            "start": 8,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.35,
+                "to": 0.45,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.45,
+                "to": 0.45,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.521,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "fit": "crop",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/1406e495-0449-4861-bf49-ca22dea71974/source.png"
+            },
+            "start": 8,
+            "length": 2
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/1eac0e88-7d0d-4fb5-8b18-3e5285d12876/source.png"
+            },
+            "start": 8,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.385,
+                "to": 0.485,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.485,
+                "to": 0.485,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.523,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 8,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.45,
+                "to": 0.35,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.35,
+                "to": 0.35,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0,
+                  "to": -0.521,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": -0.521,
+                  "to": -0.521,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/ca59bcec-33f9-4793-b24e-3db148bc7366/source.png"
+            },
+            "start": 8,
+            "length": 2
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/03824f82-6247-4be9-88c0-fc4734ef3d77/source.png"
+            },
+            "start": 8,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.485,
+                "to": 0.384,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.384,
+                "to": 0.384,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0,
+                  "to": -0.524,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": -0.524,
+                  "to": -0.524,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 8,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.35,
+                "to": 0.35,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.35,
+                "to": 0.35,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": -0.521,
+                  "to": 0.521,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.521,
+                  "to": 0.521,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/e43dfc36-e92a-4268-9192-844aea35c510/source.png"
+            },
+            "start": 8,
+            "length": 2
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/f2ac63aa-1c2b-4ef9-af53-cad51d38bc9a/source.png"
+            },
+            "start": 8,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.385,
+                "to": 0.385,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.385,
+                "to": 0.385,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": -0.515,
+                  "to": 0.525,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.525,
+                  "to": 0.525,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 6,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.35,
+                "to": 0.45,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.45,
+                "to": 0.45,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.521,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "fit": "crop",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/52b5e44b-5c8c-4ead-aa65-25cd84993bd1/source.png"
+            },
+            "start": 6,
+            "length": 2
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/9d9ef877-d99c-4183-8095-f5ebb942fda1/source.png"
+            },
+            "start": 6,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.385,
+                "to": 0.485,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.485,
+                "to": 0.485,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.523,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 6,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.45,
+                "to": 0.35,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.35,
+                "to": 0.35,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0,
+                  "to": -0.521,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": -0.521,
+                  "to": -0.521,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/5d88b5c8-d227-4afe-926e-2d33c1d6f27f/source.png"
+            },
+            "start": 6,
+            "length": 2
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/513cfcda-74c7-4af4-bfc4-54f83f908b54/source.png"
+            },
+            "start": 6,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.485,
+                "to": 0.384,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.384,
+                "to": 0.384,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0,
+                  "to": -0.524,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": -0.524,
+                  "to": -0.524,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/348bac74-a8c1-48c9-8d12-c9a9720040fa/source.jpg"
+            },
+            "start": 6,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.35,
+                "to": 0.35,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.35,
+                "to": 0.35,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": -0.521,
+                  "to": 0.521,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.521,
+                  "to": 0.521,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/61f4ef4b-58aa-46b0-9373-b3f0e21a0539/source.png"
+            },
+            "start": 6,
+            "length": 2
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/7225a992-b92b-49a1-8845-d14c4d402aca/source.png"
+            },
+            "start": 6,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.385,
+                "to": 0.385,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.385,
+                "to": 0.385,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": -0.515,
+                  "to": 0.525,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.525,
+                  "to": 0.525,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 4,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.35,
+                "to": 0.45,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.45,
+                "to": 0.45,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.521,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "fit": "crop",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/e52e59c4-f5ca-4e93-adc5-fadba6717aa4/source.png"
+            },
+            "start": 4,
+            "length": 2
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/141c65f5-a8c8-4590-8aed-3933465840b8/source.png"
+            },
+            "start": 4,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.385,
+                "to": 0.485,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.485,
+                "to": 0.485,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.523,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/7faa7a15-5de5-4b75-8659-1c90d8aaf02c/source.jpg"
+            },
+            "start": 4,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.45,
+                "to": 0.35,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.35,
+                "to": 0.35,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0,
+                  "to": -0.521,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": -0.521,
+                  "to": -0.521,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/ae179ac8-80cc-486b-9eae-314c689dc76b/source.png"
+            },
+            "start": 4,
+            "length": 2
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/fb491d5e-ac8d-474b-ad6b-83b73fd9df79/source.png"
+            },
+            "start": 4,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.485,
+                "to": 0.384,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.384,
+                "to": 0.384,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0,
+                  "to": -0.524,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": -0.524,
+                  "to": -0.524,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 4,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.35,
+                "to": 0.35,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.35,
+                "to": 0.35,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": -0.521,
+                  "to": 0.521,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.521,
+                  "to": 0.521,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/6d8bf736-24c4-4177-ba94-909cc619e0be/source.png"
+            },
+            "start": 4,
+            "length": 2
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/60bac838-e1f7-411d-b4da-f25823c765e6/source.png"
+            },
+            "start": 4,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.385,
+                "to": 0.385,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.385,
+                "to": 0.385,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": -0.515,
+                  "to": 0.525,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.525,
+                  "to": 0.525,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/4be42374-bc36-4e00-98b5-387d41455357/source.png"
+            },
+            "start": 2,
+            "length": 2
+          },
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_3 }}"
+            },
+            "start": 2,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.35,
+                "to": 0.45,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.45,
+                "to": 0.45,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.521,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "fit": "crop",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/53e584f7-7e02-4d99-a571-0c1b7f232948/source.png"
+            },
+            "start": 2,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.385,
+                "to": 0.485,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.485,
+                "to": 0.485,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.523,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/c1a6f7e4-ca9b-4d3d-a710-4831f0600c04/source.png"
+            },
+            "start": 2,
+            "length": 2
+          },
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 2,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.45,
+                "to": 0.35,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.35,
+                "to": 0.35,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0,
+                  "to": -0.521,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": -0.521,
+                  "to": -0.521,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/9fd1837f-a63b-40e2-b7bf-dd9fe5f206be/source.png"
+            },
+            "start": 2,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.485,
+                "to": 0.384,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.384,
+                "to": 0.384,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0,
+                  "to": -0.524,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": -0.524,
+                  "to": -0.524,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/5873702f-3b3f-4720-afe6-1347ea22ca03/source.png"
+            },
+            "start": 2,
+            "length": 2
+          },
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 2,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.35,
+                "to": 0.35,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.35,
+                "to": 0.35,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": -0.521,
+                  "to": 0.521,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.521,
+                  "to": 0.521,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/eb7822f2-f504-4bbd-be24-d570bab79d2f/source.png"
+            },
+            "start": 2,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.385,
+                "to": 0.385,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.385,
+                "to": 0.385,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": -0.515,
+                  "to": 0.525,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.525,
+                  "to": 0.525,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC }}"
+            },
+            "start": 0,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.35,
+                "to": 0.45,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.45,
+                "to": 0.45,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.521,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "fit": "crop",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/cceb5e1b-9dc1-466f-9ec8-5211dfc2c09a/source.png"
+            },
+            "start": 0,
+            "length": 2
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/71afbfca-4571-414c-911f-99f51123c046/source.png"
+            },
+            "start": 0,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.385,
+                "to": 0.485,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.485,
+                "to": 0.485,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.523,
+                  "to": 0,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0,
+                  "to": 0,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_SRC_2 }}"
+            },
+            "start": 0,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.45,
+                "to": 0.35,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.35,
+                "to": 0.35,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0,
+                  "to": -0.521,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": -0.521,
+                  "to": -0.521,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/0fbce8f2-27b6-4483-ac16-0586f9c7967f/source.png"
+            },
+            "start": 0,
+            "length": 2
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/d6c12702-1b09-4064-b499-bb6a06bc8858/source.png"
+            },
+            "start": 0,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.485,
+                "to": 0.384,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.384,
+                "to": 0.384,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0,
+                  "to": -0.524,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": -0.524,
+                  "to": -0.524,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/45a59e9a-9b1d-4b37-ad27-20432095229c/source.jpg"
+            },
+            "start": 0,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.35,
+                "to": 0.35,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.35,
+                "to": 0.35,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": -0.521,
+                  "to": 0.521,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.521,
+                  "to": 0.521,
+                  "interpolation": "linear"
+                }
+              ],
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "position": "center",
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/299cd89d-0bbe-4a11-b1c7-f25265b4c8f9/source.png"
+            },
+            "start": 0,
+            "length": 2
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/b32be5b4-e962-4cf5-999b-1d5133388dac/source.png"
+            },
+            "start": 0,
+            "scale": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 0.385,
+                "to": 0.385,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 0.385,
+                "to": 0.385,
+                "interpolation": "linear"
+              }
+            ],
+            "offset": {
+              "y": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.058,
+                  "to": 0.058,
+                  "interpolation": "linear"
+                }
+              ],
+              "x": [
+                {
+                  "start": 0,
+                  "length": 0.74,
+                  "from": -0.525,
+                  "to": 0.525,
+                  "interpolation": "linear"
+                },
+                {
+                  "start": 0.74,
+                  "length": 1.07,
+                  "from": 0.525,
+                  "to": 0.525,
+                  "interpolation": "linear"
+                }
+              ]
+            },
+            "opacity": [
+              {
+                "start": 0,
+                "length": 0.74,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              },
+              {
+                "start": 0.74,
+                "length": 1.07,
+                "from": 1,
+                "to": 1,
+                "interpolation": "linear"
+              }
+            ],
+            "transform": {
+              "rotate": {
+                "angle": [
+                  {
+                    "start": 0,
+                    "length": 0.74,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  },
+                  {
+                    "start": 0.74,
+                    "length": 1.07,
+                    "from": 0,
+                    "to": 0,
+                    "interpolation": "linear"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"#000000\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "y": -0.034
+            },
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/e16e4fa9-3710-4a74-b956-4ae2b5676642/source.png"
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ Yellow_BACKGROUND_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/a38366c3-b22b-4591-9958-23c2309bd591/source.png"
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ Black_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/db81ab73-9f1f-4b99-8a87-bb01d0d07cc5/source.png"
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ Black_FONT_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/37395eb5-5271-43bf-b8b7-d5c4cea2268e/source.png"
+            },
+            "start": 0,
+            "length": 10
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ White_BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 10,
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "WEBSITE",
+      "replace": "www.websitehere.com"
+    },
+    {
+      "find": "CTA",
+      "replace": "SHOP NOW"
+    },
+    {
+      "find": "S1_DESCRIPTION",
+      "replace": "COLLECTION"
+    },
+    {
+      "find": "S1_TITLE",
+      "replace": "New"
+    },
+    {
+      "find": "Black_FONT_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "White_BACKGROUND_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "Yellow_BACKGROUND_COLOR_2",
+      "replace": "#d58d5d"
+    },
+    {
+      "find": "IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/721909ba-c161-47e7-b70d-333e68873683/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_2",
+      "replace": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/624772a7-9284-4a63-b5f3-e56e084d7d1b/source.jpg"
+    },
+    {
+      "find": "IMAGE_SRC_3",
+      "replace": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/a92ad0cf-0a9b-462e-8ece-5576edd0c554/shotstack-proxy.webp"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/dynamic-promo-showcase-sale-template/c96692ae-b2b9-45ef-bd0b-93d012fdc0f3/source.mp3"
+    }
+  ]
+}

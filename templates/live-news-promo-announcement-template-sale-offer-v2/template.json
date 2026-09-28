@@ -1,0 +1,754 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 96,
+                "weight": 500,
+                "color": "{{ White_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 16.1293,
+            "length": "end",
+            "offset": {
+              "x": 0.039,
+              "y": 0.131
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 900,
+            "height": 270
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{SOCIAL_MEDIA}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 81,
+                "weight": 700,
+                "color": "#000000",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "character"
+              }
+            },
+            "start": 16.2,
+            "length": "end",
+            "offset": {
+              "x": 0.021,
+              "y": -0.03
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 754,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 900 900\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"900\" height=\"900\" fill=\"{{ Element_COLOR }}\"/></svg>"
+            },
+            "start": 16.1,
+            "length": "end",
+            "offset": {
+              "x": -0.051,
+              "y": -0.094
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 900,
+            "height": 900
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/live-news-promo-announcement-template-sale-offer/41db743f-2a51-4824-9640-784ed0af658e/source.png"
+            },
+            "start": 16.1,
+            "length": 7.899999999999999
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/live-news-promo-announcement-template-sale-offer/84a638e7-2d77-4b49-904d-dee807d11756/source.png"
+            },
+            "start": 16,
+            "position": "center",
+            "scale": 1,
+            "transition": {
+              "in": "slideRight"
+            },
+            "fit": "contain",
+            "width": 862,
+            "height": 906,
+            "offset": {
+              "x": 0,
+              "y": 1.1102230246251565e-16
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_DESCRIPTION}}",
+              "font": {
+                "family": "ahcfv8qz1zt6hCC5G4F_P4ASpUySp0LlcyQ",
+                "size": 49,
+                "weight": 400,
+                "color": "{{ White_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "animation": {
+                "preset": "typewriter",
+                "style": "word",
+                "direction": "right",
+                "duration": 1.5
+              }
+            },
+            "start": 8.8,
+            "length": 7.2,
+            "offset": {
+              "x": -0.016,
+              "y": -0.321
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            },
+            "width": 800,
+            "height": 500
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S2_TITLE}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 85,
+                "weight": 700,
+                "color": "{{ Element_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "right",
+                "style": "word"
+              }
+            },
+            "start": 8.7,
+            "length": 7.2,
+            "offset": {
+              "x": -0.016,
+              "y": -0.125
+            },
+            "position": "center",
+            "transition": {
+              "out": "slideRight",
+              "in": "slideRight"
+            },
+            "width": 800,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 250 20\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"250\" height=\"20\" fill=\"{{ Element_COLOR }}\"/></svg>"
+            },
+            "start": 8.6,
+            "length": 7.2,
+            "offset": {
+              "x": -0.271,
+              "y": -0.057
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            },
+            "width": 250,
+            "height": 20
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_DESCRIPTION}}",
+              "font": {
+                "family": "KFOmCnqEu92Fr1Me5WZLCzYlKw",
+                "size": 91,
+                "weight": 900,
+                "color": "{{ Black_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 8.3,
+            "length": 7.7,
+            "offset": {
+              "x": -0.313,
+              "y": 0.367
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            },
+            "width": 350,
+            "height": 120
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 7.5,
+            "asset": {
+              "type": "image",
+              "src": "{{ S2_IMAGE_SRC }}"
+            },
+            "start": 8.2,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0.10917655653278102
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            },
+            "fit": "contain",
+            "width": 825,
+            "height": 551
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_TITLE}}",
+              "font": {
+                "family": "KFOmCnqEu92Fr1Me5WZLCzYlKw",
+                "size": 91,
+                "weight": 900,
+                "color": "{{ Black_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 8.2,
+            "length": 7.7,
+            "offset": {
+              "x": -0.338,
+              "y": 0.409
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            },
+            "width": 350,
+            "height": 120
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/live-news-promo-announcement-template-sale-offer/3d03fe79-6abc-4a77-b466-235ab7acf9a3/source.png"
+            },
+            "start": 8,
+            "length": 7.8
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 500 500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"500\" height=\"500\" fill=\"{{ Element_COLOR }}\"/></svg>"
+            },
+            "start": 8,
+            "length": 7.8,
+            "offset": {
+              "x": -0.41,
+              "y": 0.329
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            },
+            "width": 500,
+            "height": 500
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 7.7,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/live-news-promo-announcement-template-sale-offer/59678b6d-1dae-4ac3-9788-c65c4dbd9b87/source.png"
+            },
+            "start": 8,
+            "offset": {
+              "x": -0.4210000000000002,
+              "y": 0.39588655942545575
+            },
+            "position": "center",
+            "scale": 1,
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            },
+            "fit": "contain",
+            "width": 674,
+            "height": 753
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{WEBSITE}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 56,
+                "weight": 500,
+                "color": "{{ White_FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.5,
+            "length": 7.35,
+            "offset": {
+              "x": 0.009,
+              "y": -0.428
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            },
+            "width": 800,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{S1_DESCRIPTION}}",
+              "font": {
+                "family": "KFOmCnqEu92Fr1Me5WZLCzYlKw",
+                "size": 220,
+                "weight": 900,
+                "color": "{{ Black_FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.3,
+            "length": 7.7,
+            "offset": {
+              "x": -0.012,
+              "y": 0.008
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            },
+            "width": 800,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": " {{S1_TITLE}}",
+              "font": {
+                "family": "KFOmCnqEu92Fr1Me5WZLCzYlKw",
+                "size": 220,
+                "weight": 900,
+                "color": "#000000",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.2,
+            "length": 7.7,
+            "offset": {
+              "x": -0.092,
+              "y": 0.112
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            },
+            "width": 800,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/live-news-promo-announcement-template-sale-offer/60906e92-7b06-47b6-8f69-56225315ca5a/source.png"
+            },
+            "start": 0,
+            "length": 7.8
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1500 1500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1500\" height=\"1500\" fill=\"{{ Element_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 7.8,
+            "offset": {
+              "x": -0.407,
+              "y": -0.074
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            },
+            "width": 1500,
+            "height": 1500
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 7.7,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/live-news-promo-announcement-template-sale-offer/08a4b9f5-47dc-4239-a6a5-e0945ff98a1d/source.png"
+            },
+            "start": 0,
+            "offset": {
+              "x": -0.288,
+              "y": 0.06934032172363266
+            },
+            "position": "center",
+            "scale": 1,
+            "transition": {
+              "in": "slideRight",
+              "out": "slideRight"
+            },
+            "fit": "contain",
+            "width": 1646,
+            "height": 1652
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 8,
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/live-news-promo-announcement-template-sale-offer/f1a51dc6-4c7a-4a6b-b555-cca27ca35557/source.mp4",
+              "volume": 1
+            },
+            "start": 16,
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 8,
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/live-news-promo-announcement-template-sale-offer/35e38c5a-732b-4619-81f1-857d4ab528ed/source.mp4",
+              "volume": 1
+            },
+            "start": 8,
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 8,
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/live-news-promo-announcement-template-sale-offer/c9894888-ba35-4e23-866c-7677a15a9c1a/source.mp4",
+              "volume": 1
+            },
+            "start": 0,
+            "fit": "contain",
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      }
+    ],
+    "fonts": [
+      {
+        "src": "https://fonts.gstatic.com/s/roboto/v50/KFOmCnqEu92Fr1Me5WZLCzYlKw.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm45xW5rygbi49c.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/didactgothic/v21/ahcfv8qz1zt6hCC5G4F_P4ASpUySp0LlcyQ.ttf"
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "S1_TITLE",
+      "replace": "Live"
+    },
+    {
+      "find": "S1_DESCRIPTION",
+      "replace": "News"
+    },
+    {
+      "find": "Black_FONT_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "WEBSITE",
+      "replace": "www.websitenews.com"
+    },
+    {
+      "find": "White_FONT_COLOR_2",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "Element_COLOR",
+      "replace": "#33ccd7"
+    },
+    {
+      "find": "S2_TITLE",
+      "replace": "Smart Farming Boosts Yields"
+    },
+    {
+      "find": "S2_DESCRIPTION",
+      "replace": "Farmers in northern Nigeria now use smart tools like drones and weather apps to boost crop yields. Musa Danjuma saw a 30% increase in maize. The government aims to support 50,000 farmers by 2025. Experts say smart farming helps tackle climate change and improve food security."
+    },
+    {
+      "find": "S2_IMAGE_SRC",
+      "replace": "https://templates.shotstack.io/live-news-promo-announcement-template-sale-offer/0aba031e-de90-4467-932f-acb184e24d74/source.jpg"
+    },
+    {
+      "find": "CTA",
+      "replace": "Be informed subscribe today"
+    },
+    {
+      "find": "SOCIAL_MEDIA",
+      "replace": "@websitenews"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/live-news-promo-announcement-template-sale-offer/10dc2f53-701c-46ed-8c33-09b041f49275/shotstack-proxy.mp3"
+    }
+  ]
+}

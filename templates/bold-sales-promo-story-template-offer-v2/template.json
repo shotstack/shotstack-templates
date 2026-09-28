@@ -1,0 +1,487 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/bold-sales-promo-story-template-offer/bcbd582d-a584-4348-bc04-a937089a14c7/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/bold-sales-promo-story-template-offer/f24a59b2-d8d1-4889-81f5-295c29100be2/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/bold-sales-promo-story-template-offer/ffa88547-97e6-44df-9bc8-101e6825e3ab/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/bold-sales-promo-story-template-offer/39516569-cc0f-4908-9374-862bd51e55d6/source.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrFJDUc1NECPY.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Web}}",
+              "font": {
+                "family": "Poppins",
+                "size": 50,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "typewriter"
+              }
+            },
+            "start": 0.9,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.402
+            },
+            "position": "center",
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-sales-promo-story-template-offer/3ff1d7a6-c512-41f3-bb65-75ba1e85fb46/source.mp4"
+            },
+            "start": 0.5,
+            "length": 4.5
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 800\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"800\" fill=\"{{ FONT_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": -0.397,
+              "y": -0.465
+            },
+            "position": "center",
+            "width": 800,
+            "height": 800
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CTA}}",
+              "font": {
+                "family": "Poppins",
+                "size": 60,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "background": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1,
+                "borderRadius": 65
+              }
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.298
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 500,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Discount}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 95,
+                "weight": 800,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.65,
+            "length": "end",
+            "offset": {
+              "x": 0.245,
+              "y": 0.026
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 5.2
+              }
+            },
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 300,
+            "height": 300
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-sales-promo-story-template-offer/c427636a-9d1c-4667-9cc8-6e55c881dab3/source.png"
+            },
+            "start": 0.6,
+            "length": 4.4
+          },
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 400\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"400\" fill=\"{{ FONT_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.245,
+              "y": 0.025
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 400,
+            "height": 400
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ Product_IMAG }}"
+            },
+            "start": 0.4,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": -0.05212499999999998
+            },
+            "transform": {
+              "rotate": {
+                "angle": -0.8
+              }
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "fit": "contain",
+            "width": 800,
+            "height": 788
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Sub_Title}}",
+              "font": {
+                "family": "Poppins",
+                "size": 50,
+                "weight": 400,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "down",
+                "style": "word"
+              }
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "y": 0.17,
+              "x": 0
+            },
+            "transition": {
+              "in": "slideDown"
+            },
+            "position": "center",
+            "width": 800,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title}}",
+              "font": {
+                "family": "Poppins ExtraBold",
+                "size": 120,
+                "weight": 800,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "slideIn",
+                "direction": "down",
+                "style": "word"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "y": 0.258
+            },
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 1000,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Brand_Name}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 50,
+                "weight": 600,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "y": 0.405
+            },
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 800,
+            "height": 90
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 800 800\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"800\" fill=\"#ffffff\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.435,
+              "y": 0.471
+            },
+            "position": "center",
+            "width": 800,
+            "height": 800
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-sales-promo-story-template-offer/51cd540c-4fa6-4490-9c10-fa6c88c8f083/source.mp4"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ BACKGROUND_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 5,
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/bold-sales-promo-story-template-offer/bdb58bad-5442-4b18-8f64-a75699e5e4ab/source.mp4"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Brand_Name",
+      "replace": "Faz Mode"
+    },
+    {
+      "find": "Title",
+      "replace": "CROWN YOUR CONFIDENCE"
+    },
+    {
+      "find": "Sub_Title",
+      "replace": "Lead with the Look"
+    },
+    {
+      "find": "Product_IMAG",
+      "replace": "https://templates.shotstack.io/bold-sales-promo-story-template-offer/e4603244-5bbb-4c11-b261-2d8179781f98/source.png"
+    },
+    {
+      "find": "Discount",
+      "replace": "40% OFF"
+    },
+    {
+      "find": "CTA",
+      "replace": "ORDER NOW"
+    },
+    {
+      "find": "Web",
+      "replace": "www.fazmodel.com"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#000000"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/bold-sales-promo-story-template-offer/b272c2e4-d41b-4406-90a9-e0be16949644/source.mp3"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#6c0774"
+    }
+  ]
+}

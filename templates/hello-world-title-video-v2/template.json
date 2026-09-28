@@ -1,0 +1,120 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/hello-world-title-video/f60f6f75-38b6-4aa8-8db0-28741aa34ec8/MovieLetters.ttf"
+      }
+    ],
+    "background": "#000000",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "HELLO {{ NAME }}",
+              "font": {
+                "family": "Clear Sans",
+                "size": 80,
+                "weight": 400,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1.2,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 1.94,
+            "length": 2.06,
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "fit": "none",
+            "scale": 1,
+            "offset": {
+              "x": -0.206,
+              "y": -0.138
+            },
+            "position": "center",
+            "effect": "zoomIn",
+            "width": 720,
+            "height": 212
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/hello-world-title-video/aa5d068a-c2c2-4cff-800a-15cacf9a8809/earth.mp4",
+              "trim": 5,
+              "volume": 1
+            },
+            "start": 0,
+            "length": 4,
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "position": "center",
+            "scale": 1,
+            "fit": "contain",
+            "width": 1280,
+            "height": 720,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "audio",
+              "src": "https://templates.shotstack.io/hello-world-title-video/47474436-7f03-48fd-990d-f00b04b339b3/source.mp3",
+              "volume": 1,
+              "effect": "fadeOut"
+            },
+            "start": 0,
+            "length": 4
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1280,
+      "height": 720
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "NAME",
+      "replace": "WORLD"
+    }
+  ]
+}

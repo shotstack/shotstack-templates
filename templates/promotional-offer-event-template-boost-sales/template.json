@@ -1,0 +1,511 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/promotional-offer-event-template-boost-sales/ae720c9f-c4e5-4102-a66b-59ca87212600/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/promotional-offer-event-template-boost-sales/62c66e9e-3a00-4b07-9632-389e0bf2f9eb/source.otf"
+      },
+      {
+        "src": "https://templates.shotstack.io/promotional-offer-event-template-boost-sales/3cfda0df-38de-467d-8b16-ecaea8cc08ca/source.otf"
+      },
+      {
+        "src": "https://templates.shotstack.io/promotional-offer-event-template-boost-sales/a7135629-5e36-4cf9-a505-25cdb4126e5e/source.otf"
+      },
+      {
+        "src": "https://templates.shotstack.io/promotional-offer-event-template-boost-sales/a9d45346-f830-494e-9964-bea79fa363ff/source.ttf"
+      },
+      {
+        "src": "https://templates.shotstack.io/promotional-offer-event-template-boost-sales/5a80c85a-ae3d-442a-b1f1-3f70a9d49df2/source.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO_SRC }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S3_Description}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "top"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "League Spartan",
+                "size": "80",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 600
+            },
+            "start": 8.42,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.031
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S3_Brand_name}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "League Spartan",
+                "size": "130",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 100
+            },
+            "start": 8.22,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.17
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 874,
+              "height": 1030,
+              "background": {
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 0.46,
+                "borderRadius": 42
+              }
+            },
+            "start": 8.07,
+            "length": "end",
+            "transition": {
+              "in": "slideUp"
+            },
+            "position": "center"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "{{ S3_VIDEO }}",
+              "volume": 1
+            },
+            "start": 7.95,
+            "offset": {
+              "x": -0.209,
+              "y": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_Web}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "Glacial Indifference",
+                "size": "50",
+                "lineHeight": 1
+              },
+              "width": 600,
+              "height": 100
+            },
+            "start": 1.28,
+            "length": 7.19,
+            "offset": {
+              "x": 0,
+              "y": -0.411
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_CTA}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_2 }}",
+                "family": "Glacial Indifference",
+                "size": "100",
+                "lineHeight": 1
+              },
+              "width": 536,
+              "height": 142,
+              "background": {
+                "borderRadius": 45,
+                "color": "{{ FONT_COLOR_1 }}"
+              }
+            },
+            "start": 1.1,
+            "length": 7.41,
+            "offset": {
+              "x": 0,
+              "y": -0.348
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/promotional-offer-event-template-boost-sales/eca29c60-bedd-487f-9784-226ef28b5894/source.png"
+            },
+            "start": 0.9,
+            "length": 7.66
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 2000,
+              "height": 2000,
+              "background": {
+                "color": "{{ FONT_COLOR_1 }}"
+              }
+            },
+            "start": 0.94,
+            "length": 7.61,
+            "offset": {
+              "x": 0,
+              "y": -0.235
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp",
+              "out": "fade"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/promotional-offer-event-template-boost-sales/04c1fa77-e1b1-4bf5-a003-fd3995cb8662/source.png"
+            },
+            "start": 0.92,
+            "length": 7.64
+          },
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 2000,
+              "height": 2000,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR }}"
+              }
+            },
+            "start": 0.94,
+            "length": 7.62,
+            "offset": {
+              "x": 0,
+              "y": -0.521
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "slideUp"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_Brand_name}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "Regular Brush Personal Use Only",
+                "size": "220",
+                "lineHeight": 1
+              },
+              "width": 950,
+              "height": 290
+            },
+            "start": 0.64,
+            "length": 7.94,
+            "offset": {
+              "x": 0,
+              "y": 0.076
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_Title_2}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "Glacial Indifference",
+                "size": "100",
+                "lineHeight": 1
+              },
+              "width": 500,
+              "height": 100
+            },
+            "start": 0.31,
+            "length": 8.26,
+            "offset": {
+              "x": 0,
+              "y": 0.332
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{S1_Title_1}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR_1 }}",
+                "family": "Glacial Indifference",
+                "size": "220",
+                "lineHeight": 1
+              },
+              "width": 900,
+              "height": 250
+            },
+            "start": 0,
+            "length": 8.58,
+            "offset": {
+              "x": 0,
+              "y": 0.407
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.5,
+            "asset": {
+              "type": "video",
+              "src": "{{ S3_VIDEO }}"
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.5,
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/promotional-offer-event-template-boost-sales/87f5b80b-ba33-4568-9a98-03c5d74693b4/source.mp4",
+              "volume": 1
+            },
+            "start": 4.11,
+            "offset": {
+              "x": -0.514,
+              "y": 0
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "merge": [
+    {
+      "find": "S1_Title_1",
+      "replace": "TRAVEL"
+    },
+    {
+      "find": "S1_Title_2",
+      "replace": "WITH US"
+    },
+    {
+      "find": "S1_Brand_name",
+      "replace": "Air Path"
+    },
+    {
+      "find": "S1_CTA",
+      "replace": "Fly Today"
+    },
+    {
+      "find": "S1_Web",
+      "replace": "www.airpath.com"
+    },
+    {
+      "find": "S2_VIDEO",
+      "replace": "https://templates.shotstack.io/promotional-offer-event-template-boost-sales/b0c75169-4e58-4cd3-b96b-1ec983f0b6f3/source.mp4"
+    },
+    {
+      "find": "S1_VIDEO",
+      "replace": "https://templates.shotstack.io/promotional-offer-event-template-boost-sales/9d7f1370-52c1-4e43-9287-8ca9511883d6/source.mp4"
+    },
+    {
+      "find": "S3_VIDEO",
+      "replace": "https://templates.shotstack.io/promotional-offer-event-template-boost-sales/94a54f6b-6ae9-493a-aa68-44d4f124cec9/source.mp4"
+    },
+    {
+      "find": "S3_Brand_name",
+      "replace": "Air Path, Int"
+    },
+    {
+      "find": "S3_Description",
+      "replace": "Visit our website at www.airpath.com– choose your destination, select your travel dates, compare airlines, and pay securely in minutes"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#000000"
+    },
+    {
+      "find": "BACKGROUND_COLOR",
+      "replace": "#0489a4"
+    },
+    {
+      "find": "AUDIO_SRC",
+      "replace": "https://templates.shotstack.io/promotional-offer-event-template-boost-sales/dc2aea44-b00d-4c50-8396-6f0b9eb2c37f/source.mp3"
+    }
+  ]
+}

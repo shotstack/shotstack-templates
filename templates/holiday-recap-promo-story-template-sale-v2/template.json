@@ -1,0 +1,570 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_8 }}"
+            },
+            "start": 14,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_7 }}"
+            },
+            "start": 13,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_6 }}"
+            },
+            "start": 12,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_5 }}"
+            },
+            "start": 11,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_4 }}"
+            },
+            "start": 10,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_3 }}"
+            },
+            "start": 9,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_2 }}"
+            },
+            "start": 8,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1,
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_1 }}"
+            },
+            "start": 7,
+            "width": 1080,
+            "height": 1920,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "fit": "crop"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{S1_Title}}",
+              "font": {
+                "family": "JTUSjIg1_i6t8kCHKm45xW5rygbi49c",
+                "size": 100,
+                "weight": 700,
+                "color": "#ffffff",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.5,
+            "length": 6.5,
+            "transition": {
+              "in": "slideUpSlow"
+            },
+            "width": 500,
+            "height": 250
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 1.5,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_1 }}"
+            },
+            "start": 5,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "fit": "contain",
+            "width": 407,
+            "height": 753
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/ca488abb-8845-4e08-bfa2-344c32969948/source.png"
+            },
+            "start": 5,
+            "length": 1.5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_2 }}"
+            },
+            "start": 4.5,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": -0.051304078695137534
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "fit": "contain",
+            "width": 884,
+            "height": 496
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/aa418c0d-aa54-4c0e-b303-02e25fc0253c/source.png"
+            },
+            "start": 4.5,
+            "length": 2
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 2.5,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_3 }}"
+            },
+            "start": 4,
+            "scale": 1,
+            "offset": {
+              "x": -0.25243668476513603,
+              "y": 0.11937063576522258
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "fit": "contain",
+            "width": 433,
+            "height": 788
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/532da63d-f891-4cd5-80b0-5cc50513c0ba/source.png"
+            },
+            "start": 4,
+            "length": 2.5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_4 }}"
+            },
+            "start": 3.5,
+            "scale": 1,
+            "offset": {
+              "x": 0.2570000000000001,
+              "y": 0.09099999999999997
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "fit": "contain",
+            "width": 407,
+            "height": 753
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/54e71161-7c58-4158-86ae-ea185d954255/source.png"
+            },
+            "start": 3.5,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 3.5,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_5 }}"
+            },
+            "start": 3,
+            "scale": 1,
+            "offset": {
+              "x": -0.20868962698992835,
+              "y": -0.16820272904483424
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "width": 407,
+            "height": 753,
+            "fit": "contain"
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/dafc0b08-cd04-4550-8460-83d9a7706aa3/source.png"
+            },
+            "start": 3,
+            "length": 3.5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_6 }}"
+            },
+            "start": 2.5,
+            "scale": 1,
+            "offset": {
+              "x": 0.05700000000000005,
+              "y": -0.2849999999999999
+            },
+            "position": "center",
+            "transition": {
+              "out": "fade",
+              "in": "fade"
+            },
+            "fit": "contain",
+            "width": 884,
+            "height": 496
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/10f8371f-d012-4f3f-81e1-7e172e6180f7/source.png"
+            },
+            "start": 2.5,
+            "length": 4
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.5,
+            "asset": {
+              "type": "image",
+              "src": "{{ S1_IMAGE_7 }}"
+            },
+            "start": 2,
+            "scale": 1,
+            "offset": {
+              "x": 0,
+              "y": 0.3030306233280181
+            },
+            "position": "center",
+            "transition": {
+              "in": "fade",
+              "out": "fade"
+            },
+            "fit": "contain",
+            "width": 884,
+            "height": 496
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/076c630b-0725-45f8-8d98-9f1e0c1c8b10/source.png"
+            },
+            "start": 2,
+            "length": 4.5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 7,
+            "asset": {
+              "type": "video",
+              "src": "{{ S1_BACKGROUND_VIDEO }}"
+            },
+            "start": 0,
+            "transition": {
+              "out": "fade"
+            },
+            "fit": "contain",
+            "width": 1215,
+            "height": 2060,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"#000000\"/></svg>"
+            },
+            "start": 0,
+            "length": 15,
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ],
+    "fonts": [
+      {
+        "src": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm45xW5rygbi49c.ttf"
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "S1_Title",
+      "replace": "Holiday Recap"
+    },
+    {
+      "find": "S1_IMAGE_1",
+      "replace": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/7e638a79-0de9-48bc-b69a-6fb1818be099/source.png"
+    },
+    {
+      "find": "S1_IMAGE_2",
+      "replace": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/81b63a7d-fd2b-434f-a9c2-f0b6d786be4a/source.png"
+    },
+    {
+      "find": "S1_IMAGE_3",
+      "replace": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/d1517788-32a6-49e5-9f57-f22e174f941b/source.png"
+    },
+    {
+      "find": "S1_IMAGE_4",
+      "replace": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/ddadfa2b-6ef6-45fa-820b-dca45552e3f9/source.png"
+    },
+    {
+      "find": "S1_IMAGE_5",
+      "replace": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/12d1f2b7-10ea-4a37-97c5-9b34bcfae970/source.png"
+    },
+    {
+      "find": "S1_IMAGE_6",
+      "replace": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/ebe14028-83c6-462a-9363-c9cbf68ffd23/source.png"
+    },
+    {
+      "find": "S1_IMAGE_7",
+      "replace": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/d3d20e84-206c-4ad8-91ca-b5af525b54e2/source.png"
+    },
+    {
+      "find": "S1_BACKGROUND_VIDEO",
+      "replace": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/2e5e49f3-c626-45be-8976-3f49435f87f9/source.mp4"
+    },
+    {
+      "find": "IMAGE_1",
+      "replace": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/d89b6e2a-b33c-4c7d-af5c-33d03801ed0a/source.jpg"
+    },
+    {
+      "find": "IMAGE_2",
+      "replace": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/87fb0bdd-8a42-4825-b939-8a4c6e6c7d88/source.jpg"
+    },
+    {
+      "find": "IMAGE_3",
+      "replace": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/31a061d5-0267-4dbe-8f6e-56b4a1531a52/source.jpg"
+    },
+    {
+      "find": "IMAGE_4",
+      "replace": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/f53f6c1a-6894-4960-943d-ebc67161586f/source.jpg"
+    },
+    {
+      "find": "IMAGE_5",
+      "replace": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/18dc4fb2-5a82-4af8-9d4e-58dd5907bd48/source.jpg"
+    },
+    {
+      "find": "IMAGE_6",
+      "replace": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/8f54be1f-1eba-4e70-9eb8-b40e92fc7579/source.jpg"
+    },
+    {
+      "find": "IMAGE_7",
+      "replace": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/79c531b7-aa5c-4970-9257-b954f3d7ee1e/source.jpg"
+    },
+    {
+      "find": "IMAGE_8",
+      "replace": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/cd5f590f-65a9-47ce-8abc-7876f5e87ea0/source.jpg"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/holiday-recap-promo-story-template-sale/92c115c4-684b-41ce-9cdb-2ac6c485343a/source.mp3"
+    }
+  ]
+}

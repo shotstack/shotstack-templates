@@ -1,0 +1,213 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{NAME}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 45,
+                "weight": 800,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": 0.326,
+              "y": -0.25
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 500,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{TAG}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 35,
+                "weight": 800,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.248,
+              "y": -0.177
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 300,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 400\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"400\" fill=\"{{ SHAPE_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": 0.253,
+              "y": -0.217
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 400
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/techtalks-live-event-promo-template-speaker-offer/fd545c0d-9532-4a6b-b460-41dface7ece3/source.png"
+            },
+            "start": 0.2,
+            "length": 14.8
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 600 600\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"600\" height=\"600\" fill=\"{{ SHAPE_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": 0.326,
+              "y": -0.225
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 600,
+            "height": 600
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/techtalks-live-event-promo-template-speaker-offer/07e49e81-71f6-41e7-bfcf-fda4e8923b0d/source.png"
+            },
+            "start": 0.4,
+            "length": 14.6
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 15,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO }}"
+            },
+            "start": 0,
+            "fit": "contain",
+            "width": 1920,
+            "height": 1108,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "TAG",
+      "replace": "SPEAKER"
+    },
+    {
+      "find": "NAME",
+      "replace": "HENRY THOMAS"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#000000"
+    },
+    {
+      "find": "SHAPE_COLOR_1",
+      "replace": "#000000"
+    },
+    {
+      "find": "SHAPE_COLOR_2",
+      "replace": "#d85405"
+    },
+    {
+      "find": "VIDEO",
+      "replace": "https://templates.shotstack.io/techtalks-live-event-promo-template-speaker-offer/3609e27b-d3b3-40bd-a6f1-b510d7c2cc8f/source.mp4"
+    }
+  ]
+}

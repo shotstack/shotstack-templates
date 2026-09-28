@@ -1,0 +1,492 @@
+{
+  "timeline": {
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{NEWS_SLUG}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 30,
+                "weight": 800,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 1.6,
+            "length": "end",
+            "offset": {
+              "x": -0.205,
+              "y": -0.363
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 255,
+            "height": 68
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{CHANNEL}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 30,
+                "weight": 800,
+                "color": "{{ FONT_COLOR_2 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.3,
+            "length": "end",
+            "offset": {
+              "x": -0.365,
+              "y": 0.373
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 250,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{STATUS}}",
+              "font": {
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "weight": 600,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.1,
+            "length": "end",
+            "offset": {
+              "x": -0.409,
+              "y": 0.414
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 100,
+            "height": 50
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{HEADLINE}}",
+              "font": {
+                "family": "Montserrat ExtraBold",
+                "size": 55,
+                "weight": 800,
+                "color": "{{ FONT_COLOR_1 }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "left",
+                "vertical": "middle"
+              },
+              "animation": {
+                "preset": "fadeIn",
+                "style": "word"
+              }
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": 0.063,
+              "y": -0.221
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 1300,
+            "height": 100
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"260\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 1.4,
+            "length": "end",
+            "offset": {
+              "x": -0.223,
+              "y": -0.363
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 400,
+            "height": 260
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/tech-unveiling-breaking-news-template-new-product-launch/966b70ee-b552-447d-ae00-8ddca40bbc12/source.png"
+            },
+            "start": 1.4,
+            "length": 13.5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 410 410\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"410\" height=\"410\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 1,
+            "length": "end",
+            "offset": {
+              "x": -0.393,
+              "y": -0.218
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 410,
+            "height": 410
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/tech-unveiling-breaking-news-template-new-product-launch/01e865a6-54fc-41e5-b850-6f02d25b26c6/source.mp4"
+            },
+            "start": 1,
+            "length": 13.9
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" fill=\"{{ FONT_COLOR_1 }}\" fill-opacity=\"0.39\"/></svg>"
+            },
+            "start": 1.4,
+            "length": "end",
+            "offset": {
+              "x": 0.462,
+              "y": -0.23
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 100,
+            "height": 100
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/tech-unveiling-breaking-news-template-new-product-launch/04790458-222f-4b8e-a450-df545980535b/source.png"
+            },
+            "start": 1.4,
+            "length": 13.5
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 740 740\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"740\" height=\"740\" fill=\"{{ FONT_COLOR_1 }}\" fill-opacity=\"0.25\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0.42,
+              "y": 0.561
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 740,
+            "height": 740
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/tech-unveiling-breaking-news-template-new-product-launch/81694974-97f3-48e7-8501-e488d6ad9c0d/source.png"
+            },
+            "start": 0,
+            "length": 14.9
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 2000 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"2000\" height=\"150\" fill=\"{{ FONT_COLOR_2 }}\" fill-opacity=\"0.73\"/></svg>"
+            },
+            "start": 0.8,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.221
+            },
+            "position": "center",
+            "width": 2000,
+            "height": 150
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 2000 72\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"2000\" height=\"72\" fill=\"{{ FONT_COLOR_1 }}\" fill-opacity=\"0.7\"/></svg>"
+            },
+            "start": 1.2,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": -0.363
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 2000,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"200\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": -0.403,
+              "y": 0.396
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            },
+            "width": 200,
+            "height": 200
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/tech-unveiling-breaking-news-template-new-product-launch/f1bb850c-ba1d-4d30-8e43-2fb4b62d8ee9/source.png"
+            },
+            "start": 0,
+            "length": 14.9
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 316 316\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"316\" height=\"316\" fill=\"{{ FONT_COLOR_1 }}\"/></svg>"
+            },
+            "start": 0.2,
+            "length": "end",
+            "offset": {
+              "x": -0.365,
+              "y": 0.381
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            },
+            "width": 316,
+            "height": 316
+          },
+          {
+            "asset": {
+              "type": "luma",
+              "src": "https://templates.shotstack.io/tech-unveiling-breaking-news-template-new-product-launch/fa15c5c2-fbcd-463f-a8af-0ce8feab36e2/source.png"
+            },
+            "start": 0.2,
+            "length": 14.700000000000001
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 14.3,
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_BANNER }}",
+              "volume": 1
+            },
+            "start": 0.6,
+            "scale": 1,
+            "offset": {
+              "x": 0.00011571516070461071,
+              "y": -0.34572648659272975
+            },
+            "position": "center",
+            "opacity": 0.37,
+            "transition": {
+              "in": "slideRight"
+            },
+            "fit": "contain",
+            "width": 2188,
+            "height": 350
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO }}"
+            },
+            "start": 0,
+            "fit": "contain",
+            "width": 2000,
+            "height": 1103,
+            "offset": {
+              "x": -0.0017460937500000401,
+              "y": -0.0030364583333334005
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "HEADLINE",
+      "replace": "New Smartphone Model Released"
+    },
+    {
+      "find": "NEWS_SLUG",
+      "replace": "NEWS UPDATE"
+    },
+    {
+      "find": "STATUS",
+      "replace": "LIVE"
+    },
+    {
+      "find": "VIDEO_BANNER",
+      "replace": "https://templates.shotstack.io/tech-unveiling-breaking-news-template-new-product-launch/1c08ca8e-bee0-46d9-8c31-8b9c2f07d135/source.mp4"
+    },
+    {
+      "find": "VIDEO",
+      "replace": "https://templates.shotstack.io/tech-unveiling-breaking-news-template-new-product-launch/768b2405-05ee-46cc-b35c-735529c6487c/source.mp4"
+    },
+    {
+      "find": "FONT_COLOR_1",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "FONT_COLOR_2",
+      "replace": "#0000ce"
+    },
+    {
+      "find": "SHAPE_COLOR",
+      "replace": "#ce0000"
+    },
+    {
+      "find": "CHANNEL",
+      "replace": "NNN NEWS"
+    }
+  ]
+}
